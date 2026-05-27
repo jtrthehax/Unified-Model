@@ -1,4 +1,6 @@
-# Regulatory Architecture Framework
+# Unified Model
+[![DOI](https://zenodo.org/badge/1251586759.svg)](https://doi.org/10.5281/zenodo.20417459)
+
 
 A unified, layered model of mammalian regulation built from first principles.  
 This repository defines the minimal core architecture and the modular contracts
