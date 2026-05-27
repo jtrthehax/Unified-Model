@@ -1,248 +1,124 @@
-\# Regulatory Architecture Framework
-
-
+# Regulatory Architecture Framework
 
 A unified, layered model of mammalian regulation built from first principles.  
-
 This repository defines the minimal core architecture and the modular contracts
-
 that govern interactions between autonomic, cognitive, interoceptive, metabolic,
-
 immune, neuromodulatory, and social regulatory layers.
 
-
-
 The goal of this project is simple:  
-
-\*\*provide a coherent, portable ontology that explains cross-domain regulatory
-
-phenomena without relying on siloed biomedical terminology.\*\*
-
-
+**provide a coherent, portable ontology that explains cross-domain regulatory
+phenomena without relying on siloed biomedical terminology.**
 
 This is a specification, not a narrative.  
-
 It is meant to be read, queried, extended, and mapped into.
 
+---
 
-
-\---
-
-
-
-\## Overview
-
-
+## Overview
 
 Modern physiology and psychology describe regulation through fragmented domains:
-
 autonomic, cognitive, metabolic, immune, social, developmental, and so on.  
-
 This framework unifies them into a single architecture with:
 
-
-
-\- A \*\*Minimal Core\*\* describing the generative rules of the regulatory stack  
-
-\- A set of \*\*Contracts\*\* defining input/output relationships between layers  
-
-\- A \*\*portable ontology\*\* that can be applied to any regulatory phenomenon  
-
-\- A \*\*domain-agnostic vocabulary\*\* that avoids silo-specific jargon  
-
-
+- A **Minimal Core** describing the generative rules of the regulatory stack  
+- A set of **Contracts** defining input/output relationships between layers  
+- A **portable ontology** that can be applied to any regulatory phenomenon  
+- A **domain-agnostic vocabulary** that avoids silo-specific jargon  
 
 The architecture is designed to be:
 
+- **Modular** — each contract is independent but interoperable  
+- **Predictive** — the model explains and anticipates cross-domain effects  
+- **Portable** — applicable to physiology, cognition, behavior, and pathology  
+- **Extensible** — new domains can be mapped into existing primitives  
 
+---
 
-\- \*\*Modular\*\* — each contract is independent but interoperable  
+## Repository Structure
 
-\- \*\*Predictive\*\* — the model explains and anticipates cross-domain effects  
-
-\- \*\*Portable\*\* — applicable to physiology, cognition, behavior, and pathology  
-
-\- \*\*Extensible\*\* — new domains can be mapped into existing primitives  
-
-
-
-\---
-
-
-
-\## Repository Structure
-
-minimal\_core.md
-
+minimal_core.md
 contracts/
+  contract_AUTO_MOD.md
+  contract_COG_INTERO.md
+  contract_INTERO_DEV.md
+  contract_SOC_COG.md
+  contract_SOC_AUTO.md
+  contract_MET_AUTO.md
+  contract_MET_IMMUNE.md
+  contract_IMMUNE_AUTO.md
+  contract_MICRO_AUTO.md
 
-&#x09;contract\_AUTO\_MOD.md
-
-&#x09;contract\_COG\_INTERO.md
-
-&#x09;contract\_INTERO\_DEV.md
-
-&#x09;contract\_SOC\_COG.md
-
-&#x09;contract\_SOC\_AUTO.md
-
-&#x09;contract\_MET\_AUTO.md
-
-&#x09;contract\_MET\_IMMUNE.md
-
-&#x09;contract\_IMMUNE\_AUTO.md
-
-&#x09;contract\_MICRO\_AUTO.md
-
-
-
-
-
+  
 Each contract defines:
 
-
-
-\- \*\*Input layer\*\*  
-
-\- \*\*Output layer\*\*  
-
-\- \*\*Regulatory transformation\*\*  
-
-\- \*\*Failure modes\*\*  
-
-\- \*\*Cross-domain implications\*\*  
-
-
+- **Input layer**  
+- **Output layer**  
+- **Regulatory transformation**  
+- **Failure modes**  
+- **Cross-domain implications**  
 
 Together, these files form a complete regulatory architecture.
 
+---
 
+## How to Use This Framework
 
-\---
-
-
-
-\## How to Use This Framework
-
-
-
-This repository is intended as a \*\*reference architecture\*\*.  
-
+This repository is intended as a **reference architecture**.  
 You can:
 
-
-
-\- Map domain-specific mechanisms into the contracts  
-
-\- Use the ontology to explain complex regulatory phenomena  
-
-\- Query the architecture to understand multi-layer interactions  
-
-\- Extend the model with new contracts or domains  
-
-\- Apply the framework to research, modeling, or conceptual analysis  
-
-
+- Map domain-specific mechanisms into the contracts  
+- Use the ontology to explain complex regulatory phenomena  
+- Query the architecture to understand multi-layer interactions  
+- Extend the model with new contracts or domains  
+- Apply the framework to research, modeling, or conceptual analysis  
 
 If you want to understand phenomena like:
 
-
-
-\- autonomic storms  
-
-\- hallucinations  
-
-\- dissociation  
-
-\- inflammatory cascades  
-
-\- metabolic crashes  
-
-\- trauma responses  
-
-\- cognitive distortions  
-
-\- social threat amplification  
-
-
+- autonomic storms  
+- hallucinations  
+- dissociation  
+- inflammatory cascades  
+- metabolic crashes  
+- trauma responses  
+- cognitive distortions  
+- social threat amplification  
 
 …load the relevant contracts and trace the regulatory pathways.
 
+---
 
-
-\---
-
-
-
-\## Why This Exists
-
-
+## Why This Exists
 
 The regulatory stack is often described in fragments.  
-
-This project provides a \*\*unified, generative model\*\* that integrates those fragments
-
+This project provides a **unified, generative model** that integrates those fragments
 into a single coherent architecture.
 
-
-
 It is offered publicly so that others exploring similar territory can build on a
-
 shared ontology rather than reinventing one.
 
+---
 
+## License
 
-\---
-
-
-
-\## License
-
-
-
-This project is licensed under the \*\*Creative Commons Attribution 4.0 International (CC BY 4.0)\*\* license.  
-
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
 You are free to use, adapt, and extend the architecture, provided you give appropriate credit.
-
-
 
 See the `LICENSE` file for full details.
 
+---
 
-
-\---
-
-
-
-\## Citation
-
-
+## Citation
 
 If you use or extend this framework, please cite:
 
+**Regulatory Architecture Framework (2026).  
+https://github.com/jtrhehax/Unified-Model**
 
+---
 
-\*\*Regulatory Architecture Framework (2026).  
-
-https://github.com/<your-username>/<repo-name>\*\*
-
-
-
-\---
-
-
-
-\## Contributing
-
-
+## Contributing
 
 Pull requests that extend the architecture, add mappings, or propose new contracts
-
 are welcome.  
-
 This is a living specification.
-
-
-
-
 
