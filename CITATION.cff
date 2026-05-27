@@ -3,14 +3,14 @@ title: "Unified Model: A Cross-Domain Regulatory Architecture"
 message: "If you use this model, framework, or any of its components, please cite this release."
 type: software
 authors:
-  - family-names: "Hunt"
+  - family-names: "Robinson"
     given-names: "Joel"
     affiliation: "Independent Researcher"
     orcid: ""
 version: "1.0.0"
 doi: "10.5281/zenodo.20417459"
 date-released: "2026-05-27"
-repository-code: "https://github.com/joelhunt/unified-model"
+repository-code: "https://github.com/jtrthehax/unified-model"
 abstract: >
   The Unified Model is a modular, cross-domain regulatory architecture describing
   the interactions between autonomic, cognitive, interoceptive, metabolic, immune,
