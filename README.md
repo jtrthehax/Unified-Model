@@ -76,19 +76,23 @@ You can:
 
 If you want to understand phenomena like:
 
-- autonomic storms  
-- hallucinations  
-- dissociation  
-- inflammatory cascades  
-- metabolic crashes  
-- trauma responses  
-- cognitive distortions  
-- social threat amplification
-- neurodivergece 
-- conciousness
-- gender identity
-- chronic disease 
-- AI interaction differences
+- **Autonomic storms** — breakdowns in sympathetic/parasympathetic stability leading to runaway physiological oscillations.
+- **Hallucinations** — perceptual inference dominated by priors when sensory precision collapses.
+- **Dissociation** — decoupling of interoceptive signals from cognitive models under extreme precision imbalance.
+- **Inflammatory cascades** — immune–autonomic feedback loops that amplify threat physiology.
+- **Metabolic crashes** — failures in fuel prediction and autonomic regulation leading to sudden energy collapse.
+- **Trauma responses** — developmental shaping of priors that bias threat detection and autonomic reactivity.
+- **Cognitive distortions** — maladaptive belief‑updating patterns driven by skewed precision weighting.
+- **Social threat amplification** — hypersensitive SOC ↔ AUTO coupling that magnifies perceived interpersonal danger.
+- **Neurodivergence** — alternative precision regimes across sensory, cognitive, and interoceptive channels.
+- **Consciousness** — coherence across regulatory contracts forming a unified global workspace.
+- **Gender identity** — a developmentally anchored interoceptive prior that becomes “fixed” only when polarized social roles impose high‑precision demands; in low‑pressure environments, the underlying generative model shows its natural flexibility.
+- **Chronic disease** — long‑term multisystem dysregulation across metabolic, immune, and autonomic layers.
+- **AI Interactions driven by Regulatory Profiles** — regulatory responses to non‑human agents with atypical social signal patterns.
+- **Sleep and dreaming** — offline generative model consolidation and autonomic recalibration.
+- **Learning and memory** — cross‑layer plasticity shaping future prediction and regulation.
+- **Plasticity** — adaptive changes in synaptic, autonomic, interoceptive, and social inference pathways.
+- **Addiction** — hijacking of dopaminergic precision and habit loops within MOD ↔ COG dynamics.
 
 …load the relevant contracts and trace the regulatory pathways.
 
@@ -148,24 +152,25 @@ It provides a unified way to trace how autonomic, metabolic, immune, and cogniti
 
 ---
 
-## 🤖 AI Interaction Differences and Regulatory Architecture
+## 🤖 AI Interactions Driven by Regulatory Profiles
 
-This framework provides a systems‑level explanation for why individuals experience AI systems so differently.  
-Once cognition is modeled as a regulatory process — not a symbolic one — the variation becomes predictable.
+People don’t interact with AI systems uniformly.
+Once cognition is understood as a regulatory process rather than a symbolic one, these differences stop looking mysterious and start looking predictable.
 
-Differences in AI interaction quality can be traced to stable variations in:
+AI interaction quality is shaped by regulatory profiles — stable configurations of:
 
-- Precision modulation — how tightly a person constrains meaning, context, and inference  
-- Prediction‑window width — how far ahead they model conversational trajectories  
-- Interoceptive weighting — how strongly internal signals influence interpretation  
-- Regulatory load — how much cognitive bandwidth is available for maintaining context  
-- Behavioral inertia — how easily conversational frames can shift  
-- Social‑cognitive contracts — how individuals negotiate shared meaning and intent  
+**Precision modulation** — how tightly meaning, inference, and context are constrained
+**Prediction‑window width** — how far ahead conversational trajectories can be modeled
+**Interoceptive weighting** — how strongly internal signals bias interpretation
+**Regulatory load** — available bandwidth for maintaining context and coherence
+**Behavioral inertia** — how easily conversational frames can shift
+**Social‑cognitive contracts** — how individuals negotiate shared meaning and intent
 
-From this perspective, “AI hallucination” is often a frame mismatch, not a model failure.  
-And “good prompting” is simply stable regulatory scaffolding.
+From this perspective, many “AI hallucinations” are not model failures but frame mismatches — the AI is following the user’s degraded scaffolding.
+And what people call “good prompting” is simply stable regulatory scaffolding.
 
-This approach reframes AI interaction differences as variations in regulatory architecture, not user skill — explaining why some individuals naturally achieve high‑bandwidth, coherent interactions while others struggle to maintain conversational stability.
+This reframes AI interaction differences as expressions of regulatory architecture, not user skill.
+It explains why some individuals naturally achieve high‑bandwidth, coherent exchanges while others struggle to maintain conversational stability — and why these patterns remain consistent across contexts.
 
 ---
 
