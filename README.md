@@ -38,8 +38,8 @@ The architecture is designed to be:
 
 ## Repository Structure
 
-minimal_core.md
-contracts/
+- minimal_core.md
+- contracts/
   - contract_AUTO_MOD.md
   - contract_COG_INTERO.md
   - contract_INTERO_DEV.md
@@ -92,18 +92,24 @@ If you want to understand phenomena like:
 
 …load the relevant contracts and trace the regulatory pathways.
 
-This architecture is domain‑agnostic — if a phenomenon emerges from regulation, it can be mapped into this model.
+This architecture is **domain‑agnostic** — if a phenomenon emerges from regulation, it can be mapped into this model.
 
 ---
 
 ## Why This Exists
 
-The regulatory stack is often described in fragments.  
-This project provides a **unified, generative model** that integrates those fragments
-into a single coherent architecture.
+Modern physiology, psychology, and cognitive science describe regulation through isolated silos — autonomic, metabolic, immune, cognitive, social, developmental.
 
-It is offered publicly so that others exploring similar territory can build on a
-shared ontology rather than reinventing one.
+This project provides a unified regulatory architecture that integrates those fragments into a single generative model.
+
+The goal is not to replace domain‑specific theories, but to offer:
+- a shared ontology for cross‑domain reasoning
+- a minimal set of primitives that explain complex phenomena
+- a portable architecture that applies to biology, cognition, behavior, and pathology
+- a mechanistic alternative to diagnostic or narrative‑based explanations
+
+This framework exists so researchers, engineers, clinicians, and theorists can map diverse phenomena — from consciousness to chronic disease to neurodivergence — into a single coherent system.
+It is offered publicly so others exploring similar territory can build on a shared substrate rather than reinventing one.
 
 ---
 
@@ -113,12 +119,12 @@ Neurodivergent and neurotypical profiles differ not by “traits,” but by regu
 
 Key differences include:
 
-- Precision modulation — ND systems often run higher precision on sensory or cognitive channels, leading to richer detail extraction but reduced noise‑tolerance; NT systems run broader, lower‑precision priors that smooth input
-- Interoceptive gain — ND systems may amplify internal signals (fatigue, discomfort, emotion) or suppress them unpredictably; NT systems maintain narrower, more stable gain ranges
-- Regulatory load — ND systems often operate with higher baseline autonomic demand, reducing available bandwidth for executive function; NT systems maintain lower baseline load with more flexible reserve
-- Prediction‑window width — ND systems may model further ahead or collapse the window entirely under load; NT systems maintain a mid‑range window with smoother transitions
-- Behavioral inertia — ND systems exhibit stronger attractor states (hyperfocus, rigidity, difficulty switching); NT systems shift cognitive frames with lower energetic cost
-- Developmental stabilization — ND systems consolidate regulatory patterns earlier or more intensely, producing stable sensory, timing, and stress‑response profiles; NT systems stabilize more symmetrically across domains.
+- **Precision modulation** — ND systems often run higher precision on sensory or cognitive channels, leading to richer detail extraction but reduced noise‑tolerance; NT systems run broader, lower‑precision priors that smooth input
+- **Interoceptive gain** — ND systems may amplify internal signals (fatigue, discomfort, emotion) or suppress them unpredictably; NT systems maintain narrower, more stable gain ranges
+- **Regulatory load** — ND systems often operate with higher baseline autonomic demand, reducing available bandwidth for executive function; NT systems maintain lower baseline load with more flexible reserve
+- **Prediction‑window width** — ND systems may model further ahead or collapse the window entirely under load; NT systems maintain a mid‑range window with smoother transitions
+- **Behavioral inertia** — ND systems exhibit stronger attractor states (hyperfocus, rigidity, difficulty switching); NT systems shift cognitive frames with lower energetic cost
+- **Developmental stabilization** — ND systems consolidate regulatory patterns earlier or more intensely, producing stable sensory, timing, and stress‑response profiles; NT systems stabilize more symmetrically across domains.
 
 This framing treats neurodivergence as a regulatory architecture variant, not a deficit — and explains why ND and NT individuals experience cognition, communication, and environment so differently.
 
@@ -130,12 +136,12 @@ Chronic disease can be understood as persistent dysregulation within the regulat
 
 This framework models chronic conditions not as isolated pathologies, but as cross‑layer regulatory failures, including:
 
-- Autonomic overactivation or collapse — persistent sympathetic drive, vagal withdrawal, or oscillatory flattening
-- Metabolic‑autonomic coupling failures — impaired energy availability, mitochondrial down‑regulation, or metabolic crashes
-- Immune‑autonomic feedback loops — chronic inflammation, cytokine amplification, or immune‑driven threat signaling
-- Interoceptive distortion — misweighted internal signals leading to fatigue, pain, or dyshomeostasis
-- Regulatory load saturation — baseline load exceeding system capacity, reducing adaptability
-- Developmental consolidation of maladaptive patterns — long‑term stabilization of dysregulated states
+- **Autonomic overactivation or collapse** — persistent sympathetic drive, vagal withdrawal, or oscillatory flattening
+- **Metabolic‑autonomic coupling failures** — impaired energy availability, mitochondrial down‑regulation, or metabolic crashes
+- **Immune‑autonomic feedback loops** — chronic inflammation, cytokine amplification, or immune‑driven threat signaling
+- **Interoceptive distortion** — misweighted internal signals leading to fatigue, pain, or dyshomeostasis
+- **Regulatory load saturation** — baseline load exceeding system capacity, reducing adaptability
+- **Developmental consolidation of maladaptive patterns** — long‑term stabilization of dysregulated states
 
 This approach reframes chronic disease as a regulatory architecture problem, not a collection of unrelated symptoms.
 It provides a unified way to trace how autonomic, metabolic, immune, and cognitive layers interact to produce persistent dysregulation.
