@@ -40,15 +40,15 @@ The architecture is designed to be:
 
 minimal_core.md
 contracts/
-  contract_AUTO_MOD.md
-  contract_COG_INTERO.md
-  contract_INTERO_DEV.md
-  contract_SOC_COG.md
-  contract_SOC_AUTO.md
-  contract_MET_AUTO.md
-  contract_MET_IMMUNE.md
-  contract_IMMUNE_AUTO.md
-  contract_MICRO_AUTO.md
+  - contract_AUTO_MOD.md
+  - contract_COG_INTERO.md
+  - contract_INTERO_DEV.md
+  - contract_SOC_COG.md
+  - contract_SOC_AUTO.md
+  - contract_MET_AUTO.md
+  - contract_MET_IMMUNE.md
+  - contract_IMMUNE_AUTO.md
+  - contract_MICRO_AUTO.md
 
   
 Each contract defines:
@@ -107,20 +107,20 @@ shared ontology rather than reinventing one.
 
 ---
 
-## 🧬 Neurodivergence and Regulatory Architecture
+## 🧬 Neurodivergence vs Neurotypical Profiles (Regulatory Differences)
 
-This framework provides a systems‑level way to understand neurodivergence through the lens of regulation, prediction, and signal weighting rather than diagnostic labels.
+Neurodivergent and neurotypical profiles differ not by “traits,” but by regulatory parameter settings that shape how signals are weighted, predictions are formed, and cognitive frames stabilize.
 
-Neurodivergent profiles can be described as stable variations in regulatory parameters, including:
+Key differences include:
 
-- Precision modulation — how strongly signals are weighted
-- Interoceptive gain — how internal states are amplified or suppressed
-- Regulatory load — baseline autonomic demand
-- Prediction‑window width — how far ahead the system attempts to model
-- Behavioral inertia — difficulty shifting cognitive or behavioral trajectories
-- Developmental stabilization — how regulatory patterns consolidate over time
+- Precision modulation — ND systems often run higher precision on sensory or cognitive channels, leading to richer detail extraction but reduced noise‑tolerance; NT systems run broader, lower‑precision priors that smooth input
+- Interoceptive gain — ND systems may amplify internal signals (fatigue, discomfort, emotion) or suppress them unpredictably; NT systems maintain narrower, more stable gain ranges
+- Regulatory load — ND systems often operate with higher baseline autonomic demand, reducing available bandwidth for executive function; NT systems maintain lower baseline load with more flexible reserve
+- Prediction‑window width — ND systems may model further ahead or collapse the window entirely under load; NT systems maintain a mid‑range window with smoother transitions
+- Behavioral inertia — ND systems exhibit stronger attractor states (hyperfocus, rigidity, difficulty switching); NT systems shift cognitive frames with lower energetic cost
+- Developmental stabilization — ND systems consolidate regulatory patterns earlier or more intensely, producing stable sensory, timing, and stress‑response profiles; NT systems stabilize more symmetrically across domainsThis framing treats neurodivergence as a regulatory architecture variant, not a deficit — and explains why ND and NT individuals experience cognition, communication, and environment so differently.
 
-This approach reframes neurodivergence as variation in regulatory architecture, not deficits — aligning cognitive science, engineering intuition, and lived experience.
+This framing treats neurodivergence as a regulatory architecture variant, not a deficit — and explains why ND and NT individuals experience cognition, communication, and environment so differently.
 
 ---
 
