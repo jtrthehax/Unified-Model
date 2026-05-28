@@ -118,7 +118,7 @@ Key differences include:
 - Regulatory load — ND systems often operate with higher baseline autonomic demand, reducing available bandwidth for executive function; NT systems maintain lower baseline load with more flexible reserve
 - Prediction‑window width — ND systems may model further ahead or collapse the window entirely under load; NT systems maintain a mid‑range window with smoother transitions
 - Behavioral inertia — ND systems exhibit stronger attractor states (hyperfocus, rigidity, difficulty switching); NT systems shift cognitive frames with lower energetic cost
-- Developmental stabilization — ND systems consolidate regulatory patterns earlier or more intensely, producing stable sensory, timing, and stress‑response profiles; NT systems stabilize more symmetrically across domainsThis framing treats neurodivergence as a regulatory architecture variant, not a deficit — and explains why ND and NT individuals experience cognition, communication, and environment so differently.
+- Developmental stabilization — ND systems consolidate regulatory patterns earlier or more intensely, producing stable sensory, timing, and stress‑response profiles; NT systems stabilize more symmetrically across domains.
 
 This framing treats neurodivergence as a regulatory architecture variant, not a deficit — and explains why ND and NT individuals experience cognition, communication, and environment so differently.
 
