@@ -83,9 +83,16 @@ If you want to understand phenomena like:
 - metabolic crashes  
 - trauma responses  
 - cognitive distortions  
-- social threat amplification  
+- social threat amplification
+- neurodivergece 
+- conciousness
+- gender identity
+- chronic disease 
+- AI interaction differences
 
 …load the relevant contracts and trace the regulatory pathways.
+
+This architecture is domain‑agnostic — if a phenomenon emerges from regulation, it can be mapped into this model.
 
 ---
 
@@ -132,6 +139,27 @@ This framework models chronic conditions not as isolated pathologies, but as cro
 
 This approach reframes chronic disease as a regulatory architecture problem, not a collection of unrelated symptoms.
 It provides a unified way to trace how autonomic, metabolic, immune, and cognitive layers interact to produce persistent dysregulation.
+
+---
+
+## 🤖 AI Interaction Differences and Regulatory Architecture
+
+This framework provides a systems‑level explanation for why individuals experience AI systems so differently.  
+Once cognition is modeled as a regulatory process — not a symbolic one — the variation becomes predictable.
+
+Differences in AI interaction quality can be traced to stable variations in:
+
+- Precision modulation — how tightly a person constrains meaning, context, and inference  
+- Prediction‑window width — how far ahead they model conversational trajectories  
+- Interoceptive weighting — how strongly internal signals influence interpretation  
+- Regulatory load — how much cognitive bandwidth is available for maintaining context  
+- Behavioral inertia — how easily conversational frames can shift  
+- Social‑cognitive contracts — how individuals negotiate shared meaning and intent  
+
+From this perspective, “AI hallucination” is often a frame mismatch, not a model failure.  
+And “good prompting” is simply stable regulatory scaffolding.
+
+This approach reframes AI interaction differences as variations in regulatory architecture, not user skill — explaining why some individuals naturally achieve high‑bandwidth, coherent interactions while others struggle to maintain conversational stability.
 
 ---
 
