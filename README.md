@@ -22,34 +22,34 @@ Modern physiology and psychology describe regulation through fragmented domains:
 autonomic, cognitive, metabolic, immune, social, developmental, and so on.  
 This framework unifies them into a single architecture with:
 
-- A **Minimal Core** describing the generative rules of the regulatory stack  
-- A set of **Contracts** defining input/output relationships between layers  
-- A **portable ontology** that can be applied to any regulatory phenomenon  
-- A **domain-agnostic vocabulary** that avoids silo-specific jargon  
+- A **Minimal Core** — generative rules of the regulatory stack
+- **Contracts** — input/output mappings between layers
+- A **portable ontology** — applicable to any regulatory phenomenon
+- A **domain-agnostic vocabulary** — no silo‑specific jargon 
 
 The architecture is designed to be:
 
-- **Modular** — each contract is independent but interoperable  
-- **Predictive** — the model explains and anticipates cross-domain effects  
-- **Portable** — applicable to physiology, cognition, behavior, and pathology  
-- **Extensible** — new domains can be mapped into existing primitives  
+- **Modular** — contracts are independent but interoperable
+- **Predictive** — explains and anticipates cross-domain effects
+- **Portable** — spans physiology, cognition, behavior, pathology
+- **Extensible** — new domains map cleanly into existing primitives  
 
 ---
 
 ## Repository Structure
-
-- minimal_core.md
-- contracts/
-  - contract_AUTO_MOD.md
-  - contract_COG_INTERO.md
-  - contract_INTERO_DEV.md
-  - contract_SOC_COG.md
-  - contract_SOC_AUTO.md
-  - contract_MET_AUTO.md
-  - contract_MET_IMMUNE.md
-  - contract_IMMUNE_AUTO.md
-  - contract_MICRO_AUTO.md
-
+```
+minimal_core.md
+contracts/
+  contract_AUTO_MOD.md
+  contract_COG_INTERO.md
+  contract_INTERO_DEV.md
+  contract_SOC_COG.md
+  contract_SOC_AUTO.md
+  contract_MET_AUTO.md
+  contract_MET_IMMUNE.md
+  contract_IMMUNE_AUTO.md
+  contract_MICRO_AUTO.md
+```
   
 Each contract defines:
 
@@ -65,8 +65,7 @@ Together, these files form a complete regulatory architecture.
 
 ## How to Use This Framework
 
-This repository is intended as a **reference architecture**.  
-You can:
+This repository is a **reference architecture**. You can:
 
 - Map domain-specific mechanisms into the contracts  
 - Use the ontology to explain complex regulatory phenomena  
@@ -102,44 +101,41 @@ This architecture is **domain‑agnostic** — if a phenomenon emerges from regu
 
 ## Why This Exists
 
-Modern physiology, psychology, and cognitive science describe regulation through isolated silos — autonomic, metabolic, immune, cognitive, social, developmental.
-
-This project provides a unified regulatory architecture that integrates those fragments into a single generative model.
+Modern science describes regulation through isolated silos.
+This project provides a unified regulatory architecture that reintegrates those fragments into a single generative model.
 
 The goal is not to replace domain‑specific theories, but to offer:
 - a shared ontology for cross‑domain reasoning
-- a minimal set of primitives that explain complex phenomena
-- a portable architecture that applies to biology, cognition, behavior, and pathology
-- a mechanistic alternative to diagnostic or narrative‑based explanations
+- a minimal set of primitives explaining complex phenomena
+- a portable architecture spanning biology, cognition, behavior, pathology
+- a mechanistic alternative to diagnostic or narrative explanations
 
-This framework exists so researchers, engineers, clinicians, and theorists can map diverse phenomena — from consciousness to chronic disease to neurodivergence — into a single coherent system.
-It is offered publicly so others exploring similar territory can build on a shared substrate rather than reinventing one.
+It exists so researchers, engineers, clinicians, and theorists can map diverse phenomena — from consciousness to chronic disease to neurodivergence — into a single coherent system.
 
 ---
 
-## 🧬 Neurodivergence vs Neurotypical Profiles (Regulatory Differences)
+## 🧬 Neurodivergence vs Neurotypical Profiles
 
-Neurodivergent and neurotypical profiles differ not by “traits,” but by regulatory parameter settings that shape how signals are weighted, predictions are formed, and cognitive frames stabilize.
+ND and NT profiles differ not by “traits,” but by regulatory parameter settings that shape signal weighting, prediction formation, and frame stability.
 
-Key differences include:
+Key differences:
 
-- **Precision modulation** — ND systems often run higher precision on sensory or cognitive channels, leading to richer detail extraction but reduced noise‑tolerance; NT systems run broader, lower‑precision priors that smooth input
-- **Interoceptive gain** — ND systems may amplify internal signals (fatigue, discomfort, emotion) or suppress them unpredictably; NT systems maintain narrower, more stable gain ranges
-- **Regulatory load** — ND systems often operate with higher baseline autonomic demand, reducing available bandwidth for executive function; NT systems maintain lower baseline load with more flexible reserve
-- **Prediction‑window width** — ND systems may model further ahead or collapse the window entirely under load; NT systems maintain a mid‑range window with smoother transitions
-- **Behavioral inertia** — ND systems exhibit stronger attractor states (hyperfocus, rigidity, difficulty switching); NT systems shift cognitive frames with lower energetic cost
-- **Developmental stabilization** — ND systems consolidate regulatory patterns earlier or more intensely, producing stable sensory, timing, and stress‑response profiles; NT systems stabilize more symmetrically across domains.
+- **Precision modulation** — ND systems run higher precision on sensory/cognitive channels; NT systems smooth input
+- **Interoceptive gain** — ND systems amplify or suppress internal signals; NT systems maintain stable ranges
+- **Regulatory load** — ND systems operate with higher baseline autonomic demand
+- **Prediction‑window width** — ND windows extend further or collapse under load
+- **Behavioral inertia** — ND systems have stronger attractor states
+- **Developmental stabilization** — ND patterns consolidate earlier or more intensely
 
-This framing treats neurodivergence as a regulatory architecture variant, not a deficit — and explains why ND and NT individuals experience cognition, communication, and environment so differently.
+This frames neurodivergence as a regulatory architecture variant, not a deficit.
 
 ---
 
 ## 🩺 Chronic Disease and Regulatory Architecture
 
-Chronic disease can be understood as persistent dysregulation within the regulatory stack, where one or more layers enter a stable but maladaptive attractor state.
+Chronic disease emerges when one or more layers enter a stable but maladaptive attractor state.
 
-This framework models chronic conditions not as isolated pathologies, but as cross‑layer regulatory failures, including:
-
+Cross‑layer failures include:
 - **Autonomic overactivation or collapse** — persistent sympathetic drive, vagal withdrawal, or oscillatory flattening
 - **Metabolic‑autonomic coupling failures** — impaired energy availability, mitochondrial down‑regulation, or metabolic crashes
 - **Immune‑autonomic feedback loops** — chronic inflammation, cytokine amplification, or immune‑driven threat signaling
@@ -147,7 +143,7 @@ This framework models chronic conditions not as isolated pathologies, but as cro
 - **Regulatory load saturation** — baseline load exceeding system capacity, reducing adaptability
 - **Developmental consolidation of maladaptive patterns** — long‑term stabilization of dysregulated states
 
-This approach reframes chronic disease as a regulatory architecture problem, not a collection of unrelated symptoms.
+This reframes chronic disease as a regulatory‑architecture problem, not a collection of unrelated symptoms.
 It provides a unified way to trace how autonomic, metabolic, immune, and cognitive layers interact to produce persistent dysregulation.
 
 ---
@@ -155,37 +151,31 @@ It provides a unified way to trace how autonomic, metabolic, immune, and cogniti
 ## 🤖 AI Interactions Driven by Regulatory Profiles
 
 People don’t interact with AI systems uniformly.
-Once cognition is understood as a regulatory process rather than a symbolic one, these differences stop looking mysterious and start looking predictable.
+Once cognition is modeled as regulation, not symbol manipulation, the variation becomes predictable.
 
 AI interaction quality is shaped by regulatory profiles — stable configurations of:
 
-**Precision modulation** — how tightly meaning, inference, and context are constrained
-**Prediction‑window width** — how far ahead conversational trajectories can be modeled
-**Interoceptive weighting** — how strongly internal signals bias interpretation
-**Regulatory load** — available bandwidth for maintaining context and coherence
-**Behavioral inertia** — how easily conversational frames can shift
-**Social‑cognitive contracts** — how individuals negotiate shared meaning and intent
+- **Precision modulation** — how tightly meaning, inference, and context are constrained
+- **Prediction‑window width** — how far ahead conversational trajectories can be modeled
+- **Interoceptive weighting** — how strongly internal signals bias interpretation
+- **Regulatory load** — available bandwidth for maintaining context and coherence
+- **Behavioral inertia** — how easily conversational frames can shift
+- **Social‑cognitive contracts** — how individuals negotiate shared meaning and intent
 
-From this perspective, many “AI hallucinations” are not model failures but frame mismatches — the AI is following the user’s degraded scaffolding.
-And what people call “good prompting” is simply stable regulatory scaffolding.
+Many “AI hallucinations” are not model failures but frame mismatches — the AI is following the user’s degraded scaffolding.
+“Good prompting” is simply stable regulatory scaffolding.
 
 This reframes AI interaction differences as expressions of regulatory architecture, not user skill.
-It explains why some individuals naturally achieve high‑bandwidth, coherent exchanges while others struggle to maintain conversational stability — and why these patterns remain consistent across contexts.
 
 ---
 
 ## License
 
-This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
-You are free to use, adapt, and extend the architecture, provided you give appropriate credit.
-
-See the `LICENSE` file for full details.
+Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 ---
 
 ## Citation
-
-If you use or extend this framework, please cite:
 
 **Regulatory Architecture Framework (2026).  
 https://github.com/jtrhehax/Unified-Model**
@@ -194,7 +184,6 @@ https://github.com/jtrhehax/Unified-Model**
 
 ## Contributing
 
-Pull requests that extend the architecture, add mappings, or propose new contracts
-are welcome.  
+Pull requests that extend the architecture, add mappings, or propose new contracts are welcome.  
 This is a living specification.
 
