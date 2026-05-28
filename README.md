@@ -104,7 +104,8 @@ shared ontology rather than reinventing one.
 
 This framework provides a systems‑level way to understand neurodivergence through the lens of regulation, prediction, and signal weighting rather than diagnostic labels.
 
-- Neurodivergent profiles can be described as stable variations in regulatory parameters, including:
+Neurodivergent profiles can be described as stable variations in regulatory parameters, including:
+
 - Precision modulation — how strongly signals are weighted
 - Interoceptive gain — how internal states are amplified or suppressed
 - Regulatory load — baseline autonomic demand
