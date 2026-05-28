@@ -114,6 +114,29 @@ It exists so researchers, engineers, clinicians, and theorists can map diverse p
 
 ---
 
+## Origins of the Framework
+
+This architecture emerged from an attempt to understand a set of regulatory phenomena that appeared unrelated on the surface — functional neurological symptoms, neurodivergent processing patterns, autonomic instability, hypermobility‑linked dysregulation, and other atypical physiological and cognitive responses.
+
+As each domain was examined, the same underlying mechanisms kept reappearing:
+- **precision modulation**
+- **prediction‑window dynamics**
+- **interoceptive weighting**
+- **autonomic load**
+- **cross‑layer coupling**  
+
+What began as an effort to explain one condition revealed a deeper pattern:
+- the regulatory stack behaves according to a small set of generative rules that manifest across multiple systems.
+
+The framework was not designed top‑down.
+It was **discovered iteratively**, as overlapping mechanisms surfaced across domains that are normally treated as independent. Each new phenomenon — metabolic crashes, dissociation, sensory volatility, immune‑autonomic loops, social threat amplification — mapped cleanly onto the same primitives. The architecture expanded only when necessary, and contracted whenever two mechanisms proved to be expressions of the same underlying process.
+
+The result is a **minimal, unified regulatory model**:
+a set of contracts and primitives capable of explaining diverse physiological, cognitive, and behavioral phenomena without relying on siloed terminology.
+This framework exists because the patterns were too consistent to ignore — and because a single architecture could account for complexity that previously required multiple disconnected theories.
+
+---
+
 ## 🧬 Neurodivergence vs Neurotypical Profiles
 
 ND and NT profiles differ not by “traits,” but by regulatory parameter settings that shape signal weighting, prediction formation, and frame stability.
