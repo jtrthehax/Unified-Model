@@ -100,6 +100,40 @@ shared ontology rather than reinventing one.
 
 ---
 
+## 🧬 Neurodivergence and Regulatory Architecture
+
+This framework provides a systems‑level way to understand neurodivergence through the lens of regulation, prediction, and signal weighting rather than diagnostic labels.
+
+- Neurodivergent profiles can be described as stable variations in regulatory parameters, including:
+- Precision modulation — how strongly signals are weighted
+- Interoceptive gain — how internal states are amplified or suppressed
+- Regulatory load — baseline autonomic demand
+- Prediction‑window width — how far ahead the system attempts to model
+- Behavioral inertia — difficulty shifting cognitive or behavioral trajectories
+- Developmental stabilization — how regulatory patterns consolidate over time
+
+This approach reframes neurodivergence as variation in regulatory architecture, not deficits — aligning cognitive science, engineering intuition, and lived experience.
+
+---
+
+## 🩺 Chronic Disease and Regulatory Architecture
+
+Chronic disease can be understood as persistent dysregulation within the regulatory stack, where one or more layers enter a stable but maladaptive attractor state.
+
+This framework models chronic conditions not as isolated pathologies, but as cross‑layer regulatory failures, including:
+
+- Autonomic overactivation or collapse — persistent sympathetic drive, vagal withdrawal, or oscillatory flattening
+- Metabolic‑autonomic coupling failures — impaired energy availability, mitochondrial down‑regulation, or metabolic crashes
+- Immune‑autonomic feedback loops — chronic inflammation, cytokine amplification, or immune‑driven threat signaling
+- Interoceptive distortion — misweighted internal signals leading to fatigue, pain, or dyshomeostasis
+- Regulatory load saturation — baseline load exceeding system capacity, reducing adaptability
+- Developmental consolidation of maladaptive patterns — long‑term stabilization of dysregulated states
+
+This approach reframes chronic disease as a regulatory architecture problem, not a collection of unrelated symptoms.
+It provides a unified way to trace how autonomic, metabolic, immune, and cognitive layers interact to produce persistent dysregulation.
+
+---
+
 ## License
 
 This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
