@@ -189,9 +189,19 @@ All four effects operate concurrently. This is why dietary shift produces such o
 | Vagal nerve stimulation | Directly increases vagal efferent activity → improves gut environment → shifts microbiome | AUTO→MICRO direction — changes composition through neural pathway |
 | Fecal matter transplantation | Directly replaces microbiome composition | MICRO→AUTO direction — most direct intervention, confirmed to change autonomic state |
 | Psyllium/prebiotic fiber | Selectively feeds SCFA-producing bacteria | Targeted signal support without direct probiotic delivery |
+| Exercise | SCFA-producing bacteria increase → ECS anandamide elevation → anti-inflammatory cytokine reduction confirmed simultaneously in a single 6-week intervention | Cross-contract confirmation — exercise hits MICRO↔AUTO, AUTO↔MOD, and IMMUNE↔AUTO simultaneously through the same ECS-microbiome-inflammation chain |
 
 **The SSRIs-gut observation:**
 Most serotonin is produced in the gut. SSRIs block serotonin reuptake centrally. The gut-derived serotonin pathway via vagal afferents to DRN is the upstream source of much of the serotonin SSRIs are managing. Treating the gut microbiome directly should theoretically reduce the demand on the SSRI mechanism — which is what emerging research on microbiome interventions in depression appears to show.
+
+**The TRPV1 shared receptor and exercise motivation loop:**
+TRPV1 receptors on vagal afferents mediate butyrate → vagal → NTS regulatory signaling. The same TRPV1 receptor class mediates a separate but connected chain: gut microbiome-derived endocannabinoid metabolites → TRPV1-expressing sensory neurons → dopamine in ventral striatum → exercise motivation. Microbiome depletion or peripheral TRPV1 inhibition abrogates exercise capacity and its rewarding properties in vivo.
+
+This creates a self-reinforcing dysbiosis loop not currently described in any contract:
+Dysbiosis → reduced SCFA → reduced TRPV1 vagal signaling → reduced vagal tone (MICRO↔AUTO failure)
+Simultaneously: Dysbiosis → reduced endocannabinoid metabolites → reduced TRPV1 exercise reward → reduced exercise motivation → less exercise → less anandamide → less SCFA-producing bacteria → more dysbiosis
+
+The microbiome doesn't just degrade vagal tone through dysbiosis — it degrades the primary motivation for the intervention most likely to restore it. This is why exercise adherence is systematically lower in populations with poor metabolic and gut health. It is not motivational failure. It is a receptor-level regulatory loop making the corrective behavior less rewarding at the same time the need for it increases.
 
 ---
 
