@@ -37,11 +37,12 @@ The architecture is designed to be:
 ---
 ## 📚 Repository Navigation
 
-- **Architecture Overview** — high‑level conceptual map of the regulatory stack and how the contracts fit together
-- **Minimal Core** — the backbone specification (breathing → HRV → autonomic → cognition)
-- **Contracts** — bilateral interfaces defining signal flow between layers
-- **Gap Analysis** — development history, resolved contradictions, and evidence audits (v1 → v6)
-- **README** — repository purpose, structure, and usage guidance
+
+- **[Architecture Overview](architecture_conceptual_overview.md)** — high‑level conceptual map of the regulatory stack and how the contracts fit together
+- **[Minimal Core](minimal_core.md)** — the backbone specification (breathing → HRV → autonomic → cognition)
+- **[Contracts](contracts/)** — bilateral interfaces defining signal flow between layers
+- **[Gap Analysis](gap_analysis/)** — development history, resolved contradictions, and evidence audits (v1 → v6)
+- **[README](readme.md)** — repository purpose, structure, and usage guidance
 
 ---
 
