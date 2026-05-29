@@ -35,10 +35,22 @@ The architecture is designed to be:
 - **Extensible** — new domains map cleanly into existing primitives  
 
 ---
+## 📚 Repository Navigation
+
+- **Architecture Overview** — high‑level conceptual map of the regulatory stack and how the contracts fit together
+- **Minimal Core** — the backbone specification (breathing → HRV → autonomic → cognition)
+- **Contracts** — bilateral interfaces defining signal flow between layers
+- **Gap Analysis** — development history, resolved contradictions, and evidence audits (v1 → v6)
+- **README** — repository purpose, structure, and usage guidance
+
+---
 
 ## Repository Structure
 ```
 minimal_core.md
+architecture_conceptual_overview.md
+gap_analysis/
+  framework_gap_analysis...md
 contracts/
   contract_AUTO_MOD.md
   contract_COG_INTERO.md
