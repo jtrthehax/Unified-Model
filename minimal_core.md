@@ -65,6 +65,9 @@ Where layers cross over. The crossover point is where the mechanism lives. The k
 | INTERO ↔ DEV | Developmental window → prior setpoint establishment | Experience → adult state |
 | SOC ↔ AUTO | Acoustic/tactile channel → vagal brake phase detection | Presence → HRV |
 | SOC ↔ COG | Social signal environment → prediction load on generative model | Complexity → behavior |
+| NOCI ↔ COG | ECS-mediated precision gain on nociceptive prediction error → prior dominance without signal | Gain → pain without tissue cause |
+
+**Convergence contracts:** NOCI↔COG is structurally distinct from all other contracts. Every other contract is a bilateral crossover between two adjacent layers. NOCI↔COG is a convergence point where MET↔IMMUNE, IMMUNE↔AUTO, AUTO↔MOD, and COG↔INTERO all feed a single output simultaneously. The volume knob for pain experience is being set by all four contracts at once. This is the model for how compound contract failures produce treatment-resistant presentations — and establishes convergence contracts as a structural category distinct from bilateral crossovers. When a clinical presentation is resistant to single-point intervention, look for a convergence architecture.
 
 ---
 
@@ -208,7 +211,7 @@ Fast-twitch type II fibers — higher force output, higher fuel consumption, fas
 
 Music and rhythmic movement are the highest-efficiency interventions for this profile because they recruit type II fibers at optimal activation threshold while simultaneously entraining the auditory system, opening the prediction window, and improving RSA amplitude. All channels addressed simultaneously at the system's actual operating frequency rather than demanding it idle continuously.
 
-**Falsifiable prediction:** ADHD should show measurably higher metabolic cost specifically during tasks requiring sustained cognitive phase separation relative to neurotypical controls — testable with fMRI metabolic imaging during phase-alternating vs simultaneous-processing cognitive paradigms.
+*Falsifiable prediction:* ADHD should show measurably higher metabolic cost specifically during tasks requiring sustained cognitive phase separation relative to neurotypical controls — testable with fMRI metabolic imaging during phase-alternating vs simultaneous-processing cognitive paradigms.
 
 **The ND two-strategy extension:**
 The 2-stroke overlap that produces friction in neurotypical environments also produces an unexpected opportunity when deliberate regulatory control is trained. Because the two hemispheric modes don't separate automatically, they become more identifiable as distinct targets for deliberate manipulation. A trained ND practitioner who develops explicit interoceptive switching skill can select precision mode or sampling mode on demand — through postural asymmetry, breath ratio, or interoceptive attention direction — rather than experiencing the default overlap.
@@ -245,6 +248,9 @@ Find the strongest adversarial case first. If it fails and the chain loops back 
 **Separate derivation from confirmation.**
 Claims derivable from first principles are the strongest. Claims confirmed by existing literature are strong but require domain expertise. Claims predicted by the model but untested should be explicitly marked as predictions.
 
+**When a presentation is treatment-resistant, look for convergence.**
+Single-point interventions fail when the output is being driven by multiple upstream contracts simultaneously. Identify which contracts are converging on the presentation and address them in sequence: peripheral drivers first, gain reduction second, corrective signal delivery third. The sequence matters because corrective signals delivered into a high-gain environment may confirm threat rather than contradict it.
+
 ---
 
 ## Scope Boundary
@@ -254,6 +260,18 @@ Claims derivable from first principles are the strongest. Claims confirmed by ex
 **Outside the model:** Clinical specifics, pharmacological mechanisms, genetic pathways, diagnostic criteria. The model touches these domains and makes predictions about them. Domain experts validate. The framework organizes — it does not replace expertise.
 
 **The handoff:** Where a chain requires clinical domain knowledge to complete, name it as a prediction and hand off. Do not overclaim.
+
+---
+
+## Known Gaps
+
+Three structural gaps have been identified but not yet developed into full contracts. Each has the same multi-input convergence architecture as NOCI↔COG and will likely require dedicated treatment rather than extension of existing contracts.
+
+**Glymphatic clearance:** CSF clearance is driven by the same breathing-pressure mechanics as the rest of the stack — the diaphragm pumps it — and glymphatic function peaks during sleep in specific slow-wave phases. Waste clearance from the brain, including amyloid, is directly regulated by breathing mechanics and sleep architecture. This sits between AUTO and DEV in the stack. The IMMUNE↔AUTO contract addresses neuroinflammation but the clearance mechanism that prevents accumulation is absent. The contract does not yet exist.
+
+**Circadian amplitude envelope:** Appears repeatedly as a lateral note across contracts — circadian state sets the amplitude for each contract's operating range — but has no dedicated crossover point. HPA axis, vagal tone, inflammatory cytokines, microbiome composition, dopamine release, and ECS tone all have circadian rhythms that modulate every contract's operating range. It is being treated as an external parameter when it is a regulatory layer with its own mechanism deserving its own contract.
+
+**Pain — addressed:** NOCI↔COG now exists as a full contract. The volume knob architecture — ECS-mediated precision gain on nociceptive prediction error, with pain-without-signal as maximum gain running on its own output — is the primary organizing principle.
 
 ---
 
@@ -275,6 +293,8 @@ When working within this framework:
 
 7. **Extend at the edges.** When a chain feels complete, ask what sits adjacent in neighboring domains. The model expands outward.
 
+8. **Look for convergence in treatment resistance.** When a presentation fails single-point intervention, map which contracts are feeding it simultaneously. Address peripheral drivers before central gain before corrective signal delivery.
+
 ---
 
 ## What Loads With This
@@ -284,6 +304,8 @@ This core document is complete as standalone context for general framework reaso
 For deeper work on a specific contract, load the relevant contract document alongside this core.
 
 For deliberate regulatory control, postural mechanics, kumbhaka states, or ND two-strategy work — load AUTO↔MOD alongside this core.
+
+For pain, chronic pain, fibromyalgia, or ND pain sensitivity — load NOCI↔COG alongside this core.
 
 For clinical extensions, load the relevant extension document alongside this core.
 
