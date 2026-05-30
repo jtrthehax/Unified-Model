@@ -62,6 +62,7 @@ contracts/
   contract_MET_IMMUNE.md
   contract_IMMUNE_AUTO.md
   contract_MICRO_AUTO.md
+  contract_NOCI_COG.md
 ```
   
 Each contract defines:
