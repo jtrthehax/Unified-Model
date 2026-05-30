@@ -184,6 +184,73 @@ This is why naps, rest, and states of restored prediction window width tend to p
 
 ---
 
+## The Temporal Layer — Circadian Architecture
+
+**The stack does not run at constant amplitude. Every contract's operating range, peak window, and recovery capacity is phase-set by a 24-hour timing system running beneath all of them.**
+
+The pressure mechanics described above determine signal amplitude within any given moment. The circadian architecture determines when that amplitude is available. The same breathing intervention, the same meal, the same social interaction — all produce different regulatory effects depending on where in the 24-hour cycle they land. The physics layer describes the instrument. The circadian layer describes when the instrument is in tune.
+
+**The central clock:**
+
+The suprachiasmatic nucleus (SCN) in the hypothalamus is the master pacemaker. It receives timing signals — zeitgebers — through multiple parallel channels:
+
+- Light via the retinohypothalamic tract — the strongest and fastest zeitgeber
+- Temperature — core body temperature drop drives sleep initiation, rise drives waking
+- Food timing — meal timing signals the SCN and peripheral clocks independently
+- Exercise — physical activity drives phase shifts through autonomic and metabolic channels
+- Social timing — consistent behavioral schedules provide weak but cumulative entrainment
+
+The SCN integrates these inputs and distributes a phase signal to the rest of the body through autonomic output, hormonal rhythms, and direct neural projections. Cortisol awakening response, melatonin onset, core body temperature curve, peak vagal tone window, peak inflammatory sensitivity — all are phase-set by SCN output. Every contract in the stack has a circadian amplitude envelope. The MET layer has peak insulin sensitivity windows. The IMMUNE layer has peak cytokine production windows. The AUTO layer has a peak vagal tone window. The MOD layer has peak dopamine and ECS availability windows. These windows are not simultaneous — they are sequenced across the 24-hour cycle in a specific order that healthy circadian function maintains.
+
+**Peripheral clocks:**
+
+Every organ and tissue contains its own molecular clock — the same CLOCK/BMAL1 gene expression cycle running semi-independently in liver, gut, immune cells, and peripheral neurons. These peripheral clocks are entrained by the SCN but also respond directly to local zeitgebers — particularly food timing and temperature. The gut clock responds to meal timing. The immune clock responds to inflammatory load and temperature. The liver clock responds to metabolic state.
+
+This creates a second level of circadian architecture below the central clock. The SCN sets the master phase. The peripheral clocks run on that phase but can drift independently when local signals conflict with central timing. The microbiome has its own circadian composition rhythm — microbial species ratios shift measurably across the 24-hour cycle, altering SCFA production timing and therefore the quality of the vagal signal the MICRO↔AUTO contract depends on at different phases.
+
+**Central-peripheral desynchrony — the key failure mode:**
+
+When central clock phase and peripheral clock phase diverge, contracts begin receiving mistimed signals. The SCN says it is morning. The gut clock — entrained to late eating — says it is night. The immune clock — entrained to irregular sleep — is running its own phase. Each contract is receiving amplitude envelope signals from clocks that are no longer coordinated.
+
+This is what shift work does acutely and what chronic social jet lag — the mismatch between biological clock phase and social schedule — does chronically at lower amplitude. The individual contracts may be functioning correctly. The timing coordination between them is broken. A regulatory system with desynchronized peripheral clocks is not running its contracts in sequence — it is running them in a scrambled order that no single contract failure explains.
+
+Chronic desynchrony is probably underdiagnosed as a contributor to inflammatory, metabolic, and psychiatric presentations precisely because it doesn't break any single contract. It mistimes all of them simultaneously. When a presentation involves multiple contract failures without a clear upstream driver, desynchrony should be considered before assuming independent contract pathology.
+
+**The ND circadian profile:**
+
+Delayed sleep phase is disproportionately prevalent in ND populations, particularly ADHD. The standard framing treats this as a clock defect — the clock runs slow and phase drifts late. The framework suggests a different account derived from the same regulatory configuration that produces the 2-stroke cognitive profile.
+
+The ND circadian clock appears to have a specific entrainment response curve: high threshold for weak zeitgeber signals, high amplitude response when threshold is crossed, precise internal timekeeping once a schedule is learned, and large amplitude seasonal swing reflecting the wide dead zone between insufficient and sufficient signal strength.
+
+This is not a broken clock. It is a clock running the high-sensitivity-to-context profile that expresses across every domain of ND regulatory function. The same configuration that produces strong mast cell response to sufficient triggers, strong emotional response to sufficient social signal, and strong sensory response to sufficient stimulus — produces strong phase shift response to sufficient zeitgeber and resistance to phase shift from insufficient zeitgeber.
+
+The practical expression: standard morning light therapy may undershoot the entrainment threshold. Summer sunlight overshoots it — producing earlier waking that others sharing the same light exposure don't experience, because their lower-threshold clocks are already anchored. Winter produces a wide unanchored drift because nothing is crossing the threshold consistently. The internal alarm anticipation — waking just before a learned alarm time even when the time changes — confirms the clock's precision is intact. The delay is not a timekeeping failure. It is a phase position default combined with a high entrainment threshold that requires stronger-than-standard zeitgebers to shift and hold the phase.
+
+The large seasonal swing is the diagnostic signature of this profile. Neurotypical clocks drift somewhat seasonally but their range is narrower because weaker signals provide partial anchoring year-round. The ND clock is essentially unanchored in winter — drifting on its own free-running period — and snapped hard in summer when signal crosses threshold. The amplitude of the seasonal swing reflects the width of the dead zone between insufficient and sufficient signal. A large seasonal swing in sleep timing, energy, and mood is not a separate seasonal affective trait — it is the same entrainment curve expressing across the year.
+
+**Implications for intervention timing:**
+
+Because every contract has a circadian amplitude window, intervention timing relative to phase matters as much as intervention type. The same slow breathing session produces different vagal tone effects at peak parasympathetic phase versus trough. The same meal produces different insulin and immune responses at the metabolically sensitive morning phase versus the desensitized evening phase. The same graded exposure session in a chronic pain protocol produces different prior-updating outcomes when ECS availability is at peak versus trough.
+
+Standard chronotherapy recommendations are calibrated to neurotypical clock phase. For ND profiles with delayed phase, these recommendations are systematically mistimed — prescribing interventions for a phase the ND clock hasn't reached yet. Breakfast at 7am, exercise in the morning, cognitive work before noon — all assume a clock that has already opened its amplitude envelope by then.
+
+The correct approach for delayed phase profiles is phase-relative timing rather than clock-time timing. Identify when the amplitude envelope actually opens for this individual — when energy, focus, and motivation genuinely arrive — and schedule interventions relative to that point rather than relative to the social clock. The envelope is delayed but its internal sequence is intact. Working with its actual phase rather than against it produces better outcomes from every intervention the stack contains.
+
+**Bootstrapping the delayed envelope:**
+
+When early performance is unavoidable, the stack can be partially bootstrapped before the circadian envelope opens through strong zeitgeber channels that bypass the clock's phase position:
+
+- High-intensity light immediately on waking — directly activating the retinohypothalamic → autonomic pathway, partially opening the arousal component independently of clock phase
+- CO2 building through deliberate breathing — activating the carotid body → NTS → arousal pathway independently of circadian phase
+- Cold exposure — driving cortisol and autonomic activation through the thermal channel, pulling ECS and dopamine availability forward
+- High-protein food — triggering peripheral metabolic clock signals that accelerate the metabolic amplitude opening
+
+None of these move the clock earlier. They use alternative channels to open specific components of the amplitude envelope ahead of the clock's scheduled delivery. The wakefulness component can be bootstrapped this way. The motivational component — requiring dopaminergic tone that follows its own circadian schedule — responds more slowly and is the last component to arrive regardless of bootstrapping effort. This is why wakefulness and willingness separate in delayed phase profiles under forced early timing — they are different components of the amplitude envelope on different schedules, and the channels available for bootstrapping reach them at different rates.
+
+*Chain status: Central clock mechanism and peripheral clock architecture are load-bearing. Central-peripheral desynchrony as failure mode is load-bearing in shift work literature, scaffolding as a chronic low-amplitude mechanism in social jet lag. ND entrainment response curve — high threshold, high amplitude, precise internal timekeeping, large seasonal swing as unified configuration — is a framework derivation. Component observations are documented; the unified account deriving the configuration from the general ND regulatory profile rather than from circadian-specific mechanisms is novel and predictive. Empirical assembly required.*
+
+---
+
 ## Five Load-Bearing Principles
 
 **1. Preferences are regulatory signals.**
@@ -267,9 +334,9 @@ Single-point interventions fail when the output is being driven by multiple upst
 
 Three structural gaps have been identified but not yet developed into full contracts. Each has the same multi-input convergence architecture as NOCI↔COG and will likely require dedicated treatment rather than extension of existing contracts.
 
-**Glymphatic clearance:** CSF clearance is driven by the same breathing-pressure mechanics as the rest of the stack — the diaphragm pumps it — and glymphatic function peaks during sleep in specific slow-wave phases. Waste clearance from the brain, including amyloid, is directly regulated by breathing mechanics and sleep architecture. This sits between AUTO and DEV in the stack. The IMMUNE↔AUTO contract addresses neuroinflammation but the clearance mechanism that prevents accumulation is absent. The contract does not yet exist.
+**Glymphatic clearance:** Addressed in GLYPH↔AUTO. The pressure mechanics of CSF flow, the slow wave sleep clearance window, the aging pump failure trajectory, and the accumulation-inflammation loop handoff to IMMUNE↔AUTO are fully developed. The pump framing — breathing mechanics as the primary driver of glymphatic clearance, maintained through sustained breathing practice across the lifespan as the primary neurological aging intervention — is the central organizing principle. Load GLYPH↔AUTO for deep work on neurological aging, sleep architecture quality, or clearance-inflammation interactions.
 
-**Circadian amplitude envelope:** Appears repeatedly as a lateral note across contracts — circadian state sets the amplitude for each contract's operating range — but has no dedicated crossover point. HPA axis, vagal tone, inflammatory cytokines, microbiome composition, dopamine release, and ECS tone all have circadian rhythms that modulate every contract's operating range. It is being treated as an external parameter when it is a regulatory layer with its own mechanism deserving its own contract.
+**Circadian amplitude envelope:** Addressed in the temporal layer section of this document. The mechanism, the ND entrainment profile, and the intervention timing implications are established at the core level. Three contracts where circadian timing is most mechanistically load-bearing — IMMUNE↔AUTO, MET↔AUTO, and MOD↔COG — are candidates for explicit circadian integration in their lateral sections. The remaining contracts carry the standard implication from the core: every contract's amplitude envelope is phase-set by the circadian layer and intervention timing should be phase-relative rather than clock-time relative.
 
 **Pain — addressed:** NOCI↔COG now exists as a full contract. The volume knob architecture — ECS-mediated precision gain on nociceptive prediction error, with pain-without-signal as maximum gain running on its own output — is the primary organizing principle.
 
@@ -306,6 +373,10 @@ For deeper work on a specific contract, load the relevant contract document alon
 For deliberate regulatory control, postural mechanics, kumbhaka states, or ND two-strategy work — load AUTO↔MOD alongside this core.
 
 For pain, chronic pain, fibromyalgia, or ND pain sensitivity — load NOCI↔COG alongside this core.
+
+For neurological aging, glymphatic clearance, sleep architecture quality, or accumulation-inflammation interactions — load GLYPH↔AUTO alongside this core.
+
+For circadian timing, delayed phase, seasonal amplitude swing, or intervention timing questions — the temporal layer section of this document is the primary reference. For deeper work on the three priority contracts, load IMMUNE↔AUTO, MET↔AUTO, or MOD↔COG alongside this core and apply the phase-relative timing principle from the temporal layer.
 
 For clinical extensions, load the relevant extension document alongside this core.
 
