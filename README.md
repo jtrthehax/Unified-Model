@@ -55,6 +55,7 @@ gap_analysis/
 contracts/
   contract_AUTO_MOD.md
   contract_COG_INTERO.md
+  contract_GLYPH_AUTO.md
   contract_INTERO_DEV.md
   contract_SOC_COG.md
   contract_SOC_AUTO.md
