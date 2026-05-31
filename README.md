@@ -107,6 +107,7 @@ If you want to understand phenomena like:
 - **Learning and memory** — cross‑layer plasticity shaping future prediction and regulation.
 - **Plasticity** — adaptive changes in synaptic, autonomic, interoceptive, and social inference pathways.
 - **Addiction** — hijacking of dopaminergic precision and habit loops within MOD ↔ COG dynamics.
+- **Digital platforms** - algorithms optimize for sympathetic activation which drops HRV and creates a feedback loop by collapsing prediction windows
 
 …load the relevant contracts and trace the regulatory pathways.
 
@@ -183,6 +184,45 @@ Cross‑layer failures include:
 
 This reframes chronic disease as a regulatory‑architecture problem, not a collection of unrelated symptoms.
 It provides a unified way to trace how autonomic, metabolic, immune, and cognitive layers interact to produce persistent dysregulation.
+
+---
+
+## ⚠️ Digital Platforms as Adversarial Regulatory Environments
+
+Modern digital platforms optimize for engagement, not regulation — and the architecture of engagement directly conflicts with the architecture of mammalian regulation.
+
+Two contracts in the framework make this mechanically explicit:
+
+- SOC ↔ AUTO — digital communication strips the co‑regulatory channels humans rely on  
+  > “Digital communication strips most of the channel bandwidth through which social co‑regulation operates… producing the appearance of connection without the regulatory transfer that connection is supposed to accomplish.”  
+  
+
+- SOC ↔ COG — platforms overload the cognitive social‑prediction channel  
+  > “Social media may actually impose higher COG‑channel social load than in‑person interaction while providing less AUTO‑channel co‑regulation — the worst combination for regulatory health.”  
+  
+
+The result:  
+Platforms systematically push users toward high‑load, low‑regulation states because those states produce more predictable, reactive, high‑engagement behavior.
+
+What platforms optimize for
+- **Unpredictability** → narrows prediction windows  
+- **Ambiguity** → increases cognitive load  
+- **Threat cues** → suppresses VVC activation  
+- **Asynchronous text** → removes co‑regulation  
+- **Infinite agent exposure** → overloads social generative models  
+
+What humans need
+- Prosody, synchrony, facial cues  
+- Predictable social context  
+- Co‑regulatory HRV transfer  
+- Stable precision gain  
+- Low‑noise interoceptive feedback  
+
+Digital platforms remove the stabilizing channels and amplify the destabilizing ones.  
+This is not a moral failure — it is architectural incompatibility between:
+
+- the mammalian regulatory stack, and  
+- engagement optimized digital systems.
 
 ---
 
