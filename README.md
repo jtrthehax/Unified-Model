@@ -64,6 +64,7 @@ contracts/
   contract_IMMUNE_AUTO.md
   contract_MICRO_AUTO.md
   contract_NOCI_COG.md
+  contract_COG_REASON.md
 ```
   
 Each contract defines:
@@ -244,6 +245,60 @@ Many “AI hallucinations” are not model failures but frame mismatches — the
 “Good prompting” is simply stable regulatory scaffolding.
 
 This reframes AI interaction differences as expressions of regulatory architecture, not user skill.
+
+---
+
+## 🧩 Illogical Fallacies as Regulatory‑State Artifacts
+
+What we call “logical fallacies” are not reasoning mistakes — they are the **behavioral signatures of a cognitive system under altered precision and prediction‑window constraints**.
+
+When the regulatory stack shifts (stress, metabolic load, interoceptive noise, social threat, etc.), the inference engine reconfigures. The system begins producing outputs that are _locally optimal_ for that state, even if they appear illogical from the outside.
+
+As the framework notes:
+
+> “The fallacies are the behavioral readout of that degradation.”
+
+### Mechanistic Origins of Fallacies
+
+Each fallacy class corresponds to a specific distortion in the inference parameters:
+
+- **Option‑space collapse**  
+    The system reduces a multidimensional problem to a binary choice.  
+    _False dichotomies, black‑and‑white reasoning._
+    
+- **Prior over‑weighting**  
+    Incoming evidence is forced to fit existing priors.  
+    _Confirmation bias, motivated reasoning._
+    
+- **Temporal compression**  
+    The prediction window narrows; long‑range consequences vanish.  
+    _Sunk‑cost fallacy, short‑termism._
+    
+- **Precision hijack by social signals**  
+    Identity‑relevant cues dominate evidence weighting.  
+    _Appeal to authority, ad hominem, group‑loyalty reasoning._
+    
+- **Model‑of‑other simplification**  
+    The system reduces other agents to low‑resolution caricatures.  
+    _Straw man, intent attribution errors._
+    
+- **Runaway prior chains**  
+    Priors propagate unchecked due to missing correction points.  
+    _Slippery slope, catastrophizing, paranoid escalation._
+    
+
+### Why This Reframe Matters
+
+Fallacies are not:
+
+- failures of intelligence
+- gaps in education
+- incorrect logic
+
+They are **state‑dependent outputs** of a regulatory architecture whose precision, priors, and temporal horizon have shifted.
+
+Correcting them is not about teaching logic.  
+It’s about restoring **prediction‑window width**, **precision balance**, and **regulatory stability**.
 
 ---
 
