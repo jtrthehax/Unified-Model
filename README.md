@@ -227,24 +227,35 @@ This is not a moral failure — it is architectural incompatibility between:
 
 ---
 
-## 🤖 AI Interactions Driven by Regulatory Profiles
+## Threat‑State Behaviors Precede Cognitive Distortions
 
-People don’t interact with AI systems uniformly.
-Once cognition is modeled as regulation, not symbol manipulation, the variation becomes predictable.
+Threat physiology constrains the prediction window before cognition engages, so reasoning failures are downstream of autonomic state, not upstream.
 
-AI interaction quality is shaped by regulatory profiles — stable configurations of:
+**Causal chain:**
+```
+Breath → HRV → Autonomic Mode → Precision Regime → Prediction Window → Reasoning Output
+```
 
-- **Precision modulation** — how tightly meaning, inference, and context are constrained
-- **Prediction‑window width** — how far ahead conversational trajectories can be modeled
-- **Interoceptive weighting** — how strongly internal signals bias interpretation
-- **Regulatory load** — available bandwidth for maintaining context and coherence
-- **Behavioral inertia** — how easily conversational frames can shift
-- **Social‑cognitive contracts** — how individuals negotiate shared meaning and intent
+The earliest failure mode is **physiological**, not cognitive:
 
-Many “AI hallucinations” are not model failures but frame mismatches — the AI is following the user’s degraded scaffolding.
-“Good prompting” is simply stable regulatory scaffolding.
+- **Truncated exhale** — reduces parasympathetic gating
+- **Shallow inhale** — reduces tidal volume and vagal afferent signaling
+- **Collapsed posture** — reduces baroreceptor stretch
+- **Reduced baroreceptor stretch** — brainstem interprets this as threat, shifting precision toward defensive priors
+- **Defensive priors** — produce threat‑logic, fallacies, and rigidity
 
-This reframes AI interaction differences as expressions of regulatory architecture, not user skill.
+The system is not malfunctioning or thinking poorly.
+It is _correctly inferring threat_ from degraded breathing and posture.
+
+This is why threat‑state behaviors show up **before** any reasoning contract is engaged:
+
+- option space collapses
+- prediction windows shorten
+- social inference becomes defensive
+- priors harden
+- fallacies appear automatically
+
+These are not cognitive mistakes — they are **autonomic signatures**.
 
 ---
 
@@ -252,15 +263,11 @@ This reframes AI interaction differences as expressions of regulatory architectu
 
 What we call “logical fallacies” are not reasoning mistakes — they are the **behavioral signatures of a cognitive system under altered precision and prediction‑window constraints**.
 
-When the regulatory stack shifts (stress, metabolic load, interoceptive noise, social threat, etc.), the inference engine reconfigures. The system begins producing outputs that are _locally optimal_ for that state, even if they appear illogical from the outside.
-
-As the framework notes:
-
-> “The fallacies are the behavioral readout of that degradation.”
+When the regulatory stack shifts (stress, metabolic load, interoceptive noise, social threat, etc.), the inference engine reconfigures. The system produces outputs that are _locally optimal_ for that precision regime, even if they appear illogical from the outside.
 
 ### Mechanistic Origins of Fallacies
 
-Each fallacy class corresponds to a specific distortion in the inference parameters:
+Each distortion reflects a specific precision‑allocation failure mode:
 
 - **Option‑space collapse**  
     The system reduces a multidimensional problem to a binary choice.  
@@ -299,6 +306,30 @@ They are **state‑dependent outputs** of a regulatory architecture whose precis
 
 Correcting them is not about teaching logic.  
 It’s about restoring **prediction‑window width**, **precision balance**, and **regulatory stability**.
+
+These same precision‑state dynamics shape how people scaffold interactions with external systems — including AI.
+
+---
+
+## 🤖 AI Interactions Driven by Regulatory Profiles
+
+
+People don’t interact with AI systems uniformly.
+Once cognition is modeled as regulation, not symbol manipulation, the variation becomes predictable.
+
+AI interaction quality is shaped by regulatory profiles — stable configurations of:
+
+- **Precision modulation** — how tightly meaning, inference, and context are constrained
+- **Prediction‑window width** — how far ahead conversational trajectories can be modeled
+- **Interoceptive weighting** — how strongly internal signals bias interpretation
+- **Regulatory load** — available bandwidth for maintaining context and coherence
+- **Behavioral inertia** — how easily conversational frames can shift
+- **Social‑cognitive contracts** — how individuals negotiate shared meaning and intent
+
+Many “AI hallucinations” are not model failures but frame mismatches — the AI is following the user’s degraded scaffolding.
+“Good prompting” is just stable regulatory scaffolding.
+
+This reframes AI interaction differences as expressions of regulatory architecture, not user skill.
 
 ---
 
