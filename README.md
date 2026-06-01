@@ -108,7 +108,10 @@ If you want to understand phenomena like:
 - **Learning and memory** — cross‑layer plasticity shaping future prediction and regulation.
 - **Plasticity** — adaptive changes in synaptic, autonomic, interoceptive, and social inference pathways.
 - **Addiction** — hijacking of dopaminergic precision and habit loops within MOD ↔ COG dynamics.
-- **Digital platforms** - algorithms optimize for sympathetic activation which drops HRV and creates a feedback loop by collapsing prediction windows
+- **Digital platforms** — algorithms optimize for sympathetic activation which drops HRV and creates a feedback loop by collapsing prediction windows
+- **Near‑death experiences** — catastrophic precision collapse across metabolic, autonomic, interoceptive, and cognitive layers forcing the generative model to fallback on its deepest, lowest‑entropy priors to maintain coherence.
+- **Flow** — a high‑coherence state where prediction errors are minimized through tight sensorimotor loops, stabilized neuromodulation, and suppressed self‑modeling, producing effortless action with maximal precision.
+- **Placebo** — cognitive priors modulating autonomic, interoceptive, and immune precision weighting, allowing belief‑driven predictions to produce real physiological change.
 
 …load the relevant contracts and trace the regulatory pathways.
 
