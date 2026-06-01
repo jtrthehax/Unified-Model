@@ -48,23 +48,23 @@ The architecture is designed to be:
 
 ## Repository Structure
 ```
-minimal_core.md
 architecture_conceptual_overview.md
-gap_analysis/
-  framework_gap_analysis...md
+minimal_core.md
 contracts/
   contract_AUTO_MOD.md
   contract_COG_INTERO.md
+  contract_COG_REASON.md
   contract_GLYPH_AUTO.md
+  contract_IMMUNE_AUTO.md
   contract_INTERO_DEV.md
-  contract_SOC_COG.md
-  contract_SOC_AUTO.md
+  contract_MICRO_AUTO.md
   contract_MET_AUTO.md
   contract_MET_IMMUNE.md
-  contract_IMMUNE_AUTO.md
-  contract_MICRO_AUTO.md
   contract_NOCI_COG.md
-  contract_COG_REASON.md
+  contract_SOC_COG.md
+  contract_SOC_AUTO.md
+gap_analysis/
+  framework_gap_analysis...md   
 ```
   
 Each contract defines:
