@@ -272,6 +272,10 @@ The CB2 receptor trial in freedivers, if completed, may provide the first direct
 
 ---
 
+
+
+---
+
 ### Link 8: Interoception as switching handle — the missing mechanism
 The minimal core describes bottom-up and top-down as states the system occupies. It does not describe how a skilled practitioner moves between them deliberately. This link names the mechanism.
 
@@ -286,6 +290,40 @@ The minimal core describes bottom-up and top-down as states the system occupies.
 **ND two-strategy access:** For profiles with reduced lateralization — particularly ADHD — the two hemispheric modes may be more distinctly separable and more deliberately accessible when combined with deliberate interoceptive skill. The same architecture that produces the 2-stroke overlap becomes the precision instrument when trained intentionally.
 
 **Chain completeness:** Scaffolding. Interoception as regulatory switching is consistent with active inference literature. The anchor function is derivable from predictive processing architecture. Deliberate switching as trainable is supported by contemplative practice literature but lacks controlled study at the mechanism level.
+
+---
+
+### Link 8 Extension: Exhale-Gated Model Updating — Incomplete Exhale as Tunnel Vision Mechanism
+
+The exhale phase is not just the precision-selection phase. It is the mechanical trigger for prediction window reset and model updating. Completing the exhale allows the prediction window to close fully, which then allows it to reopen fully on the next inhale — giving the sampling mode access to new input that can update the current model. Without the full exhale completion, the reset doesn't fire. The model update cycle doesn't run. The system keeps cycling over the same cognitive thread.
+
+**The incomplete exhale as thermodynamic adaptation:**
+
+Maintaining a cognitive thread has metabolic cost. Every prediction window reset requires rebuilding the thread from scratch on the next inhale — sampling new input, selecting from it, re-establishing the thread. For high-value or high-complexity threads this rebuild cost is significant. The system has a thermodynamically rational option: don't complete the exhale. Hold the current pressure set point in a mid-range rather than cycling to minimum. The thread is preserved without the rebuild cost.
+
+The consequence is mechanical. Incomplete exhale → the next inhale starts from a higher baseline pressure → the maximum pressure differential of the full cycle isn't achieved → RSA amplitude is reduced → the prediction window doesn't open as wide on the inhale as it would from a full exhale → sampling mode is less accessible → the thread that was preserved can't be evaluated against as wide a field of alternatives.
+
+The oscillation amplitude compresses. Both full sampling mode and full precision mode become less accessible — the system is stuck in a mid-range band. From the inside this feels like sustained focus. From the pressure mechanics it is constrained oscillation.
+
+**Recursive thinking as the signature:**
+
+The thought loop that characterizes rumination and recursive thinking is what happens when the model update cycle doesn't fire. The system processes the same thread repeatedly not because the processing is broken but because the exit mechanism — full exhale → window reset → new sampling → update or discard the thread — has been suppressed. Each incomplete cycle reinforces the thread rather than resolving it. The thinking isn't going deeper. It's circling because the mechanical interrupt that would allow it to zoom out and re-evaluate hasn't been provided.
+
+The phenomenological confirmation: practitioners report needing to complete the exhale to zoom out of focused states. Deliberate full exhale produces a sense of cognitive release — the thread can be seen from outside rather than from inside. This is the prediction window reopening that the incomplete exhale was preventing.
+
+**The tunnel vision population prediction:**
+
+People with existing low HRV or high metabolic cost are most likely to adopt incomplete exhale as a default adaptation. The oscillation cost is higher relative to their regulatory capacity, making thread-preservation through breath suppression more thermodynamically attractive. This predicts that tunnel vision, rigid thinking, rumination, and difficulty context-switching should be more prevalent in low-HRV populations — not as cognitive deficits but as thermodynamic adaptations that become habitual.
+
+The adaptation compounds: incomplete exhale reduces RSA amplitude which reduces vagal tone which reduces ECS tone which increases the metabolic cost of the next prediction window transition which makes incomplete exhale more attractive which further reduces RSA amplitude. The loop is self-reinforcing.
+
+**The intervention implication is specific:**
+
+Extended deliberate exhale to respiratory reserve — not a relaxed breath, a complete exhale — as a recursive thinking interrupt. The mechanism is not calming the thought or relaxing the arousal. It is mechanically triggering the prediction window reset that the incomplete exhale cycle was preventing. The thought may continue after the exhale but in a different form — evaluated from sampling mode rather than from inside the thread.
+
+This predicts that extended exhale should interrupt rumination more effectively than standard relaxation breathing — because standard relaxation breathing often involves incomplete exhales at a slower rate, while the mechanism requires full exhale completion regardless of rate. The distinction is exhale completeness, not breathing rate or depth of relaxation.
+
+**Chain completeness:** Scaffolding with strong phenomenological confirmation and mechanistic derivation from pressure system. The incomplete exhale → compressed oscillation → reduced prediction window range chain is mechanically derivable. The rumination and tunnel vision as thermodynamic adaptations is a framework derivation consistent with the pressure mechanics. Direct measurement of exhale completeness alongside rumination and cognitive flexibility in low vs high HRV populations has not been done — Bucket B study.
 
 ---
 
@@ -314,6 +352,44 @@ Bruxism follows a specific sequence: autonomic sympathetic micro-arousal → bra
 
 ---
 
+### Link 12: Gaze as spatial reference frame anchor — the cross-modal coupling problem
+
+This link extends the gaze stabilization mechanism from Link 10. Gaze does two things that the contract currently describes as one. The first is reducing visual prediction load — the top-down prediction window widening described in Link 10. The second is providing the primary spatial reference frame against which vestibular, proprioceptive, and interoceptive signals calibrate their phase relationships. These are distinct functions. The first is about cognitive load. The second is about cross-modal coupling.
+
+**The spatial anchor function:**
+
+Sensory systems function as coupled oscillators. Their coupling — the stable phase relationships between vestibular, proprioceptive, interoceptive, and visual channels — is normally anchored to the visual spatial reference frame. Gaze position provides a stable high-resolution egocentric reference that other systems continuously calibrate against. The vestibular system knows which way is up partly because vision confirms it. Proprioception knows where the hand is in space partly because vision anchors the spatial coordinate system. The spatial prior in COG↔INTERO contains a body-in-space model that is normally stabilized by the convergence of these anchored signals.
+
+This anchor function is separate from prediction error reduction. Gaze stabilization reduces the visual prediction error stream. But even a stable gaze maintains the spatial reference frame function — the position of gaze continues to anchor the spatial coordinate system whether or not the visual scene is changing. The two functions can be separated: stable gaze in a changing visual environment maintains the anchor while generating some prediction error; stable gaze in a stable environment eliminates the prediction error and maintains the anchor.
+
+**What happens when the anchor is absent:**
+
+In congenital blindness the visual spatial anchor is absent from birth. The sensory systems that would normally phase-lock to the visual spatial reference develop their coupling relationships to each other — vestibular to proprioceptive, proprioceptive to interoceptive — without the common reference frame that vision provides. This is not impairment of individual channels. It is absence of the coordinating anchor. The oscillators exist. Their phase relationships are less stable because they lack a common reference.
+
+The prediction from the framework: providing an artificial stable spatial reference — through a consistent vestibular signal like GVS, through consistent proprioceptive anchoring, or through any reliable signal that can serve as a spatial coordinate reference — should strengthen the coupling between the existing cross-modal connections. Vision-like spatial experiences emerging from this would be the spatial prior being reconstructed from newly-anchored non-visual inputs rather than anything being substituted for visual sensation.
+
+This is mechanistically different from sensory substitution. Sensory substitution translates one modality's information into another modality's channel — converting visual information into tactile patterns, for example. That approach maintains the translational structure between modalities. The reference frame approach instead provides the anchor that allows the existing cross-modal connections to organize around a stable coordinate system. The information isn't being translated — the organizing principle is being provided.
+
+**Extension beyond blindness:**
+
+The reference frame anchor problem is not specific to blindness. Any condition that disrupts the primary spatial anchor produces the same cross-modal coupling degradation:
+
+Vestibular disorders — when the vestibular signal itself becomes unreliable, it cannot serve as a spatial reference frame anchor. The other sensory systems that calibrated against it lose their reference.
+
+Severe dissociation — certain dissociative states involve a detachment of the spatial body model from sensory input. The anchor function has failed — the prior is running the spatial model without updating from current sensory input.
+
+Chronic proprioceptive impairment — conditions like EDS with widespread proprioceptive signal degradation lose a major contribution to spatial prior anchoring, producing the spatial disorientation and movement uncertainty characteristic of hypermobility disorders.
+
+**The gap this identifies:**
+
+No contract currently describes spatial reference frame anchoring as a distinct mechanism. The gaze stabilization mechanism in Link 10 describes one output of gaze — prediction error reduction. The spatial anchor function of gaze is a second output that operates even during gaze stabilization and is lost when gaze is unavailable. This gap sits between AUTO↔MOD (gaze mechanism), COG↔INTERO (spatial prior), and the proprioception structural gap identified elsewhere in the framework.
+
+The framework implications for intervention are specific: before attempting sensory channel enhancement or substitution in populations with spatial anchor disruption, stabilize the reference frame first. Provide a consistent reliable signal — vestibular, proprioceptive, or otherwise — that can serve as a spatial coordinate anchor. The cross-modal coupling improvements should follow from the anchor provision rather than from channel enhancement.
+
+**Chain completeness:** Adjacent — mechanistically coherent with the framework's pressure mechanics and predictive processing architecture, identified through clinical observation by a blind trauma therapist working with active inference models. No direct empirical assembly exists for the reference frame anchor mechanism as distinct from individual channel function. Requires dedicated development as either a contract extension or a new structural contract covering spatial reference frame anchoring and cross-modal coupling.
+
+---
+
 ## Operating States
 
 | State | Input Configuration | MOD Output | Cognitive Mode | Behavioral Signature |
@@ -333,6 +409,8 @@ Bruxism follows a specific sequence: autonomic sympathetic micro-arousal → bra
 | **ND baseline (autism type)** | Often lower HRV, tighter lateralization | Higher precision in selected channels | Deep exhale-phase lock in selected domains | Intense focus, sensory overload, context switching difficulty |
 | **ND trained (two-strategy)** | Deliberate postural/breath control of lateralization | Selectable precision or sampling on demand | Intentional mode switching | Strategic deployment of ND profile's native configurations |
 | **Bruxism state** | Sympathetic micro-arousal during sleep → arrhythmic masseter activation | Low HRV, sympathetic dominant, VVC suppressed | Narrow precision lock during arousal events | Teeth grinding as visible motor output of autonomic arousal |
+| **Incomplete exhale habitual** | Mid-range pressure, oscillation not completing full cycle | Compressed RSA amplitude, reduced window range | Narrow mid-range band — neither full sampling nor full precision accessible | Recursive thinking, tunnel vision, difficulty context-switching, rumination sustained by suppressed window reset |
+| **Congenital blindness / absent spatial anchor** | Visual spatial reference frame absent, cross-modal coupling reliant on vestibular-proprioceptive coupling alone | Variable — dependent on quality of non-visual anchor signals | Spatial prior less stable, prediction errors higher in spatial tasks | Spatial uncertainty, reduced cross-modal coupling coherence, potential for improvement through artificial reference frame provision |
 
 ---
 
@@ -404,6 +482,12 @@ The pressure equalization phenomenology reported during sustained breath hold �
 **Prediction 15 — Chain completeness: Scaffolding (new)**
 Buteyko training should show measurable improvements across multiple contract-level biomarkers simultaneously: HRV increase (AUTO), CRP/IL-6 reduction (IMMUNE↔AUTO), fasting glucose improvement (MET↔AUTO), and slow wave sleep proportion increase (GLYPH↔AUTO). The multi-contract effect pattern would confirm that CO2 tolerance threshold is the shared upstream variable driving improvement across apparently unrelated conditions. No study has measured all four simultaneously in a Buteyko intervention.
 
+**Prediction 16 — Chain completeness: Scaffolding (new)**
+Exhale completeness — measured as the ratio of actual exhaled volume to predicted respiratory reserve volume — should inversely predict rumination severity and cognitive inflexibility independent of breathing rate and tidal volume. Low-HRV populations should show systematically lower exhale completeness ratios as a thermodynamic adaptation. Extended deliberate exhale to full respiratory reserve should interrupt recursive thinking episodes more effectively than rate-matched slow breathing without exhale completion — because the mechanism is window reset, not arousal reduction. Testable with respiratory belt or spirometry alongside cognitive flexibility tasks and rumination scales in matched low vs high HRV populations.
+
+**Prediction 17 — Chain completeness: Adjacent (new)**
+Providing a stable artificial spatial reference frame to congenitally blind individuals through consistent GVS should strengthen cross-modal coupling between vestibular and proprioceptive channels — measurable as improved spatial task performance and potentially as novel spatial experiences not achievable through sensory substitution approaches alone. The mechanism is reference frame provision rather than sensory translation. Effect size should exceed sensory substitution approaches because it addresses the coupling architecture rather than individual channel bandwidth. Testable by comparing GVS-as-anchor against matched sensory substitution in spatial navigation and attention tasks.
+
 ---
 
 ## Failure Modes
@@ -469,6 +553,10 @@ Removing movement from ND environments removes the primary regulatory input chan
 5. **CO2 tolerance circadian variation:** Whether carotid body sensitivity varies across the 24-hour cycle in ways that affect Control Pause and suspended state access at different circadian phases. Not characterized.
 
 6. **Kumbhaka × glymphatic clearance:** During breath retention the respiratory CSF pulsatility component suspends while arterial pulsatility continues. Whether extended external kumbhaka reduces, maintains, or alters glymphatic clearance relative to slow deep breathing is unknown. Testable with phase-contrast MRI in trained practitioners during retention.
+
+7. **Exhale completeness as rumination predictor:** The incomplete exhale → compressed oscillation → recursive thinking chain is mechanistically derivable but requires direct measurement. Does exhale completeness ratio predict rumination severity and cognitive flexibility independently of rate and depth? Does deliberate full exhale interrupt recursive thinking more effectively than rate-matched slow breathing? Bucket B study with respiratory measurement alongside cognitive flexibility and rumination assessment.
+
+8. **Spatial reference frame anchor mechanism in blindness and cross-modal coupling:** Whether GVS-as-anchor produces measurably better cross-modal coupling and spatial task performance than sensory substitution approaches — and whether this generalizes to other anchor-disrupted populations including vestibular disorders and dissociative states. Requires dedicated empirical development. Currently adjacent — no direct measurement exists.
 
 ---
 
