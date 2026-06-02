@@ -1,0 +1,1646 @@
+{
+  "gaps": [
+    {
+      "id": "AUTO-MOD-001",
+      "title": "Kumbhaka suspended carrier state — NTS and ECS behavior during breath retention",
+      "description": "What the NTS and ECS do when RSA suspends rather than oscillates during maintained breath retention is unknown. No research has studied ECS tone or precision gain during kumbhaka in trained practitioners. Freediving population is the closest proxy. CB2 receptor trial in freedivers was recruiting — status unknown.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "load-bearing",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "ECS tone may increase, decrease, or hold during RSA suspension — direction unpredictable from first principles.",
+        "NTS receives static rather than phasic input during retention — response to this state change is uncharacterized.",
+        "ECS calibration during suspension could substantially revise the suspended states description if measured."
+      ],
+      "dependencies": [
+        "Requires direct ECS metabolite measurement during trained breath retention.",
+        "CB2 receptor trial in freedivers may provide proxy data."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:C",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Highest-priority genuine unknown in the framework. Everything else has a derivable mechanism. The answer could substantially revise the suspended states description.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-002",
+      "title": "RSA phase specificity for ECS modulation — inhale vs exhale dynamics",
+      "description": "Whether inhale-phase vs exhale-phase RSA dynamics produce different ECS signals at NTS level is unknown. This is the mechanism by which breathing ratio specifically — not just total HRV — modulates the AUTO↔MOD contract.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "Extended exhale phase should produce different ECS signal pattern than extended inhale at matched total HRV.",
+        "Breathing ratio effects on cognition should be partially mediated by phase-specific ECS modulation."
+      ],
+      "dependencies": [
+        "Requires ECS metabolite measurement during controlled breathing ratio manipulation.",
+        "Specialized biofluid sampling during breathing protocol needed."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:C",
+        "type:mechanistic-gap"
+      ],
+      "notes": "High priority — the mechanism by which breathing ratio specifically modulates the contract rather than just total HRV.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-003",
+      "title": "Hemidiaphragm asymmetry as deliberate lateralization control — direct measurement chain missing",
+      "description": "Anatomy is established. Functional output is observable in practitioners. No study has directly measured deliberate asymmetric diaphragm use → lateralized RSA → hemispheric EEG asymmetry as a sequential chain. Three research communities that hold the relevant methods — respiratory physiology, EEG lateralization, contemplative science — don't talk to each other.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Right thoracic compression → confirmed reduced right hemidiaphragm excursion on ultrasound → RSA asymmetry in predicted direction → left frontal EEG activation increase.",
+        "Left compression → opposite lateralization pattern.",
+        "Effect should be present within a single session in experienced practitioners."
+      ],
+      "dependencies": [
+        "Diaphragm ultrasound bilaterally during deliberate postural asymmetry.",
+        "Simultaneous HRV with lateralization-sensitive spectral analysis.",
+        "EEG frontal asymmetry measurement.",
+        "Experienced practitioners — yoga teachers, martial artists."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:measurement-gap"
+      ],
+      "notes": "Cleanest single study the framework calls for. Clear prediction, existing methods, novel question. Requires three-method assembly around a question that only becomes visible when the framework connects the layers.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-004",
+      "title": "Oculomotor-vagal pathway specificity",
+      "description": "Brainstem proximity of oculomotor and vagal nuclei is documented. The specific pathway by which gaze stabilization modulates vagal tone needs direct investigation.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Fixed gaze should produce measurable vagal tone increase beyond visual prediction error reduction alone.",
+        "fMRI during drishti practice should show brainstem connectivity between oculomotor and vagal nuclei."
+      ],
+      "dependencies": [
+        "Neuroimaging during contemplative gaze practice.",
+        "Simultaneous HRV measurement during controlled gaze conditions."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Contemplative traditions co-developed drishti and pranayama consistently — convergent independent discovery signal that mechanistic connection exists.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-005",
+      "title": "CO2 tolerance training — peripheral vs central chemoreceptor recalibration",
+      "description": "Whether CO2 tolerance threshold shift from Buteyko and kumbhaka training occurs at the carotid body (peripheral) or NTS (central) is unresolved. Phenomenologically established in practitioners, mechanistically unresolved.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "C",
+      "predictions": [
+        "If peripheral: carotid body denervation should eliminate CO2 tolerance training effects.",
+        "If central: NTS sensitivity changes should be detectable after sustained CO2 tolerance training.",
+        "Both sites may contribute with different timescales."
+      ],
+      "dependencies": [
+        "Carotid body sensitivity measurement before and after Buteyko training.",
+        "Comparison with central chemoreceptor testing."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:C",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Determines whether Buteyko benefits are primarily vascular (peripheral CO2 vasodilation) or autonomic (central chemoreceptor recalibration) in origin.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-006",
+      "title": "Exhale-gated model updating — incomplete exhale as tunnel vision and rumination mechanism",
+      "description": "The exhale phase is the mechanical trigger for prediction window reset and model updating. When cognitive thread maintenance has high metabolic cost, the system resists completing the exhale to avoid the prediction window rebuild cost. Incomplete exhale → compressed oscillation amplitude → both sampling and precision modes less accessible → recursive thinking and tunnel vision as thermodynamic adaptation. Populations with low HRV or metabolic issues most vulnerable.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Exhale completeness ratio should inversely predict rumination severity independently of breathing rate.",
+        "Low-HRV populations should show systematically lower exhale completeness as thermodynamic adaptation.",
+        "Extended deliberate exhale to full respiratory reserve should interrupt recursive thinking more effectively than rate-matched slow breathing.",
+        "Tunnel vision and cognitive rigidity should correlate with exhale completeness independently of anxiety or arousal."
+      ],
+      "dependencies": [
+        "Respiratory belt or spirometry measurement of exhale completeness.",
+        "Matched low vs high HRV populations.",
+        "Rumination scales and cognitive flexibility tasks."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:B",
+        "type:mechanistic-gap",
+        "clinical-application:rumination",
+        "clinical-application:tunnel-vision"
+      ],
+      "notes": "Reframes rumination and tunnel vision as breathing mechanics problems before cognitive problems. The thought loop is not the pathology — the suppressed exhale is the pathology. Phenomenological confirmation from practitioners. Intervention implication: extended deliberate exhale as model update trigger, not as relaxation.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-007",
+      "title": "Micro-venting during kumbhaka — dynamic pressure regulation as third hold mode",
+      "description": "Advanced practitioners use small controlled pressure releases and reclamping during external kumbhaka to manage intrathoracic pressure drift without breaking the hold. This extends usable hold duration by preventing CO2 accumulation from reaching the chemoreceptor urgency threshold. Whether micro-vented holds produce partial CSF pulsatility events producing higher CSF flow velocity than equivalent static holds is unknown.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "low",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "Micro-vented holds should show higher CSF flow velocity than static holds of matched duration.",
+        "Pressure transients from micro-release should generate measurable CSF pulsatility events.",
+        "Dynamic pressure regulation should extend suspended state duration beyond CO2 tolerance threshold alone."
+      ],
+      "dependencies": [
+        "Phase-contrast MRI during controlled micro-vented holds in trained practitioners.",
+        "Comparison with static holds of matched duration."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:low",
+        "bucket:C",
+        "type:mechanistic-gap",
+        "cross-contract:GLYPH↔AUTO"
+      ],
+      "notes": "Third kumbhaka mode beyond oscillating and static. Practiced by advanced freedivers and pranayama practitioners. CSF implications sit at intersection of AUTO↔MOD, GLYPH↔AUTO, and the physics layer.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-008",
+      "title": "Spatial reference frame anchor problem — cross-modal coupling without gaze",
+      "description": "Gaze provides the primary spatial reference frame against which vestibular, proprioceptive, and interoceptive systems calibrate their phase relationships. In congenital blindness this anchor is absent. Sensory systems function as coupled oscillators — without a common reference the oscillators drift in phase relationships. This is not channel impairment but reference frame loss. GVS may provide an artificial anchor allowing pre-existing cross-modal connections to phase-lock. Extends to vestibular disorders, dissociative states, and proprioceptive impairment.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "B",
+      "predictions": [
+        "GVS-as-anchor should produce better cross-modal coupling and spatial task performance than sensory substitution approaches.",
+        "Effect size should exceed sensory substitution because it addresses coupling architecture not individual channel bandwidth.",
+        "Vision-like spatial experiences may emerge from anchored reorganization of existing non-visual channels.",
+        "Same anchor provision mechanism should benefit vestibular disorder and dissociation populations."
+      ],
+      "dependencies": [
+        "GVS protocol designed as reference frame provider not sensory translator.",
+        "Spatial navigation and attention task battery.",
+        "Comparison against matched sensory substitution approach.",
+        "Congenitally blind and acquired blindness populations."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:structural-gap",
+        "cross-contract:COG↔INTERO",
+        "population:blindness",
+        "population:vestibular-disorder"
+      ],
+      "notes": "Identified by a blind trauma therapist and active inference researcher. Mechanistically coherent with the framework. Not sensory substitution — reference frame provision. No contract currently addresses spatial reference frame anchoring as distinct from individual sensory channel function. Requires dedicated development.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-009",
+      "title": "Control Pause as prerequisite for HRV biofeedback efficacy",
+      "description": "Individuals with Control Pause below 25 seconds cannot produce high HRV regardless of breathing technique because the chemoreceptor urgency signal interrupts every extended exhale before RSA amplitude can develop. HRV biofeedback attempts to raise the ceiling without removing the floor constraint. Control Pause training should be prerequisite, not parallel intervention.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "A",
+      "predictions": [
+        "HRV biofeedback response should be significantly attenuated in individuals with Control Pause below 25 seconds.",
+        "Control Pause training before HRV biofeedback should produce better combined outcomes than HRV biofeedback alone.",
+        "Retrospective stratification of existing HRV biofeedback datasets by baseline breathing rate or CO2 tolerance should show threshold effect."
+      ],
+      "dependencies": [
+        "Existing HRV biofeedback datasets with baseline breathing rate or CO2 tolerance measurement.",
+        "Retrospective stratification analysis."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:A",
+        "type:clinical-prediction",
+        "clinical-application:HRV-biofeedback"
+      ],
+      "notes": "Immediately testable through retrospective analysis of existing datasets. Buteyko clinical literature explicitly distinguishes ceiling vs floor — resonant breathing raises RSA within existing ceiling, Buteyko raises the ceiling.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "AUTO-MOD-010",
+      "title": "Buteyko multi-contract biomarker study — CO2 tolerance as shared upstream variable",
+      "description": "No study has measured HRV, CRP/IL-6, fasting glucose, and slow wave sleep proportion simultaneously in a Buteyko intervention. If these four biomarkers move together, it confirms CO2 tolerance threshold as the shared upstream variable producing cross-domain benefit across MET↔AUTO, IMMUNE↔AUTO, AUTO↔MOD, and GLYPH↔AUTO simultaneously.",
+      "contract": "AUTO↔MOD",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "HRV should increase following Buteyko training.",
+        "CRP and IL-6 should decrease.",
+        "Fasting glucose should improve.",
+        "Slow wave sleep proportion should increase.",
+        "All four should move simultaneously, confirming shared upstream mechanism rather than independent effects."
+      ],
+      "dependencies": [
+        "Existing Buteyko RCT design with added biomarker measurement.",
+        "Standard clinical measures: HRV, CRP, IL-6, fasting glucose, polysomnography."
+      ],
+      "labels": [
+        "contract:AUTO↔MOD",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-prediction",
+        "cross-contract:IMMUNE↔AUTO",
+        "cross-contract:MET↔AUTO",
+        "cross-contract:GLYPH↔AUTO"
+      ],
+      "notes": "Highest-yield single study the framework generates for Buteyko. The multi-contract simultaneous effect is the prediction — not individual improvements but their co-occurrence confirming shared mechanism.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MICRO-AUTO-001",
+      "title": "Individual SCFA receptor density variation as gain parameter",
+      "description": "FFAR2/FFAR3 expression on EECs varies between individuals, likely determining the gain of the MICRO→AUTO signal. Same SCFA production could produce different vagal responses based on receptor density. The individual variation parameter for this contract is not characterized.",
+      "contract": "MICRO↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "FFAR2/FFAR3 density should predict HRV response to fermented food or prebiotic interventions independently of SCFA production.",
+        "Individual variation in receptor density explains heterogeneity in microbiome-HRV correlation studies."
+      ],
+      "dependencies": [
+        "EEC biopsy and FFAR2/FFAR3 expression analysis — invasive.",
+        "Matched SCFA production measurement and HRV measurement in same cohort."
+      ],
+      "labels": [
+        "contract:MICRO↔AUTO",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:C",
+        "type:mechanistic-gap"
+      ],
+      "notes": "The individual variation parameter that would explain heterogeneous HRV responses to equivalent microbiome states.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MICRO-AUTO-002",
+      "title": "Neuropod SCFA signaling specificity — fast vs slow path",
+      "description": "Fast path sugar sensing is confirmed via neuropod glutamatergic synapses (milliseconds). Whether SCFAs specifically use the fast neuropod path or the slow hormonal path remains inferential. These paths carry different information at different timescales — the answer determines how rapidly microbiome state affects cognitive and regulatory function.",
+      "contract": "MICRO↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "C",
+      "predictions": [
+        "If SCFAs use fast neuropod path: dietary shifts should produce NTS signal changes within milliseconds of eating.",
+        "If SCFAs use slow hormonal path: regulatory effects from dietary SCFA changes should lag by minutes.",
+        "The two paths carry different information — SCFA path content should differ from sugar sensing path content."
+      ],
+      "dependencies": [
+        "Optogenetic methods from Bohorquez lab extended to SCFA-specific neuropod activation.",
+        "Rabies tracing to confirm SCFA-specific neuropod connectivity."
+      ],
+      "labels": [
+        "contract:MICRO↔AUTO",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:C",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Determines the timescale on which gut microbiome state affects brain regulatory function — milliseconds vs minutes has significant clinical implications.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MICRO-AUTO-003",
+      "title": "AUTO→MICRO timescale in humans",
+      "description": "How quickly vagal tone change produces measurable microbiome composition shift in humans is uncharacterized. The direction is established — high vagal tone favors diverse healthy microbiome. The human timescale is unknown and important for determining whether autonomic interventions produce microbiome changes fast enough to be clinically relevant.",
+      "contract": "MICRO↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "VNS initiation should produce measurable microbiome composition shifts within weeks.",
+        "SCFA-producing species should increase proportionally to vagal tone improvement.",
+        "Timescale should be faster than dietary intervention alone."
+      ],
+      "dependencies": [
+        "VNS initiation cohort.",
+        "Serial microbiome sequencing at defined intervals post-initiation.",
+        "Control for dietary changes."
+      ],
+      "labels": [
+        "contract:MICRO↔AUTO",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Important for determining whether HRV biofeedback and breathing practice produce microbiome changes fast enough to be clinically meaningful.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MICRO-AUTO-004",
+      "title": "Optimal microbiome diversity threshold for measurable HRV impairment",
+      "description": "The directional relationship between microbiome diversity and HRV is established. The clinical threshold — at what point does diversity degradation produce measurable HRV impairment — is not defined. This is the clinical decision point needed to make microbiome assessment actionable.",
+      "contract": "MICRO↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "A",
+      "predictions": [
+        "There should be a threshold diversity level below which HRV begins to decline measurably.",
+        "The threshold should be identifiable from existing large-scale datasets with both microbiome and HRV measures.",
+        "Threshold may vary by SCFA-producing species abundance rather than overall diversity."
+      ],
+      "dependencies": [
+        "Large-scale datasets with both microbiome sequencing and HRV measurement.",
+        "UK Biobank, American Gut Project, cardiovascular cohorts."
+      ],
+      "labels": [
+        "contract:MICRO↔AUTO",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:A",
+        "type:clinical-threshold"
+      ],
+      "notes": "Assemblable from existing data. The threshold identification is the clinical translation step that makes microbiome diversity measurement actionable.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MOD-COG-001",
+      "title": "ADHD temporal horizon dopaminergic asymmetry",
+      "description": "ADHD involves normal precision weighting at short temporal horizons with specific impairment at long horizons — not a global attention or learning deficit. March 2026 bioRxiv preprint confirmed this behaviorally. The dopaminergic D2-mediated mechanism at long temporal horizons specifically has not been directly measured.",
+      "contract": "MOD↔COG",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "confirmed-behavioral",
+      "bucket": "A",
+      "predictions": [
+        "D2 receptor density or function should show temporal horizon-specific variation in ADHD.",
+        "Delay discounting task performance should dissociate by temporal horizon in ADHD vs NT.",
+        "Stimulant medication should selectively improve long-horizon precision weighting more than short-horizon."
+      ],
+      "dependencies": [
+        "Reanalysis of existing delay discounting datasets through precision weighting framing.",
+        "D2 PET imaging with temporal discounting tasks in same participants."
+      ],
+      "labels": [
+        "contract:MOD↔COG",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:A",
+        "type:mechanistic-gap",
+        "population:ADHD",
+        "evidence:confirmed-behavioral"
+      ],
+      "notes": "Behavioral confirmation in March 2026 bioRxiv preprint — prediction formation preserved in ADHD, long-timescale utilization attenuated. Framework predicted this from precision weighting architecture. Neurochemical substrate still future study.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MOD-COG-002",
+      "title": "Individual CB1 density as master cross-domain psychiatric predictor",
+      "description": "If ECS is the gain controller for all three monoamine systems simultaneously, CB1 receptor density variation should predict psychiatric vulnerability across multiple domains simultaneously — HRV, anhedonia, cognitive flexibility, and anxiety threshold — rather than showing isolated single-domain effects.",
+      "contract": "MOD↔COG",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "unknown",
+      "bucket": "B",
+      "predictions": [
+        "CB1 density should predict HRV, anhedonia, cognitive flexibility, and anxiety threshold simultaneously.",
+        "Cross-domain correlation pattern should not be explicable by any single monoamine measure.",
+        "CB1 density variation should explain residual variance in psychiatric presentations after monoamine measures are controlled."
+      ],
+      "dependencies": [
+        "PET CB1 imaging.",
+        "Simultaneous multi-domain assessment: HRV, anhedonia scale, cognitive flexibility task, anxiety threshold measure.",
+        "Large enough sample for multivariate analysis."
+      ],
+      "labels": [
+        "contract:MOD↔COG",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:mechanistic-gap"
+      ],
+      "notes": "If confirmed, establishes CB1 density as the master individual difference variable for psychiatric vulnerability across multiple diagnostic categories simultaneously.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MOD-COG-003",
+      "title": "ECS-monoamine cross-domain correlation",
+      "description": "Existing studies examine ECS and one monoamine system at a time. The prediction that ECS tone markers should correlate simultaneously across all three monoamine domains — dopamine, serotonin, norepinephrine — as reflected in HRV, cognitive flexibility, reward sensitivity, and anxiety threshold has not been tested with simultaneous cross-domain measurement.",
+      "contract": "MOD↔COG",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Plasma anandamide should correlate with HRV, cognitive flexibility, reward sensitivity, and anxiety threshold simultaneously.",
+        "Cross-domain correlation pattern should be stronger for ECS markers than for any single monoamine measure.",
+        "ECS enhancement interventions should produce improvements across all four domains simultaneously."
+      ],
+      "dependencies": [
+        "Plasma endocannabinoid measurement.",
+        "Simultaneous multi-domain assessment in same cohort.",
+        "Sufficient sample size for multivariate analysis."
+      ],
+      "labels": [
+        "contract:MOD↔COG",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Would confirm ECS as master gain controller for all three monoamine systems rather than a single-system modulator.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "MOD-COG-004",
+      "title": "Psychedelic therapeutic window — regulatory environment determines stable vs relapse outcome",
+      "description": "What determines whether post-psychedelic reorganization produces stable benefit vs relapse is unresolved. The framework predicts it depends on the regulatory environment during the window — specifically whether scaffolding is present to stabilize the new prior before the system re-enters its attractor.",
+      "contract": "MOD↔COG",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Regulatory environment quality during post-psychedelic window should predict long-term outcomes independently of dose and set.",
+        "HRV during the integration period should predict outcome — higher vagal tone = better prior stabilization.",
+        "Deliberate scaffolding interventions during the window should improve durable outcome rates."
+      ],
+      "dependencies": [
+        "Psychedelic therapy datasets with post-session regulatory state measurement.",
+        "HRV monitoring during integration period.",
+        "Long-term follow-up outcome measurement."
+      ],
+      "labels": [
+        "contract:MOD↔COG",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "clinical-application:psychedelic-therapy"
+      ],
+      "notes": "Explains why therapeutic psychedelic use produces different outcomes from recreational use — not dose or molecule but regulatory scaffolding during the window.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "COG-INTERO-001",
+      "title": "Pre-operative interoceptive screening for post-surgical FND risk",
+      "description": "Vulnerability profile for post-surgical FND is confirmed — high external threat reactivity combined with low interoceptive accuracy. Surgical onset mechanism confirmed. Pre-operative screening protocol combining interoceptive accuracy measurement plus stress reactivity profiling has not been tested prospectively.",
+      "contract": "COG↔INTERO",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Pre-operative interoceptive accuracy should predict post-surgical FND risk better than psychiatric history.",
+        "High external threat reactivity + low interoceptive accuracy = highest risk profile.",
+        "Graduated pre-surgical interoceptive body-mapping preparation should reduce FND incidence in high-risk patients."
+      ],
+      "dependencies": [
+        "Elective surgery cohort.",
+        "Pre-operative interoceptive accuracy measurement (heartbeat detection task or respiratory interoception).",
+        "Stress reactivity profiling.",
+        "FND outcome follow-up at 6 and 12 months."
+      ],
+      "labels": [
+        "contract:COG↔INTERO",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-prediction",
+        "clinical-application:FND-prevention",
+        "clinical-application:surgical-screening"
+      ],
+      "notes": "Immediately translatable to clinical practice if confirmed. All tools exist. FND and surgical outcomes literatures have never been connected through this mechanism. High clinical impact — preventive application.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "COG-INTERO-002",
+      "title": "Post-surgical FND as mechanistically distinct from chronic FND",
+      "description": "Post-surgical FND involves acute interoceptive discontinuity — the prior was calibrated to one body state, surgery produces sudden signal environment change, the mismatch exceeds updating capacity. Chronic FND involves gradual prior drift. These are different mechanisms requiring different treatment approaches. The distinction has not been formally made in clinical literature.",
+      "contract": "COG↔INTERO",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "A",
+      "predictions": [
+        "Post-surgical FND should show more acute onset with specific trigger (surgery) vs gradual onset in chronic FND.",
+        "Post-surgical FND should respond better to interoceptive recalibration vs chronic FND responding better to prior updating approaches.",
+        "Pre-surgical interoceptive accuracy should predict post-surgical FND specifically — not chronic FND risk."
+      ],
+      "dependencies": [
+        "Clinical FND literature synthesis.",
+        "Case series distinguishing onset pattern and precipitating events.",
+        "Treatment response comparison across onset types."
+      ],
+      "labels": [
+        "contract:COG↔INTERO",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:A",
+        "type:clinical-distinction",
+        "clinical-application:FND-treatment"
+      ],
+      "notes": "Assemblable from existing clinical literature. Distinction has significant treatment implications — different mechanisms require different intervention approaches.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "INTERO-DEV-001",
+      "title": "Window-specific adversity producing window-specific interoceptive profiles",
+      "description": "Direction is established — early adversity affects interoceptive function. The specific prediction that adversity during particular developmental windows (e.g. amygdala development window ages 3-7) produces distinct precision weighting patterns not seen from adversity at other windows has not been assembled.",
+      "contract": "INTERO↔DEV",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Amygdala-window adversity (ages 3-7) should produce threat-specific interoceptive precision elevation.",
+        "Different windows should produce different interoceptive profiles, not just globally worse outcomes.",
+        "Window-specific profiles should predict which interoceptive channels show the most precision weighting distortion."
+      ],
+      "dependencies": [
+        "Cohort with adversity timing data.",
+        "Interoceptive accuracy battery across multiple modalities (cardiac, respiratory, gastric).",
+        "Multi-window comparison analysis."
+      ],
+      "labels": [
+        "contract:INTERO↔DEV",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:mechanistic-gap",
+        "population:adverse-childhood-experience"
+      ],
+      "notes": "Window-specific adversity producing window-specific interoceptive profiles would allow targeted interoceptive rehabilitation matching the specific channel affected by the developmental timing.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "INTERO-DEV-002",
+      "title": "Transgenerational epigenetic load predicting regulatory baseline independently of individual experience",
+      "description": "Holocaust survivor offspring studies confirm transgenerational transmission of FKBP5 and NR3C1 methylation affecting HPA axis calibration across F1-F3 generations. The specific prediction that parental trauma load predicts offspring HRV baseline independently of the offspring's own adverse experience history requires multigenerational datasets combining methylation profiling and HRV measurement.",
+      "contract": "INTERO↔DEV",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "load-bearing",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Parental trauma-associated methylation signatures should predict offspring HRV baseline independently of offspring ACE score.",
+        "Children with no personal adverse experience but high parental trauma load should show lower HRV than matched children with low parental trauma load.",
+        "Effect should be quantifiable and partially mediating the relationship between ancestry and regulatory capacity."
+      ],
+      "dependencies": [
+        "Multigenerational cohort with documented parental trauma history.",
+        "Offspring methylation profiling (NR3C1, FKBP5).",
+        "Offspring HRV measurement.",
+        "Offspring adverse experience assessment for independence test."
+      ],
+      "labels": [
+        "contract:INTERO↔DEV",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:intergenerational-trauma"
+      ],
+      "notes": "Transgenerational methylation transmission confirmed. The independence prediction — regulatory baseline prediction from ancestral trauma independently of individual history — requires the specific study design.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "INTERO-DEV-003",
+      "title": "Palatal architecture → nasal cycle → regulatory capacity full chain",
+      "description": "Component links are load-bearing individually: mouth breathing produces palatal narrowing, palate expansion restores nasal breathing, nasal breathing drives the nasal cycle, nasal cycle drives hemispheric lateralization shifts. The assembled chain with simultaneous rhinomanometry and HRV monitoring before and after palate expansion has not been studied.",
+      "contract": "INTERO↔DEV",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Palatal expansion restoring nasal breathing should produce measurable HRV improvement.",
+        "Nasal cycle amplitude should increase following structural restoration.",
+        "HRV and nasal cycle improvement should correlate in magnitude with degree of airway restoration.",
+        "Neurobehavioral improvements in children should parallel HRV and nasal cycle changes."
+      ],
+      "dependencies": [
+        "Orthodontic or pediatric ENT cohort with documented palatal narrowing and mouth breathing.",
+        "Rhinomanometry for nasal airflow measurement.",
+        "HRV measurement.",
+        "Assessment before and after palate expansion."
+      ],
+      "labels": [
+        "contract:INTERO↔DEV",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:pediatric",
+        "clinical-application:orthodontics"
+      ],
+      "notes": "The developmental window closes when the midpalatal suture fuses in mid-teens. Same intervention requiring 6-12 months in children requires orthognathic surgery in adults. Clinical urgency in pediatric population.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "NOCI-COG-001",
+      "title": "Pre-injury HRV predicting chronic pain chronification risk",
+      "description": "Pre-injury vagal tone determines ECS-mediated nociceptive precision gain — how strongly the threat prior is written by an acute injury event. Pre-injury HRV should therefore predict chronification risk better than injury severity, age, or psychological history. Not yet tested in prospective surgical cohorts.",
+      "contract": "NOCI↔COG",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Pre-operative HRV should predict chronic pain at 6 and 12 months post-surgery.",
+        "Prediction should hold after controlling for injury severity, age, and psychological history.",
+        "Low pre-operative HRV should identify patients who need perioperative autonomic support."
+      ],
+      "dependencies": [
+        "Elective surgery cohort.",
+        "Pre-operative HRV measurement.",
+        "Chronic pain outcome follow-up at 6 and 12 months."
+      ],
+      "labels": [
+        "contract:NOCI↔COG",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-prediction",
+        "clinical-application:chronic-pain-prevention",
+        "clinical-application:surgical-screening"
+      ],
+      "notes": "Probably the single highest-yield Bucket B study. If confirmed, establishes HRV measurement before elective surgery as a clinical standard. All infrastructure exists. The connection between HRV and surgical pain outcomes literatures has not been made.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "NOCI-COG-002",
+      "title": "TRPV1 dual-role interference — pain state affecting vagal regulatory signaling",
+      "description": "TRPV1 mediates both vagal SCFA regulatory signaling (MICRO↔AUTO) and peripheral nociceptor sensitization. If chronic peripheral inflammatory pain sensitizes TRPV1 broadly, the gut-vagal regulatory signal may be distorted simultaneously. Pain may be degrading the MICRO↔AUTO regulatory channel through the same molecular mechanism it uses to generate peripheral sensitization.",
+      "contract": "NOCI↔COG",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "Chronic peripheral pain states should show altered HRV characteristics reflecting degraded vagal TRPV1 signaling.",
+        "Peripheral TRPV1 sensitization should correlate with reduced SCFA-mediated vagal response.",
+        "TRPV1 antagonism should differentially affect pain vs regulatory signaling depending on peripheral vs vagal application."
+      ],
+      "dependencies": [
+        "Animal models measuring vagal TRPV1 sensitivity during peripheral inflammatory states.",
+        "Or invasive human studies with controlled TRPV1 manipulation."
+      ],
+      "labels": [
+        "contract:NOCI↔COG",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:C",
+        "type:mechanistic-gap",
+        "cross-contract:MICRO↔AUTO"
+      ],
+      "notes": "Genuinely unknown — gap identification rather than assembled chain. Direction cannot be predicted from first principles. Animal models are the first step.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "NOCI-COG-003",
+      "title": "ND mast cell threshold → peripheral nociceptor sensitization → ND pain sensitivity",
+      "description": "ND profiles have lower mast cell activation thresholds. Mast cells reside adjacent to peripheral nociceptors and sensitize them via histamine and tryptase when activated. This peripheral sensitization mechanism is distinct from central precision weighting differences. ND pain sensitivity may be substantially peripheral in origin, not just central processing differences.",
+      "contract": "NOCI↔COG",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "ND-MCAS individuals should show lower mechanical pain thresholds at non-sensitized body locations vs NT controls.",
+        "Threshold difference should correlate with mast cell activation markers, not central sensitization markers.",
+        "Mast cell stabilization should produce pain threshold improvement tracking anti-inflammatory effect."
+      ],
+      "dependencies": [
+        "ND-MCAS cohort vs neurotypical controls.",
+        "Matched for central sensitization markers.",
+        "Mechanical pain threshold at non-sensitized locations.",
+        "Mast cell activation markers: tryptase, histamine metabolites."
+      ],
+      "labels": [
+        "contract:NOCI↔COG",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:neurodivergent",
+        "population:MCAS",
+        "clinical-application:chronic-pain"
+      ],
+      "notes": "ND pain sensitivity framing as central processing difference is incomplete. Peripheral mast cell sensitization mechanism predicts lower thresholds at non-sensitized locations — directly distinguishable from central mechanism.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "NOCI-COG-004",
+      "title": "Interoceptive attention as volume knob maintenance — focal attention amplifying pain prior",
+      "description": "Directing focal interoceptive attention toward a body region amplifies signal from that region through precision weighting, which updates the threat prior, which generates active inference tension, producing more signal, maintaining attention. Third chronic pain maintenance mechanism beyond peripheral sensitization and behavioral avoidance — purely attentional, no tissue input required. Standard mindfulness attention-to-body instruction may be contraindicated for ND chronic pain profiles.",
+      "contract": "NOCI↔COG",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Focal interoceptive attention should produce larger pain signal amplification in ND vs NT profiles.",
+        "Peripheral interoceptive awareness (defusion) should produce lower pain threshold than focal interoceptive attention in chronic pain.",
+        "Standard mindfulness body scan should worsen pain in ND chronic pain profiles through this mechanism.",
+        "FND presentations should show attentional lock on affected body region as maintenance mechanism."
+      ],
+      "dependencies": [
+        "EEG or fMRI during focal vs peripheral interoceptive attention conditions.",
+        "Chronic pain population.",
+        "Pain threshold measurement in both conditions.",
+        "ND vs NT comparison."
+      ],
+      "labels": [
+        "contract:NOCI↔COG",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:neurodivergent",
+        "clinical-application:chronic-pain",
+        "clinical-application:FND",
+        "cross-contract:AUTO↔MOD",
+        "cross-contract:COG↔INTERO"
+      ],
+      "notes": "FND jaw case is the clean demonstration — attention → amplified signal → active inference tension → proprioceptive confirmation → attention maintained. No injury, no inflammation, no avoidance required. Therapeutic implication: interoceptive defusion rather than attention.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "GLYPH-AUTO-001",
+      "title": "Respiratory muscle strength predicting CSF flow velocity independently of age",
+      "description": "The pump maintenance hypothesis predicts that diaphragmatic strength and thoracic compliance are primary determinants of glymphatic clearance rate independently of age, vascular stiffening, or aquaporin changes. Not yet measured with phase-contrast MRI across respiratory fitness levels.",
+      "contract": "GLYPH↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Spirometry and diaphragm ultrasound should predict CSF flow velocity on phase-contrast MRI independently of age.",
+        "Long-term yoga practitioners should show higher CSF flow velocity than sedentary age-matched controls.",
+        "Respiratory fitness should account for significant variance in CSF flow beyond vascular stiffening measures."
+      ],
+      "dependencies": [
+        "Spirometry.",
+        "Diaphragm ultrasound for excursion amplitude.",
+        "Phase-contrast MRI for CSF flow velocity.",
+        "Cross-sectional cohort across age and respiratory fitness levels."
+      ],
+      "labels": [
+        "contract:GLYPH↔AUTO",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-prediction",
+        "clinical-application:neurological-aging"
+      ],
+      "notes": "The pump maintenance framing — breathing mechanics as primary determinant of clearance rate — is the framework's central prediction for neurological aging prevention. This study design assembles three existing methods around a question that hasn't been framed.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "GLYPH-AUTO-002",
+      "title": "Yoga practitioners showing lower amyloid accumulation — pump maintenance as neurological aging prevention",
+      "description": "Long-term yoga practitioners maintain diaphragmatic strength and thoracic compliance. The framework predicts they should show reduced amyloid accumulation rates and better preserved cognitive function in aging relative to sedentary age-matched controls — through the pump maintenance mechanism rather than any other yoga health effect.",
+      "contract": "GLYPH↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "predictive",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Amyloid PET burden should be lower in long-term yoga practitioners vs sedentary controls matched for cardiovascular health and diet.",
+        "Effect should be partially independent of sleep architecture quality — isolating the pump mechanism from the window mechanism.",
+        "Respiratory fitness measures should mediate the yoga → amyloid relationship."
+      ],
+      "dependencies": [
+        "Amyloid PET imaging.",
+        "Long-term yoga practitioner cohort.",
+        "Sedentary age-matched controls matched for cardiovascular health and diet.",
+        "Respiratory fitness measurement for mediation analysis."
+      ],
+      "labels": [
+        "contract:GLYPH↔AUTO",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "clinical-application:neurological-aging",
+        "clinical-application:Alzheimers-prevention"
+      ],
+      "notes": "Cross-sectional version is Bucket B. Longitudinal version is Bucket C. Cross-sectional study provides initial evidence that pump mechanism rather than lifestyle correlates drives the effect.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "GLYPH-AUTO-003",
+      "title": "Pre-sleep HRV predicting slow wave proportion and glymphatic clearance outcome",
+      "description": "Autonomic state at sleep onset determines slow wave sleep architecture quality. Pre-sleep HRV should predict slow wave proportion that night and therefore glymphatic clearance outcome independently of sleep duration. Confirmed directionally in athletes. Not yet tested as a deliberate intervention target.",
+      "contract": "GLYPH↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "confirmed-directional",
+      "bucket": "A",
+      "predictions": [
+        "Pre-sleep HRV in 30 minutes before sleep onset should predict slow wave proportion that night.",
+        "Prediction should hold independently of total sleep time.",
+        "Evening practices that raise vagal tone should produce measurable slow wave architecture improvement."
+      ],
+      "dependencies": [
+        "Polysomnography archives with concurrent HRV measurement.",
+        "Retrospective analysis of pre-sleep vs sleep architecture relationship."
+      ],
+      "labels": [
+        "contract:GLYPH↔AUTO",
+        "category:Unresolved",
+        "priority:high",
+        "bucket:A",
+        "type:clinical-prediction",
+        "clinical-application:sleep",
+        "clinical-application:glymphatic-clearance"
+      ],
+      "notes": "Confirmed in athletes (R²=0.902 for chronic insomnia prediction, r=0.536 for deep sleep time). Assemblable from existing polysomnography datasets. Most directly actionable Bucket A prediction in GLYPH↔AUTO.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "GLYPH-AUTO-004",
+      "title": "Kumbhaka → CSF pulsatility dynamics during breath retention",
+      "description": "During breath retention the respiratory component of CSF pulsatility suspends while arterial pulsatility continues. The net effect on glymphatic clearance in trained practitioners is genuinely unknown. May produce a qualitatively different clearance state than either normal breathing or slow wave sleep. Sits at the intersection of AUTO↔MOD, GLYPH↔AUTO, and the physics layer.",
+      "contract": "GLYPH↔AUTO",
+      "category": "Unresolved Links",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "CSF flow velocity should decrease during breath retention relative to slow deep breathing.",
+        "Arterial-only pulsatility during retention may produce a different perivascular flow pattern.",
+        "Extended retention may produce a distinct clearance state not achievable through normal breathing."
+      ],
+      "dependencies": [
+        "Phase-contrast MRI during extended trained breath retention.",
+        "Specialized MRI-compatible protocol.",
+        "Trained practitioners capable of extended retention."
+      ],
+      "labels": [
+        "contract:GLYPH↔AUTO",
+        "category:Unresolved",
+        "priority:medium",
+        "bucket:C",
+        "type:mechanistic-gap",
+        "cross-contract:AUTO↔MOD"
+      ],
+      "notes": "Novel prediction at intersection of two contracts and the physics layer. Nobody has looked at CSF dynamics during trained breath retention. Phase-contrast MRI is technically feasible but requires specialized protocol and trained subjects.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-001",
+      "title": "Estrogen-histamine cross-contract interaction for ND women with MCAS across menstrual cycle",
+      "description": "High-estrogen phase opens the plasticity window through perineuronal net dissolution (INTERO↔DEV) while simultaneously elevating mast cell reactivity and impairing histamine degradation via reduced DAO enzyme activity (MET↔IMMUNE). For ND women with MCAS these two effects arrive in the same menstrual phase. Neither contract accounts for which effect dominates. No clinical protocol navigates this interaction.",
+      "contract": "MET↔IMMUNE × INTERO↔DEV",
+      "category": "Cross-Contract Interactions",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "High-estrogen phase may produce variable therapeutic access in ND women with MCAS — enhanced by plasticity window or impaired by immune reactivity.",
+        "Which effect dominates may depend on baseline MCAS severity.",
+        "Standard recommendation to use high-estrogen phase for therapeutic work may be wrong for this population specifically.",
+        "Mast cell load measurement should predict whether plasticity or immune reactivity dominates in a given cycle."
+      ],
+      "dependencies": [
+        "Longitudinal study in ND women with MCAS.",
+        "Menstrual cycle phase tracking.",
+        "Mast cell activation markers: tryptase, histamine metabolites, DAO enzyme activity.",
+        "HRV measurement.",
+        "Plasticity window markers where accessible.",
+        "Minimum 2-3 complete cycles."
+      ],
+      "labels": [
+        "cross-contract:MET↔IMMUNE",
+        "cross-contract:INTERO↔DEV",
+        "category:Cross-Contract",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:neurodivergent",
+        "population:MCAS",
+        "population:women"
+      ],
+      "notes": "Most clinically significant unaddressed gap for a specific population in the entire framework. All component pieces exist. No integrated account. No existing clinical guidance for this interaction.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-002",
+      "title": "Therapeutic presence as analgesia — SOC↔AUTO × NOCI↔COG mechanism",
+      "description": "Regulated social presence → vagal tone → ECS → nociceptive gain reduction. The mechanism is complete. Therapeutic touch and therapeutic relationship as pain interventions through ECS-mediated gain reduction are mechanistically distinct from placebo and from distraction. Currently a one-liner in NOCI↔COG operating states with no dedicated development.",
+      "contract": "SOC↔AUTO × NOCI↔COG",
+      "category": "Cross-Contract Interactions",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Regulated therapist presence should produce measurable pain threshold increase vs unregulated presence.",
+        "Effect should be mediated by HRV increase in the patient.",
+        "Simultaneous bilateral HRV should show synchronization between regulated therapist and patient.",
+        "Effect should exceed matched attention control conditions, distinguishing from distraction."
+      ],
+      "dependencies": [
+        "Dyadic pain threshold measurement setup.",
+        "Regulated vs unregulated therapist conditions.",
+        "Simultaneous bilateral HRV monitoring of both participants.",
+        "Attention control condition."
+      ],
+      "labels": [
+        "cross-contract:SOC↔AUTO",
+        "cross-contract:NOCI↔COG",
+        "category:Cross-Contract",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "clinical-application:pain-management",
+        "clinical-application:therapeutic-presence"
+      ],
+      "notes": "Mechanistically distinct from placebo — not expectation modulation but direct gain reduction via vagal tone. Therapeutic relationship IS the physiological intervention, not merely the context for it.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-003",
+      "title": "MICRO↔AUTO × NOCI↔COG — TRPV1 dual role peripheral pain degrading vagal regulatory channel",
+      "description": "TRPV1 mediates both gut-vagal SCFA regulatory signaling and peripheral nociceptor sensitization. If chronic pain states sensitize TRPV1 broadly, the gut-vagal regulatory signal may be distorted simultaneously. The pain state could be degrading the MICRO↔AUTO channel through the same molecular mechanism it uses to generate peripheral sensitization.",
+      "contract": "MICRO↔AUTO × NOCI↔COG",
+      "category": "Cross-Contract Interactions",
+      "priority": "low",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "Chronic peripheral pain populations should show altered gut-vagal signaling characteristics beyond what autonomic dysregulation alone predicts.",
+        "TRPV1 sensitization from peripheral inflammation should correlate with degraded SCFA-mediated HRV response.",
+        "TRPV1 antagonism in peripheral tissue should differentially affect pain vs regulatory TRPV1 function."
+      ],
+      "dependencies": [
+        "Animal models measuring vagal TRPV1 sensitivity during peripheral inflammation.",
+        "Invasive human study or specific TRPV1 manipulation."
+      ],
+      "labels": [
+        "cross-contract:MICRO↔AUTO",
+        "cross-contract:NOCI↔COG",
+        "category:Cross-Contract",
+        "priority:low",
+        "bucket:C",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Open question — direction genuinely uncertain. Framework identifies the gap, cannot predict direction. Animal models first step.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-004",
+      "title": "AUTO↔MOD × GLYPH↔AUTO — Kumbhaka CSF dynamics cross-contract",
+      "description": "During breath retention the respiratory component of CSF pulsatility suspends while arterial pulsatility continues. The net clearance effect in trained practitioners is unknown. May produce a qualitatively different clearance state than either normal breathing or slow wave sleep. Novel prediction at intersection of two contracts and the physics layer.",
+      "contract": "AUTO↔MOD × GLYPH↔AUTO",
+      "category": "Cross-Contract Interactions",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "C",
+      "predictions": [
+        "Phase-contrast MRI during trained retention should show reduced CSF flow relative to slow deep breathing.",
+        "Micro-vented holds should show higher CSF flow velocity than static holds of matched duration.",
+        "Extended retention may produce a distinct clearance signature not predictable from either normal breathing or sleep data."
+      ],
+      "dependencies": [
+        "Phase-contrast MRI during extended trained breath retention.",
+        "Both static and micro-vented hold conditions.",
+        "Trained practitioners."
+      ],
+      "labels": [
+        "cross-contract:AUTO↔MOD",
+        "cross-contract:GLYPH↔AUTO",
+        "category:Cross-Contract",
+        "priority:medium",
+        "bucket:C",
+        "type:mechanistic-gap"
+      ],
+      "notes": "Nobody has measured CSF flow during trained breath retention. The intersection of the pressure mechanics substrate and the clearance mechanism is genuinely unexplored.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-005",
+      "title": "MET↔IMMUNE × NOCI↔COG — dietary glucose → mast cell → peripheral sensitization → pain intervention sequence",
+      "description": "The mechanism is assembled in NOCI↔COG Link 4. The clinical intervention sequence is stated as a failure mode but not assembled as a protocol. Sequence matters: dietary glucose reduction first, mast cell stabilization second, vagal tone restoration third, graded exposure in reduced-gain state fourth. All out of order or sequential application without this sequencing produces suboptimal outcomes.",
+      "contract": "MET↔IMMUNE × NOCI↔COG",
+      "category": "Cross-Contract Interactions",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Dietary glucose reduction should produce pain threshold improvement within 2-4 weeks — mast cell timescale.",
+        "Mast cell stabilization + dietary management should produce greater pain improvement than either alone.",
+        "Graded exposure in low-gain state (post-mast cell stabilization + high vagal tone) should produce better outcomes than graded exposure alone.",
+        "Sequenced protocol should outperform standard multimodal pain management."
+      ],
+      "dependencies": [
+        "ND chronic pain population.",
+        "Sequential intervention design: dietary → mast cell stabilization → vagal tone → graded exposure.",
+        "Pain threshold measurement at each stage.",
+        "Comparison against standard multimodal treatment."
+      ],
+      "labels": [
+        "cross-contract:MET↔IMMUNE",
+        "cross-contract:NOCI↔COG",
+        "category:Cross-Contract",
+        "priority:high",
+        "bucket:B",
+        "type:clinical-protocol",
+        "population:neurodivergent",
+        "clinical-application:chronic-pain"
+      ],
+      "notes": "The sequence matters — peripheral gain reduction must precede central interventions. Graded exposure during high-gain state may confirm rather than contradict the threat prior. Protocol assembly is the contribution.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-006",
+      "title": "Circadian × IMMUNE↔AUTO — phase-dependent CAP responsiveness and ND delayed phase",
+      "description": "CAP responsiveness varies across the 24-hour cycle — nocturnal inflammatory peaks when vagal tone is lowest. ND delayed phase profiles have their lowest CAP responsiveness arriving at different clock times than neurotypical individuals. Standard anti-inflammatory treatment timing recommendations may be systematically mistimed for this population.",
+      "contract": "IMMUNE↔AUTO × Temporal Layer",
+      "category": "Cross-Contract Interactions",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "ND delayed phase individuals should show their lowest CAP responsiveness at later clock times than NT controls.",
+        "Anti-inflammatory interventions timed to NT circadian phase should show reduced efficacy in ND delayed phase populations.",
+        "Phase-relative timing of anti-inflammatory interventions should improve outcomes in delayed phase ND."
+      ],
+      "dependencies": [
+        "Time-of-day controlled HRV measurement in ND delayed phase vs NT populations.",
+        "Inflammatory marker sampling at matched circadian intervals.",
+        "Phase determination via actigraphy or dim light melatonin onset."
+      ],
+      "labels": [
+        "cross-contract:IMMUNE↔AUTO",
+        "cross-contract:Temporal",
+        "category:Cross-Contract",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:neurodivergent",
+        "clinical-application:chronotherapy"
+      ],
+      "notes": "Standard treatment timing assumes neurotypical phase. For delayed phase ND profiles the optimal intervention window arrives at a different clock time. Systematic mistiming may explain reduced treatment efficacy in this population.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-007",
+      "title": "Circadian × MET↔AUTO — insulin sensitivity windows and delayed phase",
+      "description": "Insulin sensitivity has a strong circadian profile — morning metabolic window is well documented. For delayed phase profiles the metabolic window arrives later. Standard eat-breakfast-early recommendations may be actively counterproductive for delayed phase ND profiles, prescribing eating at a time equivalent to their biological middle of the night in terms of insulin sensitivity.",
+      "contract": "MET↔AUTO × Temporal Layer",
+      "category": "Cross-Contract Interactions",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Insulin sensitivity should peak at later clock times in delayed phase profiles than NT controls.",
+        "Phase-relative meal timing should produce better metabolic outcomes than clock-time meal timing in delayed phase populations.",
+        "Standard eat-breakfast-early recommendation should produce worse glycemic response in delayed phase profiles."
+      ],
+      "dependencies": [
+        "Delayed phase ND cohort with confirmed phase by actigraphy or DLMO.",
+        "Oral glucose tolerance testing at matched circadian phase vs matched clock time.",
+        "Comparison with NT controls."
+      ],
+      "labels": [
+        "cross-contract:MET↔AUTO",
+        "cross-contract:Temporal",
+        "category:Cross-Contract",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:neurodivergent",
+        "clinical-application:chronotherapy",
+        "clinical-application:metabolic-health"
+      ],
+      "notes": "Eat-breakfast-early is a near-universal nutritional recommendation calibrated to neurotypical phase. May be systematically wrong for delayed phase profiles — actively harmful by prescribing eating during their biological low-insulin-sensitivity window.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CROSS-008",
+      "title": "Circadian × MOD↔COG — dopamine and ECS circadian peaks and delayed phase scheduling",
+      "description": "Dopamine and ECS availability have circadian release patterns. For delayed phase profiles the dopamine and ECS peaks arrive at clock times that standard scheduling treats as wind-down time. The mismatch between when cognitive performance is demanded and when the neurochemical substrate peaks is probably a significant contributor to ND performance variability that has never been assembled.",
+      "contract": "MOD↔COG × Temporal Layer",
+      "category": "Cross-Contract Interactions",
+      "priority": "medium",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Dopamine and ECS availability should peak at later clock times in delayed phase ND profiles.",
+        "Cognitive performance on precision weighting tasks should show peak at phase-relative rather than clock-time morning.",
+        "Phase-relative scheduling of cognitively demanding work should produce better outcomes than clock-time scheduling."
+      ],
+      "dependencies": [
+        "Delayed phase ND cohort.",
+        "Plasma endocannabinoid and dopamine metabolite measurement across the day.",
+        "Cognitive performance tasks at matched circadian phase vs matched clock time."
+      ],
+      "labels": [
+        "cross-contract:MOD↔COG",
+        "cross-contract:Temporal",
+        "category:Cross-Contract",
+        "priority:medium",
+        "bucket:B",
+        "type:clinical-prediction",
+        "population:neurodivergent",
+        "clinical-application:chronotherapy",
+        "clinical-application:cognitive-performance"
+      ],
+      "notes": "The neurochemical substrate for peak cognitive performance arrives later for delayed phase profiles. Demanding performance at 9am from a delayed phase ND individual is demanding performance before the dopamine and ECS peaks have arrived.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "STRUCT-001",
+      "title": "No contract for acute stress response resolution — trauma onset mechanism",
+      "description": "The framework describes chronic sympathetic dominance extensively. The acute stress response — fight/flight activation, its natural resolution through physical discharge, and consequences of incomplete resolution — has no dedicated contract. The difference between acute stress that resolves and acute stress that initiates a chronic attractor state is the most clinically important transition in the framework and it's not formally described.",
+      "contract": "Structural Gap",
+      "category": "Structural Gaps",
+      "priority": "high",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "B",
+      "predictions": [
+        "Incomplete resolution of acute stress response should predict higher probability of chronic attractor state formation.",
+        "Physical discharge completion should predict better regulatory recovery than interrupted discharge.",
+        "The transition from acute to chronic sympathetic dominance should be identifiable as a specific regulatory event."
+      ],
+      "dependencies": [
+        "Longitudinal HRV monitoring around acute stress events.",
+        "Comparison of resolved vs unresolved discharge patterns.",
+        "Follow-up assessment of chronic attractor state formation."
+      ],
+      "labels": [
+        "category:Structural-Gap",
+        "priority:high",
+        "bucket:B",
+        "type:missing-contract",
+        "clinical-application:trauma"
+      ],
+      "notes": "Probably where the trauma onset mechanism lives more completely than in any existing contract. SOC↔AUTO covers activation states. The resolution mechanism and consequences of incomplete resolution aren't assembled anywhere.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "STRUCT-002",
+      "title": "No contract for sleep architecture as a regulatory layer",
+      "description": "GLYPH↔AUTO addresses sleep as the clearance window. The temporal layer addresses circadian phase. Sleep architecture itself — stage sequence, what determines stage transitions, what disrupts them, regulatory consequences beyond clearance — has no dedicated home. REM sleep and memory consolidation, slow wave and REM proportion relationships, architectural disruption consequences for contracts above are named in fragments but not assembled.",
+      "contract": "Structural Gap",
+      "category": "Structural Gaps",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "REM sleep proportion should predict memory consolidation and prior updating outcomes across diagnoses.",
+        "Sleep architecture disruption consequences should propagate upward through MOD↔COG and COG↔INTERO.",
+        "REM and slow wave proportions interact — changes in one should produce compensatory changes in the other."
+      ],
+      "dependencies": [
+        "Assembly of sleep architecture literature through the framework's precision weighting lens.",
+        "Cross-contract mapping of architectural disruption consequences."
+      ],
+      "labels": [
+        "category:Structural-Gap",
+        "priority:medium",
+        "bucket:B",
+        "type:missing-contract",
+        "clinical-application:sleep"
+      ],
+      "notes": "Fragments exist across GLYPH↔AUTO, temporal layer, and MOD↔COG. Integration into a dedicated contract would clarify regulatory consequences of architectural disruption beyond clearance.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "STRUCT-003",
+      "title": "No contract for proprioception and movement as regulatory input",
+      "description": "Interoception is covered through COG↔INTERO. Vestibular input enters through AUTO↔MOD. Proprioception — continuous body position and movement signal — has no dedicated treatment. Movement as regulatory input beyond its metabolic and ECS effects is absent. The graded exposure mechanism in NOCI↔COG depends on proprioceptive corrective signal that the framework doesn't formally describe.",
+      "contract": "Structural Gap",
+      "category": "Structural Gaps",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Proprioceptive signal quality should predict graded exposure outcome independently of pain threshold and avoidance behavior.",
+        "Movement practices producing regulatory effects should show proprioceptive channel as a distinct mechanism from metabolic or ECS effects.",
+        "Proprioceptive impairment (EDS, hypermobility) should produce specific regulatory consequences beyond joint instability."
+      ],
+      "dependencies": [
+        "Assembly of proprioception literature through the framework's precision weighting lens.",
+        "Proprioceptive channel characterization alongside interoceptive and vestibular channels."
+      ],
+      "labels": [
+        "category:Structural-Gap",
+        "priority:medium",
+        "bucket:B",
+        "type:missing-contract",
+        "clinical-application:movement",
+        "clinical-application:chronic-pain"
+      ],
+      "notes": "EDS and hypermobility populations likely express proprioceptive channel disruption as a distinct regulatory mechanism. The framework has no language for this currently.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "STRUCT-004",
+      "title": "No contract for spatial reference frame anchoring and cross-modal coupling",
+      "description": "Gaze provides the primary spatial reference frame against which vestibular, proprioceptive, and interoceptive systems calibrate their phase relationships. This is distinct from gaze as a top-down prediction load reducer. When the anchor is absent — congenital blindness, vestibular disorder, dissociation — sensory systems lose their common reference and cross-modal coupling degrades. No contract addresses this. Identified by a blind trauma therapist and active inference researcher.",
+      "contract": "Structural Gap",
+      "category": "Structural Gaps",
+      "priority": "medium",
+      "chain_level": "adjacent",
+      "evidence_state": "unknown",
+      "bucket": "B",
+      "predictions": [
+        "GVS-as-anchor should produce better spatial task performance than sensory substitution.",
+        "Reference frame provision should strengthen cross-modal coupling measurably.",
+        "Same mechanism should benefit vestibular disorder and dissociation populations.",
+        "Vision-like spatial experiences may emerge from anchored reorganization of existing non-visual channels."
+      ],
+      "dependencies": [
+        "GVS protocol designed as reference frame provider.",
+        "Comparison against sensory substitution approach.",
+        "Congenitally blind population.",
+        "Spatial navigation and attention task battery."
+      ],
+      "labels": [
+        "category:Structural-Gap",
+        "priority:medium",
+        "bucket:B",
+        "type:missing-contract",
+        "population:blindness",
+        "population:vestibular-disorder",
+        "population:dissociation"
+      ],
+      "notes": "Not sensory substitution — reference frame provision. Reframes the problem for blind individuals and others with anchor disruption. Mechanistically coherent with framework. Requires dedicated contract development.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    },
+    {
+      "id": "STRUCT-005",
+      "title": "Exhale-gated model updating — recursive thinking and tunnel vision as breathing mechanics problem",
+      "description": "The exhale as prediction window reset trigger is described in the physics layer. The specific consequence of incomplete exhale — compressed oscillation amplitude producing recursive thinking and tunnel vision as thermodynamic adaptations — is not formally described in any contract. The thought loop is not the pathology; the suppressed exhale is the pathology. Needs integration into AUTO↔MOD and MOD↔COG.",
+      "contract": "Structural Gap",
+      "category": "Structural Gaps",
+      "priority": "high",
+      "chain_level": "scaffolding",
+      "evidence_state": "component-supported",
+      "bucket": "B",
+      "predictions": [
+        "Exhale completeness ratio should inversely predict rumination independently of breathing rate.",
+        "Low-HRV populations should show systematically lower exhale completeness.",
+        "Extended deliberate exhale should interrupt recursive thinking more effectively than relaxation breathing.",
+        "Tunnel vision and context-switching difficulty should correlate with exhale completeness."
+      ],
+      "dependencies": [
+        "Respiratory measurement of exhale completeness.",
+        "Matched low vs high HRV populations.",
+        "Cognitive flexibility and rumination assessment."
+      ],
+      "labels": [
+        "category:Structural-Gap",
+        "priority:high",
+        "bucket:B",
+        "type:contract-extension",
+        "clinical-application:rumination",
+        "clinical-application:tunnel-vision",
+        "clinical-application:cognitive-flexibility"
+      ],
+      "notes": "Should be integrated into AUTO↔MOD as extension of Link 8 and into MOD↔COG as the precision gain consequence of compressed oscillation. Reframes rumination as a breathing mechanics problem with a specific mechanical intervention.",
+      "metadata": {
+        "created_at": "2026-06-02T00:00:00Z",
+        "updated_at": "2026-06-02T00:00:00Z",
+        "source": "Gap Analysis v8",
+        "status": "open"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "v8",
+    "created_at": "2026-06-02T00:00:00Z",
+    "updated_at": "2026-06-02T00:00:00Z",
+    "total_gaps": 40,
+    "by_bucket": {
+      "A": 8,
+      "B": 24,
+      "C": 8
+    },
+    "by_priority": {
+      "high": 16,
+      "medium": 19,
+      "low": 2,
+      "unset": 3
+    },
+    "by_category": {
+      "Unresolved Links": 22,
+      "Cross-Contract Interactions": 8,
+      "Structural Gaps": 5,
+      "Population-Specific": 5
+    },
+    "source_documents": [
+      "gap_analysis.md",
+      "contract_AUTO_MOD.md",
+      "contract_NOCI_COG.md",
+      "contract_GLYPH_AUTO.md",
+      "minimal_core.md"
+    ]
+  }
+}
