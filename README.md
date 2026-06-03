@@ -64,7 +64,9 @@ contracts/
   contract_SOC_COG.md
   contract_SOC_AUTO.md
 gap_analysis/
-  framework_gap_analysis...md   
+  framework_gap_analysis...md
+regulatory_dynamics/
+  ...   
 ```
   
 Each contract defines:
