@@ -253,6 +253,62 @@ moving through time.
 
 ---
 
+## Evolutionary Context: Lateralization as Conserved Architecture
+
+The dynamics described in this document are not unique to humans.
+
+Lateralization is present across the entire vertebrate lineage —
+fish, amphibians, reptiles, birds, and mammals all show
+consistent population-level lateralization of motor behavior,
+sensory preference, and threat response.
+
+This means the architecture predates the human nervous system
+by hundreds of millions of years.
+It is not a variation. It is not a deviation.
+It is the default vertebrate regulatory design.
+
+**The threat/safe split maps directly onto postural mode:**
+
+Under threat, vertebrate systems collapse into bilateral,
+symmetric movement — the two sides lock together and
+lateralization disappears. This is protective mode.
+
+In safe, exploratory conditions, asymmetric behavior
+re-emerges — the two sides decouple and begin expressing
+independently. This is exploratory mode.
+
+This pattern appears in fish.
+
+**Eye preference follows the same left/right division:**
+
+Most vertebrates use the right eye for routine tasks and
+social interaction, and the left eye for predator scanning
+and novelty detection.
+
+Right eye → left hemisphere → precision, routine, detail.
+Left eye → right hemisphere → broad sampling, novelty, threat.
+
+This is the visual stream asymmetry already described in
+[[Asymmetry Primitives]] — confirmed as ancient architecture,
+not human variation.
+
+**Motor dominance follows the same one-anchored pattern:**
+
+Primates, cats, and rats all show individual-level motor
+dominance — one side stabilizing while the other moves
+freely around it.
+
+The one-anchored lateralization state is not a human quirk.
+It is a conserved vertebrate motor strategy.
+
+> **The question is never whether a system lateralizes.
+> All vertebrate systems lateralize.
+> The question is always what mechanical conditions —
+> tethering, amplitude, mode — determine how the
+> architecture expresses at any given moment.**
+
+---
+
 ## Unifying Principle
 
 > **Lateralization is the dynamic expression of structural asymmetry,
@@ -261,7 +317,8 @@ moving through time.
 > **Protective mode clamps it.
 > Exploratory mode releases it.
 > Anchoring controls it.
-> Amplitude magnifies it.**
+> Amplitude magnifies it.
+> Evolution conserved it.**
 
 ---
 
@@ -279,3 +336,7 @@ architecture of regulatory expression:
 Together, they describe how the regulatory architecture
 is built, what makes it asymmetric, and how that asymmetry
 moves through time to produce observable behavior.
+
+This is not a model of human variation.
+It is a model of vertebrate regulatory architecture,
+observed in humans.
