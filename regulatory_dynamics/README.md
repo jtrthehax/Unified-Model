@@ -26,22 +26,46 @@ how the contracts interact, how modes express themselves, and how amplitude shap
 
 ---
 
-## **Included Documents**
 
-### **1. Postural Modes of the Regulatory Architecture**
+## Included Documents
 
-The global state machine:  
-Protective vs Exploratory mode, amplitude, brace mechanics, diaphragm excursion, sway, and prediction‑window width.
+### 1. [Postural Modes and Amplitude](./postural_modes_and_amplitude.md)
 
-### **2. Asymmetry Primitives**
+The global state machine:
+Protective vs Exploratory mode, amplitude, brace mechanics, 
+diaphragm excursion, sway, and prediction-window width.
 
-The structural substrate:  
-hemidiaphragm asymmetry, ribcage bias, vagal asymmetry, vestibular and visual stream asymmetry, motor dominance, and the anatomical basis of lateralization.
+### 2. [Asymmetry Primitives](./asymmetry_primitives.md)
 
-### **3. Lateralization Dynamics**
+The structural substrate:
+hemidiaphragm asymmetry, ribcage bias, vagal asymmetry, 
+vestibular and visual stream asymmetry, motor dominance, 
+and the anatomical basis of lateralization.
 
-The dynamic expression layer:  
-drift, anchoring, mode‑dependent expression, reset mechanisms, amplitude‑dependent visibility, and the full drift‑reset cycle.
+### 3. [Lateralization Dynamics](./lateralization_dynamics.md)
 
-Together, these documents form the **mechanical core** of regulatory expression —  
-how the architecture moves, stabilizes, drifts, re‑centers, and adapts in real time.
+The dynamic expression layer:
+drift, anchoring, mode-dependent expression, reset mechanisms, 
+amplitude-dependent visibility, and the full drift-reset cycle.
+
+### 4. [Externally-Scaffolded Low-Plasticity Mode](./externally-scaffolded_low-plasticity_mode.md)
+
+The attractor state layer:
+what the architecture does under sustained load — precision 
+lock, plasticity collapse, external scaffolding capture, 
+identity fusion, and the full behavioral phenotype that 
+emerges when internal agency becomes energetically too 
+expensive to maintain.
+
+---
+
+Documents 1-3 form the **mechanical core** of regulatory expression —
+how the architecture moves, stabilizes, drifts, and re-centers.
+
+Document 4 describes what happens when the architecture is pushed
+beyond its self-regulatory capacity — the predictable attractor
+state that forms when the system can no longer carry its own load.
+
+Together they cover the full dynamic range:
+from moment-to-moment mechanical expression
+to long-term structural capture.
