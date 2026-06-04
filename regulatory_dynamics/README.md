@@ -48,7 +48,7 @@ The dynamic expression layer:
 drift, anchoring, mode-dependent expression, reset mechanisms, 
 amplitude-dependent visibility, and the full drift-reset cycle.
 
-### 4. [Externally-Scaffolded Low-Plasticity Mode](./externally-scaffolded_low-plasticity_mode.md)
+### 4. [Externally-Scaffolded Low-Plasticity Mode](./externally‑scaffolded_low‑plasticity_mode.md)
 
 The attractor state layer:
 what the architecture does under sustained load — precision 
