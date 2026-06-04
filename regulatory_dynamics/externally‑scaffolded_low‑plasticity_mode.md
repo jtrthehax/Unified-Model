@@ -1,3 +1,5 @@
+# Externally-Scaffolded Low-Plasticity Mode (ESLPM)
+
 _A cross-layer operating state of the regulatory architecture —
 when internal agency collapses and the system outsources
 stability, prediction, and identity to an external structure._
@@ -334,6 +336,38 @@ under sustained load.
 
 The intervention target is the attractor conditions —
 not the behavioral outputs.
+
+---
+
+## Closed-World Inference Endpoint
+
+When ESLPM deepens without resolution, the system may
+converge toward a closed-world inference state:
+
+- Extremely high precision gain
+- Extremely narrow prediction window
+- Minimal sampling
+- Rigid priors
+- Externalized meaning
+- Identity-scaffolding fusion at maximum depth
+
+In this configuration, the system is not ignoring data.
+It is not receiving it.
+
+The internal model becomes:
+- Self-consistent
+- Metabolically efficient
+- Structurally stable
+- Socially reinforced
+
+From inside the system, this model is indistinguishable
+from reality.
+From outside, it may appear as an entirely separate reality.
+
+This is the architecture's terminal energy-efficient solution
+to sustained load.
+It is not a break from the mechanistic sequence —
+it is the mechanistic sequence reaching its logical endpoint.
 
 ---
 
