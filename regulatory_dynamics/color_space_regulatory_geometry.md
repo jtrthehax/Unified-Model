@@ -197,4 +197,52 @@ flowchart TD
     F --> J[Exploratory Reasoning]
     G --> K[Shortcut Reasoning / Fallacies]
     H --> L[Identity-Edge Reasoning]
+
+flowchart TD
+    subgraph REG[Regulatory Geometry]
+        A[Prediction Window / Precision Gain]
+        B[Neutral Axis]
+        C[Curvature]
+        D[Geodesics]
+    end
+
+    subgraph COLOR[Color-Space Regions]
+        E[Blue<br/>Stability]
+        F[Green<br/>Exploration]
+        G[Red / Yellow<br/>Reactivity]
+        H[Purple<br/>Liminal / Boundary]
+    end
+
+    subgraph REASON[Reasoning Modes]
+        I[Anchored Reasoning]
+        J[Exploratory Reasoning]
+        K[Shortcut / Fallacy-Prone Reasoning]
+        L[Identity-Edge Reasoning]
+    end
+
+    A --> B
+    A --> C
+    A --> D
+
+    B --> E
+    C --> F
+    C --> G
+    D --> H
+
+    E --> I
+    F --> J
+    G --> K
+    H --> L
+
+    classDef blue fill:#1e3a8a,stroke:#0f172a,color:#f9fafb;
+    classDef green fill:#15803d,stroke:#052e16,color:#f9fafb;
+    classDef red fill:#b91c1c,stroke:#450a0a,color:#f9fafb;
+    classDef yellow fill:#ca8a04,stroke:#78350f,color:#f9fafb;
+    classDef purple fill:#6d28d9,stroke:#3b0764,color:#f9fafb;
+
+    class E blue;
+    class F green;
+    class G red;
+    class H purple;
+
 ```
