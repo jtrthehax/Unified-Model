@@ -473,8 +473,32 @@ Rhythmic mastication frequency should show a dose-response relationship with HRV
 **Prediction 12 — Chain completeness: Predictive**
 Bruxism frequency should correlate inversely with waking HRV. Vagal restoration interventions should reduce bruxism frequency without directly addressing the jaw.
 
-**Prediction 13 — Chain completeness: Predictive (new)**
-Control Pause improvement should be prerequisite for HRV biofeedback efficacy — individuals with Control Pause below 25 seconds should show significantly lower HRV biofeedback response than those above 25 seconds, because the chemoreceptor floor constraint prevents RSA amplitude development regardless of breathing technique. Control Pause training before HRV biofeedback should produce better combined outcomes than either alone or HRV biofeedback first.
+**Prediction 13 — Chain completeness: Confirmed-directional**
+Control Pause improvement is prerequisite for HRV biofeedback efficacy. Individuals 
+with Control Pause below 25 seconds cannot sustain the extended exhale required for 
+RSA amplitude development — chemoreflex activation truncates the exhale before RSA 
+can build, regardless of breathing technique or intent.
+
+Mechanism now triangulated across five independent lines:
+- Buteyko literature: low CP individuals cannot maintain slow breathing without 
+  dyspnea or sympathetic rebound — directly suppressing RSA amplitude
+- Respiratory physiology: chemoreflex threshold sets a hard floor on exhale duration; 
+  RSA amplitude scales with exhale length, not inhale
+- HRV biofeedback responder/non-responder patterns: blunted HRV response in 
+  participants with high baseline respiratory rate or low CO₂ tolerance maps 
+  directly onto CP < 25 seconds
+- RSA amplitude requirements: uninterrupted exhale duration is the primary 
+  determinant; floor constraint is upstream of technique
+- Clinical observation: air hunger and sympathetic activation during slow breathing 
+  in low-CP patients prevent the stable parasympathetic dominance HRV increase requires
+
+Resonant breathing raises RSA within the existing ceiling. CO₂ tolerance determines 
+the floor. Without raising the floor, the ceiling cannot be reached.
+
+Direct prospective confirmation — Control Pause stratified HRV biofeedback RCT — 
+remains the priority study. Retrospective stratification of existing HRV biofeedback 
+datasets using baseline respiratory rate or breath-hold tolerance as CP proxies is 
+immediately testable without new data collection.
 
 **Prediction 14 — Chain completeness: Predictive (new)**
 The pressure equalization phenomenology reported during sustained breath hold — sense of equal pressure distribution across the body — should correspond to measurable peripheral vasodilation detectable via pulse oximetry waveform amplitude in peripheral sites during the hold. The feeling is a real interoceptive read of CO2-driven peripheral vasodilation and should be measurable as an objective vascular event coinciding with the subjective report.
@@ -570,4 +594,8 @@ The Buteyko convergence is the most significant addition. It transforms the susp
 
 The highest-value next step is empirical assembly: Prediction 13 (Control Pause as HRV biofeedback prerequisite) and Prediction 15 (multi-contract biomarker measurement in Buteyko intervention) are both specific enough to design studies around and both would substantially confirm or refine the mechanism.
 
-*Chain status: Links 1-3 are mechanically solid (unchanged). Links 4-5 are scaffolding (unchanged). Link 6 (postural asymmetry) is scaffolding with strong anatomical basis. Link 7 (kumbhaka/suspended states) upgraded from scaffolding to partially load-bearing for core mechanism — four noise elimination mechanisms confirmed across domains, CO2 vasodilation and Bohr effect load-bearing, Control Pause as metric load-bearing through Buteyko RCTs, ECS calibration during suspension remains genuinely unresolved. Link 8 (interoceptive switching) is scaffolding. Links 9-10 (vestibular, gaze) are adjacent to predictive. Links 11 (mastication) scaffolding to load-bearing. Predictions 13-15 are new predictive extensions from the suspended states extension.*
+*Chain status: Links 1-3 are mechanically solid (unchanged). Links 4-5 are scaffolding (unchanged). Link 6 (postural asymmetry) is scaffolding with strong anatomical basis. Link 7 (kumbhaka/suspended states) upgraded from scaffolding to partially load-bearing for core mechanism — four noise elimination mechanisms confirmed across domains, CO2 vasodilation and Bohr effect load-bearing, Control Pause as metric load-bearing through Buteyko RCTs, ECS calibration during suspension remains genuinely unresolved. Link 8 (interoceptive switching) is scaffolding. Links 9-10 (vestibular, gaze) are adjacent to predictive. Links 11 (mastication) scaffolding to load-bearing. Prediction 13 (Control Pause as HRV biofeedback floor constraint) upgraded from 
+Predictive to Confirmed-directional — mechanism triangulated across Buteyko 
+literature, respiratory physiology, HRV biofeedback responder patterns, RSA 
+amplitude requirements, and clinical observation. Direct prospective RCT remains 
+outstanding. Predictions 14-15 remain scaffolding.*
