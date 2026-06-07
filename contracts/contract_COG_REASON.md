@@ -62,6 +62,134 @@ arriving here. The reasoning failure is the downstream readout.
 
 ---
 
+## Perceptual Geometry as a Template for Reasoning Geometry
+
+### Overview
+
+Recent advances in color-space geometry demonstrate that perceptual distortions arise when a metric lacks a defined neutral axis and exhibits state-dependent curvature. This section formalizes the parallel mechanism in the COG ↔ REASON contract: **reasoning distortions (fallacies, rigid belief structures, motivated reasoning) are geodesics computed on a mis-shaped cognitive manifold**, governed by the same invariants that structure human color perception.
+
+---
+
+### Neutral Axis: From Black–White to Cognitive Baseline
+
+**Input layer (COG):**  
+- prediction window width  
+- prior weighting ratio  
+- temporal prediction horizon  
+- precision gain calibration state  
+
+**Output layer (REASON):**  
+- argument-path geometry  
+- option-space topology  
+- inference stability  
+- fallacy class expression  
+
+Color-space requires a **black–white axis** as a neutral reference line; all hue relationships are defined relative to this axis. Analogously, the reasoning architecture requires a **cognitive neutral axis**:
+
+> The inhale–exhale prediction-window midpoint, where precision weighting is symmetric and priors do not dominate error signals.
+
+When this axis is intact, option-space remains wide and reasoning remains flexible. When it collapses or drifts, the manifold folds toward one or a few attractors, producing:
+
+- binary framing and black–white thinking  
+- self-sealing priors  
+- rigid, shortest-path argument chains  
+
+These are the reasoning equivalents of hue shifts under luminance changes.
+
+---
+
+### Curvature: Precision Gain as a Metric Operator
+
+In color-space, changes in luminance alter the **curvature** of the perceptual metric (Bezold–Brücke effect), bending shortest paths between colors. In the reasoning manifold, **precision gain** plays the same role:
+
+- ↑ precision gain → ↑ curvature → geodesics bend toward dominant priors  
+- ↓ precision gain → ↓ curvature → geodesics flatten → exploratory paths become accessible  
+
+Behaviorally, increased curvature manifests as:
+
+- motivated reasoning (evidence routed along prior-favoring paths)  
+- source-over-content weighting  
+- identity-fused inference  
+- catastrophic extrapolation chains  
+
+These are not logical failures; they are **energy-efficient geodesics** in a high-curvature cognitive metric.
+
+---
+
+### Geodesics: Shortest-Path Reasoning Under Load
+
+A reasoning geodesic is:
+
+> The minimal-effort inference path through the current cognitive metric, given prediction-window width and precision gain.
+
+Healthy state (low curvature, stable axis):
+
+- long geodesics  
+- high argument-structure complexity  
+- preserved counterfactuals  
+- wide option-space
+
+Distorted state (high curvature, axis drift):
+
+- short, steep geodesics  
+- brittle, linear reasoning  
+- loss of counterfactuals  
+- fallacy patterns as optimal shortcuts
+
+Thus, fallacies are **geometric signatures** of the manifold’s current shape, not arbitrary cognitive errors.
+
+---
+
+### Color Regions as Regulatory Modes
+
+Human color perception and regulatory architecture share the same metric structure, allowing color regions to serve as intuitive labels for reasoning modes:
+
+- **Blue (near neutral axis):** stability baseline; centered prediction window, balanced precision, low curvature, anchored reasoning.  
+- **Green (low-curvature region):** exploratory mode; wide window, light priors, high option-space, smooth geodesics.  
+- **Red/Yellow (high-curvature region):** reactive/urgent mode; precision spikes, narrowed window, rigid shortcuts, threat-biased inference.  
+- **Purple (boundary region):** liminal/identity-edge mode; self-model transitions, introspection, boundary-sensitive reasoning.
+
+Because both color-space and the reasoning manifold are universal biological geometries, these mappings are **structural, not subjective**: the same color regions correspond to the same regulatory modes across individuals.
+
+---
+
+```mermaid
+flowchart TD
+    A[Prediction Window] --> B[Neutral Axis Stable]
+    A --> C[Neutral Axis Drift]
+
+    B --> D[Blue Region: Stability]
+    B --> E[Green Region: Exploration]
+
+    C --> F[Red/Yellow: Reactivity]
+    C --> G[Purple: Liminal]
+
+    D --> H[Flexible Reasoning]
+    E --> I[Exploratory Reasoning]
+    F --> J[Fallacies as Shortcuts]
+    G --> K[Identity-Edge Reasoning]
+
+```
+
+
+---
+
+### Cross-Contract Dependencies
+
+- **COG ↔ INTERO:** interoceptive precision sets baseline curvature of the reasoning manifold.  
+- **MOD ↔ COG:** neuromodulatory tone dynamically adjusts curvature and prior weighting.  
+- **AUTO ↔ MOD:** vagal tone stabilizes the cognitive neutral axis.  
+- **SOC ↔ COG:** social complexity and unpredictability narrow the prediction window, increasing curvature susceptibility.
+
+---
+
+### Invariant Statement
+
+> Reasoning distortions are geodesics computed on a mis-shaped cognitive manifold.  
+> Fallacies are not failures of logic; they are the shortest paths available to a system whose neutral axis or curvature has shifted, governed by the same geometric invariants that structure human color perception.
+
+---
+
 ## The Complete Chain — Both Directions
 
 ### COG → REASON (Cognitive precision state drives reasoning quality):
