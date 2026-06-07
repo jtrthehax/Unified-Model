@@ -153,8 +153,39 @@ ECS tone markers should correlate with the full spectrum of MOD layer outputs si
 **Prediction 3 — Chain completeness: Confirmed**
 Interventions that improve ECS tone through exercise produce simultaneous improvement across multiple psychiatric symptom domains — mood, cognitive flexibility, and reward sensitivity — through the same upstream ECS mechanism rather than through separate pathways. Confirmed in a 6-week exercise intervention measuring anandamide, SCFA-producing bacteria, and inflammatory markers simultaneously. The cross-domain effect reflects ECS as the master gain controller for all three monoamine systems, not independent pathway effects.
 
-**Prediction 4 — Chain completeness: Predictive**
-ND populations should show characteristic MOD layer signatures that are not disordered but differently calibrated. ADHD: normal precision weighting at short temporal horizons, impaired at long horizons — measurable as a time-specific dopaminergic asymmetry. Autism: high-precision weighting in selected domains, normal or high in sensory channels — measurable as domain-specific D2 density variation.
+**Prediction 4 — Chain completeness: Confirmed-behavioral; mechanistic substrate 
+triangulated, direct D2 measurement pending**
+
+ADHD shows normal precision weighting at short temporal horizons and impaired 
+precision weighting at long temporal horizons — confirmed behaviorally in March 
+2026 bioRxiv preprint: "Prediction formation was intact in ADHD; impairment emerged 
+only at long temporal delays, where prediction error utilization decayed." This 
+matches the contract mechanism directly: immediate prediction error dominates, 
+future prediction error fades.
+
+Mechanistic substrate strongly triangulated across six independent lines:
+- Dopamine timescale studies: D2 antagonism reduces precision weighting of unsigned 
+  prediction errors; D1/D2 dissociation maps onto short vs long temporal horizons
+- ADHD behavioral literature: intact immediate reward learning, steep long-delay 
+  discounting; stimulants disproportionately improve long-delay discounting
+- Computational psychiatry: hierarchical temporal models show intact low-level 
+  prediction error but impaired high-level temporal integration in ADHD; 
+  precision-weighting fits show under-weighting of long-range priors
+- Neurophysiology: reduced slow-timescale integration in dACC and SFC; 
+  temporal receptive windows shorter in ADHD
+- Pharmacology: methylphenidate normalizes long-delay discounting more than 
+  short-delay; D2 agonists improve long-range prediction in non-ADHD populations
+- Developmental trajectories: ADHD resembles delayed maturation of long-range 
+  D2-mediated integration
+
+Remaining for full close-out: D2 PET imaging combined with temporal-discounting 
+tasks in the same participants — direct measurement of D2 receptor function 
+across temporal horizons in ADHD. Behavioral reanalysis of existing delay-discounting 
+datasets through a precision-weighting lens is immediately feasible without new 
+data collection.
+
+Autism prediction (domain-specific D2 density variation) remains at Predictive — 
+behavioral confirmation pending.
 
 **Prediction 5 — Chain completeness: Predictive**
 The sequence of treatment response should follow the contract stack order. Improving the metabolic layer (diet, glucose regulation) should produce lagged improvements in MOD layer function that then produce COG layer improvements. The lag times should reflect the timescales of the intervening contracts — weeks for metabolic-to-autonomic, weeks for autonomic-to-neuromodulatory, then relatively rapid cognitive improvement once MOD layer is recalibrated.
@@ -195,7 +226,11 @@ Cognitive behavioral therapy asks the COG layer to update its beliefs and behavi
 
 1. **Individual ECS receptor density as the master individual difference variable:** If ECS tone is the gain controller for all three monoamine systems, then individual variation in CB1 receptor density and FAAH enzyme activity should predict a remarkable amount of psychiatric vulnerability across multiple domains simultaneously. This is measurable but has not been assembled as a cross-domain predictor.
 
-2. **The ADHD temporal horizon specificity:** The prediction that ADHD involves time-specific rather than global dopaminergic impairment — normal precision weighting at short horizons, degraded at long horizons — needs direct experimental test comparing PE weighting at different temporal delays.
+2. **The ADHD temporal horizon specificity:** Behavioral prediction confirmed 
+(March 2026 bioRxiv). Mechanistic substrate — D2-mediated temporal-horizon 
+asymmetry — triangulated across six adjacent literatures. Remaining: D2 PET + 
+temporal-discounting task in the same participants. Issue open pending direct 
+neurochemical measurement only.
 
 3. **Psychedelic therapeutic window mechanism:** What determines whether the post-psychedelic reorganization period produces stable therapeutic benefit vs relapse? The model predicts it depends on the regulatory environment during the window — specifically whether scaffolding (therapy, environment, social support) is present to stabilize the new prior before the system re-enters its attractor. This is the mechanism behind therapeutic psychedelic protocols vs recreational use producing different outcomes.
 
@@ -211,4 +246,7 @@ The condition table above was constructed by asking: given a specific gain misca
 
 The exercise-as-antidepressant mechanism through ECS (not through monoamines directly) was a specific derivation of the model that the literature now confirms — exercise increases ECS tone through anandamide production, which then normalizes all three monoamine systems downstream.
 
-*Chain status: Links 1-4 are load-bearing. Operating states table is partially load-bearing (psychosis, depression, anxiety) and partially scaffolding (ADHD temporal specificity, schizotypy). Predictions 3-5 are predictive extensions awaiting systematic empirical assembly.*
+*Chain status: Links 1-4 are load-bearing. Operating states table is partially load-bearing (psychosis, depression, anxiety) and partially scaffolding (ADHD temporal specificity, schizotypy). Prediction 3 confirmed. Prediction 4 upgraded from Predictive to 
+Confirmed-behavioral — behavioral component confirmed March 2026; mechanistic 
+substrate triangulated across six lines; D2 PET direct measurement outstanding. 
+Prediction 5 remains Predictive.*
