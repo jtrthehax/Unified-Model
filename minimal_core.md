@@ -340,6 +340,10 @@ Three structural gaps have been identified but not yet developed into full contr
 
 **Pain — addressed:** NOCI↔COG now exists as a full contract. The volume knob architecture — ECS-mediated precision gain on nociceptive prediction error, with pain-without-signal as maximum gain running on its own output — is the primary organizing principle.
 
+**Acute → chronic stress transition:** ~~Not yet developed into a full contract.~~
+Addressed in STRESS↔TRANSITION. The resolution mechanism, physical discharge
+pathway, and attractor formation boundary conditions are formalized there.
+
 ---
 
 ## Session Instructions
@@ -377,6 +381,21 @@ For pain, chronic pain, fibromyalgia, or ND pain sensitivity — load NOCI↔COG
 For neurological aging, glymphatic clearance, sleep architecture quality, or accumulation-inflammation interactions — load GLYPH↔AUTO alongside this core.
 
 For circadian timing, delayed phase, seasonal amplitude swing, or intervention timing questions — the temporal layer section of this document is the primary reference. For deeper work on the three priority contracts, load IMMUNE↔AUTO, MET↔AUTO, or MOD↔COG alongside this core and apply the phase-relative timing principle from the temporal layer.
+
+For arrhythmia risk, sudden cardiac death, Takotsubo, fear-induced collapse,
+or sleep-transition cardiac events — load AUTO↔CARDIAC alongside this core.
+
+For reasoning failures, argument structure degradation, fallacy patterns,
+or exhale-gate dominance effects on expressed cognition — load COG↔REASON
+alongside this core.
+
+For sleep architecture, REM/SWS proportions, insomnia, OSA, or the distinction
+between sleep duration and sleep regulatory function — load SLEEP alongside
+this core.
+
+For trauma onset, acute stress resolution, incomplete discharge, or the
+mechanistic boundary between acute and chronic sympathetic states — load
+STRESS↔TRANSITION alongside this core.
 
 For clinical extensions, load the relevant extension document alongside this core.
 

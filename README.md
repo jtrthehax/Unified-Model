@@ -52,6 +52,7 @@ The architecture is designed to be:
 architecture_conceptual_overview.md
 minimal_core.md
 contracts/
+  contract_AUTO_CARDIAC.md
   contract_AUTO_MOD.md
   contract_COG_INTERO.md
   contract_COG_REASON.md
@@ -62,8 +63,10 @@ contracts/
   contract_MET_AUTO.md
   contract_MET_IMMUNE.md
   contract_NOCI_COG.md
+  contract_SLEEP.md
   contract_SOC_COG.md
   contract_SOC_AUTO.md
+  contract_STRESS_TRANSITION.md
 gap_analysis/
   framework_gap_analysis...md
 regulatory_dynamics/
@@ -115,6 +118,13 @@ If you want to understand phenomena like:
 - **Near‑death experiences** — catastrophic precision collapse across metabolic, autonomic, interoceptive, and cognitive layers forcing the generative model to fallback on its deepest, lowest‑entropy priors to maintain coherence.
 - **Flow** — a high‑coherence state where prediction errors are minimized through tight sensorimotor loops, stabilized neuromodulation, and suppressed self‑modeling, producing effortless action with maximal precision.
 - **Placebo** — cognitive priors modulating autonomic, interoceptive, and immune precision weighting, allowing belief‑driven predictions to produce real physiological change.
+- **Sudden cardiac death and arrhythmia** — terminal autonomic collapse, 
+  Takotsubo, fear-induced VF, and sleep-transition arrhythmias as predictable 
+  failure modes of the regulatory stack rather than random events.
+- **Logical fallacies and reasoning failures** — mechanism-based grouping 
+  of inferential errors as outputs of precision state, not intelligence deficits.
+- **Trauma onset** — the acute-to-chronic transition boundary; why some stress 
+  responses resolve and others form stable maladaptive attractors.
 
 …load the relevant contracts and trace the regulatory pathways.
 

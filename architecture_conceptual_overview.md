@@ -95,8 +95,13 @@ The contracts define the interfaces between adjacent layers:
 - **SOC ↔ AUTO**
 - **AUTO ↔ MOD**
 - **MOD ↔ COG**
+- **AUTO ↔ CARDIAC** — terminal failure modes; arrhythmia thresholds, sudden death
+- **COG ↔ REASON** — reasoning output layer; fallacy groups as precision state readouts
+- **SLEEP ↔ COG / MOD / AUTO** — sleep architecture as regulatory reset mechanism
+- **STRESS ↔ TRANSITION** — acute-to-chronic attractor formation onset mechanism
 
-Together, these contracts form a **closed regulatory loop**.
+Together, these contracts form a **closed regulatory loop**, with terminal failure modes
+(AUTO↔CARDIAC) and a behavioral output readout layer (COG↔REASON) now included.
 
 ---
 
