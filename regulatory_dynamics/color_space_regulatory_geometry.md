@@ -180,24 +180,9 @@ It should be referenced in:
 
 ---
 
-## **8. Optional Mermaid Diagram (GitHub‑compatible)**
+## **8. Diagram**
 
 ```mermaid
-flowchart TD
-    A[Regulatory Geometry] --> B[Neutral Axis]
-    A --> C[Curvature]
-    A --> D[Geodesics]
-
-    B --> E[Blue Region<br/>Stability]
-    C --> F[Green Region<br/>Exploration]
-    C --> G[Red/Yellow<br/>Reactivity]
-    D --> H[Purple<br/>Liminal]
-
-    E --> I[Centered Reasoning]
-    F --> J[Exploratory Reasoning]
-    G --> K[Shortcut Reasoning / Fallacies]
-    H --> L[Identity-Edge Reasoning]
-
 flowchart TD
     subgraph REG[Regulatory Geometry]
         A[Prediction Window / Precision Gain]
