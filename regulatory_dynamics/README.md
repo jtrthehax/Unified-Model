@@ -26,36 +26,45 @@ how the contracts interact, how modes express themselves, and how amplitude shap
 
 ---
 
-
 ## Included Documents
 
 ### 1. [Postural Modes and Amplitude](./postural_modes_and_amplitude.md)
 
 The global state machine:
-Protective vs Exploratory mode, amplitude, brace mechanics, 
+Protective vs Exploratory mode, amplitude, brace mechanics,
 diaphragm excursion, sway, and prediction-window width.
 
 ### 2. [Asymmetry Primitives](./asymmetry_primitives.md)
 
 The structural substrate:
-hemidiaphragm asymmetry, ribcage bias, vagal asymmetry, 
-vestibular and visual stream asymmetry, motor dominance, 
+hemidiaphragm asymmetry, ribcage bias, vagal asymmetry,
+vestibular and visual stream asymmetry, motor dominance,
 and the anatomical basis of lateralization.
 
 ### 3. [Lateralization Dynamics](./lateralization_dynamics.md)
 
 The dynamic expression layer:
-drift, anchoring, mode-dependent expression, reset mechanisms, 
+drift, anchoring, mode-dependent expression, reset mechanisms,
 amplitude-dependent visibility, and the full drift-reset cycle.
 
 ### 4. [Externally-Scaffolded Low-Plasticity Mode](./externally‑scaffolded_low‑plasticity_mode.md)
 
 The attractor state layer:
-what the architecture does under sustained load — precision 
-lock, plasticity collapse, external scaffolding capture, 
-identity fusion, and the full behavioral phenotype that 
-emerges when internal agency becomes energetically too 
+what the architecture does under sustained load — precision
+lock, plasticity collapse, external scaffolding capture,
+identity fusion, and the full behavioral phenotype that
+emerges when internal agency becomes energetically too
 expensive to maintain.
+
+### 5. [Color-Space Regulatory Geometry](./color_space_regulatory_geometry.md)
+
+The geometric substrate layer:
+the structural isomorphism between color-space geometry and
+the regulatory-state manifold — why color regions map universally
+to regulatory modes, how curvature, neutral axis, and geodesics
+are shared invariants across perceptual and cognitive systems,
+and why reasoning distortions follow the same geometric rules
+as perceptual distortions.
 
 ---
 
@@ -66,6 +75,11 @@ Document 4 describes what happens when the architecture is pushed
 beyond its self-regulatory capacity — the predictable attractor
 state that forms when the system can no longer carry its own load.
 
+Document 5 provides the **geometric foundation** that underlies the
+color-coded regulatory mode system used across the framework —
+sitting above COG ↔ REASON, COG ↔ INTERO, MOD ↔ COG, and AUTO ↔ MOD.
+
 Together they cover the full dynamic range:
 from moment-to-moment mechanical expression
-to long-term structural capture.
+to long-term structural capture
+to the geometric invariants that make the system legible.
