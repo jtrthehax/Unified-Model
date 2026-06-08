@@ -53,21 +53,24 @@ Eight layers. Each processes. Each feeds back. They are not separate — western
 
 Where layers cross over. The crossover point is where the mechanism lives. The key risk is what happens when the contract is shortcircuited.
 
-| Contract | Crossover Point | Key Risk |
-|---|---|---|
-| MET ↔ AUTO | Chemoreceptor threshold / glucose-sensitive autonomic nuclei | Dietary → HRV |
-| MET ↔ IMMUNE | Glucose/insulin state → mast cell reactivity | Sugar → inflammation |
-| MICRO ↔ AUTO | Vagal afferent sensing of microbial metabolites → central autonomic network | Dysbiosis → HRV |
-| IMMUNE ↔ AUTO | Cholinergic anti-inflammatory pathway → vagal tone | Inflammation → HRV |
-| AUTO ↔ MOD | Vagal afferent burst → CB1 / RSA → hemispheric lateralization | HRV → cognition |
-| MOD ↔ COG | Precision gain control → prediction error weighting | Gain → memory |
-| COG ↔ INTERO | Body-state prior quality → prediction error noise floor | Prior → signal |
-| INTERO ↔ DEV | Developmental window → prior setpoint establishment | Experience → adult state |
-| SOC ↔ AUTO | Acoustic/tactile channel → vagal brake phase detection | Presence → HRV |
-| SOC ↔ COG | Social signal environment → prediction load on generative model | Complexity → behavior |
-| NOCI ↔ COG | ECS-mediated precision gain on nociceptive prediction error → prior dominance without signal | Gain → pain without tissue cause |
+| Contract           | Crossover Point                                                                              | Key Risk                                                                                   |
+| ------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| MET ↔ AUTO         | Chemoreceptor threshold / glucose-sensitive autonomic nuclei                                 | Dietary → HRV                                                                              |
+| MET ↔ IMMUNE       | Glucose/insulin state → mast cell reactivity                                                 | Sugar → inflammation                                                                       |
+| MICRO ↔ AUTO       | Vagal afferent sensing of microbial metabolites → central autonomic network                  | Dysbiosis → HRV                                                                            |
+| IMMUNE ↔ AUTO      | Cholinergic anti-inflammatory pathway → vagal tone                                           | Inflammation → HRV                                                                         |
+| AUTO ↔ MOD         | Vagal afferent burst → CB1 / RSA → hemispheric lateralization                                | HRV → cognition                                                                            |
+| MOD ↔ COG          | Precision gain control → prediction error weighting                                          | Gain → memory                                                                              |
+| COG ↔ INTERO       | Body-state prior quality → prediction error noise floor                                      | Prior → signal                                                                             |
+| INTERO ↔ DEV       | Developmental window → prior setpoint establishment                                          | Experience → adult state                                                                   |
+| SOC ↔ AUTO         | Acoustic/tactile channel → vagal brake phase detection                                       | Presence → HRV                                                                             |
+| SOC ↔ COG          | Social signal environment → prediction load on generative model                              | Complexity → behavior                                                                      |
+| PROPRIO ↔ AUTO/COG | Cerebellar forward model error → autonomic coupling + cognitive threat prior updating        | Signal degradation → regulatory instability without obvious cause; graded exposure failure |
+| NOCI ↔ COG         | ECS-mediated precision gain on nociceptive prediction error → prior dominance without signal | Gain → pain without tissue cause                                                           |
+**Convergence contracts:** 
+**NOCI↔COG** is structurally distinct from all other contracts. Every other contract is a bilateral crossover between two adjacent layers. NOCI↔COG is a convergence point where MET↔IMMUNE, IMMUNE↔AUTO, AUTO↔MOD, and COG↔INTERO all feed a single output simultaneously. The volume knob for pain experience is being set by all four contracts at once. This is the model for how compound contract failures produce treatment-resistant presentations — and establishes convergence contracts as a structural category distinct from bilateral crossovers. When a clinical presentation is resistant to single-point intervention, look for a convergence architecture.
 
-**Convergence contracts:** NOCI↔COG is structurally distinct from all other contracts. Every other contract is a bilateral crossover between two adjacent layers. NOCI↔COG is a convergence point where MET↔IMMUNE, IMMUNE↔AUTO, AUTO↔MOD, and COG↔INTERO all feed a single output simultaneously. The volume knob for pain experience is being set by all four contracts at once. This is the model for how compound contract failures produce treatment-resistant presentations — and establishes convergence contracts as a structural category distinct from bilateral crossovers. When a clinical presentation is resistant to single-point intervention, look for a convergence architecture.
+**PROPRIO↔AUTO/COG** shares this convergence architecture — immune-driven connective tissue degradation, metabolic load affecting movement capacity, nociceptive gain amplifying movement signals to threat level, and developmental calibration of the motor forward model all converge on a single proprioceptive output. Single-point intervention cannot resolve compound proprioceptive failure states.
 
 ---
 
@@ -344,6 +347,8 @@ Three structural gaps have been identified but not yet developed into full contr
 Addressed in STRESS↔TRANSITION. The resolution mechanism, physical discharge
 pathway, and attractor formation boundary conditions are formalized there.
 
+**Proprioceptive regulatory channel:** ~~Not yet developed.~~ Addressed in PROPRIO↔AUTO/COG. The cerebellar forward model as the crossover mechanism, hypermobility failure mode, graded exposure signal quality precondition, and ND motor planning gap are fully developed there.
+
 ---
 
 ## Session Instructions
@@ -396,6 +401,8 @@ this core.
 For trauma onset, acute stress resolution, incomplete discharge, or the
 mechanistic boundary between acute and chronic sympathetic states — load
 STRESS↔TRANSITION alongside this core.
+
+For proprioceptive dysregulation, hypermobility presentations, graded exposure failure, or ND motor planning — load PROPRIO↔AUTO/COG alongside this core.
 
 For clinical extensions, load the relevant extension document alongside this core.
 
