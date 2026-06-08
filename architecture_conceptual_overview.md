@@ -2,7 +2,7 @@
 
 ## **Purpose of This Model**
 
-This framework defines a **layered, mechanistic architecture** of mammalian regulation.  
+This framework defines a **layered, mechanistic architecture** of mammalian regulation.
 It integrates autonomic, interoceptive, metabolic, immune, cognitive, and social processes into a single coherent system.
 
 The goal is not to propose a new theory, but to **unify existing evidence** into a portable, falsifiable ontology.
@@ -24,7 +24,7 @@ This ensures the model is **evidence‑aligned**, **mechanistically grounded**, 
 
 ---
 
-## **What a “Contract” Is**
+## **What a "Contract" Is**
 
 A **contract** is a bidirectional interface between two regulatory layers.
 
@@ -50,7 +50,7 @@ The system is organized into a layered stack:
 - **IMMUNE** — inflammatory state
 - **MICRO** — microbiome and gut‑derived signaling
 
-These layers define the **body’s baseline conditions**.
+These layers define the **body's baseline conditions**.
 
 ---
 
@@ -59,7 +59,7 @@ These layers define the **body’s baseline conditions**.
 - **INTERO** — interoceptive priors, body‑state prediction
 - **AUTO** — autonomic nervous system (sympathetic/parasympathetic balance)
 
-These layers form the **regulatory core**.  
+These layers form the **regulatory core**.
 They determine how the body interprets internal signals and maintains homeostasis.
 
 ---
@@ -95,6 +95,7 @@ The contracts define the interfaces between adjacent layers:
 - **SOC ↔ AUTO**
 - **AUTO ↔ MOD**
 - **MOD ↔ COG**
+- **PROPRIO ↔ AUTO / COG** — proprioceptive regulatory channel; cerebellar forward model as crossover point; hypermobility failure mode, graded exposure signal quality precondition, and ND motor planning gap 
 - **AUTO ↔ CARDIAC** — terminal failure modes; arrhythmia thresholds, sudden death
 - **COG ↔ REASON** — reasoning output layer; fallacy groups as precision state readouts
 - **SLEEP ↔ COG / MOD / AUTO** — sleep architecture as regulatory reset mechanism
@@ -102,6 +103,16 @@ The contracts define the interfaces between adjacent layers:
 
 Together, these contracts form a **closed regulatory loop**, with terminal failure modes
 (AUTO↔CARDIAC) and a behavioral output readout layer (COG↔REASON) now included.
+
+---
+
+## **Convergence Contracts**
+
+Two contracts share a structural architecture distinct from the others — they are not interfaces between two adjacent layers but convergence points where multiple upstream contracts arrive simultaneously. Single-point intervention cannot resolve compound failure states at these contracts.
+
+**NOCI ↔ COG** receives from MET↔IMMUNE, IMMUNE↔AUTO, AUTO↔MOD, and COG↔INTERO simultaneously. Chronic pain is a compound failure state by architecture.
+
+**PROPRIO ↔ AUTO/COG** receives from IMMUNE↔AUTO (connective tissue degradation reducing mechanoreceptor signal quality), MET↔AUTO (metabolic load affecting movement capacity), NOCI↔COG (nociceptive gain determining signal-to-noise ratio for proprioceptive signals), and INTERO↔DEV (developmental calibration of the motor forward model). Proprioceptive dysregulation presentations are compound failure states by the same architecture. 
 
 ---
 
@@ -145,7 +156,7 @@ This is not a narrative or a metaphor — it is a **specification**.
 
 ## **How to Use This Repository**
 
-This overview provides the conceptual map.  
+This overview provides the conceptual map.
 From here, a reader should:
 
 1. Read the **minimal core**
