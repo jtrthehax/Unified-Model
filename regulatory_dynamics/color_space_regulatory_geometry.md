@@ -133,6 +133,16 @@ Purple corresponds to boundary states.
 
 ---
 
+## Visualizing the Regulatory Manifold
+
+The continuous nature of the regulatory manifold is best understood as a gradient field rather than discrete categories. The diagram below illustrates widening, narrowing, curvature, and boundary regions in a unified visual space.
+
+![Regulatory State Space Visual](./regulatory_state_space_visual.png)
+
+*The original canvas visualization showing widening, narrowing, modulation, collapse, and re-expansion as a continuous field.*
+
+---
+
 ## **5. Why This Mapping Is Universal**
 Because both systems — visual color perception and regulatory-state computation — are:
 
