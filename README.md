@@ -63,6 +63,7 @@ contracts/
   contract_MET_AUTO.md
   contract_MET_IMMUNE.md
   contract_NOCI_COG.md
+  contract_PROPRIO_AUTO_COG.md
   contract_SLEEP.md
   contract_SOC_COG.md
   contract_SOC_AUTO.md
@@ -118,13 +119,10 @@ If you want to understand phenomena like:
 - **Near‑death experiences** — catastrophic precision collapse across metabolic, autonomic, interoceptive, and cognitive layers forcing the generative model to fallback on its deepest, lowest‑entropy priors to maintain coherence.
 - **Flow** — a high‑coherence state where prediction errors are minimized through tight sensorimotor loops, stabilized neuromodulation, and suppressed self‑modeling, producing effortless action with maximal precision.
 - **Placebo** — cognitive priors modulating autonomic, interoceptive, and immune precision weighting, allowing belief‑driven predictions to produce real physiological change.
-- **Sudden cardiac death and arrhythmia** — terminal autonomic collapse, 
-  Takotsubo, fear-induced VF, and sleep-transition arrhythmias as predictable 
-  failure modes of the regulatory stack rather than random events.
-- **Logical fallacies and reasoning failures** — mechanism-based grouping 
-  of inferential errors as outputs of precision state, not intelligence deficits.
-- **Trauma onset** — the acute-to-chronic transition boundary; why some stress 
-  responses resolve and others form stable maladaptive attractors.
+- **Sudden cardiac death and arrhythmia** — terminal autonomic collapse, Takotsubo, fear-induced VF, and sleep-transition arrhythmias as predictable failure modes of the regulatory stack rather than random events.
+- **Logical fallacies and reasoning failures** — mechanism-based grouping of inferential errors as outputs of precision state, not intelligence deficits.
+- **Trauma onset** — the acute-to-chronic transition boundary; why some stress responses resolve and others form stable maladaptive attractors.
+- **Proprioceptive dysregulation and hypermobility** — cerebellar forward model failure producing sustained sympathetic loading without obvious threat; graded exposure failure explained by sensory substrate rather than motivation; ND motor planning gaps as forward model confidence intervals rather than coordination deficits.
 
 …load the relevant contracts and trace the regulatory pathways.
 
