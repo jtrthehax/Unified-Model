@@ -364,7 +364,7 @@ Creative Commons Attribution 4.0 International (CC BY 4.0).
 ## Citation
 
 **Regulatory Architecture Framework (2026).  
-https://github.com/jtrhehax/Unified-Model**
+https://github.com/jtrthehax/Unified-Model**
 
 ---
 
