@@ -1,0 +1,105 @@
+# **Contributing Guidelines**
+
+Thank you for your interest in contributing.  
+This project is built around clarity, stable invariants, and predictable system behavior. Contributions should preserve these properties and avoid introducing drift into the architecture.
+
+## **1. Before You Start**
+
+### **Understand the Architecture**  
+Review the project structure and the regulatory model before making changes. Each module has a defined scope and interacts with others through explicit boundaries.  
+If you’re unsure how a change affects the system, open an issue first.
+
+### **Align With Invariants**  
+This project maintains several core invariants (documented in the architecture notes).  
+Contributions must not violate these invariants without discussion and justification.
+
+### **Minimal Reproduction Required**  
+If reporting a bug or proposing a change, provide the smallest possible example that demonstrates the issue or improvement. High‑noise reports slow down evaluation.
+
+---
+
+## **2. How to Contribute**
+
+### **Issues**  
+Use issues for:
+
+- bug reports  
+- architectural questions  
+- proposals for new modules  
+- discussions about invariants or drift  
+- clarifications on system behavior  
+
+When opening an issue, include:
+
+- observed behavior  
+- expected behavior  
+- minimal reproduction  
+- relevant module(s)  
+- reasoning behind the proposed change  
+
+### **Pull Requests**  
+PRs should:
+
+- be scoped to a single change  
+- include a clear description of intent  
+- reference any related issues  
+- explain how the change preserves system invariants  
+- include tests or examples when appropriate  
+
+Avoid PRs that:
+
+- mix unrelated changes  
+- introduce hidden state  
+- expand module scope without discussion  
+- add complexity without architectural justification  
+
+---
+
+## **3. Architectural Expectations**
+
+### **Module Boundaries**  
+Each module has a defined purpose.  
+Do not merge responsibilities or introduce cross‑cutting behavior without discussion.
+
+### **State and Drift**  
+Avoid introducing:
+
+- implicit state  
+- global state  
+- behavior that depends on execution order  
+- changes that increase drift between modules  
+
+### **Clarity Over Cleverness**  
+Readable, explicit code is preferred over clever or compressed implementations.  
+This project values **predictability** and **traceability**.
+
+---
+
+## **4. Communication Style**
+
+Contributors are expected to:
+
+- communicate with precision  
+- focus on mechanisms, not personalities  
+- justify changes with reasoning, not preference  
+- ask questions when uncertain  
+- assume good faith  
+- keep discussions grounded in system behavior  
+
+---
+
+## **5. Getting Help**
+
+If you’re unsure how to approach a change:
+
+- open an issue labeled **question**  
+- describe the scenario and your reasoning  
+- outline the architectural impact you foresee  
+
+This helps maintain coherence and prevents unnecessary drift.
+
+---
+
+## **6. Contributor Recognition**
+
+Meaningful contributions — especially those that improve clarity, reduce drift, or strengthen invariants — will be acknowledged in the project documentation.
