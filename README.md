@@ -42,8 +42,8 @@ The architecture is designed to be:
 - **[Minimal Core](minimal_core.md)** — the backbone specification (breathing → HRV → autonomic → cognition)  
 - **[Contracts](contracts/)** — bilateral interfaces defining signal flow between layers  
 - **[Regulatory Dynamics](regulatory_dynamics/)** — dynamic expression layer: posture, amplitude, asymmetry, drift, and long‑term attractor modes (ESLPM)  
-- **[Gap Analysis](gap_analysis/)** — development history, resolved contradictions, and evidence audits (v1 → v6)  
-- **[README](readme.md)** — repository purpose, structure, and usage guidance
+- **[Gap Analysis](gap_analysis/)** — development history, resolved contradictions, and evidence audits (v1 → v8)  
+- **[README](Misc/README%201.md)** — repository purpose, structure, and usage guidance
   
 ---
 
@@ -52,6 +52,7 @@ The architecture is designed to be:
 architecture_conceptual_overview.md
 minimal_core.md
 contracts/
+  contract_ANCHOR_COG.md
   contract_AUTO_CARDIAC.md
   contract_AUTO_MOD.md
   contract_COG_INTERO.md
@@ -67,9 +68,11 @@ contracts/
   contract_SLEEP.md
   contract_SOC_COG.md
   contract_SOC_AUTO.md
+  contract_SOC_ANCHOR.md
   contract_STRESS_TRANSITION.md
+  contract_TEMPORAL_COG.md
 gap_analysis/
-  framework_gap_analysis...md
+  framework_gap_analysis_v8.md
 regulatory_dynamics/
   ...   
 ```
@@ -108,7 +111,7 @@ If you want to understand phenomena like:
 - **Social threat amplification** — hypersensitive SOC ↔ AUTO coupling that magnifies perceived interpersonal danger.
 - **Neurodivergence** — alternative precision regimes across sensory, cognitive, and interoceptive channels.
 - **Consciousness** — coherence across regulatory contracts forming a unified global workspace.
-- **Gender identity** — a developmentally anchored interoceptive prior that becomes “fixed” only when polarized social roles impose high‑precision demands; in low‑pressure environments, the underlying generative model shows its natural flexibility.
+- **Gender identity** — a developmentally anchored interoceptive prior that becomes "fixed" only when polarized social roles impose high‑precision demands. Grounded at the molecular level in the DEV contract: gonadal sex determination is a regulatory competition between two mutually antagonistic programs (Sox9 activation vs. repression via Enh13), integrating opposing sex-specific cues through competing transcription factor inputs. A single nucleotide-level enhancer state difference is sufficient to resolve the competition in either direction. The binary appearance of gonadal fate is a property of sufficient competitive resolution under pressure — the gradient competition is the baseline state; pressure compresses it into apparent binary. The "natural flexibility" of the generative model is not revealed in low-pressure environments — it is the default architecture. Polarization into apparent binary is the pressure-induced state.
 - **Chronic disease** — long‑term multisystem dysregulation across metabolic, immune, and autonomic layers.
 - **AI Interactions driven by Regulatory Profiles** — regulatory responses to non‑human agents with atypical social signal patterns.
 - **Sleep and dreaming** — offline generative model consolidation and autonomic recalibration.
@@ -123,6 +126,9 @@ If you want to understand phenomena like:
 - **Logical fallacies and reasoning failures** — mechanism-based grouping of inferential errors as outputs of precision state, not intelligence deficits.
 - **Trauma onset** — the acute-to-chronic transition boundary; why some stress responses resolve and others form stable maladaptive attractors.
 - **Proprioceptive dysregulation and hypermobility** — cerebellar forward model failure producing sustained sympathetic loading without obvious threat; graded exposure failure explained by sensory substrate rather than motivation; ND motor planning gaps as forward model confidence intervals rather than coordination deficits.
+- **Prediction window collapse, tunnel vision, and anchor failure** —   the compound mechanical mechanism by which respiratory mechanics, proprioceptive confirmation, and interoceptive clarity jointly determine whether the cognitive layer can hold a wide window or collapses into exhale-gate dominance. ANCHOR↔COG.
+- **Co-regulation dependency, ESLPM states, and ideological rigidity** —  why music, ritual, group synchrony, and therapeutic presence widen prediction windows from the outside, and why external anchoring can substitute for internal repair rather than scaffolding it. SOC↔ANCHOR.
+- **Circadian phase misalignment and cognitive rigidity** — why social jetlag, delayed phase, and sleep pressure produce trait-like cognitive rigidity that is phenotypically identical to anchor collapse but requires phase correction rather than anchor repair as the primary intervention. TEMPORAL↔COG.
 
 …load the relevant contracts and trace the regulatory pathways.
 
@@ -270,6 +276,8 @@ This is why threat‑state behaviors show up **before** any reasoning contract i
 - fallacies appear automatically
 
 These are not cognitive mistakes — they are **autonomic signatures**.
+
+The compound mechanical mechanism behind this chain — diaphragm excursion, proprioceptive confirmation, and interoceptive clarity as simultaneous inputs to prediction window width — is formalized in ANCHOR↔COG.
 
 ---
 
