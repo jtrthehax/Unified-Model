@@ -53,24 +53,30 @@ Eight layers. Each processes. Each feeds back. They are not separate — western
 
 Where layers cross over. The crossover point is where the mechanism lives. The key risk is what happens when the contract is shortcircuited.
 
-| Contract           | Crossover Point                                                                              | Key Risk                                                                                   |
-| ------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| MET ↔ AUTO         | Chemoreceptor threshold / glucose-sensitive autonomic nuclei                                 | Dietary → HRV                                                                              |
-| MET ↔ IMMUNE       | Glucose/insulin state → mast cell reactivity                                                 | Sugar → inflammation                                                                       |
-| MICRO ↔ AUTO       | Vagal afferent sensing of microbial metabolites → central autonomic network                  | Dysbiosis → HRV                                                                            |
-| IMMUNE ↔ AUTO      | Cholinergic anti-inflammatory pathway → vagal tone                                           | Inflammation → HRV                                                                         |
-| AUTO ↔ MOD         | Vagal afferent burst → CB1 / RSA → hemispheric lateralization                                | HRV → cognition                                                                            |
-| MOD ↔ COG          | Precision gain control → prediction error weighting                                          | Gain → memory                                                                              |
-| COG ↔ INTERO       | Body-state prior quality → prediction error noise floor                                      | Prior → signal                                                                             |
-| INTERO ↔ DEV       | Developmental window → prior setpoint establishment                                          | Experience → adult state                                                                   |
-| SOC ↔ AUTO         | Acoustic/tactile channel → vagal brake phase detection                                       | Presence → HRV                                                                             |
-| SOC ↔ COG          | Social signal environment → prediction load on generative model                              | Complexity → behavior                                                                      |
-| PROPRIO ↔ AUTO/COG | Cerebellar forward model error → autonomic coupling + cognitive threat prior updating        | Signal degradation → regulatory instability without obvious cause; graded exposure failure |
-| NOCI ↔ COG         | ECS-mediated precision gain on nociceptive prediction error → prior dominance without signal | Gain → pain without tissue cause                                                           |
+| Contract           | Crossover Point                                                                                                                                              | Key Risk                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| MET ↔ AUTO         | Chemoreceptor threshold / glucose-sensitive autonomic nuclei                                                                                                 | Dietary → HRV                                                                              |
+| MET ↔ IMMUNE       | Glucose/insulin state → mast cell reactivity                                                                                                                 | Sugar → inflammation                                                                       |
+| MICRO ↔ AUTO       | Vagal afferent sensing of microbial metabolites → central autonomic network                                                                                  | Dysbiosis → HRV                                                                            |
+| IMMUNE ↔ AUTO      | Cholinergic anti-inflammatory pathway → vagal tone                                                                                                           | Inflammation → HRV                                                                         |
+| AUTO ↔ MOD         | Vagal afferent burst → CB1 / RSA → hemispheric lateralization                                                                                                | HRV → cognition                                                                            |
+| MOD ↔ COG          | Precision gain control → prediction error weighting                                                                                                          | Gain → memory                                                                              |
+| COG ↔ INTERO       | Body-state prior quality → prediction error noise floor                                                                                                      | Prior → signal                                                                             |
+| INTERO ↔ DEV       | Developmental window → prior setpoint establishment                                                                                                          | Experience → adult state                                                                   |
+| SOC ↔ AUTO         | Acoustic/tactile channel → vagal brake phase detection                                                                                                       | Presence → HRV                                                                             |
+| SOC ↔ COG          | Social signal environment → prediction load on generative model                                                                                              | Complexity → behavior                                                                      |
+| PROPRIO ↔ AUTO/COG | Cerebellar forward model error → autonomic coupling + cognitive threat prior updating                                                                        | Signal degradation → regulatory instability without obvious cause; graded exposure failure |
+| NOCI ↔ COG         | ECS-mediated precision gain on nociceptive prediction error → prior dominance without signal                                                                 | Gain → pain without tissue cause                                                           |
+| ANCHOR ↔ COG       | Mechanical anchor quality (diaphragm excursion, exhale completeness, bilateral proprioceptive confirmation, interoceptive clarity) → prediction window width | Compound anchor failure → exhale-gate dominance; misattributed to cognitive cause          |
+| SOC ↔ ANCHOR       | External oscillatory input (prosodic voice, group synchrony, music, ritual) → borrowed prediction window width                                               | External anchor substitutes for internal repair → ESLPM dependency state                   |
 **Convergence contracts:** 
 **NOCI↔COG** is structurally distinct from all other contracts. Every other contract is a bilateral crossover between two adjacent layers. NOCI↔COG is a convergence point where MET↔IMMUNE, IMMUNE↔AUTO, AUTO↔MOD, and COG↔INTERO all feed a single output simultaneously. The volume knob for pain experience is being set by all four contracts at once. This is the model for how compound contract failures produce treatment-resistant presentations — and establishes convergence contracts as a structural category distinct from bilateral crossovers. When a clinical presentation is resistant to single-point intervention, look for a convergence architecture.
 
 **PROPRIO↔AUTO/COG** shares this convergence architecture — immune-driven connective tissue degradation, metabolic load affecting movement capacity, nociceptive gain amplifying movement signals to threat level, and developmental calibration of the motor forward model all converge on a single proprioceptive output. Single-point intervention cannot resolve compound proprioceptive failure states.
+
+**ANCHOR↔COG** shares this convergence architecture — respiratory mechanics (AUTO↔MOD), bilateral proprioceptive confirmation (PROPRIO↔AUTO/COG), and interoceptive clarity (COG↔INTERO) all converge simultaneously on prediction window width. Single-pathway intervention — breathwork alone, proprioceptive training alone, interoceptive practice alone — produces partial correction but cannot fully repair anchor failure when multiple inputs are degraded. This is the mechanistic explanation for why anchor collapse is clinically resistant to single-modality intervention and why cognitive intervention is particularly ineffective: it targets the output of the failure, not its compound upstream cause.
+
+**SOC↔ANCHOR** is the only contract in the stack where the anchor input is externally generated. It describes the mechanism by which co-regulation, music, group synchrony, and ritual widen prediction windows from the outside when internal anchoring is degraded. Its structural failure mode — external anchor substitution for internal repair — is the architectural origin of the ESLPM attractor state. Identity fusion, ideological rigidity, and attachment dependency are all derivable from this contract without requiring separate psychological explanation.
 
 ---
 
@@ -95,6 +101,8 @@ Breathing ratio
 **Additional inputs enter the chain at the AUTO↔MOD node** through postural asymmetry, vestibular stimulation, and gaze stabilization — each modulating the same NTS/DMV crossover point through different physical routes.
 
 **Suspended carrier states** exist outside the oscillating backbone chain. During breath retention (kumbhaka), RSA suspends — the pressure system holds a fixed set point rather than cycling. The cognitive and regulatory effects of these states are distinct from the oscillating chain and depend on which phase is held and the practitioner's CO2 tolerance threshold. See AUTO↔MOD for mechanism.
+
+**The anchor layer** sits between the pressure mechanics and the cognitive output. ANCHOR↔COG formalizes the compound mechanism by which breathing mechanics, proprioceptive confirmation, and interoceptive clarity jointly determine whether the chain can produce its full cognitive output range or is mechanically ceiling-limited before the cognitive layer is reached.
 
 **HRV as early warning signal — the 4-week window:**
 Wearable longitudinal HRV data in rheumatoid arthritis patients shows that circadian HRV features detect inflammatory flares up to four weeks before clinical symptoms appear. The CAP failure is visible in HRV before the immune cascade produces detectable inflammation. This is the framework's mechanism running visibly: the vagal brake weakens first, measurable in HRV; cytokine production then rises because the brake is gone; clinical symptoms appear last. The sequence confirms the IMMUNE↔AUTO chain direction and establishes wearable HRV as an actionable early intervention window — not just a marker of current regulatory state but a leading indicator of impending inflammatory cascade. The same principle applies across inflammatory conditions where CAP impairment is the mechanism.
@@ -403,6 +411,10 @@ mechanistic boundary between acute and chronic sympathetic states — load
 STRESS↔TRANSITION alongside this core.
 
 For proprioceptive dysregulation, hypermobility presentations, graded exposure failure, or ND motor planning — load PROPRIO↔AUTO/COG alongside this core.
+
+For prediction window collapse, tunnel vision, rumination, or anchor failure under cognitive or emotional load — load ANCHOR↔COG alongside this core. This is the convergence contract that unifies respiratory mechanics, proprioceptive confirmation, and interoceptive clarity as simultaneous inputs to window width. The intervention table maps directly to clinical and practical recommendations.
+
+For external anchoring, co-regulation dependency, ESLPM states, ideological rigidity as physiological maintenance, or the regulatory mechanisms behind music, ritual, and group synchrony — load SOC↔ANCHOR alongside this core.
 
 For clinical extensions, load the relevant extension document alongside this core.
 
