@@ -52,29 +52,35 @@ The architecture is designed to be:
 architecture_conceptual_overview.md
 minimal_core.md
 contracts/
-  contract_ANCHOR_COG.md
-  contract_AUTO_CARDIAC.md
-  contract_AUTO_MOD.md
-  contract_COG_INTERO.md
-  contract_COG_REASON.md
-  contract_GLYPH_AUTO.md
-  contract_IMMUNE_AUTO.md
-  contract_INTERO_DEV.md
-  contract_MICRO_AUTO.md
-  contract_MET_AUTO.md
-  contract_MET_IMMUNE.md
-  contract_NOCI_COG.md
-  contract_PROPRIO_AUTO_COG.md
-  contract_SLEEP.md
-  contract_SOC_COG.md
-  contract_SOC_AUTO.md
-  contract_SOC_ANCHOR.md
-  contract_STRESS_TRANSITION.md
-  contract_TEMPORAL_COG.md
-gap_analysis/
-  framework_gap_analysis_v8.md
+  contract_ANCHOR_COG.md  
+  contract_AUTO_CARDIAC.md  
+  contract_AUTO_MOD.md  
+  contract_COG_INTERO.md  
+  contract_COG_REASON.md  
+  contract_EXHALE_GAZE_BLINK.md  
+  contract_GLYPH_AUTO.md  
+  contract_IMMUNE_AUTO.md  
+  contract_INTERO_DEV.md  
+  contract_MICRO_AUTO.md  
+  contract_MET_AUTO.md  
+  contract_MET_IMMUNE.md  
+  contract_NOCI_COG.md  
+  contract_PROPRIO_AUTO_COG.md  
+  contract_SLEEP.md  
+  contract_SOC_ANCHOR.md  
+  contract_SOC_AUTO.md  
+  contract_SOC_COG.md  
+  contract_SOC_INSTITUTION.md  
+  contract_STRESS_TRANSITION.md  
+  contract_TEMPORAL_COG.md  
+  contract_WINDOWS_COG.md
 regulatory_dynamics/
-  ...   
+  idiom_mapping_regulatory_dynamics.md  
+  postural_modes_and_amplitude.md  
+  asymmetry_primitives.md  
+  lateralization_dynamics.md  
+  externally_scaffolded_low_plasticity_mode.md  
+  color_space_regulatory_geometry.md   
 ```
   
 Each contract defines:
