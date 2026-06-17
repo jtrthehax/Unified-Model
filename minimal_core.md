@@ -310,6 +310,37 @@ A system locked in defensive posture cannot reorganize. High allostatic load clo
 
 ---
 
+## Cross-Layer Invariants
+
+> **Learning style = prediction-window geometry.**  
+> **Recall style = manifold structure.**  
+> **Identity vs structural learning = LH vs RH operating modes.**
+
+Identity learning collapses under context shift.  
+Structural learning generalizes across domains.  
+Two individuals may produce identical answers while using entirely  
+different internal mechanisms — the difference is only visible  
+when context shifts.
+#### Regulatory Substrate
+
+Prediction-window width is not a cognitive trait — it is a regulatory output.
+
+The full upstream chain:
+
+AUTO (vagal tone, RSA amplitude)  
+→ MOD (neuromodulatory precision gain)  
+→ INTERO (signal precision, noise floor)  
+→ ANCHOR (mechanical stabilization of oscillatory amplitude)  
+→ TEMPORAL (circadian phase, CAR amplitude)  
+→ SOC (external entrainment and co-regulation)  
+→ **prediction-window width → cognitive operating mode**
+
+The cognitive layer inherits its mode from these upstream conditions.  
+Interventions that widen the window are not cognitive interventions —  
+they are regulatory interventions with cognitive outputs.
+
+---
+
 ## The Methodology
 
 **This is how the model was built. This is how it should be extended.**
@@ -416,6 +447,13 @@ For prediction window collapse, tunnel vision, rumination, or anchor failure und
 For external anchoring, co-regulation dependency, ESLPM states, ideological rigidity as physiological maintenance, or the regulatory mechanisms behind music, ritual, and group synchrony — load SOC↔ANCHOR alongside this core.
 
 For circadian phase misalignment, social jetlag, ND delayed-phase phenotype, or any presentation where cognitive rigidity, short horizon, or rumination is time-of-day dependent — load TEMPORAL↔COG alongside this core. This contract establishes the temporal floor beneath ANCHOR↔COG: phase correction must precede anchor repair in misaligned individuals, and therapeutic intervention timing relative to circadian phase is a larger effect size variable than is currently controlled for in most clinical practice.
+
+For prediction-window geometry as the selector of cognitive mode,
+learning style, recall style, and cross-domain transfer — load
+WINDOW↔COG alongside this core. This is the invariant contract
+that sits above the individual cognitive contracts and explains
+why the same regulatory geometry appears across AUTO, COG, MOD,
+SOC, and TEMPORAL.
 
 For clinical extensions, load the relevant extension document alongside this core.
 

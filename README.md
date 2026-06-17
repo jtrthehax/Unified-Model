@@ -115,7 +115,14 @@ If you want to understand phenomena like:
 - **Chronic disease** — long‑term multisystem dysregulation across metabolic, immune, and autonomic layers.
 - **AI Interactions driven by Regulatory Profiles** — regulatory responses to non‑human agents with atypical social signal patterns.
 - **Sleep and dreaming** — offline generative model consolidation and autonomic recalibration.
-- **Learning and memory** — cross‑layer plasticity shaping future prediction and regulation.
+-  **Learning and memory** — prediction-window geometry as the
+  selector of structural vs identity mode; manifold construction
+  vs label storage; why cross-domain transfer requires wide windows
+  and collapses under load. WINDOW↔COG.
+-  **Cross-domain transfer failure** — why intelligent people fail
+  under context shift despite high rote performance; the absence
+  of a manifold that was never constructed because the window was
+  never wide enough. WINDOW↔COG.
 - **Plasticity** — adaptive changes in synaptic, autonomic, interoceptive, and social inference pathways.
 - **Addiction** — hijacking of dopaminergic precision and habit loops within MOD ↔ COG dynamics.
 - **Digital platforms** — algorithms optimize for sympathetic activation which drops HRV and creates a feedback loop by collapsing prediction windows
@@ -133,6 +140,21 @@ If you want to understand phenomena like:
 …load the relevant contracts and trace the regulatory pathways.
 
 This architecture is **domain‑agnostic** — if a phenomenon emerges from regulation, it can be mapped into this model.
+
+---
+
+## Start Here: You Already Know This
+
+Before reading any contract, read the 
+[[idiom_mapping_regulatory_dynamics|Idiom ↔ Contract Mapping]].
+
+It maps common idioms — "tunnel vision," "gut feeling," "a sigh of 
+relief," "looking up for an answer" — to the specific contracts and 
+mechanisms that generate them. Every idiom in that document is already 
+in everyday use. The framework does not introduce new phenomena. It 
+introduces the mechanism behind phenomena you already knew were real.
+
+That document is the lowest-friction entry point into the model.
 
 ---
 

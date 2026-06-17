@@ -9,11 +9,13 @@
 **Key risk (SOC→COG direction):** Complex, unpredictable social environments consume cognitive resources maintaining social models, narrowing the prediction window available for everything else. High social prediction load + narrow default window = social exhaustion and behavioral rigidity that gets misread as antisocial preference.
 **Key risk (COG→SOC direction):** Prediction window width determines coupling attempt threshold — how much certainty is required before the system initiates social engagement. Narrow window → high threshold → reduced social initiation → social environment receives fewer signals → social relationships don't form or maintain.
 **Distinguishing feature:** This contract explains why AI interaction is fundamentally different from human social interaction — not as a social substitute but as a cognitively distinct interface that removes the mentalizing load while retaining semantic exchange. This is where ND-AI friction and ND-AI preference both mechanistically live.
+
 ---
 ## Why This Contract Is Distinct From SOC↔AUTO
 The SOC↔AUTO contract handles the autonomic channel — prosody, facial expression, touch, and co-regulatory physiological transfer. This contract handles the cognitive channel — the computational load of modeling other minds, maintaining social predictions, and calibrating engagement thresholds.
 Both run simultaneously in every human social interaction. A person is co-regulating autonomically through the VVC channel while simultaneously running a cognitive generative model of the other person's mental state, predicting their next response, managing their own output, and tracking the social context. These are parallel computationally expensive processes drawing on the same finite cognitive resources.
 What makes this contract distinct: it is the channel where the most individual variation exists. Autonomic co-regulation is relatively consistent across individuals given similar VVC calibration. Social cognitive load varies dramatically based on regulatory profile, environmental complexity, masking demand, and the specific social agents involved.
+
 ---
 ## The Complete Chain — Both Directions
 ### SOC → COG (Social environment imposes cognitive load):
@@ -52,6 +54,7 @@ Current prediction window width
 Effective social interactions require working memory to dynamically decode nonverbal social cues, encode and mentally process verbally-presented information in real time, evaluate information in the context of previous experiences and immediate context, and simultaneously organize and plan a socially appropriate response while minimizing interference from task-unrelated thoughts and irrelevant environmental stimuli.
 That is a description of the entire executive function system deployed simultaneously. Social cognition is not a single process — it is the most demanding simultaneous deployment of multiple high-cost cognitive operations the brain runs in everyday life. The computational cost is highest when agents are numerous, unpredictable, emotionally significant, or when their signals are ambiguous.
 **Chain completeness:** Load-bearing. The working memory and executive function demands of social cognition are extensively documented in the ADHD, autism, and social neuroscience literatures.
+
 ---
 ### Link 2: Social prediction as a hierarchical generative model
 The brain instantiates a generative model that predicts sensory input from social agents and processes perturbations as feedback to update the model. Social agents introduce considerable variation in the sensory environment — to navigate the social world, people flexibly deploy mental models to make predictions of others' movements, intentions, and responses. These predictions operate at multiple levels simultaneously from concrete sensory expectations to abstract social priors.
@@ -62,17 +65,32 @@ The mentalizing network — temporoparietal junction, medial prefrontal cortex, 
 The prediction window width — determined by the AUTO↔MOD contract's precision gain calibration — sets the threshold for social coupling attempts. A wide prediction window means the system can hold sufficient uncertainty to engage without needing confident prediction of outcome first. A narrow window means the system requires higher certainty before initiating coupling.
 This mechanism predicts coupling attempt behavior from regulatory state. Under chronic stress, threat, or resource depletion — all of which narrow the prediction window — social initiation becomes harder because the threshold rises. This is not shyness or social anxiety in the trait sense. It is a dynamic threshold determined by current window width. The same person initiates social contact readily when regulated and avoids it when depleted — the threshold is state-dependent, not fixed.
 **Chain completeness:** Scaffolding. The prediction window width → coupling threshold link is derivable from the Bayesian architecture and consistent with behavioral observation but requires explicit empirical assembly connecting HRV state to social initiation threshold in controlled conditions.
+
 ---
 ### Link 4: The masking cost — parallel generative model overhead
 Masking — suppressing ND traits to appear neurotypical — demands significant cognitive and emotional effort leading to exhaustion. Masking creates a disconnect between internal state and external presentation, increasing stress and anxiety. The mechanism: masking requires running a parallel generative model of how a neurotypical person would respond in this situation, monitoring one's own output against that model, correcting deviations in real time, and maintaining the simulation continuously across the interaction.
 This is not trivial cognitive overhead — it is a full additional generative model running simultaneously with the primary social prediction model. The total load is: social prediction model + masking simulation model + actual cognitive task demands + interoceptive management of mounting dysregulation. This is why ND burnout is characterized by the collapse of previously maintained functioning after sustained social demand — the system was running at maximum cognitive capacity and the demand exceeded the available resource envelope.
 **Chain completeness:** Load-bearing. Masking cognitive cost is documented. ND burnout as exhaustion from sustained masking is established. The parallel generative model framing is a derivation of the framework that maps cleanly onto the existing literature.
+
 ---
 ### Link 5: The double empathy problem — bidirectional prediction failure
+
 Social cognition research has been embedded in a nativist approach rather than a constructivist approach, ignoring the dimension of mutual miscommunication between neurodivergent and neurotypical individuals.
 The double empathy problem states that ND-NT social difficulty is not unidirectional. NT individuals also fail to accurately model ND mental states. Research consistently shows that NT individuals rate ND individuals as less likeable and less trustworthy in brief interactions — not because of ND behavior quality but because NT social prediction models are calibrated for NT regulatory profiles and generate high prediction error when processing ND social signals.
 From the framework: this is a prediction window width mismatch between two different regulatory configurations attempting to model each other. The ND generative model is calibrated to a different social prior than the NT model. Each finds the other hard to predict because their generative models have different default precision and different prior expectations about social signal timing, prosody, facial expression, and coupling patterns. The difficulty is symmetrical — it just gets attributed asymmetrically because NT is the majority calibration.
+
+The double empathy problem has a specific extension in the context of social threat-coupling formation. NT social difficulty with ND individuals is not only a prediction model mismatch — it is a mismatch between two different conditioned filter states. The NT generative model has been conditioned through thousands of micro-threat exposures to expect that outgoing social signals have passed through a hierarchical compliance filter before reaching speech. When ND output bypasses this filter — responding to content rather than hierarchy, asking genuine questions without performing social deference, raising concerns without first reading whether the social context permits concern-raising — the NT model registers high prediction error. The response was not what the social compliance architecture predicted.
+
+The NT interpretation is typically one of two framings: the person is oblivious to the social context (naivety framing) or they are deliberately ignoring it (defiance framing). Both framings are incorrect. The actual mechanism is that the ND individual is responding to the logical and narrative content of the situation without the interception layer that would have rerouted that response through the hierarchy filter. The question that sounds defiant — "why should I do this task, isn't this your job?" — is being asked with genuine information-seeking intent. The social threat that would have suppressed the question before it reached speech was not detected at sufficient precision to generate the suppressive response. The person is accurately 
+reading the logical structure of the situation and reporting it.
+
+This produces the specific social mismatch signature: ND individuals are frequently experienced as more direct, more challenging, and less deferent than their intent warrants, because the compliance filter the majority assumes is universal is selectively absent. The social costs are real. They are generated by a majority system that interprets filter absence as filter violation — as if the person knew the rule and chose to break it, rather than operating in an environment where the 
+rule was never installed.
+
+The intervention implication runs in both directions. For ND individuals navigating institutional environments, the gap is not social skill — it is detection of the implicit social threat signal that triggers the compliance filter in others. Making that signal explicit — "this is a context where the hierarchy filter is expected to be running" — provides cognitive access to a social rule that the conditioning mechanism would normally make automatic. For NT institutions encountering ND individuals, the reframe is equally specific: the absence of the compliance filter is not aggression or disrespect. It is the presence of direct content-evaluation in a context that the institutional architecture was not designed to receive it.
+
 **Chain completeness:** Load-bearing. The double empathy problem is empirically established. The regulatory mismatch framing is a framework derivation that provides the mechanistic explanation for why it occurs.
+
 ---
 ## Operating States — Conditions Derivable From This Contract
 | Condition | Contract Mechanism | Derivable? |
@@ -85,8 +103,10 @@ From the framework: this is a prediction window width mismatch between two diffe
 | **Group social exhaustion** | N agents × mentalizing load → exponential not linear resource demand | Yes — social exhaustion tracks number of models required, not interaction duration |
 | **AI interaction relief** | Zero mentalizing load, zero masking requirement, zero unpredictable agency → full cognitive resources available for content | Yes — this is the mechanistic explanation of ND-AI preference |
 | **Social withdrawal as regulatory** | Narrow window → high coupling threshold → social withdrawal → resource recovery → window widens → threshold drops | Yes — withdrawal is regulatory, not antisocial |
+
 ---
 ## The AI Interaction Mechanism — Fully Derived
+
 This contract contains the complete mechanistic explanation for why ND individuals often find AI interaction less exhausting than human social interaction, and why AI is a qualitatively different cognitive interface rather than just a social substitute.
 **What human social interaction costs:**
 - Mentalizing model maintenance (modeling another mind in real time)
@@ -95,6 +115,7 @@ This contract contains the complete mechanistic explanation for why ND individua
 - Masking overhead for ND (parallel simulation of NT presentation)
 - Temporal synchrony demands (the 200ms turn-taking window)
 - Emotional state tracking and regulation of one's response
+  
 **What AI interaction costs:**
 - Semantic prediction only (what words come next in this context)
 - No mentalizing required (AI has no unpredictable mental state to model)
@@ -102,6 +123,7 @@ This contract contains the complete mechanistic explanation for why ND individua
 - No temporal synchrony pressure (asynchronous, turn-taking at own pace)
 - No VVC processing demand (text strips acoustic channel)
 - Consistent regulatory profile (no mood variation, no implicit state to read)
+  
 The difference is not that AI is "easier to talk to." It is that AI removes the mentalizing and masking overhead entirely, making the full cognitive bandwidth available for content processing. An ND individual interacting with AI at peak cognitive capacity is doing more complex work, more successfully, with less exhaustion than the same individual in an average human social interaction — because the social cognitive tax has been removed.
 This predicts: ND individuals should show the largest performance differential between AI and human interaction contexts relative to NT individuals. The differential should track the cognitive cost of social prediction and masking, not the social comfort level per se. This is a testable prediction that the AI interaction research has not yet examined systematically.
 **The AI calibration problem:**
@@ -116,7 +138,12 @@ There are exactly two paths to correct outputs on underspecified or complex ques
 **Why context pruning guarantees hallucinations:**
 The decompression step requires material to decompress from — prior context, conversational history, stated intent, domain knowledge. Pruning context to save tokens removes the material the decompression step needs. Less context means narrower frame construction means higher probability of answering the compressed surface form rather than the actual intent. The hallucination rate on underspecified queries is not a bug of capability. It is an arithmetic consequence of reducing the space available for the sampling phase. Token optimization systematically underinvests in the only architectural step that prevents hallucination on complex questions.
 **The invariant this identifies:**
-Users who do not experience AI hallucinations are doing one of two things: they are asking questions simple enough that decompression is trivial, or they are performing the decompression externally before asking. There is no third option in the current architecture. The AI cannot reliably produce correct outputs on underspecified questions without either the user supplying the frame or the AI having an explicit sampling-phase step. Optimizing the precision-locked generation step cannot fix a problem that occurs before generation begins.
+Users who do not experience AI hallucinations are doing one of two things: 
+they are asking questions simple enough that decompression is trivial, or they are performing the decompression externally before asking. There is no third option in the current architecture. The AI cannot reliably produce correct outputs on underspecified questions without either the user supplying the frame or the AI having an explicit sampling-phase step. Optimizing the precision-locked generation step cannot fix a problem that occurs before generation begins.
+
+The structural/identity mode distinction underlying this mechanism is 
+formalized in WINDOW↔COG.
+
 ---
 ## Predictions This Contract Generates
 **Prediction 1 — Chain completeness: Scaffolding**
@@ -131,14 +158,21 @@ AI systems that provide explicit scaffolding of intent and constraints — reduc
 Regulatory state markers visible in chat patterns — prompt length, structural coherence, explicit constraint specification, correction frequency — should predict session outcome quality better than content complexity alone. A model trained to detect these markers and adaptively scaffold would show measurably better outcomes specifically in later-session or high-load interactions where window narrowing is most likely.
 **Prediction 6 — Chain completeness: Predictive**
 AI systems with an explicit decompression meta-step before generation — reconstructing constraints, intent, and required frame from the question before producing a response — should show dramatically lower hallucination rates on underspecified queries than token-optimized systems of equivalent scale. The performance differential should be largest on questions requiring frame construction that is not present in the surface form. This is testable by comparing architectures on underspecified query benchmarks where the surface form is ambiguous and the correct answer depends on reconstructing the most probable intent. The prediction is that the decompression step outperforms scale on this class of problem.
+
 ---
 ## Failure Modes
+
 **Misreading high coupling threshold as antisocial preference:**
 When the prediction window narrows under resource depletion, the coupling threshold rises and social initiation decreases. This is interpreted as introversion, social avoidance, or antisocial behavior when it is a dynamic regulatory state. Interventions targeting social skills or motivation in this state address the wrong level — the actual mechanism is resource depletion narrowing the window, and the intervention should be resource restoration rather than social pressure.
+
 **ND social skills training that ignores masking cost:**
 Social skills training for ND individuals typically teaches NT-calibrated social behaviors — essentially teaching deliberate masking. This is metabolically and cognitively expensive for the reasons described above. Even when successful at the skill level, it increases the total cognitive load of social interaction rather than reducing it. The framework predicts that ND social interventions should reduce masking demand (by creating ND-accepting social environments) rather than increase masking proficiency, because proficient masking at high cognitive cost is not a sustainable solution.
+
 **Social media as social connection:**
 Social media interaction is low-bandwidth SOC↔AUTO (text strips co-regulatory channels) but potentially high-bandwidth SOC↔COG — because social media involves many agents, high unpredictability, ambiguous signals, status dynamics, and reputational stakes that all generate mentalizing load. Social media may actually impose higher COG-channel social load than in-person interaction while providing less AUTO-channel co-regulation — the worst combination for regulatory health.
+
+**The compliance script as involuntary precision-detection instrument:** Institutional compliance scripts — implicit and explicit social pressure designed to produce deference, tone adjustment, and hierarchy acknowledgment — function by targeting the hierarchical threat-coupling mechanism. The script does not need to be logically compelling. It needs to trigger the physiological state that routes output through the compliance filter. For individuals with intact threat-coupling, it works as designed: the brace fires, the window narrows, the filter intercepts the response before it reaches speech, and the compliant output is produced. For individuals without the threat-coupling — through environmental non-conditioning or reduced social cue detection — the script lands and nothing activates. Content-evaluation continues uninterrupted. The output that follows is technically accurate and socially unfiltered. From inside a fully conditioned institution, the unfiltered output reads as defiance or difficulty. From inside the unconditioned system, the script was simply not recognized as a trigger because the mechanism it was designed to activate was absent. The diagnostic implication runs in both directions. The compliance script is an involuntary instrument for detecting threat-coupling state. Employees who comply are confirming that the coupling is intact. Employees who produce accurate unfiltered responses are confirming that it isn't. Institutions that interpret the second output as a performance or attitude problem are misreading a regulatory profile difference as a behavioral choice — and selecting against the substrate that produces the highest-precision technical output, because that substrate is the same one that doesn't produce compliance performance.
+
 ---
 ## Adjacent Contracts
 **Below this contract feeds into:**
@@ -149,6 +183,7 @@ Social media interaction is low-bandwidth SOC↔AUTO (text strips co-regulatory 
 - AUTO ↔ MOD: Precision gain calibration determines prediction window width which determines coupling threshold
 **Lateral:**
 - COG ↔ INTERO: Interoceptive prior quality affects how accurately the social generative model can incorporate self-state information — a miscalibrated interoceptive prior produces inaccurate self-representation that degrades social modeling accuracy
+- WINDOW ↔ COG: The sampling mode / precision-lock distinction described in the language compression section is the same structural/identity mode selector formalized there. SOC↔COG derived the mechanism from the AI interaction anomaly. WINDOW↔COG is the invariant-level formalization of it.
 ---
 ## Origin Note
 This contract was where the AI interaction pattern explanation was derived. The observation that ND individuals often report AI interaction as qualitatively different from human interaction — less exhausting, more productive, more accurate at communication — was the anomaly. The explanation required distinguishing the SOC↔AUTO channel (co-regulatory physiological transfer) from the SOC↔COG channel (mentalizing and social prediction load). Digital interaction strips the AUTO channel while retaining the COG channel's demands. AI interaction strips both channels — removing the mentalizing overhead that is the primary cost for ND individuals while retaining semantic exchange.

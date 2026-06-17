@@ -242,6 +242,11 @@ causal variable.
 
 ## Fallacy Groups by Mechanism
 
+The operating mode arriving at this contract — structural or identity —
+is determined upstream by prediction-window width. See WINDOW↔COG.
+The fallacy groups described below are direct outputs of identity mode,
+not independent failure modes.
+
 The six groups below map each fallacy class to its proximal mechanism. 
 The fallacy type is the behavioral readout. The mechanism is why that 
 specific error — and not its inverse or some other error — occurs.

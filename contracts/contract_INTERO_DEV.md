@@ -3,7 +3,6 @@
 *Load alongside minimal_core.md for detailed work on this contract.*
 
 ---
-
 ## Contract Summary
 
 **Input layer:** INTERO — interoceptive prior quality, body-state signal resolution, precision weighting of ascending signals, current regulatory baseline
@@ -43,6 +42,23 @@ Accumulated experience continues to modify regulatory parameters within the cons
 
 **Timescale 4 — Transgenerational:**
 Epigenetic modifications to stress-related genes are transmitted through germline to offspring. The DEV contract of one generation partially writes the DEV contract of the next through molecular inheritance rather than behavioral transmission alone. This timescale operates outside individual experience entirely.
+
+**Timescale 5 — Adult continuous social threat prior writing:**
+This contract's four timescales all describe sensitive-period or molecular mechanisms — setpoints written during windows of high plasticity through epigenetic, structural, or early co-regulatory processes. There is a fifth timescale that operates continuously across adulthood and does not require a sensitive period: the incremental writing of social threat priors through repeated 
+micro-threat conditioning in social environments.
+
+Ordinary office and institutional environments deliver thousands of repetitions of: being watched, being evaluated, being compared, being interrupted, being corrected, being ranked, and receiving implicit compliance pressure from hierarchy. Each event is small. Each event is individually negligible. Each event is mechanistically a micro-brace event: incoming social demand → 
+micro-brace → narrowed prediction window → compliant output. Repeated across years, this sequence writes a stable conditioned association between social demand and the brace response — progressively tightening the false ceiling in social contexts specifically, calibrating the prior toward social threat-salience, and reducing the coupling threshold at which hierarchy signals 
+trigger autonomic response.
+
+This is mechanistically distinct from the sensitive-period calibration described in Timescales 1-4. It does not require elevated cortisol, HPA axis recalibration, or epigenetic modification. It operates through standard conditioning mechanics at the association layer — the same mechanism by which any repeated stimulus-response pairing writes a learned response. 
+The difference is that the stimulus is social micro-threat and the response is physiological bracing with its downstream cognitive consequences.
+
+The absence of this conditioning — through environmental isolation, sustained remote work, or reduced social cue detection — prevents the association from writing and leaves the social prediction window in its unconditioned state. That unconditioned state is not naivety. It is the absence of an interception layer that the majority population has accumulated 
+through decades of institutional exposure. The behavioral outputs that follow — responding to content rather than hierarchy, questioning rather than complying, raising concerns without anticipating backlash — are not personality traits. They are the natural output of a prediction system that was never taught to classify social demand as physiological threat.
+
+This timescale is not currently addressed by the DEV contract's intervention architecture, which targets sensitive-period mechanisms. Adult social threat prior writing is potentially reversible through environmental change — sustained absence from micro-threat environments allows the conditioned association to extinguish on the same timescale it was written. 
+This is the regulatory mechanism behind the documented cognitive and autonomic benefits of remote work, nature immersion, and sustained low-social-density environments. They are not merely stressors being removed. They are conditioning environments being interrupted, allowing the prior to drift back toward the unconditioned baseline.
 
 ---
 
@@ -85,6 +101,17 @@ Sufficient safety signal + entropy source
           → Attractor basin geometry shifts
             → Regulatory range expands
               → New setpoint established if scaffolding present
+```
+
+### Gonadal fate determination (attractor competition):
+```
+Pro-female / pro-male regulatory program competition at Enh13
+  → RUNX1, NR5A1, GATA4 repressor activity determines Sox9 state
+    → Sox9 active → testicular transcriptome → androgen environment
+    → Sox9 repressed → ovarian transcriptome → estrogen environment
+      → Hormonal environment shapes HPA axis calibration window
+        → Interacts with early adversity, attachment, and cortisol exposure
+          → Interoceptive prior written with sex-hormone context embedded
 ```
 
 ---
@@ -147,20 +174,40 @@ This is the most important minority invariant in the DEV contract. High sensitiv
 
 This directly extends the ND-as-regulatory-configuration principle. Many ND profiles may reflect high biological sensitivity to context — regulatory systems calibrated for maximum environmental responsiveness, now experiencing friction with environments that don't match their operating parameters.
 
-**Chain completeness:** Load-bearing. BSC model is empirically established. The U-shaped relationship between adversity and sensitivity is confirmed across multiple studies.
+**Chain completeness:** Load-bearing. BSC model is empirically established. The U-shaped relationship between adversity and sensitivity is confirmed across multiple studies. The symmetric case requires equal formalization. Wide-window developmental anchoring — where the anchoring substrate was sufficient to support full oscillatory amplitude across early developmental windows — produces a prior calibrated against a genuinely wider sampling distribution. More time in the inhale phase, more ambiguity tolerated before resolving, more contradictory interpretations held simultaneously. The prior that results is not rose-tinted in the dismissive sense. It is accurate to the world it sampled during calibration.
+
+The failure mode specific to this profile is social mismatch rather than regulatory mismatch. A prior calibrated from wide-window developmental experience is a minority prior in a population where chronic false-ceiling operation is the statistical baseline. The social pressure this generates runs through SOC↔COG's identity-as-precision-proxy mechanism in reverse: the 
+majority narrow-window prior treats the wide-window prior as naive or insufficiently realistic, because the majority calibration is the reference against which accuracy gets judged. The optimist is not wrong about the world they sampled. They are reporting a prior that the majority population did not accumulate the oscillatory range to sample from.
+
+This also closes the symmetry in the prior revision argument. The narrow-window prior cannot be revised by argument for the same reason the wide-window prior cannot be revised by argument: prior revision requires accumulated experience sampled from a wider window, not persuasion delivered into a constrained one. The direction of revision differs. The mechanism is identical.
+
+---
+
+### Link 7: Gonadal determination as upstream regulatory attractor
+_"Mammalian sex determination is governed by two mutually antagonistic genetic programs that must be precisely balanced."_
+Sox9 activation initiates testis development; its repression is required for ovarian fate. The Enh13 enhancer integrates opposing sex-specific cues through competing transcription factor inputs — RUNX1, NR5A1, and GATA4 maintain Sox9 repression in ovarian fate; their disruption allows Sox9 upregulation and testicular transcriptome activation even in XX individuals. A single-nucleotide insertion within Enh13 is sufficient to produce complete female-to-male sex reversal.
+ 
+ This establishes gonadal sex determination as an attractor state resolved by regulatory program competition, not a fixed binary. The hormonal environment produced by that competition — androgenic vs estrogenic — then becomes the context within which all subsequent DEV contract calibration occurs, including the HPA axis setpoint (Links 1-4) and the plasticity window architecture (estrogen-driven PNN dissolution at adolescence).
+ 
+ The gender identity framing in the README is grounded here: the "natural flexibility" of the interoceptive generative model reflects a molecular substrate that is inherently a regulatory gradient rather than a switch. Polarized social roles imposing high-precision demands are applying pressure to a system whose foundations are already a competition between antagonistic programs that can resolve differently depending on enhancer state.
+ 
+ _The binary appearance of gonadal fate is a property of sufficient competitive resolution, not of the underlying mechanism. Near-threshold enhancer states produce intermediate regulatory profiles. The social imposition of binary categories applies precision pressure to a system whose molecular substrate is inherently a gradient competition — making it appear binary by demand rather than by architecture._
+ 
+ **Chain completeness:** Load-bearing for the gonadal determination mechanism (Nature Communications 2026, Enh13 as binary switch). Scaffolding for the downstream connection to the DEV contract HPA chain — the hormonal environment → HPA calibration link is mechanically coherent but not yet assembled as a direct empirical chain in this framework.
 
 ---
 
 ## Operating States — Developmental Profiles
 
-| Profile | DEV Contract State | Regulatory Range | Adult Expression |
-|---|---|---|---|
-| **Secure, low adversity** | Setpoint calibrated to moderate safety | Wide regulatory range, flexible attractor basins | High HRV baseline, good stress recovery, cognitive flexibility |
-| **Insecure attachment, chronic stress** | Setpoint calibrated to threat | Narrow range, defensive attractors dominant | Low HRV baseline, slow stress recovery, rigid cognitive patterns |
-| **High adversity, high sensitivity (BSC)** | Setpoint calibrated to maximum environmental responsiveness | Wide range but biased toward threat detection | High reactivity in both directions — exceptional positive response and exceptional threat response |
-| **Prenatal stress exposure** | Setpoint partially pre-written before birth | Narrowed range from conception | HPA dysregulation present before any postnatal experience |
-| **Transgenerational trauma** | Setpoint pre-tensioned by ancestral calibration | Constrained by molecular inheritance | Stress reactivity patterns that don't map to individual history |
-| **Protected, over-controlled** | Setpoint calibrated to maximum resource sensitivity | High positive sensitivity, low threat tolerance | Good function in predictable safe environments, poor stress resilience |
+| Profile                                    | DEV Contract State                                                                                                     | Regulatory Range                                 | Adult Expression                                                                                                                                                                                                                     |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Secure, low adversity**                  | Setpoint calibrated to moderate safety                                                                                 | Wide regulatory range, flexible attractor basins | High HRV baseline, good stress recovery, cognitive flexibility                                                                                                                                                                       |
+| **Insecure attachment, chronic stress**    | Setpoint calibrated to threat                                                                                          | Narrow range, defensive attractors dominant      | Low HRV baseline, slow stress recovery, rigid cognitive patterns                                                                                                                                                                     |
+| **High adversity, high sensitivity (BSC)** | Setpoint calibrated to maximum environmental responsiveness                                                            | Wide range but biased toward threat detection    | High reactivity in both directions — exceptional positive response and exceptional threat response                                                                                                                                   |
+| **Prenatal stress exposure**               | Setpoint partially pre-written before birth                                                                            | Narrowed range from conception                   | HPA dysregulation present before any postnatal experience                                                                                                                                                                            |
+| **Transgenerational trauma**               | Setpoint pre-tensioned by ancestral calibration                                                                        | Constrained by molecular inheritance             | Stress reactivity patterns that don't map to individual history                                                                                                                                                                      |
+| **Protected, over-controlled**             | Setpoint calibrated to maximum resource sensitivity                                                                    | High positive sensitivity, low threat tolerance  | Good function in predictable safe environments, poor stress resilience                                                                                                                                                               |
+| **Wide-window developmental anchoring**    | Setpoint calibrated against wide sampling distribution — full oscillatory amplitude sustained across early development | Wide range, positive prior calibration           | Genuine ambiguity tolerance, multi-interpretation holding, lower threat-salience — accurate to its sampling conditions but increasingly mismatched to a social environment where narrow-window operation is the statistical baseline |
 
 ---
 
@@ -168,7 +215,7 @@ This directly extends the ND-as-regulatory-configuration principle. Many ND prof
 
 The DEV contract is not permanently fixed after early childhood. Plasticity windows reopen under specific conditions:
 
-**Adolescence:** Estrogen-driven perineuronal net dissolution opens a second major calibration window. This is why adolescence is both a period of exceptional learning potential and exceptional vulnerability — the setpoints written in early childhood are available for revision, but so are the protective structures that stabilized them.
+**Adolescence:** Estrogen-driven perineuronal net dissolution opens a second major calibration window. This is why adolescence is both a period of exceptional learning potential and exceptional vulnerability — the setpoints written in early childhood are available for revision, but so are the protective structures that stabilized them. _(The estrogen driving this window is the downstream hormonal output of the gonadal fate determination described in Link 7 — the plasticity window amplitude is therefore a consequence of how the Enh13 competition resolved.)_
 
 **Estrogen cycle (adult females):** Monthly partial reopening of plasticity through perineuronal net regulation. Monthly opportunity for setpoint revision, and monthly vulnerability to re-traumatization at elevated intensity.
 
@@ -192,6 +239,11 @@ Children with sleep-disordered breathing from mouth breathing and palatal narrow
 Palate expansion during the childhood developmental window — before the suture closes — reverses the structural constraint. It is a DEV contract intervention that restores the interface itself rather than calibrating the system above it. This is categorically different from all other DEV interventions. Breathing training, contemplative practice, and therapeutic work all work within the interface's current constraints. Palate expansion changes the constraints.
 
 The developmental window closes when the midpalatal suture fuses — typically in the mid-teens. After this point, surgical palate expansion is required. The same intervention that takes 6-12 months in a child requires orthognathic surgery in an adult. This is the DEV contract operating at the structural level: the window exists, the intervention within the window is simple, the same intervention outside the window is orders of magnitude more complex.
+
+**High vs low plasticity as amplitude utilization profiles:**
+The plasticity distinction maps directly onto the reactive/non-reactive framework. High plasticity individuals maintain wide-window operation under load — their prior does not classify incoming demand as threat, the brace reflex does not narrow the window at the moment of engagement, and the workspace can hold the alternative interpretation the update requires. Low 
+plasticity individuals cannot update not because the prior is too strong to override cognitively, but because the autonomic layer locks the prediction window at the moment the update would need to occur. The brace fires, the amplitude collapses, and the workspace loses the width required to hold the existing prior and the challenger simultaneously. Belief change requires 
+restoring the physical substrate before it requires deciding to think differently. The deciding is downstream of the substrate. Without substrate restoration, the decision has no workspace to execute in.
 
 **Chain completeness:** Mouth breathing → palatal narrowing → structural nasal airway restriction: load-bearing, documented in orthodontic and pediatric literature. Palate expansion during developmental window → restored nasal breathing: load-bearing, systematic review confirmed. Nasal breathing → nasal cycle → hemispheric lateralization mechanism: load-bearing (AUTO↔MOD confirmed). Mouth breathing → neurobehavioral problems: confirmed (40-100% increased rates). The full chain connecting structural palatal development to regulatory capacity through the nasal cycle mechanism: scaffolding — component links are each load-bearing, the full chain assembly needs explicit study.
 
@@ -217,6 +269,14 @@ Transgenerational epigenetic load — methylation signatures inherited from trau
 **Prediction 6 — Chain completeness: Scaffolding**
 Children with documented palatal narrowing and mouth breathing should show measurably lower HRV and reduced nasal cycle amplitude relative to nasal breathing controls — connecting the structural variable to the regulatory mechanism. Following palate expansion, HRV and nasal cycle measures should improve proportionally to the degree of airway restoration. This would establish palatal architecture as a structural DEV variable with direct measurable consequences for the regulatory interface, testable with simultaneous rhinomanometry and HRV monitoring before and after expansion.
 
+**Prediction 7 — Chain completeness: Predictive**  
+Individuals with measurable enhancer-level variation in gonadal determination markers — rather than clear binary sex determination — should show atypical adolescent plasticity window timing and amplitude, because the estrogen output of the Enh13 competition determines the window's strength. This is testable via hormonal profiling during adolescence cross-referenced against gonadal development markers.
+
+**Prediction 8 — Chain completeness: Scaffolding**
+Amplitude utilization fraction — HRV variance during naturalistic activity relative to controlled breathing maximum — should predict prior calibration trajectory across adulthood independently of baseline HRV. Two individuals with matched HRV baselines but different amplitude utilization fractions should show diverging prior calibration over a decade: the low-utilization individual 
+should show increasing threat-salience and binary reasoning as the prior recalibrates toward the narrow-phase world it is spending more time sampling; the high-utilization individual should not show the same drift. This separates the false-ceiling mechanism from general autonomic health as the predictor of the "becoming more conservative with age" trajectory — and identifies 
+amplitude utilization fraction as the modifiable variable, not age or baseline vagal tone.
+
 ---
 
 ## Failure Modes
@@ -233,6 +293,11 @@ The conditions that allow the DEV contract to be revised — safety, time, skill
 **Treating mouth breathing as a habit rather than a structural problem:**
 Mouth breathing during childhood is frequently addressed with breathing exercises, myofunctional therapy, and behavioral intervention. These are appropriate when the mouth breathing is habitual. When it is structural — driven by palatal narrowing that physically restricts the nasal airway — behavioral intervention cannot succeed because the anatomy doesn't permit nasal breathing regardless of effort. The intervention needed is structural (palate expansion during the developmental window), not behavioral. Misattributing structural mouth breathing to habit delays the structural intervention past the window in which it is simple, requiring orders of magnitude more complex intervention later. The framework predicts: assess anatomy before prescribing behavior.
 
+**Conflating prior calibration drift with developmental maturity:** 
+The observed population-level shift toward conservative, threat-salient priors across adulthood is often framed as wisdom accumulation or realistic recalibration. The framework predicts the opposite: it is false-ceiling calcification — decades of chest-dominant anchoring, accumulated bracing, and reduced amplitude utilization producing a prior increasingly calibrated from the narrow phase of the oscillation. The shift is real. The mechanism is physiological drift, not epistemic improvement. Individuals who maintain wide-window anchoring across adulthood do not show the same prior drift — their sustained amplitude utilization keeps the sampling distribution wide enough that the prior recalibrates differently.
+
+The mechanism driving this drift is formalized as the threat-calibration loop in ANCHOR↔COG. The loop is the circuit by which false-ceiling calcification produces prior recalibration: reduced amplitude → narrow-phase sampling → threat-biased prior update → elevated sympathetic tone → lower CO₂ bracing threshold → further amplitude reduction. The drift is not continuous background noise. It is a directional attractor with a specific mechanical driver. This means the "becoming more conservative with age" trajectory has a measurable upstream variable — amplitude utilization fraction — and a specific interruption point. The developmental maturity framing obscures both.
+
 ---
 
 ## Adjacent Contracts
@@ -240,6 +305,7 @@ Mouth breathing during childhood is frequently addressed with breathing exercise
 **Below (feeds into this contract):**
 - COG ↔ INTERO: The interoceptive prior quality that feeds into this contract is itself determined by current regulatory state — but the setpoint this contract establishes constrains what that prior can update toward. Bidirectional influence across timescales.
 - INTERO is the input but the DEV output writes back into INTERO at the next timescale — creating the developmental cascade
+- Gonadal fate determination via Enh13 competition operates as a pre-chain upstream input to this contract — the hormonal environment it produces is the context within which all DEV contract calibration occurs.
 
 **Above (this contract writes the parameters for):**
 - Every other contract operates within the attractor basin geometry this contract establishes
@@ -263,4 +329,4 @@ The transgenerational piece emerged from asking: why do some individuals show re
 
 The BSC U-shaped relationship was the critical minority invariant: it showed that high sensitivity is not uniformly pathological, which broke the implicit assumption that early adversity produces uniformly worse outcomes. The U-shape reveals the conditional adaptation logic — the regulatory system is doing exactly what it evolved to do, calibrating to the expected environment. The problem is environment mismatch, not system failure.
 
-*Chain status: Links 1-5 are load-bearing with extensive empirical confirmation. Link 6 (BSC model) is load-bearing. Plasticity window architecture is scaffolding — directional relationships are established but specific chronotherapy predictions are largely untested. Transgenerational predictions (4-5) are scaffolding to predictive. The access paradox is a structural derivation of the model, not an empirical claim requiring separate validation.*
+*Chain status: Links 1-5 are load-bearing with extensive empirical confirmation. Link 6 (BSC model) is load-bearing. Plasticity window architecture is scaffolding — directional relationships are established but specific chronotherapy predictions are largely untested. Transgenerational predictions (4-5) are scaffolding to predictive. The access paradox is a structural derivation of the model, not an empirical claim requiring separate validation. Link 7 (gonadal determination) is load-bearing for the Enh13 mechanism (Nature Communications 2026); scaffolding for the downstream hormonal environment → HPA calibration connection._*
