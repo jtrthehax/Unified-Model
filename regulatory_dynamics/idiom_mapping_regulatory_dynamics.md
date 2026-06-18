@@ -304,7 +304,7 @@ narrowing of the oscillatory range that precedes full collapse.
 
 ## 6. Gaze, Blink, and Thinking-Surface Idioms
 
-**Contract:** [[contract_EXHALE_GAZE_BLINK]]
+**Contract:** [[contract_MODULATORS_COG]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -320,7 +320,7 @@ narrowing of the oscillatory range that precedes full collapse.
 
 **Contract evidence:**
 
-From [[contract_EXHALE_GAZE_BLINK]]:
+From [[contract_MODULATORS_COG]]:
 > "A blank surface provides the exit condition the system needs: gaze 
 > is de-anchored from the social stimulus, but the visual channel 
 > encounters a low-entropy field that generates minimal prediction 
