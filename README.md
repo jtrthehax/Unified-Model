@@ -57,13 +57,13 @@ contracts/
   contract_AUTO_MOD.md  
   contract_COG_INTERO.md  
   contract_COG_REASON.md  
-  contract_EXHALE_GAZE_BLINK.md  
   contract_GLYPH_AUTO.md  
   contract_IMMUNE_AUTO.md  
   contract_INTERO_DEV.md  
   contract_MICRO_AUTO.md  
   contract_MET_AUTO.md  
   contract_MET_IMMUNE.md  
+  contract_MODULATORS_COG.md
   contract_NOCI_COG.md  
   contract_PROPRIO_AUTO_COG.md  
   contract_SLEEP.md  
