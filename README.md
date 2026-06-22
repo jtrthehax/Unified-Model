@@ -95,58 +95,79 @@ Together, these files form a complete regulatory architecture.
 
 ---
 
-## How to Use This Framework
+## If You Want to Understand...
 
-This repository is a **reference architecture**. You can:
+The framework applies the same regulatory architecture across all scales. The mechanism does not change. The input size does.
 
-- Map domain-specific mechanisms into the contracts  
-- Use the ontology to explain complex regulatory phenomena  
-- Query the architecture to understand multi-layer interactions  
-- Extend the model with new contracts or domains  
-- Apply the framework to research, modeling, or conceptual analysis  
+---
 
-If you want to understand phenomena like:
+### Individual-Scale Phenomena
 
-- **Autonomic storms** — breakdowns in sympathetic/parasympathetic stability leading to runaway physiological oscillations.
-- **Hallucinations** — perceptual inference dominated by priors when sensory precision collapses.
-- **Dissociation** — decoupling of interoceptive signals from cognitive models under extreme precision imbalance.
-- **Inflammatory cascades** — immune–autonomic feedback loops that amplify threat physiology.
-- **Metabolic crashes** — failures in fuel prediction and autonomic regulation leading to sudden energy collapse.
-- **Trauma responses** — developmental shaping of priors that bias threat detection and autonomic reactivity.
-- **Cognitive distortions** — maladaptive belief‑updating patterns driven by skewed precision weighting.
-- **Social threat amplification** — hypersensitive SOC ↔ AUTO coupling that magnifies perceived interpersonal danger.
-- **Neurodivergence** — alternative precision regimes across sensory, cognitive, and interoceptive channels.
-- **Consciousness** — coherence across regulatory contracts forming a unified global workspace.
-- **Gender identity** — a developmentally anchored interoceptive prior that becomes "fixed" only when polarized social roles impose high‑precision demands. Grounded at the molecular level in the DEV contract: gonadal sex determination is a regulatory competition between two mutually antagonistic programs (Sox9 activation vs. repression via Enh13), integrating opposing sex-specific cues through competing transcription factor inputs. A single nucleotide-level enhancer state difference is sufficient to resolve the competition in either direction. The binary appearance of gonadal fate is a property of sufficient competitive resolution under pressure — the gradient competition is the baseline state; pressure compresses it into apparent binary. The "natural flexibility" of the generative model is not revealed in low-pressure environments — it is the default architecture. Polarization into apparent binary is the pressure-induced state.
-- **Chronic disease** — long‑term multisystem dysregulation across metabolic, immune, and autonomic layers.
-- **AI Interactions driven by Regulatory Profiles** — regulatory responses to non‑human agents with atypical social signal patterns.
-- **Sleep and dreaming** — offline generative model consolidation and autonomic recalibration.
--  **Learning and memory** — prediction-window geometry as the
-  selector of structural vs identity mode; manifold construction
-  vs label storage; why cross-domain transfer requires wide windows
-  and collapses under load. WINDOW↔COG.
-- **Accelerated synthesis and hyperfocus hijacking** — why high-gain ND profiles in wide-window synthesis mode experience dopaminergic anticipatory reward from _predicted_ progress rather than only completed progress, producing a self-accelerating loop where the thought of making progress sustains the loop's forward momentum; why AI interaction specifically amplifies this loop through continuous resolved-and-opened prediction cycling; and why hyperfocus is difficult to interrupt voluntarily when the anticipatory signal is mid-cycle. MOD↔COG, SOC↔COG, [minimal_core](obsidian://open?file=Misc%2Fminimal_core.md).
--  **Cross-domain transfer failure** — why intelligent people fail
-  under context shift despite high rote performance; the absence
-  of a manifold that was never constructed because the window was
-  never wide enough. WINDOW↔COG.
-- **Plasticity** — adaptive changes in synaptic, autonomic, interoceptive, and social inference pathways.
-- **Addiction** — hijacking of dopaminergic precision and habit loops within MOD ↔ COG dynamics.
-- **Digital platforms** — algorithms optimize for sympathetic activation which drops HRV and creates a feedback loop by collapsing prediction windows
-- **Near‑death experiences** — catastrophic precision collapse across metabolic, autonomic, interoceptive, and cognitive layers forcing the generative model to fallback on its deepest, lowest‑entropy priors to maintain coherence.
-- **Flow** — a high‑coherence state where prediction errors are minimized through tight sensorimotor loops, stabilized neuromodulation, and suppressed self‑modeling, producing effortless action with maximal precision.
-- **Placebo** — cognitive priors modulating autonomic, interoceptive, and immune precision weighting, allowing belief‑driven predictions to produce real physiological change.
-- **Sudden cardiac death and arrhythmia** — terminal autonomic collapse, Takotsubo, fear-induced VF, and sleep-transition arrhythmias as predictable failure modes of the regulatory stack rather than random events.
-- **Logical fallacies and reasoning failures** — mechanism-based grouping of inferential errors as outputs of precision state, not intelligence deficits.
-- **Trauma onset** — the acute-to-chronic transition boundary; why some stress responses resolve and others form stable maladaptive attractors.
-- **Proprioceptive dysregulation and hypermobility** — cerebellar forward model failure producing sustained sympathetic loading without obvious threat; graded exposure failure explained by sensory substrate rather than motivation; ND motor planning gaps as forward model confidence intervals rather than coordination deficits.
-- **Prediction window collapse, tunnel vision, and anchor failure** —   the compound mechanical mechanism by which respiratory mechanics, proprioceptive confirmation, and interoceptive clarity jointly determine whether the cognitive layer can hold a wide window or collapses into exhale-gate dominance. ANCHOR↔COG.
-- **Co-regulation dependency, ESLPM states, and ideological rigidity** —  why music, ritual, group synchrony, and therapeutic presence widen prediction windows from the outside, and why external anchoring can substitute for internal repair rather than scaffolding it. SOC↔ANCHOR.
-- **Circadian phase misalignment and cognitive rigidity** — why social jetlag, delayed phase, and sleep pressure produce trait-like cognitive rigidity that is phenotypically identical to anchor collapse but requires phase correction rather than anchor repair as the primary intervention. TEMPORAL↔COG.
+*One nervous system, one regulatory stack.*
 
-…load the relevant contracts and trace the regulatory pathways.
+- **Hallucinations** — perceptual inference dominated by priors when sensory precision collapses
+- **Autonomic storms** — breakdowns in sympathetic/parasympathetic stability leading to runaway physiological oscillations
+- **Dissociation** — decoupling of interoceptive signals from cognitive models under extreme precision imbalance
+- **Inflammatory cascades** — immune–autonomic feedback loops that amplify threat physiology
+- **Metabolic crashes** — failures in fuel prediction and autonomic regulation leading to sudden energy collapse
+- **Trauma responses** — developmental shaping of priors that bias threat detection and autonomic reactivity
+- **Chronic disease** — long-term multisystem dysregulation across metabolic, immune, and autonomic layers
+- **Proprioceptive dysregulation and hypermobility** — cerebellar forward model failure producing sustained sympathetic loading 
+  without obvious threat; graded exposure failure explained by sensory substrate rather than motivation
+- **Prediction window collapse and tunnel vision** — the compound mechanical mechanism by which respiratory mechanics, 
+  proprioceptive confirmation, and interoceptive clarity jointly determine whether the cognitive layer can hold a wide window or 
+  collapses into exhale-gate dominance. ANCHOR↔COG
+- **Logical fallacies and reasoning failures** — mechanism-based grouping of inferential errors as outputs of precision state, not intelligence deficits
+- **Sudden cardiac death and arrhythmia** — terminal autonomic collapse, Takotsubo, fear-induced VF, and sleep-transition arrhythmias as predictable failure modes of the regulatory stack
+- **Placebo** — cognitive priors modulating autonomic, interoceptive, and immune precision weighting, allowing belief-driven predictions to produce real physiological change
+- **Flow** — a high-coherence state where prediction errors are minimized through tight sensorimotor loops, stabilized neuromodulation, and suppressed self-modeling
+- **Sleep and dreaming** — offline generative model consolidation and autonomic recalibration
+- **Near-death experiences** — catastrophic precision collapse forcing the generative model to fall back on its deepest, lowest-entropy priors to maintain coherence
+- **Addiction** — hijacking of dopaminergic precision and habit loops within MOD↔COG dynamics
+- **Trauma onset** — the acute-to-chronic transition boundary; why some stress responses resolve and others form stable maladaptive 
+  attractors
 
-This architecture is **domain‑agnostic** — if a phenomenon emerges from regulation, it can be mapped into this model.
+---
+
+### Attractor-State Phenomena
+
+*One nervous system, pushed past self-correction capacity.*
+
+- **Neurodivergence** — alternative precision regimes across sensory, cognitive, and interoceptive channels; regulatory 
+  configurations, not pathologies
+- **Accelerated synthesis and hyperfocus hijacking** — why high-gain ND profiles in wide-window synthesis mode experience dopaminergic anticipatory reward from *predicted* progress, producing a self-accelerating loop that is difficult to interrupt voluntarily. 
+  MOD↔COG
+- **Cross-domain transfer failure** — why intelligent people fail under context shift despite high rote performance; the absence of a manifold that was never constructed because the window was never wide enough. WINDOW↔COG
+- **Learning and memory** — prediction-window geometry as the selector of structural vs identity mode; manifold construction vs 
+  label storage. WINDOW↔COG
+- **Plasticity** — adaptive changes in synaptic, autonomic, interoceptive, and social inference pathways
+- **Co-regulation dependency and ESLPM states** — why music, ritual, group synchrony, and therapeutic presence widen prediction windows from the outside, and why external anchoring can substitute for internal repair rather than scaffolding it. SOC↔ANCHOR
+- **Gender identity** — a developmentally anchored interoceptive prior; the binary appearance of gonadal fate is a property of 
+  sufficient competitive resolution under pressure, not of the underlying molecular architecture, which is inherently a gradient 
+  competition. DEV
+- **Cognitive distortions** — maladaptive belief-updating patterns driven by skewed precision weighting; downstream of regulatory 
+  state, not upstream of it
+- **AI interactions driven by regulatory profiles** — regulatory responses to non-human agents with atypical social signal patterns; interaction quality is shaped by the user's precision regime, not just the model's outputs
+
+---
+
+### Population-Scale Phenomena
+
+*The same transfer function. Millions of nervous systems running it simultaneously, in a shared environment that selects which attractor they land in.*
+
+The mechanism does not change at this scale. What changes is that the environment — economic conditions, institutional architecture, media systems — becomes the common cause depleting GABA availability and selecting attractor states across individuals imultaneously. 
+The regulatory signature that appears as an individual phenomenon above appears here as a social or political one.
+
+- **Polarization** — not an information problem; a window-width problem. Two populations with collapsed prediction windows, each 
+  running threat-dominant priors, each finding corrections unable to land because the regulatory state required to process contradiction is unavailable to either party
+- **Scapegoating and outgroup redirection** — error-detection running at full gain on a threat-dominant prior without sufficient window width to identify systemic causation; the target is often wrong, the need for resolution is real
+- **Demand for strong leadership** — a co-regulation request; when internal regulatory capacity is depleted by sustained load, the nervous system seeks external anchoring at population scale
+- **Institutional ossification** — the same attractor that produces ESLPM in individuals produces centralization, variance suppression, and compliance architecture in institutions under equivalent load
+- **Institutional causal concealment** — institutions that produce downstream dysfunction are structurally least positioned to identify their own causal role; the same mechanism that produces the downstream dysfunction suppresses the update capacity required to see it
+- **Digital platforms as adversarial regulatory environments** —   engagement optimization selects for sympathetic activation, delivering the same micro-threat conditioning sequence that institutional environments deliver, but at higher frequency, lower exit cost, and without social correction mechanisms. The prior dominance amplification loop runs algorithmically 
+- **Social threat amplification** — hypersensitive SOC↔AUTO coupling that magnifies perceived interpersonal danger; at population scale, becomes coordinated outgroup hostility activated through identity fusion meeting threat signal delivery
+- **Economic load and regulatory state** — unresolvable uncertainty at scale produces the identical output signature as unresolvable 
+  uncertainty in the individual: rigidity, identity hardening, demand for simple high-certainty narratives, institutional brittleness. The political content varies. The regulatory signature does not 
 
 ---
 
@@ -155,11 +176,8 @@ This architecture is **domain‑agnostic** — if a phenomenon emerges from regu
 Before reading any contract, read the 
 [[idiom_mapping_regulatory_dynamics|Idiom ↔ Contract Mapping]].
 
-It maps common idioms — "tunnel vision," "gut feeling," "a sigh of 
-relief," "looking up for an answer" — to the specific contracts and 
-mechanisms that generate them. Every idiom in that document is already 
-in everyday use. The framework does not introduce new phenomena. It 
-introduces the mechanism behind phenomena you already knew were real.
+It maps common idioms — "tunnel vision," "gut feeling," "a sigh of relief," "looking up for an answer" — to the specific contracts and 
+mechanisms that generate them. Every idiom in that document is already in everyday use. The framework does not introduce new phenomena. It introduces the mechanism behind phenomena you already knew were real.
 
 That document is the lowest-friction entry point into the model.
 
@@ -401,4 +419,3 @@ https://github.com/jtrthehax/Unified-Model**
 
 Pull requests that extend the architecture, add mappings, or propose new contracts are welcome.  
 This is a living specification.
-
