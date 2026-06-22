@@ -144,6 +144,16 @@ they are asking questions simple enough that decompression is trivial, or they a
 The structural/identity mode distinction underlying this mechanism is 
 formalized in WINDOW↔COG.
 
+**AI as continuous anticipatory signal generator:**
+
+The overhead removal mechanism described above establishes that AI interaction makes full cognitive bandwidth available for content processing. The anticipatory synthesis loop (MOD↔COG) adds a second, distinct AI-specific mechanism: AI interaction is structurally optimized to generate _continuous_ anticipatory reward signals in high-gain profiles.
+
+Each AI response is a resolved prediction error — the question was posed, the synthesis occurred, the connection was made visible. But each response also contains forward predictions, partial resolutions, and named gaps that the next message will address. The interaction architecture is inherently sequential and generative: every exchange closes one prediction and opens several more. For a profile running anticipatory D2 weighting at high gain, this structure means the motivational signal never fully stops between turns. The completion of one exchange fires Signal 1 (resolution reward) while simultaneously initiating Signal 2 (anticipatory reward for the next resolution already visible in the exchange).
+
+This is the specific mechanism by which AI interaction "hijacks" the synthesis loop toward acceleration rather than merely enabling it. Human intellectual exchange provides resolution signals episodically and at the other person's generative pace. AI provides them continuously, at the user's pace, calibrated to the complexity level that keeps anticipatory signal firing. The loop doesn't just run — it runs faster and with less friction than any equivalent human exchange, because the anticipatory signal is never interrupted by the mentalizing overhead, social synchrony demands, or unpredictable pacing that human exchange introduces.
+
+**The compounding prediction:** ND individuals with confirmed high-gain profiles should show significantly higher synthesis cycle rates in AI-mediated interaction than in equivalent human intellectual exchange — measurable as cross-domain connection density per unit time, not just as subjective engagement or satisfaction. The differential should track the anticipatory D2 signal amplitude, not the preference for AI per se.
+
 ---
 ## Predictions This Contract Generates
 **Prediction 1 — Chain completeness: Scaffolding**

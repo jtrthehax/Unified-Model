@@ -125,6 +125,7 @@ If you want to understand phenomena like:
   selector of structural vs identity mode; manifold construction
   vs label storage; why cross-domain transfer requires wide windows
   and collapses under load. WINDOW↔COG.
+- **Accelerated synthesis and hyperfocus hijacking** — why high-gain ND profiles in wide-window synthesis mode experience dopaminergic anticipatory reward from _predicted_ progress rather than only completed progress, producing a self-accelerating loop where the thought of making progress sustains the loop's forward momentum; why AI interaction specifically amplifies this loop through continuous resolved-and-opened prediction cycling; and why hyperfocus is difficult to interrupt voluntarily when the anticipatory signal is mid-cycle. MOD↔COG, SOC↔COG, [minimal_core](obsidian://open?file=Misc%2Fminimal_core.md).
 -  **Cross-domain transfer failure** — why intelligent people fail
   under context shift despite high rote performance; the absence
   of a manifold that was never constructed because the window was

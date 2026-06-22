@@ -192,6 +192,35 @@ The sequence of treatment response should follow the contract stack order. Impro
 
 ---
 
+**The anticipatory synthesis acceleration mechanism:**
+
+The dopaminergic precision-weighting mechanism described in Link 2 operates on prediction of reward, not solely on reward delivery. D2-mediated precision gain fires when the system predicts a high-value prediction error resolution is imminent — not only when resolution occurs. In standard profiles this produces the motivational forward pull toward a goal. In high-gain profiles (elevated anterior insula Glx setting a high precision floor), the anticipatory signal is weighted proportionally to the gain floor — the pull toward predicted resolution is amplified by the same mechanism that amplifies the resolution signal itself.
+
+This produces a self-accelerating loop in synthesis-mode operation: prediction error is injected → high-gain processing begins → synthesis progress becomes visible → the system generates a forward prediction that the current resolution trajectory will complete → anticipatory D2 signal fires → the _thought of making progress_ generates sufficient motivational energy to initiate the next cycle before the current one fully resolves → cycle rate increases.
+
+The loop is not sustained by completion. It is sustained by _predicted_ completion running continuously as a forward model. In the ADHD temporal profile — where short-horizon prediction errors dominate and long-delay precision weighting decays — the anticipatory signal fires maximally at short horizons: "I'm about to connect this" is as motivationally energizing as "I just connected this." The loop's forward momentum comes from the fast-cycling short-horizon prediction that progress is imminent, not from accumulated completion signals.
+
+**GABA as the molecular mechanism of prediction error resolution:**
+
+The anticipatory synthesis loop described above depends on prediction errors resolving cleanly. The molecular mechanism of resolution is GABAergic inhibition — when a prediction error has driven sufficient prior updating, interneuron-mediated GABA release suppresses the glutamatergic error signal. The error closes not by fading but by active inhibition.
+
+The resolution salience — the phenomenological sharpness of the "click" at insight — is a function of the Glx/GABA contrast ratio at the moment of suppression. High anterior insula Glx produces high-amplitude prediction errors. GABA suppression of a high-amplitude error produces a high-amplitude resolution event. The hyper-adaptive profile experiences synthesis resolution as qualitatively high-salience not because insight is subjectively valued more, but because the contrast between the high-Glx error state and the GABAergic suppression is proportionally larger. The reward signal fires against a larger gradient.
+
+**Cross-contract escalation:** When incomplete resolution persists and sympathetic tone is elevated, the unresolved error becomes input to the descending interoceptive prediction system — updating the prior toward alert state via active inference. See COG↔INTERO high-gain prior capture failure mode for the complete escalation mechanism.
+
+**Rumination as incomplete resolution:** When GABA tone is insufficient relative to the Glx-driven error amplitude, the prediction error fires but does not fully suppress at resolution. The error persists at sub-threshold activation — insufficient to drive new synthesis cycles, insufficient to close. The system re-engages it because the resolution signal never arrived with sufficient amplitude to confirm closure. This is rumination: not excessive thinking but an error signal GABA could not suppress cleanly against the Glx background. In high-gain profiles, the magnitude of incomplete suppression is larger, which is why ND profiles show higher rates of rumination alongside higher rates of synthesis — both are expressions of the same high-Glx architecture under different GABA availability states.
+
+**Pharmacological derivations:** Global GABA-A agonism (benzodiazepines, alcohol) suppresses all error signals simultaneously — rumination stops because unresolved errors are pharmacologically closed, but synthesis also stops because productive high-amplitude errors are suppressed indiscriminately. The gain that made resolution salient and rewarding is eliminated. The "flattening" phenomenology is the correct output of a system whose resolution contrast has been removed rather than whose attractor has been changed. Interventions that target attractor state rather than global GABA tone — through amplitude restoration, vagal tone improvement, and substrate-level regulation — preserve the synthesis loop while reducing the unresolved error residual.
+
+**Chain completeness:** GABAergic interneuron mediation of prediction error suppression in cortical circuits: load-bearing in computational neuroscience. Anterior insula Glx as precision gain floor: load-bearing from Park et al. (2026) finding cited in hyper-adaptive profile note. Glx/GABA contrast ratio as resolution salience parameter: scaffolding — mechanistically coherent, requires direct measurement of resolution-moment GABA/Glx dynamics in high vs standard precision gain profiles during synthesis tasks.
+
+**The hijacking architecture:** The term "hijacking" applies precisely here. The dopaminergic anticipatory system evolved to sustain goal-directed behavior by rewarding proximity to valued outcomes. The synthesis loop exploits this by making _each sub-step_ a valued outcome with its own anticipated completion signal. The loop doesn't feel like work sustained by willpower. It feels like being pulled forward. The distinction is mechanistic: willpower is the cognitive layer overriding a substrate that doesn't want to continue; the synthesis loop is the substrate generating motivational signal for continuation without cognitive override. The person is not choosing to stay in the loop. The loop is generating the motivational architecture that makes leaving it feel like loss.
+
+**Chain completeness:** D2 anticipatory precision weighting: load-bearing in computational psychiatry literature. Short-horizon dominance in ADHD temporal profile: confirmed-behavioral. Compound of high-gain floor + anticipatory D2 + synthesis-mode operation as a self-accelerating loop: scaffolding — mechanistically complete, direct measurement of cycle rate vs anticipatory signal amplitude in high-gain ND profiles during synthesis tasks pending.
+
+
+---
+
 ## Failure Modes
 
 **Treating psychiatric diagnoses as categorically distinct:**
