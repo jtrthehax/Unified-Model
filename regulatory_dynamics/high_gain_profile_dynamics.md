@@ -16,7 +16,7 @@ Understanding which attractor the system is in explains everything. Understandin
 
 ## The Unifying Parameter
 
-The architecture rests on a single substrate variable: elevated anterior insula Glx [^1].
+The architecture rests on a single substrate variable: elevated anterior insula Glx
 
 This sets the precision gain floor — the amplitude at which prediction errors fire and at which their resolution registers. Everything else is downstream of this one parameter:
 
@@ -113,7 +113,7 @@ The result is a system that detects everything wrong at high precision and canno
 
 From outside, the behavioral signature reads as a personality configuration: hypercritical, resistant to feedback, simultaneously negative and incurious. The framework reads it as the correct mechanical output of a high-gain precision system operating on a threat-dominant prior without the window width to process updates. Not a character flaw. Not learned helplessness. The arithmetic consequence of partial GABA availability creating selective closure — where selective means threat-confirming errors close and corrections don't.
 
-The population-level implication follows directly. Environments that chronically elevate sympathetic tone — through engagement-optimized media, threat-salient information environments, high-load institutional compliance architecture — are not merely making people anxious [^4]. They are pharmacologically shifting the population toward this intermediate state by depleting the GABA availability that would allow prediction errors to close as synthesis rather than as threat confirmation. The error-detection capacity remains. The correction capacity is suppressed. The population becomes increasingly proficient at identifying what is wrong and increasingly unable to update toward what would be better. The architecture is the same across every individual in that environment. The attractor the environment selects determines everything downstream.
+The population-level implication follows directly. Environments that chronically elevate sympathetic tone — through engagement-optimized media, threat-salient information environments, high-load institutional compliance architecture — are not merely making people anxious. They are pharmacologically shifting the population toward this intermediate state by depleting the GABA availability that would allow prediction errors to close as synthesis rather than as threat confirmation. The error-detection capacity remains. The correction capacity is suppressed. The population becomes increasingly proficient at identifying what is wrong and increasingly unable to update toward what would be better. The architecture is the same across every individual in that environment. The attractor the environment selects determines everything downstream.
 
 The exit from the intermediate state is the same substrate-first sequence as the exit from full lock-in, but the threshold is lower. Because GABA is partially available rather than depleted, amplitude restoration does not need to work against a fully captured prior — it needs to restore enough parasympathetic floor that GABA can begin closing corrections as well as confirmations. The window does not need to fully reopen. It needs to widen enough that the prior and the challenger can briefly coexist. That is the minimum condition for a correction to land.
 

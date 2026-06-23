@@ -129,13 +129,39 @@ The endocannabinoid system is the primary retrograde signaling system in the bra
 
 ---
 
-### Link 5: ECS tone → Hemispheric lateralization
-RSA and frontal hemispheric asymmetry interact directly — higher parasympathetic control reduces emotion dysregulation specifically in conjunction with left frontal asymmetry. The breathing cycle drives RSA which modulates vagal tone which interacts with hemispheric lateralization to determine which processing mode is active.
+### Link 5: ECS tone → Hemispheric lateralization → Cognitive mode selection
 
-Right hemisphere: broad, contextual, high-ambiguity, inhale-phase mode
-Left hemisphere: narrow, categorical, high-precision, exhale-phase mode
+RSA and frontal hemispheric asymmetry interact directly — higher parasympathetic control reduces emotion dysregulation specifically in conjunction with left frontal asymmetry. The breathing cycle drives RSA, which modulates vagal tone, which interacts with hemispheric lateralization to determine which processing mode is active. This link is the mode selector for everything above in the stack.
 
-**Chain completeness:** Scaffolding. RSA-frontal asymmetry interaction is documented. Specific transduction pathway needs further assembly.
+**The Hemispheric Mode Map:**
+
+|Hemisphere|Phase|Processing Mode|Window State|Inference Type|
+|---|---|---|---|---|
+|**Right**|Inhale|Broad, contextual, high-ambiguity|Wide, sampling|Relational manifold construction|
+|**Left**|Exhale|Narrow, categorical, high-precision|Narrow, selection|Prior-weighted thread execution|
+
+These are not metaphors. They are the computational output of asymmetric vagal afferent input into the NTS producing asymmetric hemispheric activation via the lateralized autonomic pathway.
+
+**The Mechanical Selector:**
+
+Hemispheric dominance is determined upstream of cognition by pressure mechanics, not by cognitive intention. Three mechanical routes select the mode:
+
+1. **Breathing ratio** — exhale extension increases parasympathetic tone → NTS input shifts → left frontal activation increases → precision mode engages. Inhale extension does the reverse. This is the primary oscillating selector
+    
+2. **Hemidiaphragm asymmetry** — right thoracic compression restricts right hemidiaphragm excursion → RSA amplitude asymmetry biased toward left-hemisphere vagal afferent input → left frontal activation increases → precision mode engaged without changing breathing ratio. Full bilateral excursion restores symmetric RSA → both hemispheres available → sampling mode accessible. The nasal cycle runs this same asymmetric autonomic lateralization mechanism continuously as an ultradian rhythm — the practitioner taking voluntary control of thoracic asymmetry is taking conscious control of a mechanism the body already runs automatically.
+    
+3. **Diaphragm fixation** — maintaining abdominal brace locks intrathoracic pressure near the inhale-phase set point between breath cycles → sustained precision-favorable pressure without full oscillation → left hemisphere dominant between cycles as well as during exhale phase.
+    
+
+**Why this is the precision gate:**
+
+Left frontal activation is not merely correlated with precision mode — it is the anatomical location of exhale-phase precision selection. The framework consequence is significant: cognitive mode is not chosen. It is mechanically assigned by whichever pressure configuration is running at the time of the cognitive operation. This is why ambiguity tolerance is a structural prerequisite, not a cognitive skill — the structural threshold must be met before the right hemisphere manifold can form. It is also why identity-anchored reasoning under collapse is left-hemisphere dominant: collapse compresses oscillation amplitude, the exhale-phase set point becomes the default, and left hemisphere precision lock becomes the chronic state.
+
+**The EEG prediction this generates:**
+
+Deliberate thoracic asymmetry should produce measurable EEG frontal asymmetry shifts in the predicted direction within a single session, independent of breathing ratio — this is Prediction 6 in this contract. The gap analysis confirmed the asymmetric autonomic lateralization mechanism as load-bearing via the nostril breathing literature, but the deliberate postural thoracic version as a distinct control variable has not been directly studied. The mechanism is confirmed; the deliberate postural application remains scaffolding.
+
+**Chain completeness:** Scaffolding → partially load-bearing. RSA-frontal asymmetry interaction is documented. Asymmetric autonomic lateralization mechanism confirmed load-bearing via nostril lateralization literature. Specific ECS transduction pathway from NTS to frontal asymmetry needs explicit empirical assembly. Deliberate postural hemidiaphragm application as a control variable: scaffolding — mechanism confirmed, deliberate postural version needs direct testing.
 
 ---
 
