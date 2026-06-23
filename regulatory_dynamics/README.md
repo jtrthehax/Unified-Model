@@ -80,9 +80,7 @@ across entire populations and institutions simultaneously.*
 How economic conditions produce predictable shifts in population 
 regulatory state — polarization, rigidity, institutional 
 ossification, and causal concealment — through the same 
-precision-weighting architecture that governs individual prediction 
-under uncertainty. Includes cross-national consistency analysis and 
-the Keynes bridge.
+precision-weighting architecture that governs individual prediction under uncertainty. Includes cross-national consistency analysis and the Keynes bridge.
 
 ---
 
@@ -92,11 +90,7 @@ the Keynes bridge.
 legible across perceptual and cognitive systems.*
 
 ### [7. Color-Space Regulatory Geometry](./color_space_regulatory_geometry.md)
-The structural isomorphism between color-space geometry and the 
-regulatory-state manifold — why color regions map universally to 
-regulatory modes, how curvature and geodesics are shared invariants, 
-and why reasoning distortions follow the same geometric rules as 
-perceptual distortions.
+The structural isomorphism between color-space geometry and the regulatory-state manifold — why color regions map universally to regulatory modes, how curvature and geodesics are shared invariants, and why reasoning distortions follow the same geometric rules as perceptual distortions.
 
 ---
 
