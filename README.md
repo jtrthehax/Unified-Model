@@ -48,6 +48,7 @@ contracts/
   contract_MOD_COG.md
   contract_MODULATORS_COG.md
   contract_NOCI_COG.md
+  contract_PRESSURE_BP.md
   contract_PROPRIO_AUTO_COG.md
   contract_SLEEP.md
   contract_SOC_ANCHOR.md
@@ -87,6 +88,7 @@ The framework applies the same regulatory architecture across all scales. The me
 - **Inflammatory cascades** — immune–autonomic feedback loops that amplify threat physiology
 - **Metabolic crashes** — energy availability failures that propagate upward through the autonomic and cognitive layers
 - **Prediction window collapse and tunnel vision** — the compound mechanism by which respiratory mechanics, proprioceptive confirmation, and interoceptive clarity jointly determine whether the cognitive layer can hold a wide window or collapses into exhale-gate dominance. [[contract_ANCHOR_COG]] sets the mechanical ceiling on oscillation amplitude; [[contract_WINDOWS_COG]] formalizes the window geometry itself — width, depth, curvature, and stability as four separable dimensions with independent failure modes — and the structural threshold at which manifold construction becomes unavailable.
+  - **Blood pressure misclassification in trained practitioners** — oscillometer BP readings are composite outputs of vascular tone, respiratory pressure mechanics, and limb geometry — not pure vascular metrics. In high-excursion practitioners (large tidal volume, full exhale capacity, high CO₂ tolerance, high RSA amplitude), the Frank-Starling artifact from end-exhale intrathoracic pressure differentials, compounded by arm mechanics and scrutiny-induced precision-locking from [[contract_AUTO_MOD]], produces systematic reading inflation of 20–30 mmHg above true vascular baseline. The protocol does not fail randomly in this population — it fails directionally, predictably, and in proportion to training level. Formalized in [[contract_PRESSURE_BP]].
 
 ---
 
@@ -150,6 +152,7 @@ Key differences:
 - **Regulatory load** — ND systems operate with higher baseline autonomic demand
 - **Prediction‑window width** — ND systems in low-load environments access wider structural-mode windows; the same systems under institutional load collapse to identity mode faster because the gain floor is higher. Formalized in [[contract_WINDOWS_COG]] Link 1 and Link 4.
 - **Attractor sensitivity** — ND systems transition between attractors at lower environmental thresholds; the same architecture that enables accelerated synthesis in Attractor A produces faster collapse in high-load environments
+- **Hypertension misclassification in ND profiles** — reduced GABAergic inhibitory capacity produces selective error closure: threat-confirming prediction errors close while corrective signals do not. An elevated BP reading from S4 artifact lands on a system already running threat-dominant prior consolidation, confirming rather than creating the threat prior. The artifact-prior feedback loop tightens across measurement sessions faster than in neurotypical profiles because the inhibitory floor that would allow corrective updating is structurally lower. The clinical presentation is escalating BP readings in a patient who understands the mechanism and cannot interrupt it from inside the loop. Formalized in [[contract_PRESSURE_BP]].
 
 ---
 

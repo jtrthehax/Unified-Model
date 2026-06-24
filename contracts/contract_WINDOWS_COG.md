@@ -246,9 +246,10 @@ The two-layer architecture of prospective depth means that conditions which tax 
 ## Predictions This Contract Generates
 
 **Prediction 1 — Chain completeness: Scaffolding**
+
 Prediction window width — measured via RSA amplitude or HRV — should predict cross-domain transfer task performance independently of within-domain performance. The gap between cross-domain and within-domain performance should be the primary empirical index of structural vs identity mode. Individuals with identical within-domain scores but different HRV should show divergent performance on transfer tasks, with the divergence scaling with the HRV difference.
 
-***Prediction 2 — Chain completeness: Scaffolding**
+**Prediction 2 — Chain completeness: Scaffolding**
 
 The structural threshold — the window width at which manifold construction becomes available — should be measurable as a discrete transition in cross-domain transfer performance rather than a linear dose-response. A threshold implies a discontinuity: performance on transfer tasks should be near-flat below the threshold and rise sharply above it, not increasing gradually with window width. This step-function shape is the critical prediction. Linear correlation between HRV and transfer performance would be consistent with the framework but would not confirm the threshold structure. The discontinuity is what confirms that a structural mode switch is occurring rather than a graded capacity increase. Existing cognitive research builds the linear assumption in by design — finding the step-function would be a significant structural result independently of the framework and is testable in any dataset with continuous HRV measurement and matched within-domain vs cross-domain performance scores
 
@@ -256,6 +257,7 @@ The structural threshold — the window width at which manifold construction bec
 High-semantic-load processing (noun-dense text, abstract argument chains) should show greater HRV demand than equivalent-length procedural content — because it requires sustained wide window width to hold the sensorimotor simulation scaffold. Individuals with lower HRV baseline should show disproportionate comprehension failure specifically on noun-dense vs verb-dense content at matched surface difficulty.
 
 **Prediction 4 — Chain completeness: Scaffolding**
+
 The intervention mismatch prediction: cognitive-strategy interventions delivered without prior substrate regulation should show near-zero transfer to novel or high-load contexts. The same cognitive strategies delivered after autonomic regulation (HRV biofeedback, breathwork, co-regulation) should show measurable transfer, because the substrate can now support the mode the strategy requires. Effect size difference between substrate-primed and non-primed strategy delivery should be the primary dependent variable in educational and therapeutic research on structural reasoning development.
 
 **Prediction 5 — Chain completeness: Predictive**
