@@ -53,23 +53,30 @@ Eight layers. Each processes. Each feeds back. They are not separate — western
 
 Where layers cross over. The crossover point is where the mechanism lives. The key risk is what happens when the contract is shortcircuited.
 
-| Contract           | Crossover Point                                                                                                                                              | Key Risk                                                                                                              |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| MET ↔ AUTO         | Chemoreceptor threshold / glucose-sensitive autonomic nuclei                                                                                                 | Dietary → HRV                                                                                                         |
-| MET ↔ IMMUNE       | Glucose/insulin state → mast cell reactivity                                                                                                                 | Sugar → inflammation                                                                                                  |
-| MICRO ↔ AUTO       | Vagal afferent sensing of microbial metabolites → central autonomic network                                                                                  | Dysbiosis → HRV                                                                                                       |
-| IMMUNE ↔ AUTO      | Cholinergic anti-inflammatory pathway → vagal tone                                                                                                           | Inflammation → HRV                                                                                                    |
-| AUTO ↔ MOD         | Vagal afferent burst → CB1 / RSA → hemispheric lateralization                                                                                                | HRV → cognition                                                                                                       |
-| MOD ↔ COG          | Precision gain control → prediction error weighting                                                                                                          | Gain → memory                                                                                                         |
-| COG ↔ INTERO       | Body-state prior quality → prediction error noise floor                                                                                                      | Prior → signal                                                                                                        |
-| INTERO ↔ DEV       | Developmental window → prior setpoint establishment                                                                                                          | Experience → adult state                                                                                              |
-| SOC ↔ AUTO         | Acoustic/tactile channel → vagal brake phase detection                                                                                                       | Presence → HRV                                                                                                        |
-| SOC ↔ COG          | Social signal environment → prediction load on generative model                                                                                              | Complexity → behavior                                                                                                 |
-| PROPRIO ↔ AUTO/COG | Cerebellar forward model error → autonomic coupling + cognitive threat prior updating                                                                        | Signal degradation → regulatory instability without obvious cause; graded exposure failure                            |
-| NOCI ↔ COG         | ECS-mediated precision gain on nociceptive prediction error → prior dominance without signal                                                                 | Gain → pain without tissue cause                                                                                      |
-| ANCHOR ↔ COG       | Mechanical anchor quality (diaphragm excursion, exhale completeness, bilateral proprioceptive confirmation, interoceptive clarity) → prediction window width | Compound anchor failure → exhale-gate dominance; misattributed to cognitive cause                                     |
-| SOC ↔ ANCHOR       | External oscillatory input (prosodic voice, group synchrony, music, ritual) → borrowed prediction window width                                               | External anchor substitutes for internal repair → ESLPM dependency state                                              |
-| TEMPORAL ↔ COG     | Circadian phase (SCN output, DLMO, adenosine accumulation) → precision-gain baseline floor and ceiling for the cognitive layer                               | Phase misalignment → chronic precision elevation → trait-like cognitive rigidity misattributed to psychological cause |
+| Contract                        | Crossover Point                                                                                                                                              | Key Risk                                                                                                                              |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| MET ↔ AUTO                      | Chemoreceptor threshold / glucose-sensitive autonomic nuclei                                                                                                 | Dietary → HRV                                                                                                                         |
+| MET ↔ IMMUNE                    | Glucose/insulin state → mast cell reactivity                                                                                                                 | Sugar → inflammation                                                                                                                  |
+| MICRO ↔ AUTO                    | Vagal afferent sensing of microbial metabolites → central autonomic network                                                                                  | Dysbiosis → HRV                                                                                                                       |
+| IMMUNE ↔ AUTO                   | Cholinergic anti-inflammatory pathway → vagal tone                                                                                                           | Inflammation → HRV                                                                                                                    |
+| AUTO ↔ MOD                      | Vagal afferent burst → CB1 / RSA → hemispheric lateralization                                                                                                | HRV → cognition                                                                                                                       |
+| MOD ↔ COG                       | Precision gain control → prediction error weighting                                                                                                          | Gain → memory                                                                                                                         |
+| COG ↔ INTERO                    | Body-state prior quality → prediction error noise floor                                                                                                      | Prior → signal                                                                                                                        |
+| INTERO ↔ DEV                    | Developmental window → prior setpoint establishment                                                                                                          | Experience → adult state                                                                                                              |
+| SOC ↔ AUTO                      | Acoustic/tactile channel → vagal brake phase detection                                                                                                       | Presence → HRV                                                                                                                        |
+| SOC ↔ COG                       | Social signal environment → prediction load on generative model                                                                                              | Complexity → behavior                                                                                                                 |
+| PROPRIO ↔ AUTO/COG              | Cerebellar forward model error → autonomic coupling + cognitive threat prior updating                                                                        | Signal degradation → regulatory instability without obvious cause; graded exposure failure                                            |
+| NOCI ↔ COG                      | ECS-mediated precision gain on nociceptive prediction error → prior dominance without signal                                                                 | Gain → pain without tissue cause                                                                                                      |
+| ANCHOR ↔ COG                    | Mechanical anchor quality (diaphragm excursion, exhale completeness, bilateral proprioceptive confirmation, interoceptive clarity) → prediction window width | Compound anchor failure → exhale-gate dominance; misattributed to cognitive cause                                                     |
+| SOC ↔ ANCHOR                    | External oscillatory input (prosodic voice, group synchrony, music, ritual) → borrowed prediction window width                                               | External anchor substitutes for internal repair → ESLPM dependency state                                                              |
+| TEMPORAL ↔ COG                  | Circadian phase (SCN output, DLMO, adenosine accumulation) → precision-gain baseline floor and ceiling for the cognitive layer                               | Phase misalignment → chronic precision elevation → trait-like cognitive rigidity misattributed to psychological cause                 |
+| SEMANTIC ↔ COG                  | Semantic load (SLI) → prediction-window demand                                                                                                               | High SLI prose → window collapse → referential loss                                                                                   |
+| SEMANTIC ↔ TRANSFORMER          | Semantic load (ALI) → transformer attention demand                                                                                                           | High ALI → hallucination cascade                                                                                                      |
+| COG ↔ TRANSFORMER               | Human window geometry ↔ transformer attention geometry                                                                                                       | Bottleneck is always the narrower of the two windows                                                                                  |
+| TRANSFORMER ↔ REASON            | Attention geometry → multi-step reasoning output                                                                                                             | KV-cache decay → silent premise drop → confident error                                                                                |
+| COG_REASON ↔ TRANSFORMER_REASON | Joint human-AI reasoning architecture                                                                                                                        | Neither system alone produces the full output                                                                                         |
+| PRESSURE ↔ BP                   | Respiratory pressure mechanics → oscillometric measurement artifact                                                                                          | High-excursion practitioner in clinical context guarantees maximum compound artifact — the protocol fails directionally, not randomly |
+
 **Convergence contracts:** 
 **NOCI↔COG** is structurally distinct from all other contracts. Every other contract is a bilateral crossover between two adjacent layers. NOCI↔COG is a convergence point where MET↔IMMUNE, IMMUNE↔AUTO, AUTO↔MOD, and COG↔INTERO all feed a single output simultaneously. The volume knob for pain experience is being set by all four contracts at once. This is the model for how compound contract failures produce treatment-resistant presentations — and establishes convergence contracts as a structural category distinct from bilateral crossovers. When a clinical presentation is resistant to single-point intervention, look for a convergence architecture.
 
@@ -397,6 +404,9 @@ pathway, and attractor formation boundary conditions are formalized there.
 
 **Proprioceptive regulatory channel:** ~~Not yet developed.~~ Addressed in PROPRIO↔AUTO/COG. The cerebellar forward model as the crossover mechanism, hypermobility failure mode, graded exposure signal quality precondition, and ND motor planning gap are fully developed there.
 
+**Format mismatch as architectural constraint:** Addressed in 
+SEMANTIC↔COG. The reason this framework cannot be carried in prose is not editorial — it is a direct consequence of SLI applied to its own container. High-SLI prose requires wide prediction-window width to parse correctly. The contract format reduces SLI by externalizing scaffolding into structure rather than requiring the reader to reconstruct it from a serialized line. The AI traverses the graph. The human asks the mechanistic question. This is now formalized rather than implicit.
+
 ---
 
 ## Session Instructions
@@ -437,6 +447,8 @@ For circadian timing, delayed phase, seasonal amplitude swing, or intervention t
 
 For arrhythmia risk, sudden cardiac death, Takotsubo, fear-induced collapse, or sleep-transition cardiac events — load AUTO↔CARDIAC alongside this core.
 
+For blood pressure misclassification, oscillometric measurement artifact, white coat hypertension, or any presentation where a trained breathwork or yoga practitioner receives elevated BP readings in clinical contexts — load PRESSURE↔BP alongside this core. This contract shows that the artifact is not noise — it is mechanistically predicted by breath phase (Frank-Starling), arm mechanics (tissue resistance), and scrutiny-induced precision-locking (exhale-gate bias) firing simultaneously. The reading is accurate to the state it sampled. The error is treating a state-dependent reading as a state-independent vascular baseline.
+
 For reasoning failures, argument structure degradation, fallacy patterns, or exhale-gate dominance effects on expressed cognition — load COG↔REASON alongside this core.
 
 For sleep architecture, REM/SWS proportions, insomnia, OSA, or the distinction between sleep duration and sleep regulatory function — load SLEEP alongside this core.
@@ -457,6 +469,23 @@ WINDOW↔COG alongside this core. This is the invariant contract
 that sits above the individual cognitive contracts and explains
 why the same regulatory geometry appears across AUTO, COG, MOD,
 SOC, and TEMPORAL.
+
+For language comprehension, semantic load, why prose collapses under 
+regulatory narrowing, verbal fillers as window management, or 
+cross-linguistic evidence for the prediction-window architecture — 
+load SEMANTIC↔COG alongside this core.
+
+For AI hallucination, sycophancy, stall tokens, why prompt engineering 
+works, or why chain-of-thought works — load SEMANTIC↔TRANSFORMER and 
+TRANSFORMER↔REASON alongside this core. Both are direct applications 
+of the same window geometry to the transformer substrate.
+
+For human-AI joint reasoning capacity, why the joint system exceeds 
+either alone, or the unified collapse taxonomy across biological and 
+artificial systems — load COG↔TRANSFORMER and 
+COG_REASON↔TRANSFORMER_REASON alongside this core. These are the 
+closing contracts of the semantic stack and the formal specification 
+of what the human-AI pair produces that neither produces alone.
 
 For clinical extensions, load the relevant extension document alongside this core.
 

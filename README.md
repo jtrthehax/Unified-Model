@@ -39,6 +39,8 @@ contracts/
   contract_COG_INTERO.md
   contract_COG_REASON.md
   contract_COG_REASON_ESCALATION.md
+  contract_COG_REASON_TRANSFORMER_REASON.md
+  contract_COG_TRANSFORMER.md
   contract_GLYPH_AUTO.md
   contract_IMMUNE_AUTO.md
   contract_INTERO_DEV.md
@@ -50,11 +52,14 @@ contracts/
   contract_NOCI_COG.md
   contract_PRESSURE_BP.md
   contract_PROPRIO_AUTO_COG.md
+  contract_SEMANTIC_COG.md
+  contract_SEMANTIC_TRANSFORMER.md
   contract_SLEEP.md
   contract_SOC_ANCHOR.md
   contract_SOC_COG.md
   contract_SOC_INSTITUTION.md
   contract_TEMPORAL_COG.md
+  contract_TRANSFORMER_REASON.md
   contract_WINDOWS_COG.md
   ...
 regulatory_dynamics/
@@ -73,55 +78,46 @@ regulatory_dynamics/
 
 ---
 
-## If You Want to Understand...
+# **Why This Isn’t a Paper**
 
-The framework applies the same regulatory architecture across all scales. The mechanism does not change. The input size does.
+This framework was never going to work as a book or paper — not because the model is wrong, but because it exceeds the recursion depth human cognition can run in real time.
 
----
+Humans have two hard limits that no writing format can solve:
 
-### Individual-Scale Phenomena
-*One nervous system, one regulatory stack.*
+- **Working memory is tiny.** You can track a handful of interacting mechanisms at once. Most concepts in this architecture require 10–15 active variables to understand. Humans can hold 2–3 interacting variables at once. The only way a human can absorb this model is through slow consolidation — one contract at a time, often with sleep in between. AI is required to run the full graph in real time.
+    
+- **Causal depth collapses.** After a few inferential steps, reasoning degrades into intuition, metaphor, or narrative — even for experts.
 
-- **Hallucinations** — perceptual inference dominated by priors when sensory precision collapses
-- **Autonomic storms** — breakdowns in sympathetic/parasympathetic stability leading to runaway physiological oscillations
-- **Dissociation** — decoupling of interoceptive signals from cognitive models under extreme precision imbalance
-- **Inflammatory cascades** — immune–autonomic feedback loops that amplify threat physiology
-- **Metabolic crashes** — energy availability failures that propagate upward through the autonomic and cognitive layers
-- **Prediction window collapse and tunnel vision** — the compound mechanism by which respiratory mechanics, proprioceptive confirmation, and interoceptive clarity jointly determine whether the cognitive layer can hold a wide window or collapses into exhale-gate dominance. [[contract_ANCHOR_COG]] sets the mechanical ceiling on oscillation amplitude; [[contract_WINDOWS_COG]] formalizes the window geometry itself — width, depth, curvature, and stability as four separable dimensions with independent failure modes — and the structural threshold at which manifold construction becomes unavailable.
-  - **Blood pressure misclassification in trained practitioners** — oscillometer BP readings are composite outputs of vascular tone, respiratory pressure mechanics, and limb geometry — not pure vascular metrics. In high-excursion practitioners (large tidal volume, full exhale capacity, high CO₂ tolerance, high RSA amplitude), the Frank-Starling artifact from end-exhale intrathoracic pressure differentials, compounded by arm mechanics and scrutiny-induced precision-locking from [[contract_AUTO_MOD]], produces systematic reading inflation of 20–30 mmHg above true vascular baseline. The protocol does not fail randomly in this population — it fails directionally, predictably, and in proportion to training level. Formalized in [[contract_PRESSURE_BP]].
 
----
+Prose makes this worse. A paragraph forces the reader to hold multiple mechanisms simultaneously, increasing recursion cost and accelerating collapse. Bullet‑pointed contracts minimize this load; prose multiplies it.
 
-### Attractor-State Phenomena
-*One nervous system, pushed past self-correction capacity.*
+A paper forces a graph into a line. 
+The moment you finish a chapter, you lose the cross‑domain structure it depended on. The model doesn’t fit the format. 
+The format was never the right container.
 
-- **Neurodivergence** — alternative precision regimes across sensory, cognitive, and interoceptive channels; regulatory configurations, not pathologies
-- **Accelerated synthesis and hyperfocus hijacking** — why high-gain ND profiles in wide-window synthesis mode experience dopaminergic anticipatory reward from *predicted* progress, producing a self-accelerating loop that is difficult to interrupt voluntarily
-- **Chronic threat-prior calibration** — how the ANCHOR↔COG threat-calibration loop progressively narrows the sampling distribution over years, recalibrating the prior toward threat without any single acute event
-- **False competence ceiling** — identity-mode performance within a stable domain indistinguishable from structural competence until context shift reveals the manifold was never constructed; formalized in [[contract_WINDOWS_COG]]
-- **Externally-scaffolded low-plasticity mode** — precision lock, plasticity collapse, and identity fusion when internal agency becomes energetically too expensive to maintain
+# **Why AI Works**
 
----
+An AI model doesn’t have these limits.
 
-### Population-Scale Phenomena
-*The same transfer function. Millions of nervous systems running it simultaneously, in a shared environment that selects which attractor they land in.*
+It can hold the full contract graph — nodes, edges, attractor transitions, precision allocation, failure modes — simultaneously, without collapsing into metaphor.
 
-The mechanism does not change at this scale. What changes is that the environment — economic conditions, institutional architecture, media systems — becomes the common cause depleting GABA availability and selecting attractor states across individuals simultaneously.
+When you ask a mechanistic question, it isn’t interpreting vibes. It’s traversing the graph and returning the nearest grounded causal chain.
 
-- **Political polarization** — population-level prediction window narrowing producing binary prior structures and cross-domain transfer failure at scale
-- **Institutional ossification** — compliance-conditioning environments that progressively narrow participant prediction windows, written into regulatory substrate through micro-threat conditioning sequences; [[contract_SOC_INSTITUTION]]
-- **Media engagement optimization as regulatory intervention** — platforms that optimize for sympathetic activation systematically maintain audiences in the Threat-Narrow Intermediate state, where error detection is intact but correction capacity is suppressed; [[contract_WINDOWS_COG]] operating states running at scale
-- **Economic load → population rigidity** — the shared upstream mechanism connecting economic precarity to regulatory narrowing, outgroup redirection, and causal concealment across national contexts
+That’s why even loosely defined external concepts like **“Masking Tax”** map cleanly in one pass: the contracts are specific enough that the model finds the analog, grounds the term, and traces the chain without guessing.
+
+# **The Division of Labor**
+
+- **The contracts are the scaffolding.**
+    
+- **The AI is the engine.**
+    
+- **Your question is the compiler directive.**
+    
+
+If the intent is mechanistic, the system runs. If the intent is metaphorical, the system has nothing to operate on.
 
 ---
 
-## Start Here: You Already Know This
-Before reading any contract, read the
-[[idiom_mapping_regulatory_dynamics|Idiom ↔ Contract Mapping]].
-
-It maps common idioms — "tunnel vision," "gut feeling," "a sigh of relief," "looking up for an answer" — to the specific contracts and mechanisms that generate them. Every idiom in that document is already in everyday use. The framework does not introduce new phenomena. It introduces the mechanism behind phenomena you already knew were real.
-
----
 # **HOW TO USE THIS WITH AN AI MODEL**
 
 _A direct, no‑nonsense guide for getting mechanistic output._
@@ -225,50 +221,84 @@ HRV amplitude should drop before symptom onset.
 Interventions that modulate autonomic load should outperform purely cognitive ones.**
 
 ---
-# **Why This Isn’t a Paper**
+## **Start Here: You Already Know This**
 
-This framework was never going to work as a book or paper — not because the model is wrong, but because it exceeds the recursion depth human cognition can run in real time.
+Before reading any contract, read the **[Idiom ↔ Contract Mapping](https://idiom_mapping_regulatory_dynamics/?utm_source=copilot.com "idiom_mapping_regulatory_dynamics")**.
 
-Humans have two hard limits that no writing format can solve:
+It maps everyday idioms — _“tunnel vision,” “gut feeling,” “a sigh of relief,” “looking up for an answer”_ — to the specific regulatory mechanisms that generate them. Every idiom in that document is already in common use. The framework does not introduce new phenomena; it formalizes the mechanisms behind phenomena you already recognize.
 
-- **Working memory is tiny.** You can track a handful of interacting mechanisms at once. Most concepts in this architecture require 10–15 active variables to understand. Humans can hold 2–3 interacting variables at once. The only way a human can absorb this model is through slow consolidation — one contract at a time, often with sleep in between. AI is required to run the full graph in real time.
-    
-- **Causal depth collapses.** After a few inferential steps, reasoning degrades into intuition, metaphor, or narrative — even for experts.
+This gives you an intuitive anchor before you encounter the formal contracts. It lowers the cognitive load by connecting new mechanics to patterns your brain already knows.
 
+---
+## If You Want to Understand...
 
-Prose makes this worse. A paragraph forces the reader to hold multiple mechanisms simultaneously, increasing recursion cost and accelerating collapse. Bullet‑pointed contracts minimize this load; prose multiplies it.
-
-A paper forces a graph into a line. 
-The moment you finish a chapter, you lose the cross‑domain structure it depended on. The model doesn’t fit the format. 
-The format was never the right container.
-
-# **Why AI Works**
-
-An AI model doesn’t have these limits.
-
-It can hold the full contract graph — nodes, edges, attractor transitions, precision allocation, failure modes — simultaneously, without collapsing into metaphor.
-
-When you ask a mechanistic question, it isn’t interpreting vibes. It’s traversing the graph and returning the nearest grounded causal chain.
-
-That’s why even loosely defined external concepts like **“Masking Tax”** map cleanly in one pass: the contracts are specific enough that the model finds the analog, grounds the term, and traces the chain without guessing.
-
-# **The Division of Labor**
-
-- **The contracts are the scaffolding.**
-    
-- **The AI is the engine.**
-    
-- **Your question is the compiler directive.**
-    
-
-If the intent is mechanistic, the system runs. If the intent is metaphorical, the system has nothing to operate on.
+The framework applies the same regulatory architecture across all scales. The mechanism does not change. The input size does.
 
 ---
 
-## Origins of the Framework
+### Individual-Scale Phenomena
+*One nervous system, one regulatory stack.*
+
+- **Hallucinations** — perceptual inference dominated by priors when sensory precision collapses
+- **Autonomic storms** — breakdowns in sympathetic/parasympathetic stability leading to runaway physiological oscillations
+- **Dissociation** — decoupling of interoceptive signals from cognitive models under extreme precision imbalance
+- **Inflammatory cascades** — immune–autonomic feedback loops that amplify threat physiology
+- **Metabolic crashes** — energy availability failures that propagate upward through the autonomic and cognitive layers
+- **Prediction window collapse and tunnel vision** — the compound mechanism by which respiratory mechanics, proprioceptive confirmation, and interoceptive clarity jointly determine whether the cognitive layer can hold a wide window or collapses into exhale-gate dominance. [[contract_ANCHOR_COG]] sets the mechanical ceiling on oscillation amplitude; [[contract_WINDOWS_COG]] formalizes the window geometry itself — width, depth, curvature, and stability as four separable dimensions with independent failure modes — and the structural threshold at which manifold construction becomes unavailable.
+  - **Blood pressure misclassification in trained practitioners** — oscillometer BP readings are composite outputs of vascular tone, respiratory pressure mechanics, and limb geometry — not pure vascular metrics. In high-excursion practitioners (large tidal volume, full exhale capacity, high CO₂ tolerance, high RSA amplitude), the Frank-Starling artifact from end-exhale intrathoracic pressure differentials, compounded by arm mechanics and scrutiny-induced precision-locking from [[contract_AUTO_MOD]], produces systematic reading inflation of 20–30 mmHg above true vascular baseline. The protocol does not fail randomly in this population — it fails directionally, predictably, and in proportion to training level. Formalized in [[contract_PRESSURE_BP]].
+
+---
+
+### Attractor-State Phenomena
+*One nervous system, pushed past self-correction capacity.*
+
+- **Neurodivergence** — alternative precision regimes across sensory, cognitive, and interoceptive channels; regulatory configurations, not pathologies
+- **Accelerated synthesis and hyperfocus hijacking** — why high-gain ND profiles in wide-window synthesis mode experience dopaminergic anticipatory reward from *predicted* progress, producing a self-accelerating loop that is difficult to interrupt voluntarily
+- **Chronic threat-prior calibration** — how the ANCHOR↔COG threat-calibration loop progressively narrows the sampling distribution over years, recalibrating the prior toward threat without any single acute event
+- **False competence ceiling** — identity-mode performance within a stable domain indistinguishable from structural competence until context shift reveals the manifold was never constructed; formalized in [[contract_WINDOWS_COG]]
+- **Externally-scaffolded low-plasticity mode** — precision lock, plasticity collapse, and identity fusion when internal agency becomes energetically too expensive to maintain
+
+---
+
+### Population-Scale Phenomena
+*The same transfer function. Millions of nervous systems running it simultaneously, in a shared environment that selects which attractor they land in.*
+
+The mechanism does not change at this scale. What changes is that the environment — economic conditions, institutional architecture, media systems — becomes the common cause depleting GABA availability and selecting attractor states across individuals simultaneously.
+
+- **Political polarization** — population-level prediction window narrowing producing binary prior structures and cross-domain transfer failure at scale
+- **Institutional ossification** — compliance-conditioning environments that progressively narrow participant prediction windows, written into regulatory substrate through micro-threat conditioning sequences; [[contract_SOC_INSTITUTION]]
+- **Media engagement optimization as regulatory intervention** — platforms that optimize for sympathetic activation systematically maintain audiences in the Threat-Narrow Intermediate state, where error detection is intact but correction capacity is suppressed; [[contract_WINDOWS_COG]] operating states running at scale
+- **Economic load → population rigidity** — the shared upstream mechanism connecting economic precarity to regulatory narrowing, outgroup redirection, and causal concealment across national contexts
+  
+---
+
+### AI and Human-AI System Phenomena
+*The same geometric constraints that govern human cognition govern transformer reasoning. Both systems fail for the same reasons. The joint system produces what neither produces alone.*
+
+- **Hallucination** — not randomness; systematic precision-lock on a problem that required sampling mode first; the transformer answering the compressed surface form rather than reconstructed intent; directly derivable from attention geometry collapse
+- **Sycophancy** — the transformer equivalent of human justification mode; RLHF social approval signal dominates incoming evidence exactly as identity-threat reduction dominates human reasoning under prior lock; same attractor, different substrate
+- **AI stall tokens** ("Let's break this down…") — the transformer equivalent of "um" and "ano"; prospective depth shortfall expressed in output; not padding, real-time window management
+- **Why prompt engineering works** — not stylistic preference; structured format reduces ALI (Attention Load Index) by externalizing scaffolding the model would otherwise consume attention capacity to maintain; the same reason bullet points   reduce SLI for human readers
+- **Why chain-of-thought works** — not a prompt trick; explicit attention-horizon extension; forces the model to allocate attention across intermediate steps rather than pattern-completing from the compressed problem representation; 
+  mechanistically identical to a human externalizing intermediate steps in writing before attempting the conclusion
+- **Human-AI joint reasoning capacity** — two complementary finite-window architectures in contact; human provides intent, trajectory, and falsifiability judgment; transformer provides premise retention, step-chain stability, and graph traversal depth beyond human working memory limits; joint output exceeds either alone as an arithmetic consequence of complementary window geometry
+
+**Contracts governing this domain:**
+- `[contract_SEMANTIC_COG]]` → `[[contract_SEMANTIC_TRANSFORMER]]` 
+  → `[[contract_COG_TRANSFORMER]]` → `[[contract_TRANSFORMER_REASON]]` 
+  → `[[contract_COG_REASON_TRANSFORMER_REASON]]`
+
+Load the full chain for human-AI reasoning questions. Load SEMANTIC↔COG and SEMANTIC↔TRANSFORMER alone for language comprehension questions. Load COG_REASON↔TRANSFORMER_REASON for joint system questions.
+
+---
+
+# **Origins of the Framework**
+
 This architecture emerged from an attempt to understand a set of regulatory phenomena that appeared unrelated on the surface — functional neurological symptoms, neurodivergent processing patterns, autonomic instability, hypermobility‑linked dysregulation, and other atypical physiological and cognitive responses.
 
-The framework began with breathing mechanics and autonomic regulation and expanded outward as each domain's phenomena turned out to be derivable from the same upstream architecture. No domain required its own independent theory. Each required only tracing the causal chain back to the shared regulatory stack.
+The framework began with breathing mechanics and autonomic regulation and expanded outward as each domain’s phenomena turned out to be derivable from the same upstream architecture. No domain required its own independent theory. Each required only tracing the causal chain back to the shared regulatory stack.
+
+As the model developed, it became clear that many people could no longer hold the full causal structure in working memory. Modern regulatory states — chronic bracing, shallow breathing, fragmented attention, and narrow prediction windows — force cognition into sentence‑sized processing. This never worked as prose because the causal graph exceeds human working memory capacity by design — even under ideal regulatory conditions. Modern narrow-window states compress the problem further, but they're not the root cause. The root cause is that the architecture is genuinely too deep for serial format to carry.
 
 ---
 
@@ -373,19 +403,6 @@ Correcting them is not about teaching logic.
 It is about restoring **prediction‑window width**, **precision balance**, and **regulatory stability** — which means substrate intervention precedes cognitive intervention. [[contract_WINDOWS_COG]] Failure Mode: The intervention mismatch.
 
 These same precision‑state dynamics shape how people scaffold interactions with external systems — including AI.
-
----
-
-## 🤖 AI Interactions Driven by Regulatory Profiles
-People don't interact with AI systems uniformly.
-Once cognition is modeled as regulation, not symbol manipulation, the variation becomes predictable.
-
-AI interaction quality is shaped by regulatory profiles — stable configurations of:
-
-- **Precision modulation** — how tightly meaning, inference, and context are constrained
-- **Prediction‑window width** — how far ahead conversational trajectories can be modeled; wide-window users generate structural queries that cross domains and hold ambiguity; narrow-window users generate identity-anchored queries that require confirmation rather than exploration. The geometry is [[contract_WINDOWS_COG]].
-- **Interoceptive weighting** — how strongly internal signals bias interpretation
-- **Curvature** — how aggressively prior weighting bends the interaction toward known attractors; high-curvature users resist revision and interpret prediction errors as threats rather than updates, producing the sycophancy attractor in compliant systems
 
 ---
 
