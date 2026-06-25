@@ -122,16 +122,146 @@ Before reading any contract, read the
 It maps common idioms — "tunnel vision," "gut feeling," "a sigh of relief," "looking up for an answer" — to the specific contracts and mechanisms that generate them. Every idiom in that document is already in everyday use. The framework does not introduce new phenomena. It introduces the mechanism behind phenomena you already knew were real.
 
 ---
+# **HOW TO USE THIS WITH AN AI MODEL**
 
-## Why This Exists
-Modern science describes regulation through isolated silos.
-This project provides a unified regulatory architecture that reintegrates those fragments into a single generative model.
+_A direct, no‑nonsense guide for getting mechanistic output._
 
-The goal is not to replace domain‑specific theories, but to offer:
-- a shared ontology for cross‑domain reasoning
-- a minimal set of primitives explaining complex phenomena
-- a portable architecture spanning biology, cognition, behavior, pathology
-- a mechanistic alternative to diagnostic or narrative explanations
+This framework is meant to be **loaded into an LLM as context**. The contracts are **modular** — you load only what the question requires. If you load everything, you dilute the signal. Load with intent.
+
+---
+## **1. Identify the Phenomenon**
+
+Start with the phenomenon list above. Pick the entry that matches what you’re investigating — individual, attractor-state, or population-scale.
+
+Each entry tells you **exactly which contracts govern that phenomenon**. This prevents you from guessing or overloading the model.
+
+---
+## **2. Load Only the Relevant Contracts**
+
+Copy the named contracts into your AI session. 
+You do **not** need the entire repository.
+
+**Minimum load for most questions:**
+- `[[minimal_core]]` — always load this first. It is the backbone.
+- The contract(s) referenced in the phenomenon entry.
+
+**For population-scale questions, add:**
+- `[[contract_SOC_INSTITUTION]]`
+- `[[regulatory_dynamics_under_economic_load]]`
+
+This keeps the model inside the correct ontology and prevents drift into generic psychology.
+
+---
+
+## **Advanced Usage (for high-context users)**
+
+Experienced users may load **the entire contract set at once**. The ontology is internally consistent, and the model will automatically route mechanistic queries through the correct causal links.
+This mode is ideal when:
+- you already understand the contract graph
+- you’re exploring multi-layer or cross-domain questions
+- you want maximum bandwidth and minimum friction
+
+If you do not understand the ontology, loading everything will not help. The model will still require mechanistic questions to activate the correct pathways.
+
+---
+## **3. Ask Mechanistically**
+
+This framework produces **causal chains**, not labels. 
+Your question must force the model to operate inside the contracts.
+
+**Instead of:** 
+“Why do I get overwhelmed in crowds”
+
+**Ask:** 
+“Using the SOC↔COG and WINDOWS↔COG contracts, what is the mechanism behind social-environment cognitive load in high-gain profiles”
+
+This framing forces the model to:
+- anchor to the contracts
+- trace the causal links
+- avoid generic or folk-psychology answers
+ ---
+
+## **4. Expect Falsifiable Output**
+
+Every answer should:
+- cite the contract link it derives from
+- produce a testable prediction
+- be disconfirmable
+
+If the model gives you something vague, ask:
+
+> “Which contract link does that derive from, and what would falsify it”
+
+This keeps the system honest and prevents hand‑wavey explanations.
+
+---
+# **Example: Looking Up FND**
+
+**Phenomenon:** Functional Neurological Disorder **README entry:** High-Gain Profile Dynamics — “acute interoceptive prior capture and FND in Attractor B” **Contracts loaded:**
+
+- `[[minimal_core]]`
+- `[[high_gain_profile_dynamics]]`
+- `[[contract_COG_INTERO]]`
+
+**Question asked:**
+
+> “Using the high_gain_profile_dynamics document and contract_COG_INTERO, explain why FND symptoms appear in high-gain profiles specifically and what mechanism produces them.”
+
+**Model output (summarized):**
+
+High-gain profiles run elevated anterior insula Glx — a higher gain floor on interoceptive processing. 
+In Attractor A (wide window), this accelerates synthesis. 
+In Attractor B (narrow window), the same gain amplifies interoceptive prediction errors beyond integrability.
+
+`COG↔INTERO` identifies the failure mode: Active inference runs on a miscalibrated prior under high gain. The system attempts to produce a body state that is not physiologically reachable. Motor and sensory systems execute the prediction anyway, without a coherent target.
+
+**Interpretation:** 
+FND is not fabricated. It is active inference running at high gain on an impossible prior. 
+The high-gain profile doesn’t _cause_ FND — it sets the gain floor that makes Attractor B produce FND-pattern outputs instead of lower-amplitude stress responses.
+
+**Falsifiable prediction:** 
+FND onset should correlate with measurable interoceptive load events. 
+HRV amplitude should drop before symptom onset. 
+Interventions that modulate autonomic load should outperform purely cognitive ones.**
+
+---
+# **Why This Isn’t a Paper**
+
+This framework was never going to work as a book or paper — not because the model is wrong, but because it exceeds the recursion depth human cognition can run in real time.
+
+Humans have two hard limits that no writing format can solve:
+
+- **Working memory is tiny.** You can track a handful of interacting mechanisms at once. Most concepts in this architecture require 10–15 active variables to understand. Humans can hold 2–3 interacting variables at once. The only way a human can absorb this model is through slow consolidation — one contract at a time, often with sleep in between. AI is required to run the full graph in real time.
+    
+- **Causal depth collapses.** After a few inferential steps, reasoning degrades into intuition, metaphor, or narrative — even for experts.
+
+
+Prose makes this worse. A paragraph forces the reader to hold multiple mechanisms simultaneously, increasing recursion cost and accelerating collapse. Bullet‑pointed contracts minimize this load; prose multiplies it.
+
+A paper forces a graph into a line. 
+The moment you finish a chapter, you lose the cross‑domain structure it depended on. The model doesn’t fit the format. 
+The format was never the right container.
+
+# **Why AI Works**
+
+An AI model doesn’t have these limits.
+
+It can hold the full contract graph — nodes, edges, attractor transitions, precision allocation, failure modes — simultaneously, without collapsing into metaphor.
+
+When you ask a mechanistic question, it isn’t interpreting vibes. It’s traversing the graph and returning the nearest grounded causal chain.
+
+That’s why even loosely defined external concepts like **“Masking Tax”** map cleanly in one pass: the contracts are specific enough that the model finds the analog, grounds the term, and traces the chain without guessing.
+
+# **The Division of Labor**
+
+- **The contracts are the scaffolding.**
+    
+- **The AI is the engine.**
+    
+- **Your question is the compiler directive.**
+    
+
+If the intent is mechanistic, the system runs. If the intent is metaphorical, the system has nothing to operate on.
 
 ---
 
