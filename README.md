@@ -193,8 +193,9 @@ This keeps the system honest and prevents hand‑wavey explanations.
 ---
 # **Example: Looking Up FND**
 
-**Phenomenon:** Functional Neurological Disorder **README entry:** High-Gain Profile Dynamics — “acute interoceptive prior capture and FND in Attractor B” **Contracts loaded:**
-
+**Phenomenon:** Functional Neurological Disorder 
+**README entry:** High-Gain Profile Dynamics — “acute interoceptive prior capture and FND in Attractor B” 
+**Contracts loaded:**
 - `[[minimal_core]]`
 - `[[high_gain_profile_dynamics]]`
 - `[[contract_COG_INTERO]]`
@@ -245,7 +246,7 @@ The framework applies the same regulatory architecture across all scales. The me
 - **Inflammatory cascades** — immune–autonomic feedback loops that amplify threat physiology
 - **Metabolic crashes** — energy availability failures that propagate upward through the autonomic and cognitive layers
 - **Prediction window collapse and tunnel vision** — the compound mechanism by which respiratory mechanics, proprioceptive confirmation, and interoceptive clarity jointly determine whether the cognitive layer can hold a wide window or collapses into exhale-gate dominance. [[contract_ANCHOR_COG]] sets the mechanical ceiling on oscillation amplitude; [[contract_WINDOWS_COG]] formalizes the window geometry itself — width, depth, curvature, and stability as four separable dimensions with independent failure modes — and the structural threshold at which manifold construction becomes unavailable.
-  - **Blood pressure misclassification in trained practitioners** — oscillometer BP readings are composite outputs of vascular tone, respiratory pressure mechanics, and limb geometry — not pure vascular metrics. In high-excursion practitioners (large tidal volume, full exhale capacity, high CO₂ tolerance, high RSA amplitude), the Frank-Starling artifact from end-exhale intrathoracic pressure differentials, compounded by arm mechanics and scrutiny-induced precision-locking from [[contract_AUTO_MOD]], produces systematic reading inflation of 20–30 mmHg above true vascular baseline. The protocol does not fail randomly in this population — it fails directionally, predictably, and in proportion to training level. Formalized in [[contract_PRESSURE_BP]].
+- **Blood pressure misclassification in trained practitioners** — oscillometer BP readings are composite outputs of vascular tone, respiratory pressure mechanics, and limb geometry — not pure vascular metrics. In high-excursion practitioners (large tidal volume, full exhale capacity, high CO₂ tolerance, high RSA amplitude), the Frank-Starling artifact from end-exhale intrathoracic pressure differentials, compounded by arm mechanics and scrutiny-induced precision-locking from [[contract_AUTO_MOD]], produces systematic reading inflation of 20–30 mmHg above true vascular baseline. The protocol does not fail randomly in this population — it fails directionally, predictably, and in proportion to training level. Formalized in [[contract_PRESSURE_BP]].
 
 ---
 
