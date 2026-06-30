@@ -74,7 +74,7 @@ These contracts define mechanistic crossover points between the substrate and do
     
 - `contract_AUTO_MOD_autonomic_to_modulation.md`
     
-- `contract_GLYPH_AUTO_symbolic_to_autonomic.md`
+- `contract_GLYMPH_AUTO_glymphatic_to_autonomic.md`
     
 - `contract_MET_AUTO_metabolic_to_autonomic.md`
     

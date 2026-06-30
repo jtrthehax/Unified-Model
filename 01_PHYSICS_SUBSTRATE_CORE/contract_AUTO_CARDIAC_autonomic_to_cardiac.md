@@ -152,7 +152,7 @@ Loss of co-regulation (SOC↔AUTO) → vagal collapse → sympathetic surge → 
 Acute sympathetic spike → vagal withdrawal → QT shortening → VF.
 
 ### 3. Sleep-Transition Arrhythmias
-GLYPH↔AUTO instability during N3→REM transitions → autonomic swings → conduction failure.
+GLYMPH↔AUTO instability during N3→REM transitions → autonomic swings → conduction failure.
 
 ### 4. Metabolic Insolvency Arrhythmias
 Hypoglycemia, ketoacidosis, mitochondrial failure (MET↔AUTO) → repolarization instability → arrhythmia.
@@ -201,7 +201,7 @@ Inflammatory load destabilizes repolarization.
 **AUTO ↔ MOD**
 Precision-gain shifts amplify sympathetic surges.
 
-**GLYPH ↔ AUTO**
+**GLYMPH ↔ AUTO**
 Sleep-architecture transitions create autonomic volatility.
 
 **COG ↔ INTERO**
@@ -215,7 +215,7 @@ Loss of interoceptive priors increases threat-biased autonomic output.
 2. Takotsubo patients will show SOC↔AUTO collapse signatures before cardiac symptoms appear.
 3. Fear-induced arrhythmias will correlate with QT shortening + vagal withdrawal, not with psychological intensity per se.
 4. ESLPM terminal cases will show loss of oscillatory control before cardiac instability.
-5. REM-transition arrhythmias will correlate with GLYPH↔AUTO volatility in vulnerable individuals.
+5. REM-transition arrhythmias will correlate with GLYMPH↔AUTO volatility in vulnerable individuals.
 6. Vagal overactivation sudden death will show a distinct HRV signature from
    sympathetic-collapse sudden death — abrupt HRV spike preceding bradycardic
    arrest rather than the progressive HRV collapse preceding VF/VT.
@@ -245,7 +245,7 @@ Loss of interoceptive priors increases threat-biased autonomic output.
 - Outputs feed back into COG↔INTERO through loss of interoceptive predictability, propagating threat-prior dominance if the system survives
 
 **Lateral:**
-- GLYPH↔AUTO — sleep-transition autonomic volatility operates in parallel with this contract during N3→REM windows
+- GLYMPH↔AUTO — sleep-transition autonomic volatility operates in parallel with this contract during N3→REM windows
 - AUTO↔MOD — precision-gain shifts amplify sympathetic surges that this contract translates into arrhythmogenic risk
 
 ---

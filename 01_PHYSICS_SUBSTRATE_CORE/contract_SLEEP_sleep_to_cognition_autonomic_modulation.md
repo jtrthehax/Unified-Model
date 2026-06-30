@@ -72,7 +72,7 @@ AUTO — autonomic recovery, vagal restoration, sympathetic flexibility, metabol
 
 **Key risk:** When sleep architecture is fragmented or biased (e.g., reduced SWS, reduced REM, disrupted transitions), the system loses its overnight reset window. Priors remain rigid, precision-gain calibration drifts, autonomic flexibility collapses, and glymphatic clearance is no longer sufficient to restore regulatory stability.  
 
-**Distinguishing feature:** GLYPH↔AUTO covers clearance; the Temporal Layer covers circadian phase. This contract covers **structure** — the architecture of sleep itself as a regulatory mechanism.
+**Distinguishing feature:** GLYMPH↔AUTO covers clearance; the Temporal Layer covers circadian phase. This contract covers **structure** — the architecture of sleep itself as a regulatory mechanism.
 
 ---
 
@@ -80,7 +80,7 @@ AUTO — autonomic recovery, vagal restoration, sympathetic flexibility, metabol
 
 Sleep is already present in the framework, but only partially:
 
-- GLYPH↔AUTO treats sleep as the **glymphatic clearance window**.  
+- GLYMPH↔AUTO treats sleep as the **glymphatic clearance window**.  
 - The Temporal Layer treats sleep as a **circadian phase event**.
 
 Neither addresses **how the architecture of sleep stages** — the sequence, proportions, and transitions of N1, N2, SWS, and REM — shapes regulatory dynamics. Clinical and experimental literatures repeatedly show that:
@@ -89,7 +89,7 @@ Neither addresses **how the architecture of sleep stages** — the sequence, pro
 - SWS amplitude predicts synaptic downscaling and autonomic recovery.  
 - Fragmented architecture predicts cognitive instability, mood dysregulation, and autonomic rigidity.
 
-These effects are referenced in fragments across GLYPH↔AUTO, MOD↔COG, and the Temporal Layer, but there is no dedicated home for the **mechanism**. This contract exists to formalize sleep architecture as a **load-bearing regulatory layer**.
+These effects are referenced in fragments across GLYMPH↔AUTO, MOD↔COG, and the Temporal Layer, but there is no dedicated home for the **mechanism**. This contract exists to formalize sleep architecture as a **load-bearing regulatory layer**.
 
 ---
 
@@ -273,7 +273,7 @@ Interventions that restore architecture (CBT-I, CPAP) should improve regulatory 
 ## Failure Modes
 
 **Clearance-only framing:**  
-Treating sleep purely as glymphatic clearance (GLYPH↔AUTO) misses architectural failure modes. Clearance can be intact while architecture is fragmented, leaving priors and precision-gain miscalibrated.
+Treating sleep purely as glymphatic clearance (GLYMPH↔AUTO) misses architectural failure modes. Clearance can be intact while architecture is fragmented, leaving priors and precision-gain miscalibrated.
 
 **Total-sleep-time bias:**  
 Clinical focus on “hours slept” ignores stage proportions and transitions. Eight hours of fragmented, REM-suppressed sleep is not equivalent to eight hours of intact architecture.
@@ -290,7 +290,7 @@ Sedative drugs can increase sleep duration while degrading architecture. Symptom
 
 **Below (feeds into SLEEP):**
 
-- GLYPH↔AUTO — clearance capacity sets the background for architectural work.  
+- GLYMPH↔AUTO — clearance capacity sets the background for architectural work.  
 - Temporal Layer — circadian phase and sleep timing determine when architecture can run.
 
 **Above (fed by SLEEP):**
@@ -303,7 +303,7 @@ Sedative drugs can increase sleep duration while degrading architecture. Symptom
 
 ## Origin Note
 
-This contract arises from repeated fragments across GLYPH↔AUTO, MOD↔COG, and the Temporal Layer that all point to the same missing variable: **sleep architecture as a regulatory layer**. Clinical patterns — insomnia, OSA, REM suppression, fragmented sleep — consistently show cross-diagnostic regulatory consequences that cannot be explained by clearance or timing alone.
+This contract arises from repeated fragments across GLYMPH↔AUTO, MOD↔COG, and the Temporal Layer that all point to the same missing variable: **sleep architecture as a regulatory layer**. Clinical patterns — insomnia, OSA, REM suppression, fragmented sleep — consistently show cross-diagnostic regulatory consequences that cannot be explained by clearance or timing alone.
 
 SLEEP formalizes the idea that:
 

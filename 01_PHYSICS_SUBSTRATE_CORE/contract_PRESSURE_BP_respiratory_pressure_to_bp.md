@@ -493,7 +493,7 @@ The clinical presentation is a patient whose BP readings escalate across appoint
   directly — high-excursion practitioners have raised both their structural 
   ceiling and their effective amplitude utilization fraction, which is the 
   same variable that drives artifact magnitude in Link 1
-- GLYPH↔AUTO: the same diaphragmatic pressure mechanics that drive 
+- GLYMPH↔AUTO: the same diaphragmatic pressure mechanics that drive 
   glymphatic clearance in that contract are the upstream driver of the 
   intrathoracic pressure differential this contract measures
 - PROPRIO↔AUTO/COG: arm position and proprioceptive state contribute to 

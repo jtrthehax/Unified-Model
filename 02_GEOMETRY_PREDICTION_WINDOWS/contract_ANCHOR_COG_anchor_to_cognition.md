@@ -229,7 +229,7 @@ Individuals using passive external diaphragmatic load (forward lean, weighted su
 - AUTO↔MOD: vagal tone and exhale gate timing set the baseline oscillation substrate
 - PROPRIO↔AUTO/COG: proprioceptive confirmation stream as second anchoring input
 - COG↔INTERO: interoceptive clarity as third anchoring input
-- GLYPH↔AUTO: pressure mechanics and CSF pulsatility share the same mechanical substrate
+- GLYMPH↔AUTO: pressure mechanics and CSF pulsatility share the same mechanical substrate
 
 **Above — receives output from this contract:**
 - COG↔REASON: prediction window width determines reasoning mode, fallacy group activation, and model-of-other depth

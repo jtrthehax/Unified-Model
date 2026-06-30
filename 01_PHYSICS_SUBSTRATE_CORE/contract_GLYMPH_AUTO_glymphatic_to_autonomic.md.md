@@ -1,17 +1,17 @@
 ---
-Contract: "GLYPH → AUTO"
-Expanded_Filename: "contract_GLYPH_AUTO_symbolic_to_autonomic.md"
+Contract: "GLYMPH → AUTO"
+Expanded_Filename: "contract_GLYMPH_AUTO_glymphatic_to_autonomic.md"
 
 Manifest:
   file: "unified_model_manifest.yml"
   optional: true
   role: "Global repository index and AI execution rules."
 
-
 Ontology_Layer: "01_PHYSICS_SUBSTRATE_CORE"
+
 Upstream_Dependencies:
-  - "SOC → GLYPH"
-  - "SEMANTIC → GLYPH"
+  - "SOC → GLYMPH"
+  - "SEMANTIC → GLYMPH"
 
 Downstream_Dependencies:
   - "AUTO → MOD"
@@ -27,21 +27,21 @@ Repository_Root: "https://github.com/jtrthehax/Unified-Model"
 Zenodo_DOI: "https://doi.org/10.5281/zenodo.20417459"
 ---
 
-# Contract: GLYPH → AUTO
+# Contract: GLYMPH → AUTO
 ### Unified‑Model Regulatory Architecture — Contract Layer
 
 **Expanded Filename:**  
-`contract_GLYPH_AUTO_symbolic_to_autonomic.md`
+`contract_GLYMPH_AUTO_glymphatic_to_autonomic.md`
 
 **Ontology Layer:**  
 PHYSICS_SUBSTRATE_CORE
 
 **Direction of Influence:**  
-GLYPH → AUTO
+GLYMPH → AUTO
 
 **Upstream Dependencies:**  
-- SOC → GLYPH  
-- SEMANTIC → GLYPH  
+- SOC → GLYMPH  
+- SEMANTIC → GLYMPH  
 
 **Downstream Dependencies:**  
 - AUTO → MOD  
@@ -53,7 +53,7 @@ GLYPH → AUTO
 - `contract_AUTO_MOD_autonomic_to_modulation.md`
 
 **Canonical Bootloader:**  
-https://github.com/jtrthehax/Unified-Model/blob/main/PHYSICS_SUBSTRATE_CORE/minimal_core_physics.md
+https://github.com/jtrthehax/Unified-Model/blob/main/01_PHYSICS_SUBSTRATE_CORE/minimal_core_physics.md
 
 **Repository Root:**  
 https://github.com/jtrthehax/Unified-Model
@@ -68,7 +68,7 @@ https://doi.org/10.5281/zenodo.20417459
 
 **Input layer:** AUTO — autonomic state, breathing pattern, tidal volume, diaphragmatic excursion amplitude, metabolic load, slow wave sleep architecture
 
-**Output layer:** GLYPH — CSF flow velocity, glymphatic clearance rate, interstitial waste accumulation, amyloid and tau clearance, neuroinflammatory substrate
+**Output layer:** GLYMPH — CSF flow velocity, glymphatic clearance rate, interstitial waste accumulation, amyloid and tau clearance, neuroinflammatory substrate
 
 **Primary crossover point:** Diaphragmatic pressure differential → intrathoracic pressure oscillation → CSF pulsatility → glymphatic flow through perivascular channels. The pump is breathing mechanics. The fluid is CSF. The clearance rate is determined by how well the pump is running and whether the cellular architecture is open enough to allow flow.
 
@@ -92,7 +92,7 @@ The contract sits at the intersection of the physics layer and the temporal laye
 
 ## The Complete Chain
 
-### AUTO → GLYPH (Autonomic and breathing state drives clearance):
+### AUTO → GLYMPH (Autonomic and breathing state drives clearance):
 ```
 Metabolic demand (cognitive load, motor activity, stress)
   → Breathing pattern set by metabolic need
@@ -114,7 +114,7 @@ Metabolic demand (cognitive load, motor activity, stress)
                       → Amyloid, tau, metabolic byproducts cleared
 ```
 
-### GLYPH → AUTO (Clearance state feeds back into regulatory capacity):
+### GLYMPH → AUTO (Clearance state feeds back into regulatory capacity):
 ```
 Accumulated neuroinflammatory substrate
   → IMMUNE↔AUTO contract activated
@@ -334,7 +334,7 @@ The dominant pharmaceutical strategy for Alzheimer's has targeted amyloid cleara
 - MOD↔COG: Accumulated neuroinflammatory substrate from clearance failure directly degrades dopaminergic and serotonergic function — the cognitive consequences of poor clearance are mediated through the MOD layer
 
 **The physics layer and temporal layer simultaneously:**
-GLYPH↔AUTO is the only contract that requires both substrate descriptions to explain its primary mechanism. The physics layer describes the pressure mechanics that drive CSF flow. The temporal layer describes the circadian gating that determines when the cellular architecture is open for clearance. Neither alone is sufficient. A well-functioning pump running at the wrong circadian phase finds closed channels. A correctly-timed clearance window with an impaired pump finds insufficient flow to move waste through open channels. Both conditions must be met simultaneously for optimal clearance — which is why the convergence of deep rest, slow tidal breathing, and correct circadian phase produces a qualitatively different clearance state than any single variable alone.
+GLYMPH↔AUTO is the only contract that requires both substrate descriptions to explain its primary mechanism. The physics layer describes the pressure mechanics that drive CSF flow. The temporal layer describes the circadian gating that determines when the cellular architecture is open for clearance. Neither alone is sufficient. A well-functioning pump running at the wrong circadian phase finds closed channels. A correctly-timed clearance window with an impaired pump finds insufficient flow to move waste through open channels. Both conditions must be met simultaneously for optimal clearance — which is why the convergence of deep rest, slow tidal breathing, and correct circadian phase produces a qualitatively different clearance state than any single variable alone.
 
 ---
 

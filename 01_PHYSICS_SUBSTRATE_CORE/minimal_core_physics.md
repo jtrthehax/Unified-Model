@@ -21,7 +21,6 @@ Downstream_Dependencies:
 Scientific_Artifacts:
   - name: "Physics as the Missing Component in Medical Science — Flat Version"
     file: "physics_flat.md"
-    doi: "<INSERT_DOI_HERE>"
     role: "Primary scientific foundation for the physics substrate layer."
 
 Substrate_Primitives:
@@ -169,7 +168,7 @@ Substrate‑level crossover contracts:
 - `contract_AUTO_CARDIAC_autonomic_to_cardiac.md`  
 - `contract_AUTO_MOD_autonomic_to_modulation.md`  
 - `contract_PRESSURE_BP_respiratory_pressure_to_bp.md`  
-- `contract_GLYPH_AUTO_symbolic_to_autonomic.md`  
+- `contract_GLYMPH_AUTO_glymphatic_to_autonomic.md`
 - `contract_MET_AUTO_metabolic_to_autonomic.md`  
 - `contract_MET_IMMUNE_metabolic_to_immune.md`  
 - `contract_IMMUNE_AUTO_immune_to_autonomic.md`  

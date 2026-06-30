@@ -79,8 +79,8 @@ contracts:
     downstream: ["contract_WINDOWS_COG", "contract_MOD_COG"]
     falsifiable_metric: null
 
-  contract_GLYPH_AUTO:
-    path: "01_PHYSICS_SUBSTRATE_CORE/contract_GLYPH_AUTO_symbolic_to_autonomic.md"
+  contract_GLYMPH_AUTO:
+    path: "01_PHYSICS_SUBSTRATE_CORE/contract_GLYMPH_AUTO_glymphatic_to_autonomic.md"
     layer: 01
     upstream: []
     downstream: []
