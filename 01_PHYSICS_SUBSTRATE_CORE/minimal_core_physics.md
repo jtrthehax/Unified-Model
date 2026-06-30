@@ -18,6 +18,12 @@ Downstream_Dependencies:
   - "05_SOCIAL_ENVIRONMENT_PRESSURE"
   - "06_TRANSFORMER_ANALOGS_AND_REASONING"
 
+Scientific_Artifacts:
+  - name: "Physics as the Missing Component in Medical Science — Flat Version"
+    file: "physics_flat.md"
+    doi: "<INSERT_DOI_HERE>"
+    role: "Primary scientific foundation for the physics substrate layer."
+
 Substrate_Primitives:
   - "Pressure"
   - "Amplitude"
@@ -35,9 +41,13 @@ Repository_Root: "https://github.com/jtrthehax/Unified-Model"
 Zenodo_DOI: "https://doi.org/10.5281/zenodo.20417459"
 ---
 
+
 # Unified‑Model — Minimal Core (Physics Substrate Bootloader)
 
 ## 0. Canonical References
+
+**Full Scientific Foundation (Flat Version):**  
+01_PHYSICS_SUBSTRATE_CORE/physics_flat.md  
 
 **Canonical AI Entry Point:**  
 https://github.com/jtrthehax/Unified-Model/blob/main/01_PHYSICS_SUBSTRATE_CORE/minimal_core_physics.md
