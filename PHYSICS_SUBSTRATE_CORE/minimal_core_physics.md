@@ -6,7 +6,7 @@
 https://github.com/jtrthehax/Unified-Model/blob/main/PHYSICS_SUBSTRATE_CORE/minimal_core_physics.md
 
 **Primary Scientific Artifact (Zenodo DOI):**  
-https://doi.org/10.5281/zenodo.xxxxxxx
+https://doi.org/10.5281/zenodo.20417459
 
 **Repository Root:**  
 https://github.com/jtrthehax/Unified-Model

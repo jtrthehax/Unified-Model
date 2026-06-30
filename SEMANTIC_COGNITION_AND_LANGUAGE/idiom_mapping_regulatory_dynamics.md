@@ -46,8 +46,8 @@ observation — it was the mechanism. This document provides it.
 
 ## 1. Breathing, Pressure, and Prediction-Window Idioms
 
-**Contracts:** [[contract_AUTO_MOD]], [[contract_ANCHOR_COG]], 
-[[contract_COG_REASON_ESCALATION]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_AUTO_MOD]], [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]], 
+[[Research/UnifiedModel/Unified-Model/contracts/contract_COG_REASON_ESCALATION]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -63,7 +63,7 @@ observation — it was the mechanism. This document provides it.
 
 **Contract evidence:**
 
-From [[contract_AUTO_MOD]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_AUTO_MOD]]:
 > "RSA is the mechanical signal… the breathing governor directly 
 > modulates cognitive state."
 
@@ -71,7 +71,7 @@ From [[contract_AUTO_MOD]]:
 > changes in ECS tone markers and shift cognitive performance toward 
 > increased precision gain."
 
-From [[contract_ANCHOR_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]]:
 > "Shallow or incomplete exhalation imposes a physical ceiling on 
 > prediction-window width."
 
@@ -80,7 +80,7 @@ From [[contract_ANCHOR_COG]]:
 > the amplitude actually completed. Reduced amplitude narrows the 
 > window further. The loop closes."
 
-From [[contract_GLYPH_AUTO]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_GLYPH_AUTO]]:
 > "Chronic high metabolic load → shallow breathing → reduced pressure 
 > differential → impaired CSF pulsatility → reduced clearance."
 
@@ -94,8 +94,8 @@ intervention ("take a deep breath") in the same idiom class.
 
 ## 2. Cognitive Narrowing, Rigidity, and Prior Dominance
 
-**Contracts:** [[contract_ANCHOR_COG]], [[contract_COG_INTERO]], 
-[[contract_COG_REASON_ESCALATION]], [[contract_TEMPORAL_COG]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]], [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]], 
+[[Research/UnifiedModel/Unified-Model/contracts/contract_COG_REASON_ESCALATION]], [[Research/UnifiedModel/Unified-Model/contracts/contract_TEMPORAL_COG]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -112,7 +112,7 @@ intervention ("take a deep breath") in the same idiom class.
 
 **Contract evidence:**
 
-From [[contract_ANCHOR_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]]:
 > "The prior drift toward threat is an arithmetic consequence of a 
 > narrowed sampling distribution, not a psychological response to 
 > experience."
@@ -121,17 +121,17 @@ From [[contract_ANCHOR_COG]]:
 > CO₂ chemoreceptor threshold, oscillation amplitude, and the sampling 
 > distribution that amplitude determines."
 
-From [[contract_COG_INTERO]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]]:
 > "Prior dominance does not announce itself as prior dominance. The 
 > person experiencing it does not feel 'my prior is generating this 
 > signal.' They feel 'I am perceiving this accurately.'"
 
-From [[contract_TEMPORAL_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_TEMPORAL_COG]]:
 > "Phase delay should predict rigid prior maintenance and reduced 
 > prediction error utilization on tasks requiring perspective-shift 
 > or model update."
 
-From [[contract_SOC_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_COG]]:
 > "Token prediction is precision-locked by default. It selects the 
 > next locally coherent token given what is immediately present… This 
 > produces local coherence. It does not produce decompression."
@@ -145,8 +145,8 @@ trait — it is a sampling distribution problem with a mechanical cause.
 
 ## 3. Social Co-Regulation and External Anchoring
 
-**Contracts:** [[contract_SOC_COG]], [[contract_SOC_ANCHOR]], 
-[[contract_SOC_INSTITUTION]], [[contract_COG_REASON_ESCALATION]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_COG]], [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_ANCHOR]], 
+[[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_INSTITUTION]], [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_REASON_ESCALATION]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -163,7 +163,7 @@ trait — it is a sampling distribution problem with a mechanical cause.
 
 **Contract evidence:**
 
-From [[contract_SOC_ANCHOR]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_ANCHOR]]:
 > "External anchoring can substitute for internal anchoring without 
 > repairing it. The window widens during co-regulated interaction and 
 > collapses on removal. When the substitution persists, the system 
@@ -175,7 +175,7 @@ From [[contract_SOC_ANCHOR]]:
 > they are independently discovered interfaces to a convergence 
 > mechanism that the framework can now name."
 
-From [[contract_SOC_INSTITUTION]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_INSTITUTION]]:
 > "Institutions narrow prediction windows through repeated micro-threat 
 > exposure… Each event is mechanistically a micro-brace event."
 
@@ -183,13 +183,13 @@ From [[contract_SOC_INSTITUTION]]:
 > culture problem. It was conditioning extinction. The reconditioning 
 > is the point."
 
-From [[contract_COG_REASON_ESCALATION]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_REASON_ESCALATION]]:
 > "A person without the hierarchical threat-coupling will respond to 
 > what was said rather than to who said it or what social consequence 
 > responding carries… This reads as socially inappropriate to people 
 > whose threat-coupling is fully formed."
 
-From [[contract_SOC_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_COG]]:
 > "NT individuals rate ND individuals as less likeable and less 
 > trustworthy in brief interactions — not because of ND behavior 
 > quality but because NT social prediction models are calibrated for 
@@ -205,8 +205,8 @@ conditioned regulatory output rather than a voluntary choice.
 
 ## 4. Interoception, Gut Signals, and Body-State Priors
 
-**Contracts:** [[contract_COG_INTERO]], [[contract_MICRO_AUTO]], 
-[[contract_NOCI_COG]], [[contract_PROPRIO_AUTO_COG]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]], [[Research/UnifiedModel/Unified-Model/contracts/contract_MICRO_AUTO]], 
+[[Research/UnifiedModel/Unified-Model/contracts/contract_NOCI_COG]], [[Research/UnifiedModel/Unified-Model/contracts/contract_PROPRIO_AUTO_COG]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -221,7 +221,7 @@ conditioned regulatory output rather than a voluntary choice.
 
 **Contract evidence:**
 
-From [[contract_COG_INTERO]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]]:
 > "Prior dominance does not announce itself as prior dominance. The 
 > person experiencing it does not feel 'my prior is generating this 
 > signal.' They feel 'I am perceiving this accurately.'"
@@ -231,14 +231,14 @@ From [[contract_COG_INTERO]]:
 > precision weighting mechanism is functional enough to support belief 
 > updating."
 
-From [[contract_MICRO_AUTO]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_MICRO_AUTO]]:
 > "The microbiome modulates this channel constantly through its 
 > metabolite output. Change the microbiome composition and you change 
 > what the vagus is reading, which changes what the brain believes 
 > about body state, which changes autonomic output, which changes every 
 > contract above this one."
 
-From [[contract_PROPRIO_AUTO_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_PROPRIO_AUTO_COG]]:
 > "In novel movement contexts, response initiation latency should 
 > predict joint position sense error at baseline. In rehearsed movement 
 > contexts, the correlation should disappear as the forward model's 
@@ -254,8 +254,8 @@ completes — which the framework now explains mechanistically.
 
 ## 5. Stress, Load, and Collapse Idioms
 
-**Contracts:** [[contract_ANCHOR_COG]], [[contract_MET_IMMUNE]], 
-[[contract_GLYPH_AUTO]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]], [[Research/UnifiedModel/Unified-Model/contracts/contract_MET_IMMUNE]], 
+[[Research/UnifiedModel/Unified-Model/contracts/contract_GLYPH_AUTO]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -271,7 +271,7 @@ completes — which the framework now explains mechanistically.
 
 **Contract evidence:**
 
-From [[contract_ANCHOR_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]]:
 > "Elevated sympathetic tone lowers the CO₂ bracing threshold, moving 
 > bracing onset earlier in the exhale. Earlier bracing onset reduces 
 > the amplitude actually completed. Reduced amplitude narrows the 
@@ -283,7 +283,7 @@ From [[contract_ANCHOR_COG]]:
 > world sampled from the narrow phase is systematically more 
 > threat-weighted."
 
-From [[contract_MET_IMMUNE]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_MET_IMMUNE]]:
 > "Managing MCAS without managing dietary glucose load is treating half 
 > the activation pathway."
 
@@ -291,7 +291,7 @@ From [[contract_MET_IMMUNE]]:
 > immune activation timing produces systematically worse outcomes 
 > during the peak activation window."
 
-From [[contract_GLYPH_AUTO]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_GLYPH_AUTO]]:
 > "Deep rest is not recovery from work. It is the active clearance 
 > operation that justifies having done the work at all."
 
@@ -304,7 +304,7 @@ narrowing of the oscillatory range that precedes full collapse.
 
 ## 6. Gaze, Blink, and Thinking-Surface Idioms
 
-**Contract:** [[contract_MODULATORS_COG]]
+**Contract:** [[Research/UnifiedModel/Unified-Model/contracts/contract_MODULATORS_COG]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -320,7 +320,7 @@ narrowing of the oscillatory range that precedes full collapse.
 
 **Contract evidence:**
 
-From [[contract_MODULATORS_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_MODULATORS_COG]]:
 > "A blank surface provides the exit condition the system needs: gaze 
 > is de-anchored from the social stimulus, but the visual channel 
 > encounters a low-entropy field that generates minimal prediction 
@@ -353,7 +353,7 @@ interruption.
 
 ## 7. Temporal and Circadian Idioms
 
-**Contracts:** [[contract_TEMPORAL_COG]], [[contract_ANCHOR_COG]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_TEMPORAL_COG]], [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -367,7 +367,7 @@ interruption.
 
 **Contract evidence:**
 
-From [[contract_TEMPORAL_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_TEMPORAL_COG]]:
 > "Phase delay should predict rigid prior maintenance and reduced 
 > prediction error utilization on tasks requiring perspective-shift 
 > or model update."
@@ -382,7 +382,7 @@ From [[contract_TEMPORAL_COG]]:
 > should show larger effect sizes when delivered during the client's 
 > circadian low-precision window."
 
-From [[contract_ANCHOR_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]]:
 > "The loop explains the failure of mindset interventions, the 
 > mechanism behind cognitive rigidity accumulating with age, the reason 
 > some people never recover nuance after high-load periods, and why 
@@ -398,7 +398,7 @@ external cause, which is why the idiom reaches for a weather metaphor.
 
 ## 8. Pain, Threat, and Avoidance Idioms
 
-**Contracts:** [[contract_NOCI_COG]], [[contract_COG_INTERO]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_NOCI_COG]], [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -413,7 +413,7 @@ external cause, which is why the idiom reaches for a weather metaphor.
 
 **Contract evidence:**
 
-From [[contract_NOCI_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_NOCI_COG]]:
 > "Pain without signal — the chronic pain example — is the prior 
 > generating experience without needing a signal at all because the 
 > gain is high enough that the prior's own output exceeds the 
@@ -429,7 +429,7 @@ From [[contract_NOCI_COG]]:
 > in a situation where the prediction is wrong but cannot be corrected 
 > because the testing mechanism has been disabled."
 
-From [[contract_COG_INTERO]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]]:
 > "Low interoceptive accuracy predicts treatment resistance regardless 
 > of diagnosis."
 
@@ -444,7 +444,7 @@ without having a name for it.
 
 ## 9. Developmental and Transgenerational Idioms
 
-**Contracts:** [[contract_INTERO_DEV]], [[contract_ANCHOR_COG]]
+**Contracts:** [[Research/UnifiedModel/Unified-Model/contracts/contract_INTERO_DEV]], [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]]
 
 | Idiom | Regulatory reading |
 |---|---|
@@ -459,7 +459,7 @@ without having a name for it.
 
 **Contract evidence:**
 
-From [[contract_INTERO_DEV]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_INTERO_DEV]]:
 > "The first regulatory setpoints are written by maternal state. A 
 > chronically stressed mother is not just emotionally affecting the 
 > pregnancy — she is entraining the fetal autonomic system to her 
@@ -474,7 +474,7 @@ From [[contract_INTERO_DEV]]:
 > reporting a prior that the majority population did not accumulate 
 > the oscillatory range to sample from."
 
-From [[contract_ANCHOR_COG]]:
+From [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]]:
 > "The prior does not drift because of accumulated bad experiences. 
 > It drifts because the sampling distribution it is calibrated against 
 > has been progressively narrowed by false-ceiling calcification."

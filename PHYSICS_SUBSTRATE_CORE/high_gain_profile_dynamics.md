@@ -1,6 +1,6 @@
 # High-Gain Profile Dynamics
 
-*Load alongside [[minimal_core]], [[contract_MOD_COG]], and [[contract_COG_INTERO]] for detailed work on this document.*
+*Load alongside [[minimal_core]], [[Research/UnifiedModel/Unified-Model/contracts/contract_MOD_COG]], and [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]] for detailed work on this document.*
 
 ---
 
@@ -242,12 +242,12 @@ Understanding the wheel as an architecture — rather than as a trait list with 
 
 ## Adjacent Documents
 
-- [[contract_MOD_COG]] — GABA resolution mechanism, anticipatory synthesis loop, hijacking architecture
-- [[contract_COG_INTERO]] — high-gain prior capture failure mode, exit architecture, perceptual inversion
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_MOD_COG]] — GABA resolution mechanism, anticipatory synthesis loop, hijacking architecture
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_INTERO]] — high-gain prior capture failure mode, exit architecture, perceptual inversion
 - [[minimal_core]] — 2-stroke engine, ADHD anti-rigidity, wide-window hardware preconditions
-- [[contract_ANCHOR_COG]] — mechanical substrate of the window, threat-calibration loop, false ceiling
-- [[contract_AUTO_MOD]] — interoceptive switching handle, deliberate mode access
-- [[contract_GLYPH_AUTO]] — nap as synthesis-cycle reset mechanism
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]] — mechanical substrate of the window, threat-calibration loop, false ceiling
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_AUTO_MOD]] — interoceptive switching handle, deliberate mode access
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_GLYPH_AUTO]] — nap as synthesis-cycle reset mechanism
 
 ---
 

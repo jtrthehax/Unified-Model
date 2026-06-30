@@ -56,7 +56,7 @@ political content varies by context. The regulatory signature does not.
 individuals simultaneously; the attractor the shared environment selects 
 determines everything downstream. The adult-timescale mechanism by which 
 sustained economic load writes this profile into participants is formalized in 
-[[contract_INTERO_DEV]] Timescale 5.*
+[[Research/UnifiedModel/Unified-Model/contracts/contract_INTERO_DEV]] Timescale 5.*
 
 ---
 
@@ -290,7 +290,7 @@ The concealment is the mechanical consequence of the regulatory state, not a
 deliberate strategy layered on top of it.
 
 *The boundary condition for self-correction failure is operationalized in 
-[[contract_SOC_INSTITUTION]]: the threshold is reached when compliance 
+[[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_INSTITUTION]]: the threshold is reached when compliance 
 architecture has selected against the analytical capacity required to run the 
 evaluation — specifically, when the participants whose windows are widest and 
 whose analytical range would be required to evaluate the correction are the ones 
@@ -407,7 +407,7 @@ structure constant while varying economic load alone. No such dataset exists.
 What exists is a wide literature across sociology, political psychology, and 
 behavioral economics whose coherent pattern is consistent with the model. The 
 confound structure and the specific literature supporting each prediction are 
-documented in [[contract_SOC_INSTITUTION]] and [[high_gain_profile_dynamics]].*
+documented in [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_INSTITUTION]] and [[high_gain_profile_dynamics]].*
 
 ---
 
@@ -517,15 +517,15 @@ population-level traction they did.
 - [[high_gain_profile_dynamics]] — attractor states, threat-narrow intermediate, 
   GABA/Glx dynamics, population-level implication of sustained sympathetic 
   elevation; aggregation mechanism for individual-to-population transfer function
-- [[contract_INTERO_DEV]] — Timescale 5: adult-timescale social threat prior 
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_INTERO_DEV]] — Timescale 5: adult-timescale social threat prior 
   writing through institutional micro-threat conditioning; the mechanism by which 
   economic load writes the narrow-window profile across individuals simultaneously
-- [[contract_SOC_INSTITUTION]] — micro-threat conditioning as institutional 
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_INSTITUTION]] — micro-threat conditioning as institutional 
   production mechanism, compliance architecture, ossification, fear-mobilization 
   without explicit direction; boundary condition for self-correction failure
-- [[contract_COG_REASON_ESCALATION]] — two pathways to non-reactive profile, 
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_COG_REASON_ESCALATION]] — two pathways to non-reactive profile, 
   compliance filter installation, content-evaluation vs hierarchy-filter
-- [[contract_ANCHOR_COG]] — prediction window mechanics, external anchoring under 
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_ANCHOR_COG]] — prediction window mechanics, external anchoring under 
   load, false ceiling mechanism, threat-calibration loop
-- [[contract_SOC_ANCHOR]] — co-regulation demand as regulatory request, external 
+- [[Research/UnifiedModel/Unified-Model/contracts/contract_SOC_ANCHOR]] — co-regulation demand as regulatory request, external 
   anchor dependency, ESLPM onset as architectural consequence
