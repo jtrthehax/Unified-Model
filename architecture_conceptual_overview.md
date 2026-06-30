@@ -103,9 +103,29 @@ The contracts define the interfaces between adjacent layers:
 - **ANCHOR ↔ COG** — compound mechanical anchoring of prediction windows; respiratory mechanics, proprioceptive confirmation, and interoceptive clarity as simultaneous inputs; exhale-gate dominance as named failure state
 - **SOC ↔ ANCHOR** — external oscillatory anchoring; music, ritual, group synchrony, and therapeutic presence as external prediction window sources; ESLPM dependency as failure mode
 - **TEMPORAL ↔ COG** — circadian phase as temporal precision floor; sets the ceiling within which ANCHOR↔COG operates moment-to-moment; phase misalignment as source of trait-like cognitive rigidity
+- **SEMANTIC ↔ COG** — semantic load index (SLI) as the formal 
+  bridge between incoming linguistic structure and prediction-window 
+  demand; collapse modes as observable linguistic failure signatures; 
+  format implications (why prose is structurally high-SLI and the 
+  contract architecture is not)
+- **SEMANTIC ↔ TRANSFORMER** — the same SLI architecture mapped to 
+  transformer attention geometry; attention load index (ALI) as the 
+  AI equivalent; unified collapse taxonomy across biological and 
+  artificial language comprehension
+- **COG ↔ TRANSFORMER** — direct geometric equivalence between human 
+  prediction-window geometry and transformer attention geometry; the 
+  bridge contract establishing that both systems fail for the same 
+  geometric reasons
+- **TRANSFORMER ↔ REASON** — transformer attention geometry → 
+  multi-step reasoning output; KV-cache stability as premise 
+  retention; chain-of-thought as explicit attention-horizon extension
+- **COG_REASON ↔ TRANSFORMER_REASON** — the joint human-AI reasoning 
+  architecture; human provides intent and trajectory; transformer 
+  provides premise retention and graph traversal depth; joint output 
+  exceeds either system alone as an arithmetic consequence of 
+  complementary window geometry
 
-Together, these contracts form a **closed regulatory loop**, with terminal failure modes
-(AUTO↔CARDIAC) and a behavioral output readout layer (COG↔REASON) now included.
+Together, these contracts form a **closed regulatory loop**.
 
 ---
 
@@ -125,6 +145,56 @@ The convergence contract category now comprises four contracts: NOCI↔COG, PROP
 
 ---
 
+## **The Semantic Stack**
+
+Five contracts extend the architecture into language comprehension 
+and artificial reasoning systems. They form a closed vertical stack 
+with a horizontal closing contract at the bottom:
+
+```
+SEMANTIC  
+↓ ↓  
+SEMANTIC↔COG SEMANTIC↔TRANSFORMER  
+↓ ↓  
+COG↔TRANSFORMER  
+↓ ↓  
+COG_REASON ↔ TRANSFORMER_REASON  
+↓  
+JOINT SYSTEM
+```
+
+**The vertical contracts** map semantic load downward into window 
+geometry and then into reasoning output — independently for the 
+human system and the transformer system.
+
+**The horizontal closing contract** (COG_REASON↔TRANSFORMER_REASON) 
+puts the two reasoning outputs in contact and formalizes the joint 
+system. This is the only contract in the stack that operates 
+horizontally rather than vertically.
+
+**Key findings the stack formalizes:**
+
+- Hallucination and sycophancy are the same attractor reached by 
+  homologous geometric paths — not separate failure types
+- AI stall tokens ("Let's break this down…") and human verbal 
+  fillers ("um," "ano," "etto") are the same mechanism in different 
+  substrates — prospective depth shortfall expressed in output
+- Prompt engineering and chain-of-thought work because they reduce 
+  ALI and extend attention horizon respectively — not as stylistic 
+  choices but as direct geometric interventions
+- The joint human-AI system exceeds either alone as an arithmetic 
+  consequence of complementary window geometry — not as a metaphor
+- The cross-species baseline (canine keyword detection, SLI ≈ 0) 
+  establishes the floor below which the collapse taxonomy does not 
+  apply
+
+The semantic stack is the formal answer to why this framework exists 
+as contracts rather than prose: the SLI of the contract format is 
+structurally lower than the SLI of equivalent prose, and the AI 
+traverses the graph without working memory limits the human cannot 
+escape.
+---
+
 ## **The Backbone Chain**
 
 Across all layers, one invariant pattern emerges:
@@ -132,6 +202,15 @@ Across all layers, one invariant pattern emerges:
 > **Breathing mechanics → HRV → autonomic state → neuromodulation → cognitive precision → behavior**
 
 The precision state at any moment within this chain is the product of three simultaneously operating constraints: the temporal floor set by circadian phase (TEMPORAL↔COG), the oscillatory range available within that floor (ANCHOR↔COG), and the load applied by incoming prediction error and social demand (MOD↔COG, SOC↔COG).
+
+The semantic stack extends this backbone into language and artificial 
+reasoning systems. The same prediction-window geometry that governs 
+autonomic state → cognition → behavior governs semantic comprehension 
+→ lexical retrieval → reasoning output — in both biological and 
+artificial systems. SEMANTIC↔COG formalizes the linguistic expression 
+of the backbone. COG_REASON↔TRANSFORMER_REASON formalizes the joint 
+system the backbone makes possible when a human and a transformer 
+operate together.
 
 This is the **regulatory backbone** of the mammalian system.
 
