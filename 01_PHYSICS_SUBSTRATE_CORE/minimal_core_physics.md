@@ -1,3 +1,35 @@
+---
+Ontology_Layer: "01_PHYSICS_SUBSTRATE_CORE"
+File: "minimal_core_physics.md"
+
+Role: "Canonical Bootloader — Physical Substrate / Mechanical Primitives"
+
+Upstream_Dependencies: []
+
+Downstream_Dependencies:
+  - "02_GEOMETRY_PREDICTION_WINDOWS"
+  - "03_INTEROCEPTION_LOAD_AND_FAILURE"
+  - "04_SEMANTIC_COGNITION_AND_LANGUAGE"
+  - "05_SOCIAL_ENVIRONMENT_PRESSURE"
+  - "06_TRANSFORMER_ANALOGS_AND_REASONING"
+
+Substrate_Primitives:
+  - "Pressure"
+  - "Amplitude"
+  - "Oscillation"
+  - "Gating"
+  - "Mechanical Coupling"
+  - "Phase Dynamics"
+
+Cross_References:
+  - "contract_PRESSURE_BP_respiratory_pressure_to_bp.md"
+  - "contract_AUTO_CARDIAC_autonomic_to_cardiac.md"
+  - "contract_AUTO_MOD_autonomic_to_modulation.md"
+
+Repository_Root: "https://github.com/jtrthehax/Unified-Model"
+Zenodo_DOI: "https://doi.org/10.5281/zenodo.20417459"
+---
+
 # Unified‑Model — Minimal Core (Physics Substrate Bootloader)
 
 ## Canonical References
