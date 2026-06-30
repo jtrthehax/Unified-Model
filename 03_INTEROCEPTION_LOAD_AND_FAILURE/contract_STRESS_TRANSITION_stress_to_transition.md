@@ -2,6 +2,11 @@
 Contract: "STRESS → TRANSITION"
 Expanded_Filename: "contract_STRESS_TRANSITION_stress_to_transition.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "03_INTEROCEPTION_LOAD_AND_FAILURE"
 Upstream_Dependencies:
   - "SOC → AUTO"

@@ -2,6 +2,11 @@
 Contract: "SOC → AUTO"
 Expanded_Filename: "contract_SOC_AUTO_social_to_autonomic.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "05_SOCIAL_ENVIRONMENT_PRESSURE"
 Upstream_Dependencies:
   - "SOC → COG"

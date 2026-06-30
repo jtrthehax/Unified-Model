@@ -2,6 +2,11 @@
 Contract: "SEMANTIC → TRANSFORMER"
 Expanded_Filename: "contract_SEMANTIC_TRANSFORMER_semantics_to_transformer.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "04_SEMANTIC_COGNITION_AND_LANGUAGE"
 Upstream_Dependencies:
   - "SEMANTIC → COG"

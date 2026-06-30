@@ -1,0 +1,137 @@
+# root_map.yml
+repository: "Unified-Model"
+version: "1.1.0"
+
+description: >
+  Conceptual world-map of the Unified-Model regulatory architecture.
+  Provides ontology overview, mechanistic loop, semantic tags, global invariants,
+  and contract grouping. Complements the manifest by offering a human-readable
+  and AI-friendly conceptual index.
+
+bootloader:
+  file: "01_PHYSICS_SUBSTRATE_CORE/minimal_core_physics.md"
+  role: "Canonical bootloader defining substrate primitives and mechanistic operators."
+
+ontology:
+  layers:
+    "01":
+      name: "PHYSICS_SUBSTRATE_CORE"
+      description: "Mechanical primitives: pressure, amplitude, oscillation, gating."
+      primitives:
+        - Pressure
+        - Amplitude
+        - Oscillation
+        - Gating
+        - Mechanical Coupling
+        - Phase Dynamics
+
+    "02":
+      name: "GEOMETRY_PREDICTION_WINDOWS"
+      description: "Prediction-window geometry, hemispheric mode selection, precision gain."
+
+    "03":
+      name: "INTEROCEPTION_LOAD_AND_FAILURE"
+      description: "Load accumulation, nociception, autonomic failure, proprioceptive discontinuity."
+
+    "04":
+      name: "SEMANTIC_COGNITION_AND_LANGUAGE"
+      description: "Semantic load, linguistic geometry, cognitive integration, temporal modulation."
+
+    "05":
+      name: "SOCIAL_ENVIRONMENT_PRESSURE"
+      description: "Social modulation, co-regulation, external anchoring, institutional pressure."
+
+    "06":
+      name: "TRANSFORMER_ANALOGS_AND_REASONING"
+      description: "AI analogs, hallucination geometry, joint reasoning architecture."
+
+mechanistic_loop:
+  steps:
+    - "Breathing modulates RSA"
+    - "RSA alters HRV"
+    - "HRV defines autonomic states"
+    - "Autonomic states drive neuromodulation"
+    - "Neuromodulation sets precision gain"
+    - "Precision gain opens/closes prediction windows"
+    - "Prediction windows shape cognitive processing"
+    - "Cognition produces reasoning modes"
+    - "Reasoning outputs behavior"
+
+global_invariants:
+  - "Prediction windows cannot expand under sympathetic lock."
+  - "Semantic drift accumulates monotonically under load."
+  - "Precision gain determines reasoning mode availability."
+  - "Interoceptive load precedes functional neurological symptoms."
+  - "Transformer hallucination geometry mirrors human collapse geometry."
+  - "Respiratory amplitude sets maximum cognitive window width."
+
+semantic_tags:
+  - mechanical
+  - autonomic
+  - interoceptive
+  - cognitive
+  - semantic
+  - social
+  - transformer
+  - falsifiable
+
+contracts_by_layer:
+  "01_PHYSICS_SUBSTRATE_CORE":
+    - contract_PRESSURE_BP_respiratory_pressure_to_bp.md
+    - contract_AUTO_CARDIAC_autonomic_to_cardiac.md
+    - contract_AUTO_MOD_autonomic_to_modulation.md
+    - contract_GLYPH_AUTO_symbolic_to_autonomic.md
+    - contract_IMMUNE_AUTO_immune_to_autonomic.md
+    - contract_MET_AUTO_metabolic_to_autonomic.md
+    - contract_MET_IMMUNE_metabolic_to_immune.md
+    - contract_SLEEP_sleep_to_cognition_autonomic_modulation.md
+    - contract_MICRO_AUTO_micro_autonomic_to_autonomic.md
+
+  "02_GEOMETRY_PREDICTION_WINDOWS":
+    - contract_ANCHOR_COG_anchor_to_cognition.md
+    - contract_COG_REASON_cognition_to_reasoning.md
+    - contract_COG_REASON_ESCALATION_reasoning_collapse_modes.md
+    - contract_MODULATORS_COG_modulators_to_cognition.md
+    - contract_MOD_COG_modulation_to_cognition.md
+    - contract_WINDOWS_COG_window_geometry_to_cognition.md
+
+  "03_INTEROCEPTION_LOAD_AND_FAILURE":
+    - contract_COG_INTERO_cognition_to_interoception.md
+    - contract_INTERO_DEV_interoception_to_development.md
+    - contract_MICRO_AUTO_micro_autonomic_to_autonomic.md
+    - contract_NOCI_COG_nociception_to_cognition.md
+    - contract_PROPRIO_AUTO_COG_proprioception_to_autonomic_to_cognition.md
+    - contract_STRESS_TRANSITION_stress_to_transition.md
+
+  "04_SEMANTIC_COGNITION_AND_LANGUAGE":
+    - contract_SEMANTIC_COG_semantics_to_cognition.md
+    - contract_SEMANTIC_TRANSFORMER_semantics_to_transformer.md
+    - contract_TEMPORAL_COG_temporal_to_cognition.md
+
+  "05_SOCIAL_ENVIRONMENT_PRESSURE":
+    - contract_SOC_ANCHOR_social_to_anchor.md
+    - contract_SOC_AUTO_social_to_autonomic.md
+    - contract_SOC_COG_social_to_cognition.md
+    - contract_SOC_INSTITUTION_social_to_institution.md
+
+  "06_TRANSFORMER_ANALOGS_AND_REASONING":
+    - contract_COG_TRANSFORMER_cognition_to_transformer.md
+    - contract_TRANSFORMER_REASON_transformer_to_reasoning.md
+    - contract_COG_REASON_TRANSFORMER_REASON_joint_reasoning_human_ai.md
+
+falsifiable_contracts:
+  - contract_PRESSURE_BP_respiratory_pressure_to_bp.md
+  - contract_WINDOWS_COG_window_geometry_to_cognition.md
+  - contract_NOCI_COG_nociception_to_cognition.md
+  - contract_SEMANTIC_COG_semantics_to_cognition.md
+  - contract_TEMPORAL_COG_temporal_to_cognition.md
+  - contract_TRANSFORMER_REASON_transformer_to_reasoning.md
+
+notes:
+  - "This file is conceptual. The manifest is authoritative for execution."
+  - "AI models should load this file before the manifest for orientation."
+  - "Bootloader must always be initialized first."
+
+metadata:
+  doi: "https://doi.org/10.5281/zenodo.20417459"
+  repository_root: "https://github.com/jtrthehax/Unified-Model"

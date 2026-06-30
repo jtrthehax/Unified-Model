@@ -2,6 +2,11 @@
 Contract: "NOCI → COG"
 Expanded_Filename: "contract_NOCI_COG_nociception_to_cognition.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "03_INTEROCEPTION_LOAD_AND_FAILURE"
 Upstream_Dependencies:
   - "LOAD → NOCI"

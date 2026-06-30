@@ -2,6 +2,12 @@
 Contract: "GLYPH → AUTO"
 Expanded_Filename: "contract_GLYPH_AUTO_symbolic_to_autonomic.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
+
 Ontology_Layer: "01_PHYSICS_SUBSTRATE_CORE"
 Upstream_Dependencies:
   - "SOC → GLYPH"

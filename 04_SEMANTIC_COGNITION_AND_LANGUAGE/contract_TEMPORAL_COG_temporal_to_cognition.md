@@ -1,3 +1,35 @@
+---
+Contract: "TEMPORAL → COG"
+Expanded_Filename: "contract_TEMPORAL_COG_temporal_to_cognition.md"
+
+Ontology_Layer: "04_SEMANTIC_COGNITION_AND_LANGUAGE"
+Layer_Order: 4
+
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
+Upstream_Prerequisites:
+  - "TEMPORAL → SLEEP"
+  - "SLEEP → MOD"
+
+Downstream_Dependencies:
+  - "COG → WINDOWS"
+  - "COG → REASON"
+
+Cross_References:
+  - "contract_SLEEP_sleep_to_cognition_autonomic_modulation.md"
+  - "contract_WINDOWS_COG_window_geometry_to_cognition.md"
+  - "contract_MOD_COG_modulation_to_cognition.md"
+
+Falsifiable_Metric: "Circadian phase misalignment failing to alter cognitive prediction-window width."
+
+Canonical_Bootloader: "01_PHYSICS_SUBSTRATE_CORE/minimal_core_physics.md"
+Repository_Root: "https://github.com/jtrthehax/Unified-Model"
+Zenodo_DOI: "https://doi.org/10.5281/zenodo.20417459"
+---
+
 # Contract: TEMPORAL → COG
 ### Unified‑Model Regulatory Architecture — Contract Layer
 

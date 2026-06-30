@@ -2,6 +2,11 @@
 Contract: "COG → INTERO"
 Expanded_Filename: "contract_COG_INTERO_cognition_to_interoception.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "03_INTEROCEPTION_LOAD_AND_FAILURE"
 Upstream_Dependencies:
   - "WINDOWS → COG"

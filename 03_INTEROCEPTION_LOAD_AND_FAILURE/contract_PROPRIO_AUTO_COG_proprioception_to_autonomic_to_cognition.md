@@ -2,6 +2,11 @@
 Contract: "PROPRIO → AUTO → COG"
 Expanded_Filename: "contract_PROPRIO_AUTO_COG_proprioception_to_autonomic_to_cognition.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "03_INTEROCEPTION_LOAD_AND_FAILURE"
 Upstream_Dependencies:
   - "LOAD → PROPRIO"

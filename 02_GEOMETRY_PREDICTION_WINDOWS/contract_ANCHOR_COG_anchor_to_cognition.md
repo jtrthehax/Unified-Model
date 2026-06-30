@@ -2,6 +2,11 @@
 Contract: "ANCHOR → COG"
 Expanded_Filename: "contract_ANCHOR_COG_anchor_to_cognition.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "02_GEOMETRY_PREDICTION_WINDOWS"
 Upstream_Dependencies:
   - "AUTO → MOD"

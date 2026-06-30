@@ -2,6 +2,11 @@
 Contract: "MET → IMMUNE"
 Expanded_Filename: "contract_MET_IMMUNE_metabolic_to_immune.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "01_PHYSICS_SUBSTRATE_CORE"
 Upstream_Dependencies:
   - "PRESSURE → MET"

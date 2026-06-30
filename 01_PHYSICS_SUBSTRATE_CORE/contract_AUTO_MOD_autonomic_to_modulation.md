@@ -2,6 +2,12 @@
 Contract: "AUTO → MOD"
 Expanded_Filename: "contract_AUTO_MOD_autonomic_to_modulation.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
+
 Ontology_Layer: "01_PHYSICS_SUBSTRATE_CORE"
 Upstream_Dependencies:
   - "MET → AUTO"

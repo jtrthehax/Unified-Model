@@ -1,0 +1,128 @@
+# unified_model_manifest.yml
+repository: "Unified-Model"
+version: "1.1.0"
+
+bootloader:
+  file: "01_PHYSICS_SUBSTRATE_CORE/minimal_core_physics.md"
+  initialize_first: true
+  description: "Canonical bootloader defining physical substrate primitives."
+
+root_map:
+  file: "root_map.yml"
+  optional: true
+  role: "Conceptual ontology map and semantic overview."
+
+
+ontology:
+  traversal_order: [01, 02, 03, 04, 05, 06]
+  layers:
+    "01":
+      name: "PHYSICS_SUBSTRATE_CORE"
+      path: "01_PHYSICS_SUBSTRATE_CORE"
+      role: "Substrate primitives and mechanical operators."
+      primitives: ["Pressure", "Amplitude", "Oscillation", "Gating"]
+    "02":
+      name: "GEOMETRY_PREDICTION_WINDOWS"
+      path: "02_GEOMETRY_PREDICTION_WINDOWS"
+      role: "Prediction-window geometry and precision dynamics."
+    "03":
+      name: "INTEROCEPTION_LOAD_AND_FAILURE"
+      path: "03_INTEROCEPTION_LOAD_AND_FAILURE"
+      role: "Load accumulation, nociception, autonomic failure modes."
+    "04":
+      name: "SEMANTIC_COGNITION_AND_LANGUAGE"
+      path: "04_SEMANTIC_COGNITION_AND_LANGUAGE"
+      role: "Semantic load, linguistic geometry, cognitive integration."
+    "05":
+      name: "SOCIAL_ENVIRONMENT_PRESSURE"
+      path: "05_SOCIAL_ENVIRONMENT_PRESSURE"
+      role: "Social modulation, external anchoring, institutional pressure."
+    "06":
+      name: "TRANSFORMER_ANALOGS_AND_REASONING"
+      path: "06_TRANSFORMER_ANALOGS_AND_REASONING"
+      role: "AI analogs, hallucination geometry, joint reasoning."
+
+contracts:
+  # --- PHYSICS LAYER ---
+  contract_PRESSURE_BP:
+    path: "01_PHYSICS_SUBSTRATE_CORE/contract_PRESSURE_BP.md"
+    layer: 01
+    upstream: ["BREATHING"]
+    downstream: ["contract_WINDOWS_COG"]
+    falsifiable_metric: "BP oscillometric deviation under controlled pressure"
+
+  contract_AUTO_CARDIAC:
+    path: "01_PHYSICS_SUBSTRATE_CORE/contract_AUTO_CARDIAC.md"
+    layer: 01
+    upstream: ["contract_MET_AUTO", "contract_IMMUNE_AUTO"]
+    downstream: ["contract_WINDOWS_COG"]
+    falsifiable_metric: null
+
+  # --- GEOMETRY LAYER ---
+  contract_WINDOWS_COG:
+    path: "02_GEOMETRY_PREDICTION_WINDOWS/contract_WINDOWS_COG.md"
+    layer: 02
+    upstream: ["contract_AUTO_MOD", "contract_PRESSURE_BP"]
+    downstream: ["contract_COG_REASON"]
+    falsifiable_metric: "Prediction-window width collapse under bracing"
+
+  contract_MOD_COG:
+    path: "02_GEOMETRY_PREDICTION_WINDOWS/contract_MOD_COG.md"
+    layer: 02
+    upstream: ["contract_AUTO_MOD"]
+    downstream: ["contract_COG_REASON"]
+    falsifiable_metric: null
+
+  # --- INTEROCEPTION LAYER ---
+  contract_NOCI_COG:
+    path: "03_INTEROCEPTION_LOAD_AND_FAILURE/contract_NOCI_COG.md"
+    layer: 03
+    upstream: ["LOAD"]
+    downstream: ["contract_COG_INTERO"]
+    falsifiable_metric: "Interoceptive load accumulation preceding FND symptoms"
+
+  contract_PROPRIO_AUTO_COG:
+    path: "03_INTEROCEPTION_LOAD_AND_FAILURE/contract_PROPRIO_AUTO_COG.md"
+    layer: 03
+    upstream: ["PROPRIO"]
+    downstream: ["contract_COG_REASON"]
+    falsifiable_metric: null
+
+  # --- SEMANTIC LAYER ---
+  contract_SEMANTIC_COG:
+    path: "04_SEMANTIC_COGNITION_AND_LANGUAGE/contract_SEMANTIC_COG.md"
+    layer: 04
+    upstream: ["contract_WINDOWS_COG"]
+    downstream: ["contract_COG_TRANSFORMER"]
+    falsifiable_metric: "Semantic drift curvature under load"
+
+  # --- SOCIAL LAYER ---
+  contract_SOC_COG:
+    path: "05_SOCIAL_ENVIRONMENT_PRESSURE/contract_SOC_COG.md"
+    layer: 05
+    upstream: ["contract_SOC_AUTO"]
+    downstream: ["contract_COG_REASON"]
+    falsifiable_metric: null
+
+  # --- TRANSFORMER LAYER ---
+  contract_TRANSFORMER_REASON:
+    path: "06_TRANSFORMER_ANALOGS_AND_REASONING/contract_TRANSFORMER_REASON.md"
+    layer: 06
+    upstream: ["contract_COG_TRANSFORMER"]
+    downstream: ["contract_COG_REASON_TRANSFORMER_REASON"]
+    falsifiable_metric: "Transformer hallucination geometry matching human collapse"
+
+execution_rules:
+  enforce_layer_order: true
+  enforce_upstream_dependencies: true
+  require_bootloader_initialization: true
+  semantic_drift_check:
+    enabled: true
+    method: "window_width + referential_load + oscillation_frequency"
+  token_horizon:
+    minimum_context: 4096
+    require_cross_layer_memory: true
+
+metadata:
+  doi: "https://doi.org/10.5281/zenodo.20417459"
+  repository_root: "https://github.com/jtrthehax/Unified-Model"

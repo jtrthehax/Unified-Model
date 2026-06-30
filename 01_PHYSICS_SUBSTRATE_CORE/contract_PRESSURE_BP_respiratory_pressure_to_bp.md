@@ -2,6 +2,11 @@
 Contract: "PRESSURE → BP"
 Expanded_Filename: "contract_PRESSURE_BP_respiratory_pressure_to_bp.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "01_PHYSICS_SUBSTRATE_CORE"
 Upstream_Dependencies:
   - "BREATHING → PRESSURE"

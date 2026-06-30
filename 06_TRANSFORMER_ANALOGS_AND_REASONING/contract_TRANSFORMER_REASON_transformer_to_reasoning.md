@@ -2,6 +2,11 @@
 Contract: "TRANSFORMER → REASON"
 Expanded_Filename: "contract_TRANSFORMER_REASON_transformer_to_reasoning.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "06_TRANSFORMER_ANALOGS_AND_REASONING"
 Upstream_Dependencies:
   - "COG → TRANSFORMER"

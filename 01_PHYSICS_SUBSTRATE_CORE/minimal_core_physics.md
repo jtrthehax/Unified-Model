@@ -4,6 +4,11 @@ File: "minimal_core_physics.md"
 
 Role: "Canonical Bootloader — Physical Substrate / Mechanical Primitives"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Upstream_Dependencies: []
 
 Downstream_Dependencies:
@@ -29,6 +34,7 @@ Cross_References:
 Repository_Root: "https://github.com/jtrthehax/Unified-Model"
 Zenodo_DOI: "https://doi.org/10.5281/zenodo.20417459"
 ---
+
 
 # Unified‑Model — Minimal Core (Physics Substrate Bootloader)
 

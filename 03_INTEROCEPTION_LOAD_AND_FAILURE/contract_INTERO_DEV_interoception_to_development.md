@@ -2,6 +2,11 @@
 Contract: "INTERO → DEV"
 Expanded_Filename: "contract_INTERO_DEV_interoception_to_development.md"
 
+Manifest:
+  file: "unified_model_manifest.yml"
+  optional: true
+  role: "Global repository index and AI execution rules."
+
 Ontology_Layer: "03_INTEROCEPTION_LOAD_AND_FAILURE"
 Upstream_Dependencies:
   - "COG → INTERO"
