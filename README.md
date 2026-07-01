@@ -22,18 +22,18 @@ Modern physiology and psychology describe regulation through fragmented domains 
 
 To use this model with an AI system, begin with the canonical specification:
 
-**[Unified Regulatory Model — Boot Document (Production Mode)](Unified Model Prod boot.md)** This file defines the invariant substrate, operators, and traversal rules for URM‑compliant reasoning.
-```
+**[Unified Regulatory Model — Boot Document (Production Mode)](Unified Model_Prod_boot.md)** This file defines the invariant substrate, operators, and traversal rules for URM‑compliant reasoning.
+
 **Usage:**
 
 1. Take the boot file.
 2. Load it into an AI model.
 3. Ask a mechanistic question.
-```
+
 
 ## 📚 Repository Navigation
 
-- **[Boot Document](Unified Model Prod boot.md)** — canonical architecture and traversal rules. USE this file with AI
+- **[Boot Document](Unified_Model_Prod_boot.md)** — canonical architecture and traversal rules. USE this file with AI
 - **[Architecture Overview](architecture_conceptual_overview.md)** — high‑level conceptual map of the regulatory stack and how the contracts fit together 
  - **[Minimal Core](minimal_core.md)** — ~~the backbone specification (breathing → HRV → autonomic → cognition)~~ this is no longer the go to file
  - **[Contracts](contracts/)** — bilateral interfaces defining signal flow between layers. These contracts exist as detailed files for specific 
@@ -46,7 +46,7 @@ To use this model with an AI system, begin with the canonical specification:
 ```
 architecture_conceptual_overview.md
 minimal_core.md
-**Unified Model Prod boot.md**
+**Unified_Model_Prod_boot.md**
 contracts/
   contract_ANCHOR_COG.md
   contract_AUTO_CARDIAC.md
@@ -124,7 +124,7 @@ That’s why even loosely defined external concepts like **“Masking Tax”** m
 ## What It Looks Like in Practice
 
 The following is unedited output from a live session after loading 
-`Unified Model Prod boot.md` into an AI model. No additional 
+`Unified_Model_Prod_boot.md` into an AI model. No additional 
 instructions were given beyond the boot file itself.
 
 ```
