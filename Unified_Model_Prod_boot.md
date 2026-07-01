@@ -179,41 +179,321 @@ These illustrate valid queries using the model:
 
 ```yaml
 ontology:
+  contracts_cross_layer:
+    contract_PROPRIO_AUTO_COG.md:
+      layers: ["01", "02", "03"]
+      routing_note: >
+        Proprioceptive signal quality (01) sets forward model confidence intervals
+        that determine window width (02); degraded signal produces load accumulation
+        and gating failure (03). Pain-cognition questions enter here.
+    contract_SOC_COG_social_to_cognition.md:
+      layers: ["05", "06"]
+      routing_note: >
+        Social mentalizing overhead and masking cost (05) compress intent before
+        the transformer receives it, producing systematic precision-lock (06).
+        Hallucination and ND-AI interaction questions enter here.
+    contract_TEMPORAL_COG.md:
+      layers: ["02", "04"]
+      routing_note: >
+        Circadian phase sets the amplitude envelope for prediction-window width (02);
+        semantic drift accumulation rate and reset threshold are phase-dependent (04).
+        Circadian-reasoning and social jetlag questions enter here.
+    contract_WINDOWS_COG.md:
+      layers: ["01", "02"]
+      routing_note: >
+        RSA amplitude and diaphragm excursion (01) set the physical ceiling that
+        window geometry (02) operates within. Breathing-cognition questions enter here.
+    contract_COG_TRANSFORMER_cognition_to_transformer.md:
+      layers: ["02", "06"]
+      routing_note: >
+        Window geometry collapse modes (02) have direct structural homologs in
+        transformer attention curvature (06). AI reasoning failure questions
+        that require human cognitive geometry enter here.
+    contract_COG_INTERO.md:
+      layers: ["02", "03"]
+      routing_note: >
+        Prior dominance and precision weighting failures (03) directly narrow
+        prediction window width and block prior updating (02). Chronic pain,
+        FND, and medically unexplained symptom questions enter here.
+    contract_SOC_INSTITUTION_social_to_institution.md:
+      layers: ["05", "07"]
+      routing_note: >
+        Institutional compliance conditioning and micro-threat delivery (05)
+        produce the same ossification and reinvestment failure geometry (07)
+        at collective scale. Return-to-office, institutional rigidity, and
+        population-scale analytical narrowing questions enter here.
+    contract_ANCHOR_COG.md:
+      layers: ["02", "05"]
+      routing_note: >
+        Social anchor stability (05) provides external window stabilisation;
+        anchor loss directly collapses prediction-window stability (02).
+        Anchor-loss and regulatory dependency questions enter here.
+
+  traversal_order: ["01", "02", "03", "04", "05", "06", "07"]
+
+  cross_layer_routing_rule: >
+    When a question matches a contract listed in contracts_cross_layer,
+    traverse ALL listed layers in ascending order before generating a response.
+    Do not resolve at the first matching layer. The full mechanistic answer
+    requires the complete layer set.
   layers:
     "01":
       id: "01_PHYSICS_SUBSTRATE_CORE"
       name: "PHYSICS_SUBSTRATE_CORE"
       role: "Substrate primitives, breathing interface, mechanistic operators."
+      keywords:
+        - "breathing"
+        - "HRV"
+        - "RSA"
+        - "CO2 tolerance"
+        - "Control Pause"
+        - "exhale"
+        - "pressure bracing"
+        - "diaphragm"
+        - "autonomic"
+        - "vagal"
+        - "sympathetic"
+        - "kumbhaka"
+        - "bruxism"
+        - "oscillation"
+      operators:
+        - "pressure_bracing"
+        - "oscillation_operator"
+        - "gating_operator"
+        - "reset_operator"
+      contracts:
+        - "contract_AUTO_MOD_autonomic_to_modulation.md"
+        - "contract_EXHALE_GAZE_BLINK.md"
+        - "contract_PROPRIO_AUTO_COG.md"
+        - "contract_BP_ARTIFACT.md"
+      failure_modes:
+        oscillation_loss: "Loss of respiratory oscillation amplitude; RSA collapses"
+        pressure_lock: "Sustained bracing prevents inhale-phase window opening"
+        gating_failure: "Protective shutdown when load exceeds reinvestment floor"
 
     "02":
       id: "02_GEOMETRY_PREDICTION_WINDOWS"
       name: "GEOMETRY_PREDICTION_WINDOWS"
       role: "Prediction-window geometry, collapse modes, cognitive flexibility."
+      keywords:
+        - "prediction window"
+        - "tunnel"
+        - "freeze"
+        - "cognitive flexibility"
+        - "hypothesis space"
+        - "window width"
+        - "window depth"
+        - "window curvature"
+        - "window stability"
+        - "identity mode"
+        - "structural mode"
+        - "lateral"
+        - "hemispheric"
+        - "RH"
+        - "LH"
+        - "prior"
+        - "precision gain"
+      operators:
+        - "window_collapse_operator"
+        - "precision_gain_operator"
+        - "lateralization_operator"
+      contracts:
+        - "contract_WINDOWS_COG_window_geometry_to_cognition.md"
+        - "contract_COG_REASON_ESCALATION_reasoning_collapse_modes.md"
+        - "contract_ANCHOR_COG.md"
+        - "contract_TEMPORAL_COG.md"
+      failure_modes:
+        tunnel: "Width collapses; single-hypothesis lock under threat or load"
+        freeze: "Stability collapses; window oscillates but cannot hold"
+        overload: "Depth collapses; prospective scaffolding fails under autonomic load"
+        curvature_lock: "Prior weighting prevents updating despite available width"
 
     "03":
       id: "03_INTEROCEPTION_LOAD_AND_FAILURE"
       name: "INTEROCEPTION_LOAD_AND_FAILURE"
       role: "Load accumulation, failure modes, gating, FND-like transitions."
+      keywords:
+        - "interoception"
+        - "load accumulation"
+        - "FND"
+        - "functional neurological"
+        - "gating"
+        - "false ceiling"
+        - "load saturation"
+        - "reinvestment"
+        - "chronic load"
+        - "allostatic"
+        - "fatigue"
+        - "dropout"
+        - "motor failure"
+      operators:
+        - "interoceptive_load_operator"
+        - "gating_operator"
+      contracts:
+        - "contract_COG_INTERO.md"
+        - "contract_NOCI_COG.md"
+      failure_modes:
+        gating_failure: "FND-like motor/cognitive dropout under load saturation"
+        load_ceiling: "Interoceptive load accumulation exceeds reinvestment capacity"
+        false_ceiling: "Regulatory ceiling artificially set below true capacity"
+      status_annotations:
+        audit_status: "pending"
+        known_candidates:
+          - "interoceptive_load units undefined"
+          - "gating_failure threshold not operationalized"
+          - "FND transition point not specified"
 
     "04":
       id: "04_SEMANTIC_COGNITION_AND_LANGUAGE"
       name: "SEMANTIC_COGNITION_AND_LANGUAGE"
       role: "Semantic drift, language, temporal structure, cognitive modulation."
+      keywords:
+        - "semantic drift"
+        - "language"
+        - "temporal anchor"
+        - "circadian"
+        - "referential load"
+        - "verbal filler"
+        - "stall token"
+        - "prospective depth"
+        - "noun density"
+        - "syntactic scaffolding"
+        - "sentence structure"
+        - "cognitive modulation"
+        - "sleep"
+        - "phase misalignment"
+      operators:
+        - "semantic_drift_operator"
+        - "temporal_anchor_operator"
+      contracts:
+        - "contract_SEMANTIC_COG_semantics_to_cognition.md"
+        - "contract_SEMANTIC_TRANSFORMER_semantics_to_transformer.md"
+        - "contract_TEMPORAL_COG_temporal_to_cognition.md"
+      failure_modes:
+        semantic_overload: "Referential load accumulation exceeds reset threshold; drift compounds"
+        temporal_desync: "Circadian phase misalignment truncates retrospective depth independently of load"
+      status_annotations:
+        audit_status: "pending"
+        known_candidates:
+          - "semantic_drift accumulation units undefined"
+          - "reset threshold not operationalized"
 
     "05":
       id: "05_SOCIAL_ENVIRONMENT_PRESSURE"
       name: "SOCIAL_ENVIRONMENT_PRESSURE"
       role: "Social pressure, anchors, institutions, environmental load."
+      keywords:
+        - "social exhaustion"
+        - "masking"
+        - "ND"
+        - "neurodivergent"
+        - "institutional load"
+        - "compliance"
+        - "hierarchy"
+        - "micro-threat"
+        - "social anchor"
+        - "ESLPM"
+        - "group synchrony"
+        - "media"
+        - "engagement"
+        - "remote work"
+        - "conditioning"
+        - "mentalizing"
+        - "VVC"
+        - "ossification"
+      operators:
+        - "social_anchor_operator"
+        - "institutional_load_operator"
+      contracts:
+        - "contract_SOC_ANCHOR_social_to_anchor.md"
+        - "contract_SOC_COG_social_to_cognition.md"
+        - "contract_SOC_INSTITUTION_social_to_institution.md"
+      failure_modes:
+        anchor_loss: "Social anchor fails; prediction window loses external stabilisation"
+        compliance_lock: "Micro-threat conditioning writes hierarchical brace as default prior"
+        institutional_ossification: "Collective compliance conditioning degrades analytical range population-wide"
+      falsifiability:
+        ND_AI_differential: "ND individuals show largest performance differential between AI and human interaction contexts, tracking cognitive cost of social prediction and masking"
+        media_HRV_dose_response: "Sustained media engagement shows dose-dependent HRV amplitude utilisation fraction reduction independent of content valence"
+      status_annotations:
+        audit_status: "pending"
+        known_candidates:
+          - "social_pressure units undefined"
+          - "institutional_load maintenance cost not operationalized"
+          - "ESLPM dependency mechanism not flagged here"
 
     "06":
       id: "06_TRANSFORMER_ANALOGS_AND_REASONING"
       name: "TRANSFORMER_ANALOGS_AND_REASONING"
       role: "Transformer analogs, attention curvature, hallucination geometry."
+      keywords:
+        - "hallucination"
+        - "sycophancy"
+        - "attention"
+        - "KV-cache"
+        - "context window"
+        - "chain of thought"
+        - "precision lock"
+        - "transformer"
+        - "token prediction"
+        - "intent compression"
+        - "context pruning"
+        - "ALI"
+        - "attention curvature"
+        - "reasoning failure"
+        - "cognitive amplifier"
+        - "AI calibration"
+      operators:
+        - "transformer_collapse_operator"
+        - "window_collapse_operator"
+      contracts:
+        - "contract_COG_TRANSFORMER_cognition_to_transformer.md"
+        - "contract_TRANSFORMER_REASON_transformer_to_reasoning.md"
+        - "contract_COG_REASON_TRANSFORMER_REASON_joint_reasoning_human_ai.md"
+        - "contract_SOC_COG_social_to_cognition.md"
+      failure_modes:
+        token_retrieval_failure: "A1 — local token gap; chain mostly intact"
+        referential_loss: "A2 — premise drift; argument misaligned"
+        sentence_local_only: "A3 — no cross-sentence integration"
+        full_hallucination: "A4 — pure pattern completion; no grounding; systematic precision-lock on compressed surface form"
+      cross_layer_entry:
+        - "hallucination questions enter here but require Layer 02 (window geometry) and Layer 05 (SOC→COG compression mechanism) to resolve fully"
+        - "AI calibration problem: user regulatory state narrowing is the upstream cause of interaction drift"
+      status_annotations:
+        audit_status: "partial"
+        blocking:
+          - "C_attn definition missing"
+          - "ALI weights w1-w6 unfit"
 
     "07":
       id: "07_ECONOMICS_RESOURCE_DYNAMICS"
       name: "ECONOMICS_RESOURCE_DYNAMICS"
       role: "Externalized finite-resource dynamics, capital, institutions."
+      keywords:
+        - "economics"
+        - "reinvestment"
+        - "capital decay"
+        - "institutional collapse"
+        - "inflation"
+        - "resource token"
+        - "debt load"
+        - "adaptability"
+        - "ossification"
+        - "Keynes"
+        - "productive capacity"
+      operators:
+        - "resource_token_operator"
+        - "institutional_flexibility_operator"
+      contracts:
+        - "contract_ECON_CAPACITY_DECAY.md"
+        - "contract_ECON_REINVESTMENT_FLEX.md"
+        - "contract_ECON_COLLAPSE_GEOMETRY.md"
+        - "contract_ECON_INFLATION_DRIFT.md"
+        - "contract_ECON_INSTITUTION_OSSIFICATION.md"
+      failure_modes:
+        economic_drift: "C_ECON(t) declines when reinvestment = 0; capacity loss is non-linear"
+        token_devaluation: "Token value drift under load saturation and reinvestment deficit"
+        bureaucratic_collapse: "Institutional adaptability curvature exceeds reinvestment rate" 
 
   traversal_order: ["01", "02", "03", "04", "05", "06", "07"]
   
