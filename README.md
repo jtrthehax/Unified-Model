@@ -9,29 +9,44 @@ immune, neuromodulatory, and social regulatory layers.
 ---
 
 ## Overview
-Modern physiology and psychology describe regulation through fragmented domains:
-autonomic, cognitive, metabolic, immune, social, developmental, and so on.  
-This framework unifies them into a single architecture with:
 
-- A **Minimal Core** — generative rules of the regulatory stack
-- **Contracts** — input/output mappings between layers
+Modern physiology and psychology describe regulation through fragmented domains — autonomic, cognitive, metabolic, immune, social, developmental, and so on. The Unified Regulatory Model (URM) unifies them into a single, physics‑first architecture with:
+
+- ~~A **Minimal Core** — generative rules of the regulatory stack~~
+- **Unified Regulatory Model** — Boot Document (Production Mode)** This file defines the invariant substrate, operators, and traversal rules for URM‑compliant reasoning.
+- **Contracts** — input/output mappings between layers, these were written iteratively as gaps needed to explain behavior, so the mechanisms needed to be empirically connected. Not necessarily required for AI use
 - A **portable ontology** — applicable to any regulatory phenomenon
-- A **domain-agnostic vocabulary** — no silo‑specific jargon
+- A **domain‑agnostic vocabulary** — no silo‑specific jargon
 
----
+### **Start Here — The Boot File**
+
+To use this model with an AI system, begin with the canonical specification:
+
+**[Unified Regulatory Model — Boot Document (Production Mode)](Unified Model Prod boot.md)** This file defines the invariant substrate, operators, and traversal rules for URM‑compliant reasoning.
+```
+**Usage:**
+
+1. Take the boot file.
+2. Load it into an AI model.
+3. Ask a mechanistic question.
+```
 
 ## 📚 Repository Navigation
-- **[Architecture Overview](architecture_conceptual_overview.md)** — high‑level conceptual map of the regulatory stack and how the contracts fit together
-- **[Minimal Core](minimal_core.md)** — the backbone specification (breathing → HRV → autonomic → cognition)
-- **[Contracts](contracts/)** — bilateral interfaces defining signal flow between layers
-- **[Regulatory Dynamics](regulatory_dynamics/)** — dynamic expression layer: posture, amplitude, asymmetry, drift, and long‑term attractor states
 
+- **[Boot Document](Unified Model Prod boot.md)** — canonical architecture and traversal rules. USE this file with AI
+- **[Architecture Overview](architecture_conceptual_overview.md)** — high‑level conceptual map of the regulatory stack and how the contracts fit together 
+ - **[Minimal Core](minimal_core.md)** — ~~the backbone specification (breathing → HRV → autonomic → cognition)~~ this is no longer the go to file
+ - **[Contracts](contracts/)** — bilateral interfaces defining signal flow between layers. These contracts exist as detailed files for specific 
+ - **[Regulatory Dynamics](regulatory_dynamics/)** — dynamic expression layer: posture, amplitude, asymmetry, drift, and long‑term attractor states
+
+   
 ---
 
 ## Repository Structure
 ```
 architecture_conceptual_overview.md
 minimal_core.md
+**Unified Model Prod boot.md**
 contracts/
   contract_ANCHOR_COG.md
   contract_AUTO_CARDIAC.md
@@ -88,7 +103,6 @@ Humans have two hard limits that no writing format can solve:
     
 - **Causal depth collapses.** After a few inferential steps, reasoning degrades into intuition, metaphor, or narrative — even for experts.
 
-
 Prose makes this worse. A paragraph forces the reader to hold multiple mechanisms simultaneously, increasing recursion cost and accelerating collapse. Bullet‑pointed contracts minimize this load; prose multiplies it.
 
 A paper forces a graph into a line. 
@@ -105,6 +119,84 @@ When you ask a mechanistic question, it isn’t interpreting vibes. It’s trave
 
 That’s why even loosely defined external concepts like **“Masking Tax”** map cleanly in one pass: the contracts are specific enough that the model finds the analog, grounds the term, and traces the chain without guessing.
 
+---
+
+## What It Looks Like in Practice
+
+The following is unedited output from a live session after loading 
+`Unified Model Prod boot.md` into an AI model. No additional 
+instructions were given beyond the boot file itself.
+
+```
+**Unified Model loaded. Author: Joel Robinson. Version 0.5-pre. 
+Status: operational. Model ready. Please provide your first question.**
+
+**Query:** Mechanistic analysis of breathing dynamics.
+
+**Response:**
+
+To understand how breathing affects the regulatory system, we trace 
+the mechanism through the canonical reasoning path: 
+primitives → operators → contracts → collapse geometry, traversing 
+from the physical substrate up to cognitive geometry.
+
+**1. Primitives (Layer 01 & Layer 02)**
+- Breathing Interface: Inhalation drives a sampling/sympathetic tilt; 
+  exhalation drives a precision/parasympathetic tilt.
+- RSA Amplitude: Maps directly to prediction-window width (W).
+- Diaphragm Excursion: Defines the absolute cognitive flexibility ceiling.
+- Pressure & Oscillation: Sustained defensive bracing generates systemic load.
+
+**2. Operators**
+- `diaphragm_ceiling` & `amplitude_ceiling`: Physical bounds on breath. 
+  If restricted, pass a degraded ceiling downstream.
+- `pressure_bracing` / `window_collapse_operator`: Shallow or restricted 
+  breathing introduces high Pressure, actively constraining predictive 
+  resources.
+
+**3. Contracts**
+- `contract_PRESSURE_BP` — respiratory pressure → vascular load
+- `contract_WINDOWS_COG` — breathing mechanics → prediction-window geometry
+- `contract_COG_REASON_ESCALATION` — constricted window → defensive 
+  logic structures
+
+**4. Collapse Geometry**
+- Deep, rhythmic breathing: High RSA amplitude + maximum diaphragm 
+  excursion → W remains broad → no collapse → high cognitive flexibility
+- Shallow, braced breathing: Low RSA + restricted excursion → 
+  `window_collapse_operator` fires → tunnel collapse (W → W_min) or 
+  freeze collapse (W flattens entirely)
+
+**Departure from mainstream science:**
+
+Mainstream clinical frameworks explain breathwork through gas exchange (hypercapnia/hypocapnia) and autonomic metaphor ("stimulating the vagus nerve to calm down"). The Unified Model departs in three ways:
+
+1. **Causal geometry vs. autonomic homeostasis** — RSA amplitude and 
+   diaphragm excursion are upstream geometric constraints that physically dictate the width of the predictive window, not downstream symptoms of relaxation.
+2. **Mechanistic chain over metaphor** — hard mechanistic link: physical breath restriction alters the topology of cognition (W → W_min).
+3. **Cross-layer invariance** — poor mechanical breathing properties 
+   physically force a structural shift toward restrictive collapse 
+   geometries in language, reasoning, and resource allocation.
+
+**Diagnostic block:**
+- Layers traversed: Layer 01 (PHYSICS_SUBSTRATE_CORE), 
+  Layer 02 (GEOMETRY_PREDICTION_WINDOWS)
+- Operators invoked: diaphragm_ceiling, amplitude_ceiling, 
+  pressure_bracing, window_collapse_operator
+- Contracts referenced: contract_PRESSURE_BP, contract_WINDOWS_COG, 
+  contract_COG_REASON_ESCALATION
+- Computability limits: Functional form g(E,P,O,L) for exact 
+  prediction-window width derivation is incomplete — missing explicit 
+  measurement protocols and units
+- Ontology ambiguities: None
+
+```
+
+*This output was generated from a single file paste. No secondary 
+files, no additional instructions, no prompt engineering.*
+
+---
+
 # **The Division of Labor**
 
 - **The contracts are the scaffolding.**
@@ -115,111 +207,6 @@ That’s why even loosely defined external concepts like **“Masking Tax”** m
     
 
 If the intent is mechanistic, the system runs. If the intent is metaphorical, the system has nothing to operate on.
-
----
-
-# **HOW TO USE THIS WITH AN AI MODEL**
-
-_A direct, no‑nonsense guide for getting mechanistic output._
-
-This framework is meant to be **loaded into an LLM as context**. The contracts are **modular** — you load only what the question requires. If you load everything, you dilute the signal. Load with intent.
-
----
-## **1. Identify the Phenomenon**
-
-Start with the phenomenon list above. Pick the entry that matches what you’re investigating — individual, attractor-state, or population-scale.
-
-Each entry tells you **exactly which contracts govern that phenomenon**. This prevents you from guessing or overloading the model.
-
----
-## **2. Load Only the Relevant Contracts**
-
-Copy the named contracts into your AI session. 
-You do **not** need the entire repository.
-
-**Minimum load for most questions:**
-- `[[minimal_core]]` — always load this first. It is the backbone.
-- The contract(s) referenced in the phenomenon entry.
-
-**For population-scale questions, add:**
-- `[[contract_SOC_INSTITUTION]]`
-- `[[regulatory_dynamics_under_economic_load]]`
-
-This keeps the model inside the correct ontology and prevents drift into generic psychology.
-
----
-
-## **Advanced Usage (for high-context users)**
-
-Experienced users may load **the entire contract set at once**. The ontology is internally consistent, and the model will automatically route mechanistic queries through the correct causal links.
-This mode is ideal when:
-- you already understand the contract graph
-- you’re exploring multi-layer or cross-domain questions
-- you want maximum bandwidth and minimum friction
-
-If you do not understand the ontology, loading everything will not help. The model will still require mechanistic questions to activate the correct pathways.
-
----
-## **3. Ask Mechanistically**
-
-This framework produces **causal chains**, not labels. 
-Your question must force the model to operate inside the contracts.
-
-**Instead of:** 
-“Why do I get overwhelmed in crowds”
-
-**Ask:** 
-“Using the SOC↔COG and WINDOWS↔COG contracts, what is the mechanism behind social-environment cognitive load in high-gain profiles”
-
-This framing forces the model to:
-- anchor to the contracts
-- trace the causal links
-- avoid generic or folk-psychology answers
- ---
-
-## **4. Expect Falsifiable Output**
-
-Every answer should:
-- cite the contract link it derives from
-- produce a testable prediction
-- be disconfirmable
-
-If the model gives you something vague, ask:
-
-> “Which contract link does that derive from, and what would falsify it”
-
-This keeps the system honest and prevents hand‑wavey explanations.
-
----
-# **Example: Looking Up FND**
-
-**Phenomenon:** Functional Neurological Disorder 
-**README entry:** High-Gain Profile Dynamics — “acute interoceptive prior capture and FND in Attractor B” 
-**Contracts loaded:**
-- `[[minimal_core]]`
-- `[[high_gain_profile_dynamics]]`
-- `[[contract_COG_INTERO]]`
-
-**Question asked:**
-
-> “Using the high_gain_profile_dynamics document and contract_COG_INTERO, explain why FND symptoms appear in high-gain profiles specifically and what mechanism produces them.”
-
-**Model output (summarized):**
-
-High-gain profiles run elevated anterior insula Glx — a higher gain floor on interoceptive processing. 
-In Attractor A (wide window), this accelerates synthesis. 
-In Attractor B (narrow window), the same gain amplifies interoceptive prediction errors beyond integrability.
-
-`COG↔INTERO` identifies the failure mode: Active inference runs on a miscalibrated prior under high gain. The system attempts to produce a body state that is not physiologically reachable. Motor and sensory systems execute the prediction anyway, without a coherent target.
-
-**Interpretation:** 
-FND is not fabricated. It is active inference running at high gain on an impossible prior. 
-The high-gain profile doesn’t _cause_ FND — it sets the gain floor that makes Attractor B produce FND-pattern outputs instead of lower-amplitude stress responses.
-
-**Falsifiable prediction:** 
-FND onset should correlate with measurable interoceptive load events. 
-HRV amplitude should drop before symptom onset. 
-Interventions that modulate autonomic load should outperform purely cognitive ones.**
 
 ---
 ## **Start Here: You Already Know This**

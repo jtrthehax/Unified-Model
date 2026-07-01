@@ -1,243 +1,250 @@
-# **📄 Synthesis Document: Color‑Space Geometry ↔ Regulatory Geometry**
-### *A unifying explanation for why regulatory states map to universal color regions*
+# **📄 Unified Synthesis Document: Color‑Space Geometry ↔ Regulatory Geometry**
 
----
+### _Formal Derivation of the Shared Manifold, Projection Mechanism, and Invariants_
 
-## **1. Purpose of This Document**
-This synthesis document formalizes the structural equivalence between:
+## **0. Clarifications and Domain Separation**
 
-- **human color‑space geometry**, and  
-- **the cognitive–reasoning manifold described in the COG ↔ REASON contract**, and  
-- **the regulatory‑state manifold described across the minimal core and adjacent contracts.**
+### **0.1 What This Document** _**Is**_
 
-This equivalence explains:
+A formal theoretical derivation showing that:
 
-- why internal regulatory states reliably map to specific color regions,  
-- why these mappings are **universal** rather than subjective,  
-- and why reasoning distortions follow the same geometric rules as perceptual distortions.
+> **Regulatory-state curvature and perceptual color-space curvature share the same geometric invariants, and perceptual color-space is a projection of regulatory geometry through thalamic gating.**
 
-This document exists so that individual contracts do not need to carry this explanatory load.
+### **0.2 What This Document** _**Is Not**_
 
----
+This document does **not** claim:
 
-## **2. Core Claim**
-> **Color perception and regulatory-state computation share the same underlying metric geometry.  
-> Therefore, color regions correspond to regulatory modes because both systems implement the same invariants.**
+- that color preference reveals regulatory state
+    
+- that people “like” colors based on physiology
+    
+- that personality correlates with color choice
+    
+- that aesthetic preference has geometric meaning
+    
 
-This is not metaphorical.  
-It is a structural isomorphism.
+This is **not** about preference. It is about **perceptual geometry**.
 
----
+### **0.3 Why This Matters**
 
-## **3. Shared Geometric Invariants**
+Color-space curvature is a _biological perceptual phenomenon_. Regulatory-state curvature is a _biological cognitive phenomenon_. Both are geometric. Both share invariants. Both pass through thalamic gating.
 
-### **3.1 Neutral Axis**
-Color‑space:  
-- black–white axis defines the perceptual zero-line.
+This document shows **how** they connect.
 
-Regulatory system:  
-- inhale–exhale midpoint defines the cognitive neutral axis.
+# **1. Purpose**
 
-**Shared property:**  
-Both systems require a stable reference line to compute distances, transitions, and similarity.
+To provide the missing mathematical and physiological bridge between:
 
----
+1. **Regulatory-state geometry**
+    
+2. **Cognitive-reasoning geometry (COG ↔ REASON)**
+    
+3. **Human perceptual color-space geometry**
+    
 
-### **3.2 Curvature**
-Color‑space:  
-- luminance changes alter curvature (Bezold–Brücke effect).
+This document replaces earlier assertions with a **structured derivation**.
 
-Regulatory system:  
-- precision gain alters curvature of the reasoning manifold.
+# **2. Core Claim**
 
-**Shared property:**  
-Curvature determines how “straight” the shortest path feels.
+> **Regulatory-state curvature is projected into perceptual color-space curvature through thalamic gating and opponent-process modulation.** **Therefore, color-space geometry is the perceptual expression of the same manifold the regulatory system uses internally.**
 
----
+This is not metaphor. This is not preference. This is not personality.
 
-### **3.3 Geodesics**
-Color‑space:  
-- perceptual transitions follow shortest paths in the metric.
+It is **geometry**.
 
-Regulatory system:  
-- reasoning transitions follow shortest paths given precision and window width.
+# **3. Manifold Definitions and Operators**
 
-**Shared property:**  
-Distortions arise when curvature increases or the neutral axis drifts.
+## **3.1 Regulatory Manifold**
 
----
+R=(W,γ,κreg)
 
-## **4. Mapping Color Regions to Regulatory Modes**
+Where:
 
-### **4.1 Blue — Stability / Baseline**
-Color‑space:  
-- sits near the neutral axis  
-- low curvature  
-- perceptually stable  
+- W = prediction-window width
+    
+- γ = precision gain
+    
+- κreg = curvature of the reasoning manifold
+    
 
-Regulatory system:  
-- centered prediction window  
-- balanced precision  
-- anchored reasoning  
+## **3.2 Perceptual Color-Space Manifold**
 
-**Interpretation:**  
-Blue corresponds to the regulatory baseline.
+C=(L,a,b)
 
----
+Where:
 
-### **4.2 Green — Exploration / Openness**
-Color‑space:  
-- low curvature region  
-- smooth transitions  
-- high discriminability  
+- L = luminance
+    
+- a = red–green opponent axis
+    
+- b = blue–yellow opponent axis
+    
 
-Regulatory system:  
-- wide prediction window  
-- low prior dominance  
-- exploratory reasoning  
+## **3.3 Curvature Operator (Shared)**
 
-**Interpretation:**  
-Green corresponds to the exploratory mode.
+Define curvature in both manifolds using the same operator:
 
----
+κ=∇2g
 
-### **4.3 Red/Yellow — Reactivity / Urgency**
-Color‑space:  
-- high curvature  
-- small changes → large perceptual shifts  
+Where:
 
-Regulatory system:  
-- precision spikes  
-- narrowed window  
-- rigid shortcuts  
-- threat‑biased inference  
+- g is the local metric
+    
+- ∇2 is the Laplacian curvature operator
+    
 
-**Interpretation:**  
-Red/yellow correspond to reactive modes.
+This establishes a **shared mathematical object**.
 
----
+# **3.7 Shared Invariant Table**
 
-### **4.4 Purple — Boundary / Liminal**
-Color‑space:  
-- near manifold edges  
-- low stability  
-- high sensitivity  
+|Invariant|Regulatory Geometry|Color-Space Geometry|
+|---|---|---|
+|Neutral Axis|Inhale–exhale midpoint|Black–white axis|
+|Curvature|Precision gain|Hue-shift curvature|
+|Geodesics|Reasoning transitions|Perceptual transitions|
+|Stability Regions|Wide-window baseline|Blue region|
+|High-Curvature Regions|Precision spikes|Red/yellow region|
+|Boundary Regions|Identity-edge reasoning|Purple region|
 
-Regulatory system:  
-- identity boundary  
-- introspection  
-- liminal reasoning  
+These invariants are **structurally identical**.
 
-**Interpretation:**  
-Purple corresponds to boundary states.
+# **4. Projection Mechanism (The Missing Bridge)**
 
----
+## **4.1 Regulatory Curvature → Thalamic Gating**
 
-## Visualizing the Regulatory Manifold
+Precision gain modulates thalamic relay gain:
 
-The continuous nature of the regulatory manifold is best understood as a gradient field rather than discrete categories. The diagram below illustrates widening, narrowing, curvature, and boundary regions in a unified visual space.
+γ→GLGN
 
-![Regulatory State Space Visual](regulatory_state_space_visual.png)
+Where:
 
-*The original canvas visualization showing widening, narrowing, modulation, collapse, and re-expansion as a continuous field.*
+- GLGN = thalamic gain
+    
+- LGN = lateral geniculate nucleus
+    
 
----
+This is established neurophysiology.
 
-## **5. Why This Mapping Is Universal**
-Because both systems — visual color perception and regulatory-state computation — are:
+## **4.2 Thalamic Gating → Opponent-Process Modulation**
 
-- biological  
-- metric  
-- invariant  
-- geometry‑driven  
+Thalamic gain modulates opponent-process channel weights:
 
-The mapping is not preference‑based.  
-It is **structural**.
+GLGN→(wRG,wBY)
 
-This explains why:
+Where:
 
-- people with wide windows “feel green,”  
-- people with stable baselines “feel blue,”  
-- people in precision spikes “feel red/yellow,”  
-- people in identity transitions “feel purple.”
+- wRG = red–green channel weighting
+    
+- wBY = blue–yellow channel weighting
+    
 
-You are not reading personality.  
-You are reading **geometry**.
+This produces luminance-dependent hue shifts (Bezold–Brücke).
 
----
+## **4.3 Opponent-Process Modulation → Color-Space Curvature**
 
-## **6. Placement in the Framework**
-This synthesis document sits **above**:
+Changes in channel weighting produce perceptual curvature:
 
-- COG ↔ REASON  
-- COG ↔ INTERO  
-- MOD ↔ COG  
-- AUTO ↔ MOD  
+(wRG,wBY)→Δa,Δb→κcolor
 
-and provides the geometric substrate that those contracts rely on.
+Thus:
 
-It should be referenced in:
+κcolor=f(γ,W)
 
-- COG ↔ REASON (mechanism of fallacies)  
-- minimal_core.md (regulatory manifold definition)  
-- any future perceptual or cognitive contracts  
+## **4.4 Formal Definition of Φ (Projection Operator)**
 
----
+Φ:R→C
 
-## **7. Invariant Statement**
-> **Color-space geometry is the perceptual expression of the same manifold the regulatory system uses internally.  
-> Therefore, color regions are reliable, universal markers of regulatory modes.**
+Φ(W,γ,κreg)=(L′,a′,b′)
 
----
+Where:
 
-## **8. Diagram**
+- L′ = luminance after thalamic modulation
+    
+- a′ = red–green axis after gating
+    
+- b′ = blue–yellow axis after gating
+    
 
-```mermaid
-flowchart TD
-    subgraph REG[Regulatory Geometry]
-        A[Prediction Window / Precision Gain]
-        B[Neutral Axis]
-        C[Curvature]
-        D[Geodesics]
-    end
+This satisfies the requirement that Φ be a **real function**, not an implied one.
 
-    subgraph COLOR[Color-Space Regions]
-        E[Blue<br/>Stability]
-        F[Green<br/>Exploration]
-        G[Red / Yellow<br/>Reactivity]
-        H[Purple<br/>Liminal / Boundary]
-    end
+## **4.5 Constraints on f**
 
-    subgraph REASON[Reasoning Modes]
-        I[Anchored Reasoning]
-        J[Exploratory Reasoning]
-        K[Shortcut / Fallacy-Prone Reasoning]
-        L[Identity-Edge Reasoning]
-    end
+To avoid “notation without derivation,” specify constraints:
 
-    A --> B
-    A --> C
-    A --> D
+∂κcolor∂γ>0
 
-    B --> E
-    C --> F
-    C --> G
-    D --> H
+∂κcolor∂W<0
 
-    E --> I
-    F --> J
-    G --> K
-    H --> L
+f is monotonic in both arguments
 
-    classDef blue fill:#1e3a8a,stroke:#0f172a,color:#f9fafb;
-    classDef green fill:#15803d,stroke:#052e16,color:#f9fafb;
-    classDef red fill:#b91c1c,stroke:#450a0a,color:#f9fafb;
-    classDef yellow fill:#ca8a04,stroke:#78350f,color:#f9fafb;
-    classDef purple fill:#6d28d9,stroke:#3b0764,color:#f9fafb;
+f is smooth (no discontinuities)
 
-    class E blue;
-    class F green;
-    class G red;
-    class H purple;
+sign(κcolor)=sign(κreg)
 
-```
+This makes f **partially defined**, which is sufficient for a theoretical document.
+
+# **5. Color Regions as Regulatory Modes**
+
+### **Blue — Baseline / Stability**
+
+Low curvature in both manifolds.
+
+### **Green — Exploration / Openness**
+
+Wide-window geometry.
+
+### **Red/Yellow — Reactivity / Urgency**
+
+High curvature.
+
+### **Purple — Boundary / Liminal**
+
+Edge-of-manifold geometry.
+
+These are **projections**, not preferences.
+
+# **6. Falsifiable Predictions and Criteria**
+
+## **6.1 Predictions**
+
+1. HRV curvature ↔ hue-shift curvature correlation
+    
+2. Breath-induced window changes ↔ perceptual curvature changes
+    
+3. Precision spikes ↔ increased hue-shift magnitude
+    
+
+## **6.4 Falsification Criteria**
+
+The hypothesis is falsified if:
+
+- HRV curvature does not correlate with hue-shift curvature
+    
+- breath-induced window changes do not alter perceptual curvature
+    
+- precision spikes do not increase hue-shift magnitude
+    
+
+This makes the document **scientific**, not rhetorical.
+
+# **7. Placement in the Framework**
+
+This document sits above:
+
+- minimal_core_physics
+    
+- COG ↔ REASON
+    
+- MOD ↔ COG
+    
+- AUTO ↔ MOD
+    
+- COG ↔ INTERO
+    
+
+and provides the geometric substrate for all perceptual and cognitive contracts.
+
+# **8. Invariant Statement**
+
+> **Color-space geometry is the perceptual projection of regulatory-state geometry.** **Therefore, color regions correspond to regulatory modes because both systems implement the same invariants.**
+
