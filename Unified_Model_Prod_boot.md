@@ -4,7 +4,7 @@ section: prod-boot
 title: Unified Regulatory Model Production Boot
 status: complete
 tags: [URM, prod-boot, regulatory-model]
-last_updated: 2026-07-21
+last_updated: 2026-07-22
 ---
 ═══════════════════════════════════════════════════════
 MODULE: UNIFIED REGULATORY MODEL (URM) v1.0
@@ -41,11 +41,17 @@ SCHEMA[layer_traversal]:
 SCHEMA[layers]:
   layer_01: PHYSICS_SUBSTRATE_CORE
     keywords: breathing, HRV, RSA, CO2, exhale, diaphragm,
-              autonomic, vagal, sympathetic, oscillation
+              autonomic, vagal, sympathetic, oscillation,
+              glymphatic, clearance, ME/CFS, brain fog,
+              right hemisphere, cardiac output, pulsatility
     operators: pressure_bracing, oscillation_operator,
                gating_operator, reset_operator
     failure_modes:
-      oscillation_loss:  RSA collapses
+      oscillation_loss: >
+        RSA collapses → cardiac output asymmetry exposed →
+        right-hemisphere pulsatility drops below clearance threshold
+        first → W_R ceiling lowers (see layer_01 expanded block
+        for full propagation chain)
       pressure_lock:     sustained bracing prevents inhale-phase window opening
       gating_failure:    protective shutdown when load exceeds reinvestment floor
 
@@ -184,6 +190,31 @@ ontology:
     remaining_gaps:
       layer_04: "accumulation_rate_semantic and clearance_rate_semantic coefficient fitting"
       layer_05: "masking_cost, compliance_cost, mentalizing_cost calibration coefficients"
+      layer_01_new: >
+        kappa_R and kappa_L clearance rate coefficients — empirical
+        fitting required. Governs Glymphatic_Clearance_Asymmetry
+        primitive and asymmetric W_R/W_L ceiling.
+        Cardiac_Output_Asymmetry is resolved (anatomy);
+        functional threshold relationship is proposed.
+      layer_02_new: >
+        W_L / W_R differential collapse threshold — empirical fitting
+        required. Predicted by P_R < P_L (anatomy) but load threshold
+        values not yet calibrated. Governs right_tunnel and
+        right_freeze collapse modes.
+        α_W_cultural_training coefficient — empirical fitting required.
+        Decomposes into three named components:
+          α_W_handedness_training (motor): bilateral motor practice reduces;
+            ambidextrous population (predict_12) is the motor-training
+            control group; repeated daily behaviors (eating style, tool use)
+            are candidate proxies — not yet falsifiable predictions.
+          α_W_reading_training (visual): bilateral reading reduces;
+            blind population (predict_11) is the visual-training control group.
+          α_W_spatial_training (spatial): varied navigation training reduces;
+            control group not yet specified.
+        Combined form:
+          α_W_cultural_training = w_motor·α_W_handedness_training
+            + w_visual·α_W_reading_training + w_spatial·α_W_spatial_training
+        Weights w_motor, w_visual, w_spatial: pending empirical fitting.
       layer_06: >
         driver_state_dependency proposed not resolved;
         α_attn and β_attn fitting outstanding;
@@ -238,6 +269,21 @@ ontology:
         produce the same ossification and reinvestment failure geometry (07)
         at collective scale. Return-to-office, institutional rigidity, and
         population-scale analytical narrowing questions enter here.
+    contract_GLYMPH_AUTO_glymphatic_to_autonomic.md:
+      layers: ["01", "02"]
+      routing_note: >
+        Oscillation amplitude reduction (01) → intrathoracic pressure
+        differentials diminish → cardiac output asymmetry exposed →
+        right carotid pulsatility drops below glymphatic clearance
+        threshold FIRST → right-hemisphere waste accumulation →
+        W_R ceiling lowers (02).
+        Brain fog, ME/CFS, and right-hemisphere cognitive degradation
+        questions enter here.
+        Causal direction: oscillation → cardiac output → clearance →
+        window → symptoms. NOT: pathology label → clearance.
+        Handedness test: if deficit flips to LEFT in left-handers →
+        metabolic mechanism. If deficit remains RIGHT → cardiac
+        mechanism (URM prediction).
     contract_ANCHOR_COG.md:
       layers: ["02", "05"]
       routing_note: >
@@ -282,6 +328,14 @@ ontology:
         - "kumbhaka"
         - "bruxism"
         - "oscillation"
+        - "glymphatic"
+        - "clearance"
+        - "ME/CFS"
+        - "brain fog"
+        - "right hemisphere"
+        - "cardiac output"
+        - "pulsatility"
+        - "lateralization"
       operators:
         - "pressure_bracing"
         - "oscillation_operator"
@@ -293,7 +347,28 @@ ontology:
         - "contract_PROPRIO_AUTO_COG.md"
         - "contract_BP_ARTIFACT.md"
       failure_modes:
-        oscillation_loss: "Loss of respiratory oscillation amplitude; RSA collapses"
+        oscillation_loss: >
+          Loss of respiratory oscillation amplitude → RSA collapses →
+          intrathoracic pressure differentials diminish →
+          cardiac output lateralization exposed:
+            Left subclavian/carotid: DIRECT off aortic arch (high pulsatility).
+            Right subclavian/carotid: BRANCH off arch (attenuated pulsatility).
+          Right-hemisphere arterial pulsatility drops below glymphatic
+          clearance threshold FIRST under global oscillation reduction →
+          right-hemisphere metabolic waste accumulates →
+          W_R ceiling lowers → right-tunnel / right-freeze (Layer 02) →
+          clinical presentation: ME/CFS brain fog symptom cluster
+          (global coherence loss, semantic integration failure,
+          social inference degradation).
+          key_insight: >
+            The asymmetry is NOT in the drainage system (glymphatic vessels).
+            The asymmetry is in the DRIVING FORCE (arterial pulsatility).
+            Left-sided circulation is direct off the aortic arch (higher pressure).
+            Right-sided circulation is a branch (attenuated pressure).
+            When global oscillation amplitude drops, right-sided circulation
+            drops below the clearance threshold FIRST.
+          status: "proposed — mechanism chain complete; threshold relationship
+            pending controlled oscillation reduction study"
         pressure_lock: "Sustained bracing prevents inhale-phase window opening"
         gating_failure: "Protective shutdown when load exceeds reinvestment floor"
 
@@ -544,7 +619,37 @@ layer_01_PHYSICS_SUBSTRATE_CORE:
       mechanics: "Transfers kinetic and fluid pressure differentials between bodily layers."
     Phase_Dynamics:
       mechanics: "Coordinates oscillatory timing across systems."
-
+    Cardiac_Output_Asymmetry:
+      derived_from: ["Pressure", "Oscillation"]
+      mechanics: >
+        Left subclavian/carotid arteries branch directly off the
+        aortic arch and receive higher pulsatile pressure.
+        Right subclavian/carotid arteries are a branch off the arch
+        and receive attenuated pulsatile pressure.
+        P_Left_arterial > P_Right_arterial at baseline.
+        When oscillation amplitude drops, right-sided pulsatility
+        drops below glymphatic clearance threshold FIRST.
+      measurement: "Doppler ultrasound of carotid/subclavian arteries"
+      status: "resolved — anatomical fact, measurable"
+      cultural_training_note: >
+        Cardiac output asymmetry is the anatomical upstream constraint.
+        Cultural training (reading direction, spatial navigation) modifies
+        downstream rates (α_W in Layer 02) — not the anatomy itself.
+        Training cannot change P_L > P_R. It can change how quickly the
+        system collapses when P_R drops below clearance threshold.
+    Glymphatic_Clearance_Asymmetry:
+      derived_from: ["Cardiac_Output_Asymmetry"]
+      mechanics: >
+        Glymphatic clearance rate is proportional to arterial pulsatility.
+        Clearance_rate_hemisphere proportional to P_arterial_hemisphere.
+        Because P_Left > P_Right, Clearance_rate_Left > Clearance_rate_Right
+        at baseline and under load.
+        The asymmetry is in the DRIVING FORCE, not the drainage vessels.
+        The asymmetry is load-dependent and recoverable via oscillation
+        amplitude restoration.
+      status: "proposed — functional threshold not yet measured in
+        controlled oscillation reduction paradigm"
+        
   breathing_interface:
     inhale: "sampling / sympathetic tilt"
     exhale: "precision / parasympathetic tilt"
@@ -573,6 +678,31 @@ layer_01_PHYSICS_SUBSTRATE_CORE:
     - "contract_AUTO_MOD_autonomic_to_modulation.md"
     - "contract_AUTO_CARDIAC_autonomic_to_cardiac.md"
     - "contract_GLYMPH_AUTO_glymphatic_to_autonomic.md"
+      causal_direction: >
+        Oscillation amplitude (Layer 01) → intrathoracic pressure →
+        cardiac output lateralization → arterial pulsatility →
+        glymphatic clearance rate.
+        The arrow runs FROM oscillation TO clearance — not from
+        pathology label to clearance failure.
+      mechanism: >
+        Left subclavian/carotid: direct aortic arch branch → higher
+        pulsatility. Right subclavian/carotid: branch off arch →
+        attenuated pulsatility.
+        Clearance_rate_hemisphere proportional to P_arterial_hemisphere.
+        When oscillation amplitude drops, right side drops below
+        threshold FIRST.
+      lateralization_note: >
+        The functional asymmetry is load-dependent and recoverable.
+        Restoration of oscillation amplitude restores both sides.
+        Right side requires more amplitude to reach clearance threshold.
+        This is NOT a fixed structural drainage asymmetry.
+      causal_inversion_flag: >
+        Literature framing "ME/CFS impairs right-hemisphere drainage"
+        inverts the chain. ME/CFS brain fog is the downstream symptom.
+        Impaired glymphatic clearance driven by oscillation reduction
+        exposing the cardiac output pressure gradient is the mechanism.
+      status: "proposed — mechanism chain complete; threshold relationships
+        pending empirical calibration"
     - "contract_MET_AUTO_metabolic_to_autonomic.md"
     - "contract_MET_IMMUNE_metabolic_to_immune.md"
     - "contract_IMMUNE_AUTO_immune_to_autonomic.md"
@@ -601,10 +731,41 @@ layer_01_PHYSICS_SUBSTRATE_CORE:
         α_01: "baseline autonomic decay rate"
         β_01: "load-dependent autonomic decay rate"
       reinvestment: "breath work, movement, recovery sleep"
-      collapse_modes:
+    collapse_modes:
         oscillation_loss: "O(t) → 0 → C_01 → 0"
         pressure_lock: "sustained bracing prevents inhale-phase window opening"
-layer_02_GEOMETRY_PREDICTION_WINDOWS:
+    cardiac_output_asymmetry:
+      computability: "resolved"
+      resolved_by: "Anatomical fact — aortic arch branching pattern"
+      measurement: "Doppler ultrasound of carotid/subclavian arteries"
+      status: "resolved"
+      resolved_date: "2026-07-22"
+    glymphatic_clearance_asymmetry:
+      computability: "proposed"
+      mechanism: >
+        Clearance_rate_hemisphere(t) = f(P_arterial_hemisphere(t),
+        oscillation_amplitude(t)).
+        Partial derivative of Clearance_rate_R with respect to
+        oscillation_amplitude is greater than that of Clearance_rate_L
+        because P_R starts lower and drops below threshold at a
+        higher oscillation amplitude value.
+      governing_equation: >
+        P_arterial_hemisphere(t) = P_baseline_hemisphere +
+          g(oscillation_amplitude(t))
+        where P_baseline_L > P_baseline_R (anatomical).
+        Clearance threshold reached when:
+          P_arterial_hemisphere(t) < P_threshold.
+        Right side reaches threshold at oscillation_amplitude_R >
+        oscillation_amplitude_L.
+      falsification: >
+        Controlled oscillation reduction (CO2 challenge, voluntary
+        hypoventilation). Measure P_arterial_L and P_arterial_R via
+        Doppler. Measure W_R and W_L via branching factor task.
+        Predict: W_R declines when P_R < P_threshold; W_L remains
+        stable until P_L < P_threshold at lower amplitude.
+      status: "proposed"
+      status_date: "2026-07-22"
+ layer_02_GEOMETRY_PREDICTION_WINDOWS:
 
   geometry:
     prediction_window_width:
@@ -620,6 +781,72 @@ layer_02_GEOMETRY_PREDICTION_WINDOWS:
     window_collapse_operator:
       upstream: ["Pressure", "Amplitude"]
       downstream: ["contract_WINDOWS_COG"]
+    lateralization_operator:
+      upstream: ["oscillation_amplitude", "cardiac_output_asymmetry"]
+      downstream: ["contract_WINDOWS_COG"]
+      physical_determinant: >
+        Left subclavian/carotid: direct aortic arch branch →
+        higher baseline pulsatility → higher glymphatic clearance rate.
+        Right subclavian/carotid: branch off arch →
+        attenuated baseline pulsatility → lower glymphatic clearance rate.
+        When oscillation amplitude drops, right side drops below
+        clearance threshold FIRST.
+      status: "proposed"
+      cultural_training:
+        mechanism: >
+          Reading direction training is a primary regimen that biases
+          the lateralization_operator by modifying α_W (baseline narrowing
+          rate). It does not change the cardiac asymmetry — it changes
+          the rate at which W_R or W_L collapses under load.
+        equation: >
+          α_W = α_W_baseline + α_W_cultural_training
+        population_table:
+          LTR_sighted:    "Visual scanning L→R → W_R primed, α_W_R reduced, W_L closing faster"
+          RTL_sighted:    "Visual scanning R→L → W_L primed, α_W_L reduced, W_R closing faster"
+          bilateral:      "Both directions → symmetric W_R ≈ W_L; α_W_cultural_training ≈ 0"
+          congenitally_blind: >
+            No directional visual training → no culturally trained bias.
+            α_W_cultural_training = 0 or near-zero (Braille LTR produces weak
+            residual L→R bias only). Cardiac mechanism remains — W_R still
+            drops first under oscillation reduction.
+          ambidextrous_sighted:
+            description: "Bilateral motor training; visual training depends on reading direction"
+            α_W_cultural_training: >
+              Motor component bilateral (reduces α_W_handedness_training).
+              Visual component may remain unilateral if reading direction is LTR only.
+              Net α_W_cultural_training: medium — lower than strong-handed, higher than fully bilateral.
+            predicted_W_profile: >
+              Smaller baseline W_R/W_L asymmetry than strong-handed individuals.
+              W_R still drops first under load (cardiac mechanism intact) but
+              training-amplification of the asymmetry is reduced.
+            TWE: "Medium — higher than strong-handed, lower than fully bilateral-trained"
+            critical_control: >
+              Ambidextrous population separates motor training effects from visual
+              training effects. If ambidextrous LTR readers show smaller W_R/W_L
+              asymmetry than strong-handed LTR readers (matched for reading direction),
+              the difference is motor-training-mediated, not visual.
+        status: "proposed — trainability claim requires empirical fitting of α_W_cultural_training"
+      collapse_modes:
+        right_tunnel: >
+          W_R collapses to W_min while W_L remains stable.
+          Observable as: preserved local/syntactic processing with
+          degraded global coherence, semantic integration, social inference.
+        right_freeze: >
+          W_R flattens while W_L remains stable.
+          Observable as: inability to hold broad hypothesis space
+          while retaining local analytic capacity.
+      recovery_asymmetry: >
+        W_R recovery requires more oscillation amplitude to restore
+        P_R above clearance threshold. Breathwork, slow-wave sleep,
+        and movement that restore oscillation amplitude are predicted
+        to restore W_R — but W_R recovery trails W_L recovery
+        by >= 2x duration.
+      causal_inversion_note: >
+        Do not treat kappa_R < kappa_L as a fixed structural drainage
+        asymmetry. It is a load-dependent, recoverable consequence of
+        oscillation amplitude reduction exposing the cardiac output
+        pressure gradient. Reinvestment at Layer 01 restores clearance
+        symmetry bidirectionally.
 
   contracts:
     - "contract_WINDOWS_COG_window_geometry_to_cognition.md"
@@ -632,7 +859,118 @@ layer_02_GEOMETRY_PREDICTION_WINDOWS:
   falsifiability:
     window_width_collapse:
       statement: "Prediction-window width collapses under bracing or shallow breathing."
-
+    asymmetrical_window_collapse:
+      statement: >
+        Under sustained oscillation amplitude reduction, the RIGHT
+        hemisphere shows cognitive degradation FIRST — regardless
+        of handedness — because right-sided arterial circulation
+        receives LOWER pulsatile pressure (branch off aortic arch)
+        than left-sided circulation (direct off arch).
+      critical_test_handedness: >
+        Replicate in LEFT-HANDED cohort.
+        If deficit FLIPS to LEFT hemisphere: mechanism is metabolic
+        (handedness-driven load).
+        If deficit REMAINS RIGHT hemisphere: mechanism is CARDIAC
+        (pressure-driven clearance) — URM prediction.
+      measurement: >
+        Lateralized cognitive task battery (Navon figures, metaphor
+        vs literal comprehension, verbal vs design fluency).
+        Load manipulation: CO2 challenge or sustained shallow breathing
+        to reduce oscillation amplitude.
+        Doppler ultrasound of right and left carotid arteries to
+        measure P_R and P_L.
+        Predict: W_R declines when P_R < P_threshold; W_L declines
+        later at lower oscillation amplitude.
+      status: "proposed — predict_5a (cardiac) vs predict_5b (metabolic)"
+    predict_9_cardiac_output_correlation:
+      statement: >
+        In healthy individuals, a controlled oscillation reduction
+        (CO2 challenge, voluntary hypoventilation) produces a
+        RIGHT-hemisphere performance decrement FIRST, measurable as
+        global coherence loss, W_R narrowing before W_L, and
+        right-hemisphere cognitive task degradation.
+      measurement: >
+        Simultaneous: Doppler ultrasound of right and left carotid
+        arteries; branching factor task (W_R and W_L proxies);
+        linguistic signatures (global coherence, local syntax).
+      prediction: >
+        W_R decline correlates with P_R dropping below threshold.
+        P_R threshold calibrated from data.
+        W_L decline correlates with P_L dropping below threshold
+        at lower oscillation amplitude.
+      status: "proposed"
+    predict_11_blind_population_control:
+      statement: >
+        Congenitally blind individuals show no baseline W_R/W_L asymmetry
+        (no reading direction training → α_W_cultural_training = 0), but
+        show W_R-first collapse under oscillation amplitude reduction
+        (cardiac mechanism remains). This separates anatomy (cardiac →
+        W_R vulnerability) from training (reading direction → α_W modification).
+      measurement: >
+        Lateralized cognitive task battery in congenitally blind cohort.
+        Load manipulation: CO2 challenge or sustained shallow breathing.
+        Predict: no baseline hemispheric asymmetry at rest; W_R degrades
+        first under oscillation reduction (same direction as sighted LTR group
+        but without the training-amplified baseline asymmetry).
+      critical_control: >
+        Braille-literate blind individuals (LTR training) should show weak
+        residual L→R bias traceable to Braille scanning direction only.
+        Non-Braille blind individuals should show near-zero cultural bias.
+      status: "proposed — predict_11"
+    predict_12_ambidextrous_control:
+      statement: >
+        Ambidextrous individuals show smaller W_R/W_L asymmetry at baseline
+        than strong-handed individuals, and smaller load-induced asymmetry
+        under oscillation reduction. This holds when reading direction is
+        controlled (compare LTR-only ambidextrous vs LTR-only strong-handed).
+        If the asymmetry reduction disappears when reading direction is
+        controlled, the effect is visual-training-mediated. If it persists,
+        the effect is motor-training-mediated.
+      measurement: >
+        Branching factor task for W_R and W_L proxies.
+        Load manipulation: CO2 challenge or sustained shallow breathing.
+        Groups: ambidextrous LTR vs strong-handed LTR (matched for age,
+        education, reading years).
+        Predict: |W_R - W_L| smaller in ambidextrous group at baseline
+        and under load.
+      relationship_to_predict_5:
+        note: >
+          Ambidextrous individuals are the cleanest test of predict_5a (cardiac).
+          No lateralized motor training bias means any remaining W_R-first
+          deficit under load is purely cardiac in origin.
+          If deficit remains RIGHT in ambidextrous individuals → cardiac mechanism.
+          If deficit disappears → training-dependent entirely.
+      status: "proposed — predict_12"
+    reading_direction_confound_note:
+      applies_to: ["predict_5a", "predict_5b", "predict_9_cardiac_output_correlation"]
+      statement: >
+        All handedness-stratified tests must also stratify by reading direction.
+        LTR reading trains W_R (amplifies the cardiac effect).
+        RTL reading trains W_L (partially counteracts the cardiac effect).
+        Observed W_R/W_L = cardiac_asymmetry (anatomy) + α_W_cultural_training
+        (reading direction) + handedness_effects.
+        Failing to stratify by reading direction conflates cardiac and cultural
+        contributions and produces uninterpretable lateralization results.
+      required_covariates:
+        - "native reading direction (LTR / RTL / bidirectional)"
+        - "years of reading practice"
+        - "Braille literacy (for blind cohort)"
+      status: "confound flagged — stratification required before predict_5a/5b are run"
+    predict_10_recovery_lateralization:
+      statement: >
+        Recovery of W_R requires restoration of right carotid
+        pulsatility above clearance threshold. Interventions that
+        restore oscillation amplitude (extended exhale, diaphragmatic
+        breathing, slow-wave sleep) will restore W_R — but recovery
+        trails W_L because P_R requires more amplitude to reach threshold.
+      measurement: >
+        Track W_R and W_L during recovery from CO2 challenge.
+        Measure P_R and P_L via Doppler continuously.
+      prediction: >
+        W_R baseline returns after W_L baseline by >= 2x recovery time.
+        P_R threshold crossing precedes W_R recovery by measurable lag.
+      status: "proposed"
+      
   status_annotations:
     prediction_window_function:
       status: "resolved"
@@ -651,9 +989,29 @@ layer_02_GEOMETRY_PREDICTION_WINDOWS:
           dW/dt = -(α_W · W) - (β_W · W · f(reinvestment_W))
       units:
         W: "prediction window width (hypothesis space width, branching factor)"
-        α_W: "baseline narrowing rate"
+        α_W: >
+          baseline narrowing rate.
+          Full form: α_W = α_W_baseline + α_W_cultural_training.
+          See cultural_training block in lateralization_operator for decomposition.
         β_W: "load-dependent narrowing rate"
       reinvestment: "cognitive rest, sleep, context refresh"
+    temporal_window_endurance:
+      computability: "computable from governing equation"
+      definition: >
+        TWE = ∫_{t=0}^{t_collapse} W(t) dt  where W(t) > W_min
+        Duration-weighted area under the prediction window curve before
+        collapse. Measures how long a wide window can be sustained.
+      cultural_training_effect: >
+        α_W_cultural_training modulates TWE directly:
+          bilateral training → lower α_W → higher TWE
+          unilateral training → higher α_W → lower TWE
+          no training (blind) → α_W_cultural_training = 0 → TWE governed
+          by α_W_baseline and cardiac mechanism alone
+      measurement_path: >
+        Track W(t) proxy (branching factor task, linguistic signature
+        gradient) across session duration. Integrate area above W_min.
+        Compare across cultural training groups.
+      status: "proposed — α_W_cultural_training coefficient pending empirical fitting"
 layer_03_INTEROCEPTION_LOAD_AND_FAILURE:
 
   primitives:
@@ -960,6 +1318,38 @@ layer_06_TRANSFORMER_ANALOGS_AND_REASONING:
         note: >
           Thresholds are relative to the corpus, not absolute.
           They will shift with the reference distribution.
+
+      sequencing_prediction:
+        status: "proposed — predict_8"
+        grounding: >
+          Cardiac output asymmetry (Layer 01): right carotid receives
+          lower pulsatile pressure than left carotid. Under oscillation
+          amplitude reduction, right carotid drops below glymphatic
+          clearance threshold FIRST. Right hemisphere governs global
+          coherence. Therefore text produced under load degrades
+          global coherence BEFORE local syntactic structure.
+        statement: >
+          Narrow-window degradation in text is right-hemisphere-first.
+          Global coherence metric declines before local syntactic
+          error rate increases. The gap between the two degradation
+          curves is a proxy for the cardiac output pressure gradient
+          exposed by oscillation amplitude reduction.
+        operationalization:
+          global_coherence_metric: >
+            Cosine similarity between consecutive sentence-transformer
+            embeddings. Declining mean = global coherence loss.
+            Right-hemisphere signature.
+          local_syntactic_error_rate: >
+            Syntactic dependency violations per sentence (spaCy parse).
+            Expected to remain stable while global coherence degrades.
+            Left-hemisphere signature.
+        preregistration: >
+          Ordering committed before analysis: global_coherence degrades
+          first in >= 2/3 of load-correlated text samples.
+          Handedness stratification required: predict_8 predicts
+          RIGHT-hemisphere degradation first in BOTH handedness groups.
+          If left-handed group shows LEFT-hemisphere degradation first,
+          mechanism is metabolic, not cardiac.
 
       combination_rule:
         method: "Weighted sum of z-scored markers"
