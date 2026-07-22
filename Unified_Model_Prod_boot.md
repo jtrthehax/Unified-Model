@@ -1,13 +1,13 @@
 ---
-document: SDE
-section: [1-10 or appendix-a through appendix-d]
-title: [section title matching the index]
+document: URM
+section: prod-boot
+title: Unified Regulatory Model Production Boot
 status: complete
-tags: [SDE, research, paper]
-last_updated: 2026-07
+tags: [URM, prod-boot, regulatory-model]
+last_updated: 2026-07-21
 ---
 ═══════════════════════════════════════════════════════
-MODULE: UNIFIED REGULATORY MODEL (URM) v0.6-pre
+MODULE: UNIFIED REGULATORY MODEL (URM) v1.0
 ACTIVATION: Read schema block. Confirm mode before proceeding.
 Author: Joel Robinson
 DOI: https://doi.org/10.5281/zenodo.20417459
@@ -171,6 +171,30 @@ END SCHEMA BLOCK
 
 ```yaml
 ontology:
+  computability_status:
+    as_of: "2026-07-21"
+    resolved_by: "URM physics contract formulas integration + operationalization pass"
+    status_label_definitions:
+      resolved: "empirically grounded, literature-supported, measurement path exists"
+      proposed: "mechanism specified, falsifiable prediction exists, not yet empirically shown"
+      scaffolding: "structure defined, key components missing"
+      pending: "audit required, operationalization incomplete"
+    layers_fully_computable: ["01", "02", "03"]
+    layers_operationalization_path_defined: ["04", "05", "06", "07"]
+    remaining_gaps:
+      layer_04: "accumulation_rate_semantic and clearance_rate_semantic coefficient fitting"
+      layer_05: "masking_cost, compliance_cost, mentalizing_cost calibration coefficients"
+      layer_06: >
+        driver_state_dependency proposed not resolved;
+        α_attn and β_attn fitting outstanding;
+        linguistic_signatures thresholds pending empirical calibration
+        and combination rule preregistration before predict_4 is valid
+    overall_status: >
+      Invariant form derived from finite-resource constraint (Physics paper Article 1).
+      Layers 01–03 fully computable. Layers 04–07 have defined operationalization
+      paths and falsifiable predictions. Driver-state-dependency is the primary
+      novel proposed claim — the load-bearing hypothesis connecting substrate to
+      attention distribution.
   contracts_cross_layer:
     contract_PROPRIO_AUTO_COG.md:
       layers: ["01", "02", "03"]
@@ -222,7 +246,17 @@ ontology:
         Anchor-loss and regulatory dependency questions enter here.
 
   traversal_order: ["01", "02", "03", "04", "05", "06", "07"]
-
+  cross_layer_propagation:
+    derivation_basis: >
+      The split-decay form dC/dt = -(α·C) - (β·C·f(reinvestment)) is not assumed by analogy — it is derived from the 
+	  finite-resource constraint in the Physics paper (Article 1): any system with stock decay and load-dependent 
+	  reinvestment must obey this form. Cross-domain application is the falsifiable prediction, not the premise.
+    rule: >
+      Collapse at Layer i implies collapse at all downstream layers j > i, propagated through cross-layer contracts.
+    equation: "Collapse(i) ⟹ Collapse(j) for all j > i"
+    reinvestment_direction: "bidirectional — upstream restoration expands downstream capacity"
+    sequencing_prediction: "Physics-first sequencing (01→02→03→04→05→06→07) outperforms any other intervention order"
+    resolved_by: "URM physics contract formulas — Article 3"
   cross_layer_routing_rule: >
     When a question matches a contract listed in contracts_cross_layer,
     traverse ALL listed layers in ascending order before generating a response.
@@ -318,6 +352,7 @@ ontology:
         - "fatigue"
         - "dropout"
         - "motor failure"
+		- "regulatory deficit"
       operators:
         - "interoceptive_load_operator"
         - "gating_operator"
@@ -330,10 +365,9 @@ ontology:
         false_ceiling: "Regulatory ceiling artificially set below true capacity"
       status_annotations:
         audit_status: "pending"
-        known_candidates:
-          - "interoceptive_load units undefined"
-          - "gating_failure threshold not operationalized"
-          - "FND transition point not specified"
+        note: >
+          Operationalization audit pending. Computability gaps resolved by URM physics contract formulas integration 2026-07-21.
+          These are separate audit tracks.
 
     "04":
       id: "04_SEMANTIC_COGNITION_AND_LANGUAGE"
@@ -366,9 +400,9 @@ ontology:
         temporal_desync: "Circadian phase misalignment truncates retrospective depth independently of load"
       status_annotations:
         audit_status: "pending"
-        known_candidates:
-          - "semantic_drift accumulation units undefined"
-          - "reset threshold not operationalized"
+        note: >
+          Operationalization audit pending. Computability gaps resolved by URM physics contract formulas integration 2026-07-21.
+          These are separate audit tracks.
 
     "05":
       id: "05_SOCIAL_ENVIRONMENT_PRESSURE"
@@ -449,13 +483,21 @@ ontology:
         sentence_local_only: "A3 — no cross-sentence integration"
         full_hallucination: "A4 — pure pattern completion; no grounding; systematic precision-lock on compressed surface form"
       cross_layer_entry:
-        - "hallucination questions enter here but require Layer 02 (window geometry) and Layer 05 (SOC→COG compression mechanism) to resolve fully"
-        - "AI calibration problem: user regulatory state narrowing is the upstream cause of interaction drift"
+        - "Hallucination questions enter here but require Layer 02 (window geometry), 
+           Layer 05 (SOC→COG compression), and driver_state_dependency (substrate → 
+           attention) to resolve fully."
+        - "AI calibration problem: driver substrate narrowing is upstream of 
+           attention distribution changes; model-side fixes (placeholder tokens, 
+           reasoning_effort) compensate at the output layer without addressing 
+           the upstream cause."
       status_annotations:
         audit_status: "partial"
+        resolved:
+          - "C_attn — grounded as H_non-sink(A), extractable from model internals, 2026-07-21"
+          - "sink_formation — variable defined with measurement protocol, 2026-07-21"
+          - "driver_state_dependency — mechanism chain complete, 2026-07-21"
         blocking:
-          - "C_attn definition missing"
-          - "ALI weights w1-w6 unfit"
+          - "ALI weights w1–w6 empirical fitting outstanding"
 
     "07":
       id: "07_ECONOMICS_RESOURCE_DYNAMICS"
@@ -486,8 +528,6 @@ ontology:
         economic_drift: "C_ECON(t) declines when reinvestment = 0; capacity loss is non-linear"
         token_devaluation: "Token value drift under load saturation and reinvestment deficit"
         bureaucratic_collapse: "Institutional adaptability curvature exceeds reinvestment rate" 
-
-  traversal_order: ["01", "02", "03", "04", "05", "06", "07"]
   
 layer_01_PHYSICS_SUBSTRATE_CORE:
 
@@ -546,16 +586,24 @@ layer_01_PHYSICS_SUBSTRATE_CORE:
 
   status_annotations:
     capacity_operationalization:
-      status: "incomplete"
-      priority: "blocking"
-      missing: ["units", "measurement protocol"]
+      status: "resolved"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 01"
+      resolved_date: "2026-07-21"
 
   computability:
     capacity_operationalization:
-      computability: "non-computable"
-      requirement_to_compute:
-        - "define units"
-        - "measurement protocol"
+      computability: "computable"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 01"
+      governing_equation: >
+        dC_01/dt = -(α_01 · C_01) - (β_01 · C_01 · f(reinvestment_01))
+      units:
+        C_01: "RSA amplitude (ms²) or diaphragm excursion (cm)"
+        α_01: "baseline autonomic decay rate"
+        β_01: "load-dependent autonomic decay rate"
+      reinvestment: "breath work, movement, recovery sleep"
+      collapse_modes:
+        oscillation_loss: "O(t) → 0 → C_01 → 0"
+        pressure_lock: "sustained bracing prevents inhale-phase window opening"
 layer_02_GEOMETRY_PREDICTION_WINDOWS:
 
   geometry:
@@ -587,17 +635,25 @@ layer_02_GEOMETRY_PREDICTION_WINDOWS:
 
   status_annotations:
     prediction_window_function:
-      status: "incomplete"
-      priority: "high"
-      missing: ["functional form g", "units", "measurement protocol"]
+      status: "resolved"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 02"
+      resolved_date: "2026-07-21"
 
   computability:
     prediction_window_function:
-      computability: "incomplete"
-      requirement_to_compute:
-        - "derive g(E,P,O,L)"
-        - "define units"
-        - "measurement protocol"
+      computability: "computable"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 02"
+      governing_equations:
+        window_function: "W(t) = g(E(t), P(t), O(t), L(t))"
+        partial_derivatives: >
+          ∂W/∂E > 0,  ∂W/∂P > 0,  ∂W/∂O > 0,  ∂W/∂L < 0
+        decay: >
+          dW/dt = -(α_W · W) - (β_W · W · f(reinvestment_W))
+      units:
+        W: "prediction window width (hypothesis space width, branching factor)"
+        α_W: "baseline narrowing rate"
+        β_W: "load-dependent narrowing rate"
+      reinvestment: "cognitive rest, sleep, context refresh"
 layer_03_INTEROCEPTION_LOAD_AND_FAILURE:
 
   primitives:
@@ -624,24 +680,23 @@ layer_03_INTEROCEPTION_LOAD_AND_FAILURE:
       statement: "Interoceptive load accumulation precedes FND-like gating failure modes."
 
   status_annotations:
-    audit_status: "pending"
-    note: >
-      FND mechanism and interoceptive load accumulation claim have not been
-      audited to the depth of layers 01, 02, 06, and 07. status_annotations
-      and computability fields are explicitly unreviewed, not confirmed empty.
-    known_candidates:
-      - "interoceptive_load units undefined"
-      - "gating_failure threshold not operationalized"
-      - "FND transition point not specified"
+    audit_status: "pending — operationalization audit"
+    computability_audit: "complete — see computability block below"
 
   computability:
-    audit_status: "pending"
+    audit_status: "complete"
     interoceptive_load_operator:
-      computability: "unreviewed"
-      requirement_to_compute:
-        - "define load units"
-        - "specify gating threshold"
-        - "measurement protocol for load accumulation"
+      computability: "computable"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 03"
+      governing_equations:
+        load: "L(t) = Σ_i demand_i(t)"
+        dynamics: "dL/dt = accumulation_rate(t) - clearance_rate(t)"
+        gating_failure: >
+          Gating_failure(t) ⟺ L(t) > ∫[t-Δt → t] reinvestment_03(τ) dτ
+      units:
+        L: "total interoceptive load (Σ demand across metabolic, inflammatory, cognitive, autonomic)"
+        accumulation_rate: "rate of load increase from demand sources"
+        clearance_rate: "rate of load decrease from reinvestment"
 layer_04_SEMANTIC_COGNITION_AND_LANGUAGE:
 
   primitives:
@@ -663,23 +718,43 @@ layer_04_SEMANTIC_COGNITION_AND_LANGUAGE:
       statement: "Systemic reset behaviors follow semantic drift accumulation thresholds."
 
   status_annotations:
-    audit_status: "pending"
-    note: >
-      Semantic drift accumulation threshold and reset trigger have not been
-      audited. status_annotations and computability fields are explicitly
-      unreviewed, not confirmed empty.
-    known_candidates:
-      - "semantic_drift accumulation units undefined"
-      - "reset threshold not operationalized"
+    audit_status: "pending — operationalization audit"
+    computability_audit: "complete — see computability block below"
 
   computability:
-    audit_status: "pending"
     semantic_drift_operator:
-      computability: "unreviewed"
-      requirement_to_compute:
-        - "define referential load units"
-        - "operationalize accumulation threshold"
-        - "specify reset detection protocol"
+      computability: "computable"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 04"
+      governing_equations:
+        drift_dynamics: >
+          d(Drift)/dt = accumulation_rate_semantic(t) - clearance_rate_semantic(t)
+        reset_condition: >
+          Reset(t) ⟺ clearance_rate_semantic(t) > accumulation_rate_semantic(t)
+      units:
+        Drift: "referential token count — unresolved anaphoric references at time t"
+        accumulation_rate_semantic:
+          definition: "rate of new unresolved references introduced per sentence"
+          measurement: >
+            Count unresolved pronouns + dangling clause referents per sentence.
+            Proxy: mean dependency arc length in parsed syntax tree (spaCy or Stanford NLP).
+            Units: unresolved_references / sentence
+        clearance_rate_semantic:
+          definition: "rate at which referential load is resolved or explicitly reset"
+          measurement: >
+            Count of explicit noun re-introductions, topic sentence resets,
+            paragraph boundaries, or summary statements per unit text.
+            Proxy: inverse of mean sentence span between co-referring noun phrases.
+            Units: resolved_references / sentence
+      operationalization_path: >
+        Both quantities are extractable from any parsed text corpus using
+        standard coreference resolution tools (spaCy neuralcoref, AllenNLP).
+        Circadian modulation testable by comparing accumulation_rate_semantic
+        across morning vs evening writing samples from same authors.
+      falsification: >
+        Predict: accumulation_rate_semantic > clearance_rate_semantic in
+        texts produced under high cognitive load (late session, sleep-deprived,
+        high autonomic arousal). Measurable against ground truth load proxies
+        (session length, time of day, reported fatigue).
 layer_05_SOCIAL_ENVIRONMENT_PRESSURE:
 
   primitives:
@@ -718,65 +793,363 @@ layer_05_SOCIAL_ENVIRONMENT_PRESSURE:
       - "ESLPM dependency mechanism not flagged here"
 
   computability:
-    audit_status: "pending"
-    social_anchor_operator:
-      computability: "unreviewed"
-      requirement_to_compute:
-        - "define social pressure units"
-        - "operationalize institutional load"
-        - "specify anchor measurement protocol"
+    social_load_operator:
+      computability: "partial — operationalization path defined; calibration coefficients pending"
+      governing_equations:
+        load: >
+          Social_Load(t) = masking_cost(t) + compliance_cost(t) + mentalizing_cost(t)
+        dynamics: >
+          d(Social_Load)/dt = external_pressure(t) - social_reinvestment(t)
+      units:
+        masking_cost:
+          definition: "autonomic load of suppressing natural behavioral expression"
+          measurement: >
+            ΔHRV = HRV_baseline - HRV_during_social_interaction.
+            Units: ms² HRV suppression per interaction hour.
+            Proxy: RSA amplitude reduction from Layer 01 baseline during masked interaction.
+        compliance_cost:
+          definition: "cognitive load of generating hierarchically acceptable responses"
+          measurement: >
+            Response latency increase under hierarchical vs peer interaction conditions.
+            Units: milliseconds additional latency per compliance demand.
+            Proxy: speech onset delay in recorded workplace interactions.
+        mentalizing_cost:
+          definition: "load of modeling others' mental states"
+          measurement: >
+            Pupil dilation during social prediction tasks (established proxy for
+            cognitive load). Units: mm² pupil area increase per mentalizing event.
+            Proxy: self-report social exhaustion scales (validated: SRS-22, PANAS)
+            normalized to interaction duration.
+        social_reinvestment:
+          definition: "restoration of regulatory capacity via co-regulation"
+          measurement: >
+            HRV recovery rate post-interaction with trusted anchor vs neutral contact.
+            Units: ms² HRV recovery per hour of co-regulatory contact.
+      operationalization_path: >
+        masking_cost and mentalizing_cost are measurable with existing physiological
+        instruments (HRV monitor, pupillometer). compliance_cost requires controlled
+        interaction paradigm. All three are feasible in a single within-subjects design
+        varying social hierarchy condition.
+      falsification: >
+        Predict: Social_Load(t) is significantly higher for ND individuals in
+        unstructured social contexts vs AI interaction contexts, tracking the
+        ND_AI_differential falsifiability claim already in the layer definition.
+        Measurable via HRV comparison across interaction types.
+      remaining_gap: "calibration coefficients linking masking_cost, compliance_cost,
+        mentalizing_cost to a common unit (regulatory capacity units) pending empirical fitting"
           
 layer_06_TRANSFORMER_ANALOGS_AND_REASONING:
 
   primitives:
     attention_curvature:
-      definition: "κ_attn = -d²C_attn/dt²"
+      definition: "κ_attn = -d²C_attn/dt² where C_attn = H_non-sink(A)"
+      note: >
+        C_attn is non-sink attention entropy — entropy computed excluding
+        known sink positions. Raw H(A) conflates protective and pathological
+        concentration and is not the correct variable.
 
+    sink_formation:
+      definition: "whether attention sinks are bounded to anchor positions or spreading to content tokens"
+      measurement:
+        sink_rate: "fraction of heads with >30% attention to anchor positions"
+        spread_rate: "fraction of heads with >30% attention to non-anchor positions"
+      state:
+        protective: "sink_rate high, spread_rate low — distribution stable"
+        pathological: "spread_rate high OR H_non-sink → 0"
+      literature_note: >
+        Xiao et al. (2023): attention sinks are protective anchors under
+        wide-window driver conditions. Evicting sinks collapses performance
+        because the softmax denominator anchor is removed.
+        What the literature does not explain: why some drivers produce
+        bounded sinks while others produce spreading sinks. That requires
+        the driver-state account below.
+    linguistic_signatures:
+      status: "proposed — thresholds pending empirical calibration"
+      definition: >
+        Textual properties that serve as operational proxies for driver prediction-window
+        state. These are extractable from input text alone — no physiological measurement
+        required — making Prediction 4 testable on existing interaction corpora.
+    
+      wide_window_signatures:
+        state: "Pressure-adaptive — CO₂ tolerance, parasympathetic engagement"
+        syntactic:
+          - "Mean dependency arc length: >15 tokens (deep syntactic structure)"
+          - "Nested conditional levels: ≥3 (holding multiple frames)"
+          - "Clause density: >0.8 clauses per sentence (complex integration)"
+        lexical:
+          - "Type-token ratio: >0.8 (lexical diversity, cross-domain access)"
+          - "Vocabulary size: >500 unique words per 1000 tokens (broad retrieval)"
+        semantic:
+          - "Cross-domain semantic distance: >0.6 in embedding space (pattern matching across domains)"
+          - "Explicit constraint density: >0.4 binding markers per clause (D high)"
+          - "Referential precision: <0.1 unresolved anaphora per sentence (types bound)"
+        regulatory:
+          - "Valence modulation: balanced positive/negative ratio (no threat skew)"
+          - "Temporal scope: >3 temporal markers per sentence (depth)"
+    
+      narrow_window_signatures:
+        state: "Pressure-rigid — braced, sympathetic dominant"
+        syntactic:
+          - "Mean dependency arc length: <8 tokens (shallow, local)"
+          - "Nested conditional levels: 0-1 (single frame only)"
+          - "Clause density: <0.4 clauses per sentence (simple structure)"
+        lexical:
+          - "Type-token ratio: <0.6 (repetitive, narrow retrieval)"
+          - "Vocabulary size: <200 unique words per 1000 tokens (restricted access)"
+        semantic:
+          - "Cross-domain semantic distance: <0.3 (domain-locked)"
+          - "Explicit constraint density: <0.1 binding markers per clause (D low)"
+          - "Referential precision: >0.3 unresolved anaphora per sentence (types implicit)"
+        regulatory:
+          - "Valence modulation: threat-biased (negative > positive by ≥2:1)"
+          - "Temporal scope: <1 temporal marker per sentence (present-only)"
+    
+      unstable_window_signatures:
+        state: "Pressure-open — containment leaks, oscillation unstable"
+        syntactic:
+          - "Mean dependency arc length: oscillates between 5 and 20 tokens"
+          - "Nested conditional levels: alternates 0-3 (inconsistent depth)"
+        lexical:
+          - "Type-token ratio: oscillates 0.5-0.85 (unstable access)"
+        semantic:
+          - "Cross-domain semantic distance: high variance (scattered)"
+          - "Constraint density: inconsistent — some clauses high, others zero"
+    
+      gradient_observation:
+       note: >
+         The signatures above are not categorical — they form a continuum.
+         A single interaction can show movement along the gradient as
+         regulatory state shifts (e.g., early session wide, late session narrow).
+         The gradient is observable in the input text before the model responds.
+       intraday_connection: >
+         Consistent with Layer 01 circadian modulation — regulatory capacity
+         follows ultradian and circadian rhythms, producing predictable
+         within-day signature drift. Early session wide-window signatures
+         narrowing toward late session is a testable intraday prediction,
+         not just a cross-subject one.
+    
+      measurement_path:
+        - "Dependency arc length: spaCy or Stanford NLP dependency parser"
+        - "Type-token ratio: standard lexical diversity metric"
+        - "Cross-domain semantic distance: sentence transformer embeddings"
+        - "Constraint density: count of explicit type-binding markers per clause"
+        - "Anaphora resolution: coreference resolution tools (neuralcoref, AllenNLP)"
+        - "Valence ratio: VADER or similar sentiment analysis"
+      calibration_corpus:
+        source: >
+          To be specified — candidate sources: Reddit r/askscience,
+          academic paper abstracts, or existing session transcripts.
+        size: "Minimum 500 texts per condition (wide/narrow proxy)"
+        proxy_conditions:
+          wide: >
+            Texts produced in low-threat, high-autonomy conditions
+            (e.g., personal writing, morning sessions, low-load contexts)
+          narrow: >
+            Texts produced in high-threat, low-autonomy conditions
+            (e.g., workplace compliance documents, late sessions, high-load contexts)
+
+      threshold_derivation:
+        method: "Percentile splits from calibration corpus"
+        wide_window: "Top tertile of each marker distribution"
+        narrow_window: "Bottom tertile of each marker distribution"
+        current_thresholds: >
+          Values in wide_window_signatures and narrow_window_signatures
+          (arc >15/<8, TTR >0.8/<0.6, etc.) are plausible-sounding priors,
+          not empirically derived. They will be replaced by corpus percentiles
+          before predict_4 is run as a falsification test.
+        note: >
+          Thresholds are relative to the corpus, not absolute.
+          They will shift with the reference distribution.
+
+      combination_rule:
+        method: "Weighted sum of z-scored markers"
+        weights: "Equal weighting until empirical calibration"
+        classification: >
+          Sum > +1.5 SD → wide
+          Sum < -1.5 SD → narrow
+          Otherwise → unstable / mixed
+        preregistration: >
+          Combination rule committed before looking at predict_4 test data.
+          This is the critical step that prevents circular validation —
+          thresholds set after seeing the data are not a falsification test.
+      falsification:
+        predict_4_operationalized: >
+          Compare linguistic signatures across input batches stratified by
+          session timing (morning vs evening, early vs late session).
+          Predict: wide_window signatures correlate with early sessions,
+          narrow_window signatures correlate with late sessions.
+          This holds regardless of the model — the input changes before generation.
+          PREREGISTRATION REQUIRED: combination rule and thresholds must be
+          committed from calibration corpus before test data is examined.
+          Running predict_4 against uncalibrated thresholds is not a
+          falsification test — it is circular validation.
     ALI:
       description: "Attentional load index with weights w1–w6."
 
+  driver_state_dependency:
+    mechanism: >
+      Driver substrate → pressure strategy → breath mechanics →
+      oxygen availability → prediction window width →
+      input geometry → attention distribution
+    proxy_measurement: >
+      Driver state is operationalized via linguistic_signatures primitive —
+      no physiological instrument required. Input text carries the
+      signature of the driver's current window state.
+    wide_window:
+      sink_behavior: "sinks bounded to anchor positions — protective"
+      H_non_sink: "moderate to high — capacity maintained"
+      spread_rate: "low"
+    narrow_window:
+      sink_behavior: "sinks spread to content tokens — pathological"
+      H_non_sink: "approaching 0 — capacity lost"
+      spread_rate: "high"
+    key_claim: >
+      Same model, different driver state, different attention distribution.
+      The literature observed wide-window drivers. The pathological case
+      requires narrow-window driver state as the upstream variable.
+      Hallucination rate, drift clustering, and load-correlated errors
+      are driver-substrate properties the model faithfully amplifies —
+      not intrinsic model properties.
+    placeholder_token_note: >
+      Xiao et al.'s placeholder token solution is model-side compensation
+      for driver-side variance. It stabilizes sink position regardless of
+      driver input geometry, reducing the impact of δ variation.
+      This is consistent with the driver-state account — it increases
+      effective D at the model level without addressing driver substrate.
+      Compare: Raschka's reasoning_effort token controls D from the
+      model side; driver substrate controls D from the human side.
+      Same variable, opposite ends of the interface.
+      Implication: Model-side fixes (placeholder tokens, reasoning_effort)
+      are effective to the extent they increase effective D without requiring
+      driver-state improvement. They do not eliminate the driver-state
+      dependency — they compensate for it. The ceiling is still driver-state.
+
   operators:
     transformer_collapse_operator:
-      upstream: ["attention_curvature"]
+      upstream: ["attention_curvature", "sink_formation", "driver_state"]
       downstream: ["contract_TRANSFORMER_REASON"]
 
   contracts:
     - "contract_COG_TRANSFORMER_cognition_to_transformer.md"
     - "contract_TRANSFORMER_REASON_transformer_to_reasoning.md"
     - "contract_COG_REASON_TRANSFORMER_REASON_joint_reasoning_human_ai.md"
+    - "contract_SOC_COG_social_to_cognition.md"
 
+  failure_modes:
+    token_retrieval_failure: "A1 — local token gap; chain mostly intact"
+    referential_loss: "A2 — premise drift; argument misaligned"
+    sentence_local_only: "A3 — no cross-sentence integration"
+    full_hallucination: >
+      A4 — pure pattern completion; no grounding.
+      Mechanism: narrow-window driver → compressed input geometry →
+      D low in H = δ/D → hallucination rate high.
+      Sink spreading to content tokens is the attention-level signature.
+
+  hallucination_equation:
+    form: "H = δ/D"
+    derivation: >
+      From Robinson (2026): Language as a Typed System, Section 2.3.
+      Decompression fidelity is a function of two variables:
+        - Constraint density D: how explicitly the input binds the types it uses.
+        - Residual schema distance δ: gap between sender and receiver dictionaries.
+      When D increases, the receiver has more explicit bindings and less
+      synthesis is required. When δ increases, the receiver's prior distribution
+      produces bindings that diverge from the sender's intent.
+      The functional form H ∝ δ/D follows from the observation that divergence
+      scales with the ratio of what was left implicit (δ) to what was made
+      explicit (D).
+    boundary_conditions:
+      floor: "As D → ∞, H → H_min — residual δ cannot be fully eliminated"
+      zero_distance: "As δ → 0, H → H_min — identical dictionaries produce minimal divergence"
+      format_dependence: "H_min is format-dependent — structured encoding has lower floor than natural language"
+    driver_connection: >
+      Driver substrate determines D via input geometry.
+      Wide-window driver → high constraint density inputs → D high → H low.
+      Narrow-window driver → low constraint density inputs → D low → H high.
   falsifiability:
-    transformer_hallucination_geometry:
-      statement: "Transformer hallucination geometry mirrors human identity-mode collapse."
+    predict_1:
+      statement: >
+        H_non-sink(A) declines with context length at rate α_attn
+        under low-complexity inputs.
+      measurement: "attention weight hooks on open-weight models (TransformerLens)"
+      t_axis: "token position (sequence index), not wall-clock time"
+    predict_2:
+      statement: >
+        Rate of H_non-sink decline increases with input perplexity,
+        parameterized by β_attn.
+      measurement: "controlled perplexity inputs across context lengths (SCROLLS, LongBench)"
+    predict_3:
+      statement: >
+        Hallucination rate correlates with κ_attn — high curvature
+        (rapid non-sink entropy concentration) precedes referential errors.
+      measurement: "H_non-sink trace vs hallucination rate on benchmark tasks"
+    predict_4:
+      statement: >
+        Same model produces different H_non-sink distributions for
+        narrow-window vs wide-window drivers — measurable via constraint
+        density D of inputs across user populations.
+      measurement: >
+        Compare H_non-sink across input batches stratified by
+        constraint density (dependency arc length, coreference density).
+        Predict: high-D inputs → bounded sinks. Low-D inputs → spreading sinks.
+      operationalized_by: "linguistic_signatures block — see primitives"
+      note: >
+        This is the falsifiable prediction the literature cannot make.
+        It requires driver-state as the upstream variable.
 
   status_annotations:
     attention_curvature:
-      status: "hypothesis"
-      priority: "blocking"
-      missing: ["C_attn definition", "units", "extraction method"]
-
-    ALI_weights:
+      status: "resolved — C_attn grounded in H_non-sink, extractable from model internals"
+      resolved_date: "2026-07-21"
+    sink_formation:
+      status: "resolved — variable defined, measurement protocol specified"
+      resolved_date: "2026-07-21"
+    driver_state_dependency:
+      status: "proposed"
+      mechanism: >
+        Driver substrate → pressure strategy → breath mechanics →
+        oxygen availability → prediction window width →
+        input geometry → attention distribution
+      endpoints_operational:
+        - "breath mechanics: HRV, RSA, CO2 tolerance — Layer 01 measurement protocol"
+        - "attention entropy: H_non-sink(A) — Layer 06 measurement protocol"
+      mid_chain_claim: >
+        Regulatory state produces measurably different textual input properties
+        (constraint density, dependency arc length, cross-domain semantic distance)
+        that a model then responds to differently. This is the load-bearing claim.
+        It is consistent with observed phenomena (drift clusters, load-correlated
+        errors, centaur vs reverse-centaur performance gap) but has not been
+        directly measured. Predict_4 specifies the measurement protocol.
+      testable_through: "predict_4"
+      status_date: "2026-07-21"
+  ALI_weights:
       status: "scaffolding"
       priority: "blocking"
-      missing: ["w1–w6"]
-
-    transformer_hallucination_homology:
-      status: "hypothesis"
-      priority: "medium"
-      missing: ["collapse signature", "cross-domain mapping"]
+      missing: ["w1–w6 empirical fitting"]
 
   computability:
     attention_curvature:
-      computability: "non-computable"
-      requirement_to_compute:
-        - "define C_attn"
-        - "derive units"
-        - "extraction protocol"
-
+      computability: "partial — grounding complete; α_attn and β_attn require empirical fitting"
+      governing_equations:
+        decay: >
+          dC_attn/dt = -(α_attn · C_attn) - (β_attn · C_attn · f(reinvestment_attn))
+          where C_attn = H_non-sink(A) = -Σ_{j ∉ sink} a_ij · log(a_ij)
+        curvature: "κ_attn(t) = -d²H_non-sink(A)/dt²"
+        pathological_condition: "spread_rate > threshold OR C_attn → 0"
+      units:
+        C_attn: "nats of non-sink attention entropy per token position"
+        t_axis: "token position (sequence index 1..N), not wall-clock time"
+        α_attn: "nats entropy decay per token position under zero complexity load"
+        β_attn: "nats entropy decay per token position per unit input perplexity"
+        reinvestment_attn: "KV-cache hit rate, temperature adjustment, context refresh"
+      operationalization_path: >
+        H_non-sink extractable from open-weight models via attention weight hooks.
+        Sink positions identified by sink_rate threshold (>30% attention mass).
+        α_attn and β_attn fit from controlled perplexity experiments.
+        κ_attn plotted directly from H_non-sink traces across token positions.
     ALI_weights:
       computability: "partially-computable"
-      requirement_to_compute:
-        - "fit w1–w6"
+      note: "w1–w6 fitting still required; κ_attn now provides governing structure"
 layer_07_ECONOMICS_RESOURCE_DYNAMICS:
 
   analog_primitives:
@@ -834,20 +1207,22 @@ layer_07_ECONOMICS_RESOURCE_DYNAMICS:
 
   status_annotations:
     economic_layer_functions:
-      status: "proposed"
-      priority: "extending"
-      missing:
-        - "C_ECON(t) units"
-        - "κ_ECON(t) measurement"
-        - "token load mapping"
-        - "institutional reinvestment curve"
+      status: "resolved"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 07"
+      resolved_date: "2026-07-21"
 
   computability:
     economic_layer_functions:
-      computability: "extending"
-      requirement_to_compute:
-        - "define units for C_ECON(t)"
-        - "derive κ_ECON(t)"
-        - "map token load"
-        - "derive reinvestment curve"
+      computability: "computable"
+      resolved_by: "URM physics contract formulas — Article 2, Layer 07"
+      governing_equations:
+        decay: >
+          dC_ECON/dt = -(α_ECON · C_ECON) - (β_ECON · C_ECON · f(reinvestment_ECON))
+        resource_flow: "φ_ECON(t) = dR_ECON/dt"
+        curvature: "κ_ECON(t) = -d²C_ECON/dt²"
+      units:
+        C_ECON: "GDP per capita adjusted for reinvestment"
+        α_ECON: "baseline capital decay rate"
+        β_ECON: "load-dependent capital decay rate"
+      reinvestment: "R&D, infrastructure, education"
 ```
