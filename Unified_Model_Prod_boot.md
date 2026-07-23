@@ -191,16 +191,13 @@ ontology:
       layer_04: "accumulation_rate_semantic and clearance_rate_semantic coefficient fitting"
       layer_05: "masking_cost, compliance_cost, mentalizing_cost calibration coefficients"
       layer_01_new: >
-        kappa_R and kappa_L clearance rate coefficients — empirical
-        fitting required. Governs Glymphatic_Clearance_Asymmetry
-        primitive and asymmetric W_R/W_L ceiling.
+        kappa_R and kappa_L clearance rate coefficients — empirical fitting required.
+        α_01, β_01, γ_01 fitting required for full three-term form.
         Cardiac_Output_Asymmetry is resolved (anatomy);
         functional threshold relationship is proposed.
       layer_02_new: >
-        W_L / W_R differential collapse threshold — empirical fitting
-        required. Predicted by P_R < P_L (anatomy) but load threshold
-        values not yet calibrated. Governs right_tunnel and
-        right_freeze collapse modes.
+        W_L / W_R differential collapse threshold — empirical fitting required.
+        α_W, β_W, γ_W fitting required for full three-term form.
         α_W_cultural_training coefficient — empirical fitting required.
         Decomposes into three named components:
           α_W_handedness_training (motor): bilateral motor practice reduces;
@@ -220,8 +217,16 @@ ontology:
         α_attn and β_attn fitting outstanding;
         linguistic_signatures thresholds pending empirical calibration
         and combination rule preregistration before predict_4 is valid
+      layer_07_new: >
+        α_ECON, β_ECON, γ_ECON coefficient fitting required.
+        GDP per capita adjusted for reinvestment is a proxy, not a direct
+        measurement of C_ECON(t). Calibration path: historical productivity
+        data vs reinvestment rates.
+        status: "proposed — coefficient fitting required"        
     overall_status: >
-      Invariant form derived from finite-resource constraint (Physics paper Article 1).
+      Three-term invariant form: dC/dt = -(α·C) - (γ·L̂·C) - (β·C·f(reinvestment)).
+      Two-term form is a special case (L̂ = 0). Thermodynamically constrained in direction;
+      functional form and all coefficients are falsifiable modeling choices.
       Layers 01–03 fully computable. Layers 04–07 have defined operationalization
       paths and falsifiable predictions. Driver-state-dependency is the primary
       novel proposed claim — the load-bearing hypothesis connecting substrate to
@@ -294,9 +299,17 @@ ontology:
   traversal_order: ["01", "02", "03", "04", "05", "06", "07"]
   cross_layer_propagation:
     derivation_basis: >
-      The split-decay form dC/dt = -(α·C) - (β·C·f(reinvestment)) is not assumed by analogy — it is derived from the 
-	  finite-resource constraint in the Physics paper (Article 1): any system with stock decay and load-dependent 
-	  reinvestment must obey this form. Cross-domain application is the falsifiable prediction, not the premise.
+      The split-decay form dC/dt = -(α·C) - (γ·L̂·C) - (β·C·f(reinvestment)) is a
+      parsimonious modeling choice consistent with the thermodynamic constraint that
+      unmaintained capacity decays and load-dependent reinvestment is required to
+      maintain it. The qualitative direction (decay without reinvestment) is
+      constrained by thermodynamics. The specific functional form (linear-in-C decay,
+      additive three-term split, load-accelerated structural term) is a falsifiable
+      modeling choice. Domain-specific parameters (α, β, γ, L̂) must be determined
+      empirically per layer. Cross-domain application is the falsifiable prediction,
+      not the premise.
+      two_term_special_case: "L̂ = 0 recovers the two-term form — valid when load is
+        held constant or negligible."
     rule: >
       Collapse at Layer i implies collapse at all downstream layers j > i, propagated through cross-layer contracts.
     equation: "Collapse(i) ⟹ Collapse(j) for all j > i"
@@ -427,7 +440,7 @@ ontology:
         - "fatigue"
         - "dropout"
         - "motor failure"
-		- "regulatory deficit"
+        - "regulatory deficit"
       operators:
         - "interoceptive_load_operator"
         - "gating_operator"
@@ -728,8 +741,10 @@ layer_01_PHYSICS_SUBSTRATE_CORE:
         dC_01/dt = -(α_01 · C_01) - (β_01 · C_01 · f(reinvestment_01))
       units:
         C_01: "RSA amplitude (ms²) or diaphragm excursion (cm)"
-        α_01: "baseline autonomic decay rate"
-        β_01: "load-dependent autonomic decay rate"
+        α_01: "baseline autonomic decay rate (1/time)"
+        γ_01: "load-accelerated autonomic structural decay rate (1/(load·time))"
+        β_01: "reinvestment-modulated autonomic decay rate (1/time)"
+        L̂: "normalized autonomic load (dimensionless)"
       reinvestment: "breath work, movement, recovery sleep"
     collapse_modes:
         oscillation_loss: "O(t) → 0 → C_01 → 0"
@@ -986,7 +1001,9 @@ layer_01_PHYSICS_SUBSTRATE_CORE:
         partial_derivatives: >
           ∂W/∂E > 0,  ∂W/∂P > 0,  ∂W/∂O > 0,  ∂W/∂L < 0
         decay: >
-          dW/dt = -(α_W · W) - (β_W · W · f(reinvestment_W))
+          dW/dt = -(α_W · W) - (γ_W · L̂ · W) - (β_W · W · f(reinvestment_W))
+          where α_W = α_W_baseline + α_W_cultural_training.
+          Two-term form is a special case when L̂ = 0.
       units:
         W: "prediction window width (hypothesis space width, branching factor)"
         α_W: >
@@ -1522,15 +1539,18 @@ layer_06_TRANSFORMER_ANALOGS_AND_REASONING:
       computability: "partial — grounding complete; α_attn and β_attn require empirical fitting"
       governing_equations:
         decay: >
-          dC_attn/dt = -(α_attn · C_attn) - (β_attn · C_attn · f(reinvestment_attn))
+          dC_attn/dt = -(α_attn · C_attn) - (γ_attn · L̂ · C_attn) - (β_attn · C_attn · f(reinvestment_attn))
           where C_attn = H_non-sink(A) = -Σ_{j ∉ sink} a_ij · log(a_ij)
+          Two-term form is a special case when L̂ = 0.
         curvature: "κ_attn(t) = -d²H_non-sink(A)/dt²"
         pathological_condition: "spread_rate > threshold OR C_attn → 0"
       units:
         C_attn: "nats of non-sink attention entropy per token position"
         t_axis: "token position (sequence index 1..N), not wall-clock time"
-        α_attn: "nats entropy decay per token position under zero complexity load"
-        β_attn: "nats entropy decay per token position per unit input perplexity"
+        α_attn: "nats entropy decay per token position under zero load (1/token)"
+        γ_attn: "load-accelerated entropy decay rate (1/(load·token))"
+        β_attn: "reinvestment-modulated entropy decay rate (1/token)"
+        L̂: "normalized input complexity load (dimensionless)"
         reinvestment_attn: "KV-cache hit rate, temperature adjustment, context refresh"
       operationalization_path: >
         H_non-sink extractable from open-weight models via attention weight hooks.
@@ -1597,22 +1617,27 @@ layer_07_ECONOMICS_RESOURCE_DYNAMICS:
 
   status_annotations:
     economic_layer_functions:
-      status: "resolved"
-      resolved_by: "URM physics contract formulas — Article 2, Layer 07"
-      resolved_date: "2026-07-21"
+      status: "proposed"
+      note: >
+        Governing equation form is specified. Coefficient fitting required.
+        'Resolved' was an overclaim — matches layer 06 pattern, not layer 01.
+      resolved_date: null
 
   computability:
     economic_layer_functions:
-      computability: "computable"
+      computability: "partial — governing equation form specified; α_ECON, β_ECON, γ_ECON require empirical fitting"
       resolved_by: "URM physics contract formulas — Article 2, Layer 07"
       governing_equations:
         decay: >
-          dC_ECON/dt = -(α_ECON · C_ECON) - (β_ECON · C_ECON · f(reinvestment_ECON))
+          dC_ECON/dt = -(α_ECON · C_ECON) - (γ_ECON · L̂ · C_ECON) - (β_ECON · C_ECON · f(reinvestment_ECON))
+          Two-term form (without γ) is a special case when L̂ = 0.
         resource_flow: "φ_ECON(t) = dR_ECON/dt"
         curvature: "κ_ECON(t) = -d²C_ECON/dt²"
       units:
         C_ECON: "GDP per capita adjusted for reinvestment"
-        α_ECON: "baseline capital decay rate"
-        β_ECON: "load-dependent capital decay rate"
+        α_ECON: "baseline capital decay rate (1/time)"
+        γ_ECON: "load-accelerated structural decay rate (1/(load·time))"
+        β_ECON: "reinvestment-modulated decay rate (1/time)"
+        L̂: "normalized load (dimensionless)"
       reinvestment: "R&D, infrastructure, education"
 ```
