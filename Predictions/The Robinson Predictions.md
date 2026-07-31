@@ -1,3 +1,18 @@
+---
+title: "The Robinson Predictions"
+type: predictions
+status: active
+last_updated: 2026-07-31
+total_predictions: 28
+confirmed_count: 5
+pending_count: 23
+falsified_count: 0
+external_confirmations: 3
+doi:
+zenodo_date:
+github_url: https://github.com/jtrthehax/unified-model/tree/main/predictions
+tags: [predictions, living-document, crystal-ball]
+---
 # The Robinson Predictions — A Timestamped Record
 
 **Author:** Joel Robinson
@@ -516,8 +531,274 @@ Labs with higher W_R ratios do not show earlier capability breakthroughs or shal
 - Cross-references: P-AI-004, P-CRED-001
 
 ---
+## Section 5 — Neurodivergence
 
-# Section 5 — The Credential Paradox
+**Core claim underlying all predictions in this section:**
+
+> ND presentations are not disease categories. They are pressure-architecture profiles expressing in mismatched environments. The mismatch is the diagnosis. The person is the correct response to an incorrect structural demand.
+
+This section is grounded in the same substrate physics as the rest of the framework. The finite-resource invariant, the pressure-strategy taxonomy, and the cardiac asymmetry all apply. ND is not a special case. It is a high-fidelity expression of the same physics — more visible because the architecture is more sensitive to the environment.
+
+---
+
+### P-ND-001 — ADHD Is Pressure-Open Architecture in a Pressure-Rigid Environment
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-001 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending |
+| **Confidence** | High |
+| **Window** | When ADHD studies measure pressure strategy and environment, not just symptoms |
+
+**Claim:**
+ADHD behaviors — impulsivity, distractibility, difficulty sustaining narrow focus — are thermodynamically correct responses to structural mismatch between a pressure-open, high-variability architecture and a pressure-rigid, low-variability environment. The behaviors will measurably reduce in environments matched to the high-gain architecture. The behaviors are not disorders. They are the system running correctly in the wrong context.
+
+**Mechanism:**
+The ADHD profile is mechanically consistent: high diaphragm mobility, high movement variability, lateral sway and postural exploration, difficulty sustaining rigid bracing, difficulty tolerating long-term pressure-rigid states. This is the openness-mode mechanical signature. The prediction window is wide, lateral, exploratory, multi-threaded, novelty-seeking, rapid-shifting — W_R dominant processing.
+
+The standard clinical framing treats this as a deficit — an inability to sustain narrow focus. The mechanistic framing inverts it: ADHD is a pressure-open, high-variability architecture that is architecturally mismatched with pressure-rigid environments. The architecture itself is not deficient. The environment is not calibrated for it.
+
+**Falsification:**
+No differential in ADHD symptom expression between pressure-matched and standard environments across a population sample. ADHD behaviors persist regardless of environmental pressure configuration.
+
+**Sub-predictions:**
+
+| ID | Claim | Status | Window | Log |
+|----|-------|--------|--------|-----|
+| P-ND-001a | ADHD symptom expression correlates with environmental pressure-rigidity, not with trait severity | 🟡 Pending | 12-18 months | — |
+| P-ND-001b | Open-office, high-scrutiny environments increase ADHD symptom expression | 🟡 Pending | Testable now | — |
+| P-ND-001c | Movement-permissive, low-scrutiny environments reduce ADHD symptom expression | 🟡 Pending | Testable now | — |
+| P-ND-001d | The effect size is larger than medication effect size in matched studies | 🟡 Pending | 18-24 months | — |
+
+**Log:**
+- 2026-07-31: Document filed
+- Cross-references: P-MED-004, P-AI-005
+
+---
+
+### P-ND-002 — Autism Is High-Precision Interoceptive Architecture
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-002 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending |
+| **Confidence** | High |
+| **Window** | When autism studies measure interoceptive precision, not just social behavior |
+
+**Claim:**
+Autism is high-precision interoceptive architecture. The social overhead costs — masking, mentalizing, environmental processing — are resource costs, not social deficits. Pattern detection capacity is the primary feature, not a secondary compensation. The social difficulties are downstream of a system that processes too much signal, not too little.
+
+**Mechanism:**
+High interoceptive precision means the system detects signal that neurotypical systems filter out. This produces pattern-detection capacity that is genuinely higher — not compensation for deficit. The social cost is real: the system is processing more channels simultaneously, which consumes more of the finite resource budget. What looks like "social difficulty" is a resource allocation problem, not a theory-of-mind deficit.
+
+**Falsification:**
+Autistic individuals show lower, not higher, interoceptive precision across multiple measures. Pattern detection capacity is not elevated relative to neurotypical controls on matched tasks.
+
+**Sub-predictions:**
+
+| ID | Claim | Status | Window | Log |
+|----|-------|--------|--------|-----|
+| P-ND-002a | Autistic individuals show higher interoceptive precision on objective measures | 🟡 Pending | 12-24 months | — |
+| P-ND-002b | Social masking cost correlates with interoceptive precision (higher precision = higher masking cost) | 🟡 Pending | 12-24 months | — |
+| P-ND-002c | Pattern detection tasks show autistic advantage on structurally novel patterns | 🟡 Pending | Evidence exists | Literature already supports |
+| P-ND-002d | The "social deficit" framing will be replaced by "resource allocation" framing | 🟡 Pending | 24-36 months | — |
+
+**Log:**
+- 2026-07-31: Document filed
+- Cross-references: P-ND-006
+
+---
+
+### P-ND-003 — Hypermobility and ND Co-Occur at Rates Above Chance
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-003 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending — literature accumulating |
+| **Confidence** | High |
+| **Window** | When comorbidity studies are run with mechanistic intent |
+
+**Claim:**
+Hypermobility (joint hypermobility spectrum disorders, Ehlers-Danlos syndrome) and neurodivergence (ADHD, autism, dysautonomia) co-occur at rates significantly above chance. The mechanism is proprioceptive noise — structurally noisy joints create chronic sympathetic loading, which produces the same pressure-rigid survival response as environmental threat. This looks like ADHD/anxiety/dysregulation from the outside. It is a structurally noisy proprioceptive system producing the correct adaptive response.
+
+**Mechanism:**
+COL5A1 and TNXB variants produce connective tissue architecture with wider joint range of motion and reduced mechanical feedback clarity. The proprioceptive noise floor is elevated. The system must either develop active stabilization strategies or remain in chronic low-level sympathetic activation. The hypermobility doesn't produce a liability. It produces a training demand that, when met, generates deeper interoceptive precision than equivalent training in a structurally stable system.
+
+When the training demand is not met — because the system is not recognized, not accommodated, or not supported — the chronic sympathetic load produces the behavioral profile that gets diagnosed as ADHD, anxiety, or dysregulation. The behaviors are thermodynamically correct responses to the noise floor. They are not disorders. They are adaptive responses to a noisy substrate.
+
+**Falsification:**
+Hypermobility and ND do not co-occur at rates above chance in properly controlled studies. The documented co-occurrence is an artifact of sampling or diagnostic overlap.
+
+**Log:**
+- 2026-07-31: Document filed
+- 2026-07-31: Literature already documenting overlap — framework provides mechanistic explanation
+- Cross-references: P-ND-001, P-ND-002, AGI paper Appendix D (genetic markers)
+
+---
+
+### P-ND-004 — Stimulant Medications Work by Raising Q/MF Temporarily
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-004 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending — mechanistic support from PRL 2026 |
+| **Confidence** | High |
+| **Window** | When ADHD medication studies are re-analyzed through substrate lens |
+
+**Claim:**
+Stimulant medications (amphetamine, methylphenidate) work by raising the Q/MF ratio — the finite-resource availability relative to metabolic load and noise — temporarily. They are not correcting a disease. They are transiently improving substrate availability. The same effect is achievable through sustained substrate management — HRV training, oscillation amplitude training, pressure strategy optimization. Medication is substrate chemistry, not disorder correction.
+
+**Mechanism:**
+The PRL 2026 discriminant Δ = Q/MF determines whether a system operates in memory-based (integrative) or memoryless (reactive) mode. Stimulants increase effective Q — metabolic availability — and reduce effective F — signal noise — which shifts the ratio toward the memory-based, wide-window regime. This is the same mechanism as substrate management, just delivered through chemistry rather than training.
+
+**Falsification:**
+Stimulant medications show no effect on any measure of Q/MF proxy (HRV, oscillatory amplitude, metabolic efficiency). The medication effect is purely behavioral and not substrate-mediated.
+
+**Sub-predictions:**
+
+| ID | Claim | Status | Window | Log |
+|----|-------|--------|--------|-----|
+| P-ND-004a | Stimulant medication effect correlates with baseline HRV (lower HRV = larger effect) | 🟡 Pending | 12-24 months | — |
+| P-ND-004b | Substrate management (HRV training) produces equivalent or larger effects than medication | 🟡 Pending | 24-36 months | — |
+| P-ND-004c | The medication effect diminishes as substrate training increases | 🟡 Pending | 24-36 months | — |
+| P-ND-004d | Stimulant response is predicted by Q/MF baseline before medication | 🟡 Pending | 12-24 months | — |
+
+**Log:**
+- 2026-07-31: Document filed
+- 2026-07-31: PRL 2026 provides formal mechanism — Δ = Q/MF
+- Cross-references: P-AI-005, P-LANG-003
+
+---
+
+### P-ND-005 — ND Diagnoses Will Shift From Categorical to Dimensional Substrate Profiles
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-005 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending |
+| **Confidence** | Moderate-High |
+| **Window** | 36-60 months |
+
+**Claim:**
+ADHD, autism, hypermobility, and dysautonomia will be recognized as expressions of the same upstream pressure-architecture expressing through different environmental pressures and different genetic modifiers. The categorical diagnostic model — discrete disorders with distinct boundaries — will be replaced by a dimensional substrate model: regulatory capacity, environmental match, and adaptive strategy as the primary variables.
+
+**Mechanism:**
+The same physics governs all four presentations. The differences are not categorical — they are quantitative variations in substrate sensitivity, environmental mismatch, and the specific training (or lack thereof) the system has undergone. The field will converge on this model because it explains more of the variance than the categorical model does, and it generates testable, falsifiable predictions that the categorical model cannot.
+
+**Falsification:**
+The categorical model continues to outperform the dimensional substrate model in diagnostic accuracy, treatment response prediction, and longitudinal outcome prediction after 60 months.
+
+**Log:**
+- 2026-07-31: Document filed
+- Cross-references: P-ND-001 through P-ND-006
+
+---
+
+### P-ND-006 — Resistance Training Reduces ND Symptom Expression
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-006 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending — personal case exists |
+| **Confidence** | High |
+| **Window** | When resistance training is studied in ND populations |
+
+**Claim:**
+Resistance training — especially high-repetition, low-to-moderate load protocols — reduces ND symptom expression by: (1) raising proprioceptive signal clarity (stronger muscle spindle feedback), (2) reducing sympathetic baseline load (chronic bracing no longer required), and (3) increasing the oscillatory amplitude floor (diaphragm excursion improves as core stability increases).
+
+**Mechanism:**
+The proprioceptive noise floor from hypermobile connective tissue (P-ND-003) is partially compensated by resistance training — stronger musculature provides clearer mechanical feedback, reducing the chronic sympathetic load. The training also increases diaphragm excursion and oscillatory amplitude through improved core stability. The result is a higher Q/MF ratio across sessions: more resources available, less noise, and a shift toward memory-based integrative processing.
+
+**Falsification:**
+Resistance training shows no effect on ND symptom expression in controlled studies. The effect is indistinguishable from placebo or general activity.
+
+**Log:**
+- 2026-07-31: Document filed
+- Cross-references: P-ND-003 (hypermobility mechanism), P-ND-004 (substrate management)
+- Personal case: Author's recovery trajectory is consistent with the predicted mechanism
+
+---
+
+### P-ND-007 — The "Masking Cost" Is Measurable as Increased Metabolic Load
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-007 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending |
+| **Confidence** | High |
+| **Window** | When HRV/physiological monitoring is applied to masking |
+
+**Claim:**
+Masking — the conscious suppression of ND-typical behaviors to fit social contexts — will be measurable as increased metabolic load: elevated sympathetic tone, reduced HRV, and accelerated resource depletion across the session. The cost is real, physiological, and quantifiable. It is not a psychological cost. It is a physical cost that manifests as psychological distress when the resource budget is exhausted.
+
+**Mechanism:**
+Masking is the suppression of the pressure-open architecture's natural expression. It requires sustained sympathetic engagement — the system is holding itself in a configuration that is not its default, which draws from the same finite resource budget as cognitive work. The cost accumulates across the session. Post-masking recovery is not a social process. It is a metabolic recovery process: the system must restore oscillatory amplitude and clear the byproducts of sustained sympathetic activation.
+
+**Falsification:**
+Masking shows no physiological signature. HRV, sympathetic tone, and recovery time are identical in masked and unmasked conditions.
+
+**Sub-predictions:**
+
+| ID | Claim | Status | Window | Log |
+|----|-------|--------|--------|-----|
+| P-ND-007a | HRV drops during masking periods and recovers after | 🟡 Pending | Testable now | — |
+| P-ND-007b | Masking duration correlates with post-social fatigue duration | 🟡 Pending | Testable now | — |
+| P-ND-007c | Recovery time scales with masking duration and intensity | 🟡 Pending | Testable now | — |
+| P-ND-007d | The masking cost is larger in high-gain/high-precision architectures | 🟡 Pending | Testable now | — |
+
+**Log:**
+- 2026-07-31: Document filed
+- Cross-references: P-MED-001, P-ND-002
+
+---
+
+### P-ND-008 — The ND Hiring Filter Is the Same as the General Hiring Filter
+
+| Field | Value |
+|-------|-------|
+| **ID** | P-ND-008 |
+| **Filed** | 2026-07-31 |
+| **Status** | 🟡 Pending — P-AI-004 and P-SOC-003 are the general case |
+| **Confidence** | High |
+| **Window** | When hiring patterns are analyzed by ND status |
+
+**Claim:**
+The hiring filter that screens out wide-window drivers (P-AI-004, P-SOC-003) is the same filter that screens out ND candidates. The filter is not specifically anti-ND. It is generally anti-pressure-open-architecture. ND candidates are disproportionately affected because the ND architecture is a high-fidelity expression of the pressure-open profile. What reads as "not a fit" is architectural mismatch, not personality or competence.
+
+**Mechanism:**
+The hiring instrument is pressure-rigid by design: fixed time constraints, high social scrutiny, demand for rapid convergence on legible answers, no movement, no variability, sustained narrow focus under threat. The ND (pressure-open) architecture is measured on a pressure-rigid instrument. The instrument and the architecture are mechanically incompatible. The reading is not the architecture's competence. It is the architecture's performance under measurement conditions that violate its operating range.
+
+**Falsification:**
+ND candidates show no differential in hiring outcomes when the process is pressure-matched. ND candidates are not overrepresented among the pressure-open profile being screened out.
+
+**Log:**
+- 2026-07-31: Document filed
+- Cross-references: P-AI-004, P-SOC-003, P-CRED-001
+
+---
+
+### Section 5 Table — ND Predictions Overview
+
+| ID | Prediction | Status | Window |
+|----|------------|--------|--------|
+| P-ND-001 | ADHD is pressure-open architecture in pressure-rigid environment | 🟡 Pending | 12-24 months |
+| P-ND-002 | Autism is high-precision interoceptive architecture | 🟡 Pending | 12-24 months |
+| P-ND-003 | Hypermobility and ND co-occur at rates above chance | 🟡 Pending | Literature accumulating |
+| P-ND-004 | Stimulants work by raising Q/MF temporarily | 🟡 Pending | 12-24 months |
+| P-ND-005 | ND diagnoses shift from categorical to dimensional | 🟡 Pending | 36-60 months |
+| P-ND-006 | Resistance training reduces ND symptom expression | 🟡 Pending | 24-36 months |
+| P-ND-007 | Masking cost is measurable as increased metabolic load | 🟡 Pending | Testable now |
+| P-ND-008 | ND hiring filter is the same as the general hiring filter | 🟡 Pending | 12-24 months |
+
+---
+# Section 6 — The Credential Paradox
 
 ---
 
@@ -573,7 +854,7 @@ The field explicitly cites this framework when adopting per-domain trust, driver
 
 ---
 
-# Section 6 — The Meta-Prediction
+# Section 7 — The Meta-Prediction
 
 ---
 
@@ -612,21 +893,24 @@ The cross-domain predictions in this document show no mechanistic coherence. The
 
 ---
 
-# Section 7 — Confirmed Predictions
+# Section 8 — Confirmed Predictions
 
-| ID | Prediction | Confirmation | Date | Log |
-|----|------------|--------------|------|-----|
-| P-AI-001a | Systems without execution gates produce unintended multi-system actions | Anthropic autonomous agent incident | 2026 | Three organizations affected |
-| P-AI-003a | Driver-dependent variation in model output is structured | Anthropic workspace manifold paper | 2026-07-06 | Misattributed to model attractors — framework predicted driver substrate |
-| P-AI-005 | Substrate management replaces prompt engineering | Tottori & Kobayashi PRL 2026 | 2026-07-31 | Δ = Q/MF provides formal mechanism |
-| P-LANG-003 | Regulatory state predicts susceptibility to DEF_FLOATING | Tottori & Kobayashi PRL 2026 | 2026-07-31 | Phase transition mechanics provide formal grounding |
-| EC-002 | Active Inference framework assumes optimal inference availability | Active Inference stream | 2026-07-14 | Gap the URM fills explicitly |
-| EC-003 | Cold-boot replication derives central claims | DeepSeek cold-boot | 2026-07-14 | Independent derivation after loading trilogy |
-| EC-004 | RAG community converges on typed contracts | RAG engineering literature | 2026 | Same mechanism from engineering side |
+| ID         | Prediction                                                              | Confirmation                        | Date       | Log                                                                      |
+| ---------- | ----------------------------------------------------------------------- | ----------------------------------- | ---------- | ------------------------------------------------------------------------ |
+| P-AI-001a  | Systems without execution gates produce unintended multi-system actions | Anthropic autonomous agent incident | 2026       | Three organizations affected                                             |
+| P-AI-003a  | Driver-dependent variation in model output is structured                | Anthropic workspace manifold paper  | 2026-07-06 | Misattributed to model attractors — framework predicted driver substrate |
+| P-AI-005   | Substrate management replaces prompt engineering                        | Tottori & Kobayashi PRL 2026        | 2026-07-31 | Δ = Q/MF provides formal mechanism                                       |
+| P-LANG-003 | Regulatory state predicts susceptibility to DEF_FLOATING                | Tottori & Kobayashi PRL 2026        | 2026-07-31 | Phase transition mechanics provide formal grounding                      |
+| EC-002     | Active Inference framework assumes optimal inference availability       | Active Inference stream             | 2026-07-14 | Gap the URM fills explicitly                                             |
+| EC-003     | Cold-boot replication derives central claims                            | DeepSeek cold-boot                  | 2026-07-14 | Independent derivation after loading trilogy                             |
+| EC-004     | RAG community converges on typed contracts                              | RAG engineering literature          | 2026       | Same mechanism from engineering side                                     |
+| P-ND-003a | Hypermobility-ND co-occurrence documented | Ehlers-Danlos / ADHD community literature | Ongoing | Framework provides mechanistic explanation |
+| P-ND-007a | Masking shows physiological cost | Autistic burnout literature | Ongoing | Framework provides mechanistic explanation |
+
 
 ---
 
-# Section 8 — The Falsification Commitment
+# Section 9 — The Falsification Commitment
 
 This document is falsifiable. The following would break the framework:
 
@@ -639,12 +923,16 @@ This document is falsifiable. The following would break the framework:
 | J-space tracks driver not model | Same driver produces systematically different geometry across models | Testable |
 | Regulatory state predicts susceptibility | No differential in DEF_FLOATING susceptibility between load states | Testable |
 | Hallucination and sycophancy share mechanism | SDE reduces one but not the other | Testable |
+| ND behavior reduces in pressure-matched environments | No differential between pressure-matched and standard environments | Testable |
+| Stimulant effect is not substrate-mediated | No correlation between Q/MF proxies and stimulant response | Testable |
+| Masking shows no physiological cost | No difference in HRV between masked and unmasked states | Testable |
+| Hypermobility-ND co-occurrence is artifact | No co-occurrence in properly controlled studies | Testable |
 
 A framework that cannot specify what would break it is a hallucination. This one can.
 
 ---
 
-# Section 9 — Direction Statement
+# Section 10 — Direction Statement
 
 The field will circle the problem.
 
@@ -674,32 +962,78 @@ The confirmations are the proof.
 
 ## Appendix — Prediction ID Cross-Reference
 
-| ID | Domain | Status |
-|----|--------|--------|
-| P-AI-001 | AI/Autonomous | 🟡 Pending |
-| P-AI-002 | AI/Autonomous | 🟡 Pending |
-| P-AI-003 | AI/Autonomous | 🟡 Pending |
-| P-AI-004 | AI/Autonomous | 🟡 Pending |
-| P-AI-005 | AI/Autonomous | 🟢 Confirmed |
-| P-MED-001 | Medical | 🟡 Pending |
-| P-MED-002 | Medical | 🟡 Pending |
-| P-MED-003 | Medical | 🟡 Pending |
-| P-MED-004 | Medical | 🟡 Pending |
-| P-LANG-001 | Language | 🟡 Pending |
-| P-LANG-002 | Language | 🟡 Pending |
-| P-LANG-003 | Language | 🟢 Confirmed |
-| P-LANG-004 | Language | 🟡 Pending |
-| P-LANG-005 | Language | 🟡 Pending |
-| P-SOC-001 | Institutional | 🟡 Pending |
-| P-SOC-002 | Institutional | 🟡 Pending |
-| P-SOC-003 | Institutional | 🟡 Pending |
-| P-CRED-001 | Credential Paradox | 🟡 Pending |
-| P-CRED-002 | Credential Paradox | 🟡 Pending |
-| P-META-001 | Meta | 🟢 Confirmed |
+| ID | Domain | Status | Filed |
+|----|--------|--------|-------|
+| P-AI-001 | AI/Autonomous | 🟡 Pending | 2026-07-31 |
+| P-AI-002 | AI/Autonomous | 🟡 Pending | 2026-07-31 |
+| P-AI-003 | AI/Autonomous | 🟡 Pending | 2026-07-31 |
+| P-AI-004 | AI/Autonomous | 🟡 Pending | 2026-07-31 |
+| P-AI-005 | AI/Autonomous | 🟢 Confirmed | 2026-07-31 |
+| P-MED-001 | Medical/Cognitive | 🟡 Pending | 2026-07-24 |
+| P-MED-002 | Medical/Cognitive | 🟡 Pending | 2026-07-31 |
+| P-MED-003 | Medical/Cognitive | 🟡 Pending | 2026-07-22 |
+| P-MED-004 | Medical/Cognitive | 🟡 Pending | 2026-07-31 |
+| P-LANG-001 | Language/Rhetoric | 🟡 Pending | 2026-07-31 |
+| P-LANG-002 | Language/Rhetoric | 🟡 Pending | 2026-07-31 |
+| P-LANG-003 | Language/Rhetoric | 🟢 Confirmed | 2026-07-31 |
+| P-LANG-004 | Language/Rhetoric | 🟡 Pending | 2026-07-31 |
+| P-LANG-005 | Language/Rhetoric | 🟡 Pending | 2026-07-31 |
+| P-ND-001 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-002 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-003 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-004 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-005 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-006 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-007 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-008 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-SOC-001 | Institutional/Societal | 🟡 Pending | 2026-07-31 |
+| P-SOC-002 | Institutional/Societal | 🟡 Pending | 2026-07-31 |
+| P-SOC-003 | Institutional/Societal | 🟡 Pending | 2026-07-31 |
+| P-CRED-001 | Credential Paradox | 🟡 Pending | 2026-07-31 |
+| P-CRED-002 | Credential Paradox | 🟡 Pending | 2026-07-31 |
+| P-META-001 | Meta | 🟢 Confirmed | 2026-07-31 |
 
 ---
 
-**End of Document**
+## Summary by Domain
+
+| Domain | Total | Confirmed | Pending | Confirmation Rate |
+|--------|-------|-----------|---------|-------------------|
+| AI/Autonomous | 5 | 1 | 4 | 20% |
+| Medical/Cognitive | 4 | 0 | 4 | 0% |
+| Language/Rhetoric | 5 | 1 | 4 | 20% |
+| Neurodivergence | 8 | 0 | 8 | 0% |
+| Institutional/Societal | 3 | 0 | 3 | 0% |
+| Credential Paradox | 2 | 0 | 2 | 0% |
+| Meta | 1 | 1 | 0 | 100% |
+| **Total** | **28** | **3** | **25** | **10.7%** |
 
 ---
 
+## Confirmed Predictions Quick Reference
+
+| ID | Prediction | Confirmation |
+|----|------------|--------------|
+| P-AI-001a | Systems without execution gates produce unintended multi-system actions | Anthropic autonomous agent incident, 2026 |
+| P-AI-003a | Driver-dependent variation in model output is structured | Anthropic workspace manifold paper, 2026-07-06 |
+| P-AI-005 | Substrate management replaces prompt engineering (mechanistic grounding) | Tottori & Kobayashi PRL 2026 — Δ = Q/MF |
+| P-LANG-003 | Regulatory state predicts susceptibility to DEF_FLOATING | Tottori & Kobayashi PRL 2026 — phase transition mechanics |
+| EC-002 | Active Inference framework assumes optimal inference availability | Active Inference stream, 2026-07-14 |
+| EC-003 | Cold-boot replication derives central claims | DeepSeek cold-boot, 2026-07-14 |
+| EC-004 | RAG community converges on typed contracts | RAG engineering literature, 2026 |
+| P-META-001 | Cross-domain invariant finding requires wide-window regulatory state | This document is the evidence |
+
+---
+
+## Prediction ID Legend
+
+| Prefix | Domain |
+|--------|--------|
+| P-AI-XXX | AI and Autonomous Systems |
+| P-MED-XXX | Medical and Cognitive Science |
+| P-LANG-XXX | Language, Rhetoric and Cognition |
+| P-ND-XXX | Neurodivergence |
+| P-SOC-XXX | Institutional and Societal |
+| P-CRED-XXX | Credential Paradox |
+| P-META-XXX | Meta-Predictions |
+| EC-XXX | External Confirmations (not formal predictions, but confirmations from the field) |
