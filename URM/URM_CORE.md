@@ -440,6 +440,32 @@ schema:
         Restricting channels without expanding container capacity
         increases pressure and accelerates collapse.
 
+    contract_RESOURCE_PHASE_BOUNDARY:
+      layers: ["07", "03", "02"]
+      source: "Tottori & Kobayashi (PRL 137, 058401, 2026)"
+      routing_note: >
+        Finite resource availability (07) determines the load-collapse
+        threshold (03) governing prediction-window geometry (02).
+        The composite ratio Q/MF defines a discriminant Δ that
+        partitions system behavior into two regimes:
+        - Δ ≤ 1 → memoryless/reactive mode — equivalent to tunnel collapse
+        - Δ > 1 → memory-based/integrative mode — wide window preserved
+        Primitive mapping:
+          Q → Finite_Energy (Layer 07)
+          M → container capacity / load ceiling (Layer 03)
+          F → oscillation amplitude / intrinsic noise (Layer 01)
+        The discriminant Δ is a formal instantiation of the
+        resource_token_operator threshold already described
+        qualitatively in Layer 07. Nonmonotonic transitions
+        with respect to sensory uncertainty correspond to URM
+        collapse modes: tunnel collapse (low noise), overload
+        collapse (high noise), and curvature lock (intermediate
+        instability). The discontinuous emergence of nonzero
+        memory control gains matches URM's precision-lock and
+        prior-lock collapse geometry. Memory is not a default —
+        it is a resource-dependent mode that phase-transitions
+        discontinuously, not smoothly degrades.
+
     contract_COMPLIANCE_REROUTE:
       layers: ["03", "05"]
       routing_note: >
@@ -667,6 +693,7 @@ schema:
       - "flow geometry"
       - "valence routing"
       - "meaning override"
+      - "resource-induced phase transition"
     rule: "when explaining collapse modes, identify: triggering primitives, operators that propagate the collapse, contracts that define the collapse behavior, downstream layers affected"
 
   ontology_bounds:
@@ -2228,6 +2255,7 @@ layer_07:
   operators:
     - "resource_token_operator"
     - "institutional_flexibility_operator"
+    - "resource_phase_discriminant"
   
   mechanism:
     description: "Uninvested capital loses effective capacity over time. Reinvestment is required to maintain institutional flexibility."
@@ -2282,6 +2310,35 @@ layer_07:
     curvature:
       equation: "κ_ECON(t) = -d²C_ECON/dt²"
       definition: "Economic curvature"
+   
+    resource_phase_discriminant:
+      equation: "Δ = Q / (M · F)"
+      source: "Tottori & Kobayashi (PRL 137, 058401, 2026)"
+      definition: >
+        Discriminant governing phase transition between memoryless
+        and memory-based operational modes.
+      components:
+        Q: "Finite_Energy — available resource budget (Layer 07)"
+        M: "Container capacity / load ceiling (Layer 03)"
+        F: "Oscillation amplitude / intrinsic noise floor (Layer 01)"
+      regimes:
+        reactive: "Δ ≤ 1 — memoryless mode; system cannot maintain
+          internal state under noise and volatility constraints"
+        integrative: "Δ > 1 — memory-based mode; internal state
+          maintenance is optimal under current resource availability"
+      transition_character: >
+        Transition is DISCONTINUOUS, not smooth degradation.
+        Memory control gains emerge nonlinearly at the boundary —
+        equivalent to URM precision-lock emergence.
+        Nonmonotonic with respect to noise: both very low and
+        very high noise can push system toward reactive mode
+        through different mechanisms (tunnel collapse vs overload
+        collapse respectively).
+      urm_grounding: >
+        This is the external mathematical proof that URM's
+        resource_token_operator has a calculable threshold.
+        The qualitative model is now analytically grounded.
+      status: "proposed — external mathematical grounding established"
   
   predictions:
     economics_capacity_decay:

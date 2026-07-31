@@ -57,6 +57,44 @@ ontology:
       paths and falsifiable predictions. Driver-state-dependency is the primary
       novel proposed claim — the load-bearing hypothesis connecting substrate to
       attention distribution.
+# ============================================================
+# External Confirmations
+# ============================================================
+external_confirmations:
+
+  EC_PRL_2026:
+    date: "2026-07-31"
+    source: "Tottori & Kobayashi, PRL 137, 058401 (2026)"
+    prior_framework_date: "URM v1.0 DOI'd prior to paper publication"
+    validates:
+      layer_07:
+        primitive: "Finite_Energy"
+        operator: "resource_token_operator"
+        confirms: >
+          Finite resource availability induces discontinuous phase
+          transitions between operational modes. Q/MF discriminant
+          is the calculable threshold URM described qualitatively.
+      layer_03:
+        primitive: "load ceiling / container capacity"
+        operator: "interoceptive_load_operator"
+        confirms: >
+          Memory control gains (I_zx, I_zz) map directly to
+          container capacity and load-routing operators.
+      layer_02:
+        primitive: "Amplitude"
+        operator: "window_collapse_operator"
+        confirms: >
+          Nonmonotonic noise-dependent transitions map to tunnel
+          collapse (low noise), overload collapse (high noise),
+          and curvature lock (intermediate instability).
+      contract: "contract_RESOURCE_PHASE_BOUNDARY"
+    key_finding: >
+      Memory is not a default — it is a resource-dependent mode
+      that phase-transitions discontinuously. The transition boundary
+      is calculable from Q/MF. This is the external mathematical
+      proof that URM's resource_token_operator has a real threshold.
+    status: "confirmed"
+
 
 # ============================================================
 # LAYER 01 STATUS
@@ -334,7 +372,11 @@ layer_07:
       - "α_ECON, β_ECON, γ_ECON coefficient fitting required"
       - "GDP per capita adjusted for reinvestment is a proxy, not a direct measurement of C_ECON(t)"
       - "Calibration path: historical productivity data vs reinvestment rates"
-    resolved_items: []
+      - "Q, M, F require empirical mapping to URM measurement units — Q in metabolic/economic units, M in HRV/load units, F in RSA amplitude units"
+    resolved_items:
+      - "resource_phase_discriminant operator added — external mathematical grounding from Tottori & Kobayashi (PRL 2026)"
+      - "contract_RESOURCE_PHASE_BOUNDARY added — layers 07, 03, 02"
+      - "Δ = Q/MF establishes calculable threshold for resource_token_operator"
     blocking_items:
       - "Coefficient fitting required before layer_07 is fully computable"
   
@@ -344,7 +386,14 @@ layer_07:
       resolved_by: "URM physics contract formulas — Article 2, Layer 07"
       measurement_path: "GDP per capita adjusted for reinvestment vs historical productivity data"
       remaining_gap: "α_ECON, β_ECON, γ_ECON coefficient fitting required"
-      status_date: "2026-07-21"
+      status_date: "2026-07-31"
+      external_validation: >
+        Tottori & Kobayashi (PRL 2026) provides closed-form proof
+        that finite resource availability induces discontinuous
+        phase transitions between operational modes.
+        The Q/MF ratio is structurally isomorphic to URM's
+        resource_token_operator threshold. External mathematical
+        grounding established. Coefficient fitting still required.
 
 # ============================================================
 # EMPIRICAL SPECIMENS
