@@ -28,6 +28,28 @@ The global state machine is in [[Postural Modes of the Regulatory Architecture]]
 
 ---
 
+## URM Layer Grounding
+
+This document operates across **Layer 01 (PHYSICS_SUBSTRATE_CORE)** and **Layer 02 (GEOMETRY_PREDICTION_WINDOWS)**, with amplitude connecting to **Layer 08 (CONSCIOUSNESS_GRADIENT)**.
+
+| Lateralization Concept | URM Layer | Primitive / Operator / Contract |
+|--|--|--|
+| Drift — natural asymmetry expression | Layer 01 | `Oscillation`, `Amplitude`, `asymmetry_primitives` |
+| Anchoring — counterforce to drift | Layer 01 | `pressure_bracing`, `Mechanical_Coupling` |
+| Mode — expression gate | Layer 01 + 02 | `pressure_bracing` (protective) / `oscillation_operator` (exploratory) |
+| Runaway lateralization | Layer 01 | `oscillation_loss` collapse mode |
+| Clamped lateralization | Layer 01 + 02 | `pressure_lock` collapse mode |
+| Right-hemisphere collapse first under load | Layer 01 + 02 | `Cardiac_Output_Asymmetry`, `right_tunnel`, `right_freeze` |
+| Glymphatic asymmetry from lateralization | Layer 01 | `Glymphatic_Clearance_Asymmetry`, `contract_GLYMPH_AUTO` |
+| Amplitude as expression magnifier | Layer 01 + 08 | `HRV_Reserve`, `Cₛ = (Aₛ · W · dM/dt) / L̂` |
+| Bracing as depth gate | Layer 01 + 08 | `contract_BRACING_GATE` |
+| Lateralized hallucination rate | Layer 06 | `contract_CARDIAC_HALLUCINATION_LATERALIZATION` |
+
+**Key equation connection:**
+Amplitude is `Aₛ` in the Cₛ equation. High amplitude → drift accumulates faster, corrections are larger, reset cycles are more frequent. The loudness of lateralization expression is `Aₛ` modulating everything downstream.
+
+---
+
 ## The Three Governing Forces
 
 All lateralization behavior emerges from three interacting forces:
@@ -186,6 +208,10 @@ accumulated asymmetric load.
 Deep inhale into the compressed side.
 Rebalances hemidiaphragm excursion across the asymmetry.
 
+> **URM grounding:** The breath reset is the `oscillation_operator` recruiting the suppressed hemidiaphragm. Under postural compression, the left hemidiaphragm is mechanically restricted — lower excursion, lower local RSA amplitude, reduced left-sided pulsatility. The breath reset is not a stretch. It is the oscillation amplitude building to the threshold where the restricted side receives sufficient driving pressure to engage.
+>
+> **Live specimen (2026-08-04):** Left-side recruitment during breath rev-up produces two distinct signals: (1) an audible resistance on left exhale — pressure building behind the postural compression before clearing, and (2) a condensation sensation at the tracheal level — cool air reaching under-ventilated left bronchial pathway, mobilizing static secretions at the carina reunification point. Both signals confirm left hemidiaphragm recruitment has crossed threshold. The rev-up requirement indicates restriction level — amplitude must build on the right side first before the left side engages. Target: left-side recruitment at progressively lower amplitude as postural asymmetry is corrected. Governing primitive: `Mechanical_Coupling`. Governing contract: `contract_GLYMPH_AUTO` — left hemidiaphragm suppression reduces left-sided pulsatility → left-hemisphere glymphatic clearance degraded beyond anatomical baseline asymmetry.
+
 **Sway Reset**
 Large sway or deliberate weight shift.
 Re-anchors the base of support.
@@ -322,16 +348,85 @@ It is a conserved vertebrate motor strategy.
 
 ---
 
+## URM Integration
+
+| Lateralization Concept | URM Layer | Primitive / Contract |
+|--|--|--|
+| Drift | Layer 01 | `Oscillation`, `Amplitude` — natural asymmetry expression when untethered |
+| Anchoring | Layer 01 | `pressure_bracing`, `Mechanical_Coupling` — stabilizing counterforce |
+| Protective mode clamping | Layer 01 + 02 | `pressure_bracing` → `pressure_lock` |
+| Exploratory mode releasing | Layer 01 | `oscillation_operator` — asymmetry freed |
+| Runaway lateralization | Layer 01 | `oscillation_loss` collapse mode |
+| Right-hemisphere collapse first | Layer 01 + 02 | `Cardiac_Output_Asymmetry` → `right_tunnel`, `right_freeze` |
+| Breath reset | Layer 01 | `oscillation_operator` — recruiting suppressed hemidiaphragm |
+| Left-side compression | Layer 01 | `Mechanical_Coupling` — postural asymmetry occluding left bronchial pathway |
+| Glymphatic clearance impact | Layer 01 | `Glymphatic_Clearance_Asymmetry`, `contract_GLYMPH_AUTO` |
+| Amplitude as gain | Layer 01 + 08 | `HRV_Reserve`, `Aₛ` in `Cₛ = (Aₛ · W · dM/dt) / L̂` |
+| Bracing as depth gate | Layer 01 + 08 | `contract_BRACING_GATE` |
+| Lateralized hallucination | Layer 06 | `contract_CARDIAC_HALLUCINATION_LATERALIZATION` |
+| Oculomotor-vestibular reset | Layer 01 + 02 | `reset_operator`, `lateralization_operator` |
+
+**Governing contracts — [[URM_CORE]]:**
+- `contract_GLYMPH_AUTO` — oscillation reduction → right carotid pulsatility drops → right hemisphere clearance fails first
+- `contract_CARDIAC_HALLUCINATION_LATERALIZATION` — metabolic demand asymmetry → W_R/W_L differential collapse → H_R > H_L under load
+- `contract_BRACING_GATE` — protective mode suppresses lateralization; trained exploratory mode releases it with depth access
+- `contract_WINDOWS_COG` — RSA amplitude sets the prediction window ceiling within which lateralization expresses
+
+---
+
+## Falsifiable Predictions
+
+**predict_LAT_1 — Rev-up threshold for left recruitment decreases with postural correction**
+
+| Field | Value |
+|--|--|
+| **Statement** | The oscillation amplitude required to recruit the left hemidiaphragm — measured by onset of left-side resistance sound and condensation sensation — decreases as postural asymmetry is corrected. |
+| **Mechanism** | Left-side recruitment requires oscillation amplitude to exceed the mechanical restriction threshold. Postural correction reduces the restriction. Lower restriction = lower threshold = left recruitment at lower amplitude. |
+| **Measurement** | Track the breath cycle number at which condensation sensation and resistance sound appear across sessions. Alongside: postural asymmetry markers (left droop assessment, neck tension self-report). Predict: threshold decreases on same timeline as postural correction. |
+| **Falsification** | Rev-up threshold does not decrease despite postural correction. If threshold stays constant — restriction has a structural component that posture alone cannot resolve. |
+| **Status** | proposed — live specimen logged 2026-08-04 |
+
+---
+
+**predict_LAT_2 — Left recruitment correlates with BP drop within session**
+
+| Field | Value |
+|--|--|
+| **Statement** | Sessions where left-side recruitment occurs (condensation sensation present) produce lower BP readings than sessions where it does not occur — within the same individual, controlling for time of day. |
+| **Mechanism** | Left hemidiaphragm recruitment increases bilateral RSA amplitude. Bilateral oscillation → higher `Aₛ` → lower `L̂` → BP drops. Left side suppressed = asymmetric oscillation = reduced total RSA amplitude = higher BP floor. |
+| **Measurement** | Log BP reading alongside presence/absence of condensation sensation per session. Predict: condensation sessions show lower readings by measurable delta. |
+| **Falsification** | No BP difference between sessions with and without left-side recruitment. |
+| **Status** | proposed |
+
+---
+
+**predict_LAT_3 — Drift accumulation rate correlates with HRV_Reserve depth**
+
+| Field | Value |
+|--|--|
+| **Statement** | Sessions with high HRV_Reserve (high resting RMSSD) show slower drift accumulation and smaller corrections than sessions with low HRV_Reserve — same postural mode, same environment. |
+| **Mechanism** | `HRV_Reserve` is the uncommitted amplitude buffer. High reserve = system can absorb asymmetric drift without destabilization. Low reserve = drift accumulates faster, corrections are larger. Amplitude is the gain on the entire lateralization system. |
+| **Measurement** | Oura nightly RMSSD as HRV_Reserve proxy. Correlate with within-session drift markers (rotation frequency, correction frequency, asymmetric breath depth onset). |
+| **Falsification** | Drift accumulation rate does not correlate with HRV_Reserve within individual across sessions. |
+| **Status** | proposed |
+
+---
+
 ## The Three-Document Foundation
 
 These three documents together describe the full mechanical
 architecture of regulatory expression:
 
 | Document | What it covers |
-| --- | --- |
-| [[Postural Modes of the Regulatory Architecture]] | The two global configurations and their mechanical features |
-| [[Asymmetry Primitives]] | The structural substrate that makes lateralization possible |
-| [[lateralization_dynamics]] | The dynamic behavior — drift, anchoring, mode, amplitude over time |
+|--|--|
+| [[postural_modes_and_amplitude]] | The two global configurations, amplitude dimension, training ceiling, Cₛ connection |
+| [[asymmetry_primitives]] | The structural substrate — 10 anatomical asymmetries, URM layer grounding, collapse modes |
+| [[lateralization_dynamics]] | The dynamic behavior — drift, anchoring, mode, amplitude, reset mechanisms over time |
+
+**Additional cross-references:**
+- [[URM_CORE]] — `contract_GLYMPH_AUTO`, `contract_CARDIAC_HALLUCINATION_LATERALIZATION`, `contract_BRACING_GATE`
+- [[high_gain_profile_dynamics]] — how lateralization dynamics express in high-gain profiles across attractor states
+- The Adaptive Pressure Protocol — live training application of lateralization control, observation log
 
 Together, they describe how the regulatory architecture
 is built, what makes it asymmetric, and how that asymmetry
