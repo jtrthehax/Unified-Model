@@ -21,8 +21,28 @@ Whether and how it expresses depends on one thing:
 
 ---
 
-## The Condition Space
+## URM Layer Grounding
 
+This document operates primarily at **Layer 01 (PHYSICS_SUBSTRATE_CORE)** and **Layer 02 (GEOMETRY_PREDICTION_WINDOWS)**.
+
+| Concept | URM Layer | Primitive / Operator |
+|--|--|--|
+| Hemidiaphragm asymmetry | Layer 01 | `Cardiac_Output_Asymmetry`, `Glymphatic_Clearance_Asymmetry` |
+| Oscillatory amplitude | Layer 01 | `Oscillation`, `Amplitude` |
+| Vagal asymmetry | Layer 01 | `Mechanical_Coupling`, `Oscillation` |
+| Prediction window lateralization | Layer 02 | `lateralization_operator`, `W_R`, `W_L` |
+| Protective mode suppression | Layer 01 + 02 | `pressure_bracing` → `window_collapse_operator` |
+| Collapse under load | Layer 02 | `right_tunnel`, `right_freeze` |
+
+Key contracts governing lateralization behavior:
+- `contract_GLYMPH_AUTO` — oscillation amplitude reduction → right carotid pulsatility drops → right hemisphere clearance fails first → W_R ceiling lowers
+- `contract_CARDIAC_HALLUCINATION_LATERALIZATION` — metabolic demand asymmetry → W_R/W_L differential collapse → lateralized hallucination rate H_R > H_L under load
+- `contract_BRACING_GATE` — protective mode clamps lateralization; trained exploratory mode releases it with depth access
+- `contract_WINDOWS_COG` — RSA amplitude and diaphragm excursion set the physical ceiling within which window geometry operates
+
+---
+
+## The Condition Space
 The degree and form of lateralization depends on how tightly 
 the two sides are coupled:
 
@@ -60,6 +80,8 @@ Postural mode directly determines tethering state:
 - The two sides of the body become mechanically more independent
 - Asymmetries are free to express
 - Lateralization becomes possible — and likely
+
+> **URM contracts:** `contract_BRACING_GATE` governs how protective mode suppresses lateralization and trained exploratory mode releases it. `contract_WINDOWS_COG` governs how RSA amplitude (set by postural mode) sets the prediction window ceiling within which lateralization expresses.
 
 This is why lateralization behavior often **increases in open, 
 low-pressure conditions** and **decreases under urgency, threat, 
@@ -113,6 +135,8 @@ possible. They are structural, not metaphorical.
 - Asymmetric RSA amplitude
 - Asymmetric interoceptive weighting
 
+> **URM primitives:** `Cardiac_Output_Asymmetry`, `Glymphatic_Clearance_Asymmetry` (Layer 01). Under oscillation amplitude reduction, right hemisphere metabolic demand exceeds reduced pulsatile supply first — not because of static pressure gradient but because right hemisphere operational load (global coherence, social inference, cross-domain integration) is continuously higher than left. Collapse modes invoked: `right_tunnel`, `right_freeze` (Layer 02), `oscillation_loss` (Layer 01). Governing contract: `contract_GLYMPH_AUTO`.
+
 **Lateralization link:**
 When the system is untethered, right-left diaphragm imbalance 
 becomes the primary driver of asymmetric sway, drift, and 
@@ -153,6 +177,8 @@ identically. When tethered, this is dampened.
 When untethered, asymmetric autonomic pulse becomes 
 a source of directional drift — the system leans into 
 the side with higher signal.
+
+> **URM primitives:** `Oscillation`, `Mechanical_Coupling` (Layer 01). Asymmetric vagal firing is the autonomic substrate of RSA asymmetry — the right vagus dominates heart rate modulation, so oscillation amplitude is not symmetrically distributed across hemispheres even at rest. Governing contract: `contract_CARDIAC_HALLUCINATION_LATERALIZATION` — lateralized autonomic firing → lateralized hallucination rate H_R > H_L under load.
 
 ---
 
@@ -297,8 +323,47 @@ to correct for accumulated lateralization drift.
 
 ---
 
-## Summary: Conditions and Expressions
+## Mystical Translation
 
+Contemplative traditions describe lateralization imbalances in phenomenological terms:
+
+| Mystical Concept | URM Variable | Mechanism |
+|--|--|--|
+| Qi/Chi/Prana imbalance | `Mechanical_Coupling` asymmetry | The felt sense of energy flowing more freely on one side of the body is the interoceptive readout of asymmetric diaphragm-ribcage mechanics expressing through the postural chain. |
+| Blocked energy | `oscillation_loss` | Lateralization that cannot resolve because the system is tethered in protective mode—the felt block is the mechanical clamp suppressing asymmetric expression. |
+| Unblocking/releasing | Exploratory mode release | Lateralization expressing freely after the brace releases—the felt release is the asymmetry becoming visible to the system. |
+
+The practices (qigong, yoga, martial arts) are substrate training protocols that restore symmetric oscillation capacity—not by eliminating asymmetry, but by making both sides mechanically available so the system can move between them deliberately.
+
+---
+
+## Predictions
+
+These predictions follow directly from the anatomical asymmetries described above. Format follows URM_CORE prediction standard.
+
+**predict_ASYM_1 — Right hemisphere degrades first under oscillation reduction regardless of handedness**
+
+| Field | Value |
+|--|--|
+| **Statement** | Under controlled oscillation amplitude reduction, right hemisphere cognitive signatures (global coherence, cross-domain integration, metaphor comprehension) degrade before left hemisphere signatures (local syntax, sequential processing) — in both right-handed and left-handed individuals. |
+| **Mechanism** | Right hemisphere metabolic demand (continuous global coherence maintenance) exceeds reduced pulsatile supply first. The asymmetry is demand-driven, not anatomy-driven. Handedness modifies rate, not direction. |
+| **Measurement** | CO₂ challenge. Global coherence proxy: cosine similarity between consecutive sentence-transformer embeddings. Local syntax proxy: dependency arc violations (spaCy). Measure degradation onset timing in both handedness groups. |
+| **Falsification** | Left hemisphere degrades first, or deficit flips direction in left-handed cohort. If direction flips with handedness — mechanism is not demand-driven. |
+| **Status** | proposed |
+
+**predict_ASYM_2 — Protective mode suppresses lateralization expression measurably**
+
+| Field | Value |
+|--|--|
+| **Statement** | Individuals in high-amplitude protective mode (measured via HRV, postural assessment, CO₂ tolerance) show significantly less lateralization expression on behavioral tasks than the same individuals in exploratory mode. |
+| **Mechanism** | Abdominal brace clamps both sides of the diaphragm — asymmetries are dampened. Untethered exploratory mode releases the clamp — asymmetries express freely. The condition space table predicts this directly. |
+| **Measurement** | Lateralized motor task + postural mode classification. Predict: asymmetry scores higher in exploratory mode than protective mode within individual. |
+| **Falsification** | No significant difference in lateralization expression between postural modes. |
+| **Status** | proposed |
+
+---
+
+## Summary: Conditions and Expressions
 | Mechanical condition | Lateralization | Behavioral expression |
 | --- | --- | --- |
 | Rigidly tethered | Suppressed | Asymmetries hidden, system moves as one unit |
@@ -306,4 +371,14 @@ to correct for accumulated lateralization drift.
 | Fully untethered | Runaway | Wide oscillation without stable endpoint |
 | Flexible coupling | Dynamic | Controlled switching between states |
 | Protective mode active | Clamped | Lateralization reduces under pressure or urgency |
-| Exploratory mode active | Released | Lateralization emerges in open conditions |
+| Exploratory mode active | Released | Lateralization expresses fully |
+
+---
+
+## Adjacent Documents
+
+- [[postural_modes_and_amplitude]] — mechanical description of the two modes that govern tethering state
+- [[high_gain_profile_dynamics]] — how the asymmetric architecture expresses across attractor states in high-gain profiles
+- [[URM_CORE]] — Layer 01 primitives: `Cardiac_Output_Asymmetry`, `Glymphatic_Clearance_Asymmetry`, `Oscillation`, `Mechanical_Coupling`
+- [[URM_CORE]] — contracts: `contract_GLYMPH_AUTO`, `contract_CARDIAC_HALLUCINATION_LATERALIZATION`, `contract_BRACING_GATE`, `contract_WINDOWS_COG`
+- [[URM_STATUS]] — status tracking for Layer 01 and Layer 02 computability gaps

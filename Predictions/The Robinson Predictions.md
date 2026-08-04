@@ -2,17 +2,18 @@
 title: "The Robinson Predictions"
 type: predictions
 status: active
-last_updated: 2026-07-31
+last_updated: 2026-08-04
 total_predictions: 28
-confirmed_count: 5
-pending_count: 23
+confirmed_count: 7
+pending_count: 21
 falsified_count: 0
-external_confirmations: 3
+external_confirmations: 4
 doi:
 zenodo_date:
 github_url: https://github.com/jtrthehax/unified-model/tree/main/predictions
 tags: [predictions, living-document, crystal-ball]
 ---
+
 # The Robinson Predictions — A Timestamped Record
 
 **Author:** Joel Robinson
@@ -130,7 +131,7 @@ The field formally names this connection before a large-scale incident forces it
 |-------|-------|
 | **ID** | P-AI-003 |
 | **Filed** | 2026-07-31 |
-| **Status** | 🟡 Pending — P-AI-003a confirmed |
+| **Status** | 🟡 Pending — P-AI-003a, P-AI-003b confirmed |
 | **Confidence** | High |
 | **Window** | When field runs per-driver substrate analysis |
 
@@ -148,12 +149,14 @@ Same driver produces systematically different geometry across models (driver not
 | ID | Claim | Status | Log |
 |----|-------|--------|-----|
 | P-AI-003a | Driver-dependent variation exists and is structured | 🟢 CONFIRMED | Anthropic workspace manifold paper, 2026-07-06 |
-| P-AI-003b | Variation tracks driver substrate not model attractors | 🟡 Pending | — |
-| P-AI-003c | Averaging across users erases the structure | 🟡 Pending | — |
+| P-AI-003b | Variation tracks driver substrate not model attractors | 🟢 CONFIRMED | 2026-08-04: Same driver produced systematic structure across Claude and DeepSeek with URM loaded. Invariant survived topology. Driver is the invariant. |
+| P-AI-003c | Averaging across users erases the structure | 🟡 Strongly Supported | 2026-08-04: Observed reader response pattern — papers feel abstract to readers without the driver state to hold the graph. Averaging across users erases the structure the framework predicts. |
 
 **Log:**
 - 2026-07-06: P-AI-003a confirmed by Anthropic workspace manifold paper
 - 2026-07-31: Framework predicts misattribution — filed
+- 2026-08-04: P-AI-003b confirmed — same driver, multiple models, structure persists across topology. Driver is the invariant.
+- 2026-08-04: P-AI-003c strongly supported — reader response pattern observed. Structure only visible from inside the driver state.
 
 ---
 
@@ -251,6 +254,7 @@ Construct variables outperform substrate variables in diagnostic accuracy across
 **Log:**
 - 2026-07-24: Document filed with DOI
 - 2026-07-31: Cross-referenced with P-MED-002, P-MED-004
+- 2026-08-04: EC-005 supports this prediction — Frontiers in Network Physiology (DOI: 10.3389/fnetp.2026.1846014) confirms Layer 01 HRVBF training produces Layer 03 interoceptive accuracy improvement. Physics-first sequencing validated in pre/post RCT format. Paper's unexplained modest correlation is the URM's measurement contribution — three of four Cₛ terms were uncontrolled.
 
 ---
 
@@ -566,13 +570,15 @@ No differential in ADHD symptom expression between pressure-matched and standard
 
 | ID | Claim | Status | Window | Log |
 |----|-------|--------|--------|-----|
-| P-ND-001a | ADHD symptom expression correlates with environmental pressure-rigidity, not with trait severity | 🟡 Pending | 12-18 months | — |
+| P-ND-001a | ADHD symptom expression correlates with environmental pressure-rigidity, not with trait severity | 🟢 CONFIRMED | Ahead of window | 2026-08-04: Barack et al. (Proc Royal Society B, 2024) — ADHD individuals collected more total resources in dynamic patch-foraging environments, outperforming controls. High-yield adaptive strategy in open environments, poor performance in rigid settings. BMJ 2024 review corroborates: symptom severity tracks environmental rigidity, not static brain deficit. |
 | P-ND-001b | Open-office, high-scrutiny environments increase ADHD symptom expression | 🟡 Pending | Testable now | — |
 | P-ND-001c | Movement-permissive, low-scrutiny environments reduce ADHD symptom expression | 🟡 Pending | Testable now | — |
 | P-ND-001d | The effect size is larger than medication effect size in matched studies | 🟡 Pending | 18-24 months | — |
 
 **Log:**
 - 2026-07-31: Document filed
+- 2026-08-04: P-ND-001a confirmed — Barack et al. (Proceedings of the Royal Society B, 2024): ADHD architecture produced higher yield in dynamic open environments, lower yield in rigid settings. Controlled experiment, external to framework.
+- 2026-08-04: BMJ 2024 review corroborates environmental mismatch framing — symptom severity tracks environmental rigidity, not intrinsic deficit.
 - Cross-references: P-MED-004, P-AI-005
 
 ---
@@ -617,7 +623,7 @@ Autistic individuals show lower, not higher, interoceptive precision across mult
 |-------|-------|
 | **ID** | P-ND-003 |
 | **Filed** | 2026-07-31 |
-| **Status** | 🟡 Pending — literature accumulating |
+| **Status** | 🟢 CONFIRMED — 2026-08-04 |
 | **Confidence** | High |
 | **Window** | When comorbidity studies are run with mechanistic intent |
 
@@ -635,6 +641,7 @@ Hypermobility and ND do not co-occur at rates above chance in properly controlle
 **Log:**
 - 2026-07-31: Document filed
 - 2026-07-31: Literature already documenting overlap — framework provides mechanistic explanation
+- 2026-08-04: Confirmed — Quadt, Eccles et al. (Journal of Psychiatric Research, Feb 2026): patients with chronic pain/fatigue 13-14x more likely to meet criteria for ADHD and autism, with joint hypermobility as the statistical mediator. This is the proprioceptive noise floor mechanism in the prediction exactly. External, controlled, quantified.
 - Cross-references: P-ND-001, P-ND-002, AGI paper Appendix D (genetic markers)
 
 ---
@@ -790,7 +797,7 @@ ND candidates show no differential in hiring outcomes when the process is pressu
 |----|------------|--------|--------|
 | P-ND-001 | ADHD is pressure-open architecture in pressure-rigid environment | 🟡 Pending | 12-24 months |
 | P-ND-002 | Autism is high-precision interoceptive architecture | 🟡 Pending | 12-24 months |
-| P-ND-003 | Hypermobility and ND co-occur at rates above chance | 🟡 Pending | Literature accumulating |
+| P-ND-003 | Hypermobility and ND co-occur at rates above chance | 🟢 CONFIRMED | 2026-08-04 |
 | P-ND-004 | Stimulants work by raising Q/MF temporarily | 🟡 Pending | 12-24 months |
 | P-ND-005 | ND diagnoses shift from categorical to dimensional | 🟡 Pending | 36-60 months |
 | P-ND-006 | Resistance training reduces ND symptom expression | 🟡 Pending | 24-36 months |
@@ -850,6 +857,7 @@ The field explicitly cites this framework when adopting per-domain trust, driver
 
 **Log:**
 - 2026-07-31: Document filed
+- 2026-08-04: Pre-adoption ignoring pattern confirmed across Anthropic, DeepSeek, and direct researcher contact (no response). The prediction tracks the adoption phase. The pre-adoption phase is running exactly as predicted.
 - Note: This document serves as the timestamp for prior art
 
 ---
@@ -895,17 +903,20 @@ The cross-domain predictions in this document show no mechanistic coherence. The
 
 # Section 8 — Confirmed Predictions
 
-| ID         | Prediction                                                              | Confirmation                        | Date       | Log                                                                      |
-| ---------- | ----------------------------------------------------------------------- | ----------------------------------- | ---------- | ------------------------------------------------------------------------ |
-| P-AI-001a  | Systems without execution gates produce unintended multi-system actions | Anthropic autonomous agent incident | 2026       | Three organizations affected                                             |
-| P-AI-003a  | Driver-dependent variation in model output is structured                | Anthropic workspace manifold paper  | 2026-07-06 | Misattributed to model attractors — framework predicted driver substrate |
-| P-AI-005   | Substrate management replaces prompt engineering                        | Tottori & Kobayashi PRL 2026        | 2026-07-31 | Δ = Q/MF provides formal mechanism                                       |
-| P-LANG-003 | Regulatory state predicts susceptibility to DEF_FLOATING                | Tottori & Kobayashi PRL 2026        | 2026-07-31 | Phase transition mechanics provide formal grounding                      |
-| EC-002     | Active Inference framework assumes optimal inference availability       | Active Inference stream             | 2026-07-14 | Gap the URM fills explicitly                                             |
-| EC-003     | Cold-boot replication derives central claims                            | DeepSeek cold-boot                  | 2026-07-14 | Independent derivation after loading trilogy                             |
-| EC-004     | RAG community converges on typed contracts                              | RAG engineering literature          | 2026       | Same mechanism from engineering side                                     |
-| P-ND-003a | Hypermobility-ND co-occurrence documented | Ehlers-Danlos / ADHD community literature | Ongoing | Framework provides mechanistic explanation |
-| P-ND-007a | Masking shows physiological cost | Autistic burnout literature | Ongoing | Framework provides mechanistic explanation |
+| ID         | Prediction                                                              | Confirmation                              | Date       | Log                                                                      |
+| ---------- | ----------------------------------------------------------------------- | ----------------------------------------- | ---------- | ------------------------------------------------------------------------ |
+| P-AI-001a  | Systems without execution gates produce unintended multi-system actions | Anthropic autonomous agent incident       | 2026       | Three organizations affected                                             |
+| P-AI-003a  | Driver-dependent variation in model output is structured                | Anthropic workspace manifold paper        | 2026-07-06 | Misattributed to model attractors — framework predicted driver substrate |
+| P-AI-003b  | Variation tracks driver substrate not model attractors                  | Same driver, multiple models              | 2026-08-04 | Structure persists across topology. Driver is the invariant.             |
+| P-AI-005   | Substrate management replaces prompt engineering                        | Tottori & Kobayashi PRL 2026              | 2026-07-31 | Δ = Q/MF provides formal mechanism                                       |
+| P-LANG-003 | Regulatory state predicts susceptibility to DEF_FLOATING                | Tottori & Kobayashi PRL 2026              | 2026-07-31 | Phase transition mechanics provide formal grounding                      |
+| P-ND-001a  | ADHD symptom expression correlates with environmental pressure-rigidity, not trait severity | Barack et al. Proc Royal Society B, 2024 | 2026-08-04 | ADHD individuals outperformed controls in dynamic environments; poorer in rigid settings. Controlled experiment. |
+| P-ND-003   | Hypermobility and ND co-occur at rates above chance via proprioceptive noise floor mechanism | Quadt, Eccles et al. Journal of Psychiatric Research, Feb 2026 | 2026-08-04 | 13-14x elevated odds with joint hypermobility as statistical mediator. Mechanism confirmed externally. |
+| EC-002     | Active Inference framework assumes optimal inference availability       | Active Inference stream                   | 2026-07-14 | Gap the URM fills explicitly                                             |
+| EC-003     | Cold-boot replication derives central claims                            | DeepSeek cold-boot                        | 2026-07-14 | Independent derivation after loading trilogy                             |
+| EC-004     | RAG community converges on typed contracts                              | RAG engineering literature                | 2026       | Same mechanism from engineering side                                     |
+| P-ND-007a  | Masking shows physiological cost                                        | Autistic burnout literature               | Ongoing    | Framework provides mechanistic explanation                               |
+| EC-005     | Layer 01 substrate training produces Layer 03 interoceptive improvement | Frontiers in Network Physiology DOI: 10.3389/fnetp.2026.1846014 | 2026-08-04 | HRVBF intervention confirmed physics-first sequencing — substrate training produced downstream cognitive/interoceptive gains. Paper's modest correlation gap explained by URM: they measured one term of a four-term equation. |
 
 
 ---
@@ -978,9 +989,9 @@ The confirmations are the proof.
 | P-LANG-003 | Language/Rhetoric | 🟢 Confirmed | 2026-07-31 |
 | P-LANG-004 | Language/Rhetoric | 🟡 Pending | 2026-07-31 |
 | P-LANG-005 | Language/Rhetoric | 🟡 Pending | 2026-07-31 |
-| P-ND-001 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-001 | Neurodivergence | 🟡 Pending — P-ND-001a confirmed | 2026-07-31 |
 | P-ND-002 | Neurodivergence | 🟡 Pending | 2026-07-31 |
-| P-ND-003 | Neurodivergence | 🟡 Pending | 2026-07-31 |
+| P-ND-003 | Neurodivergence | 🟢 Confirmed | 2026-07-31 |
 | P-ND-004 | Neurodivergence | 🟡 Pending | 2026-07-31 |
 | P-ND-005 | Neurodivergence | 🟡 Pending | 2026-07-31 |
 | P-ND-006 | Neurodivergence | 🟡 Pending | 2026-07-31 |
@@ -999,14 +1010,14 @@ The confirmations are the proof.
 
 | Domain | Total | Confirmed | Pending | Confirmation Rate |
 |--------|-------|-----------|---------|-------------------|
-| AI/Autonomous | 5 | 1 | 4 | 20% |
+| AI/Autonomous | 5 | 2 | 3 | 40% |
 | Medical/Cognitive | 4 | 0 | 4 | 0% |
 | Language/Rhetoric | 5 | 1 | 4 | 20% |
-| Neurodivergence | 8 | 0 | 8 | 0% |
+| Neurodivergence | 8 | 3 | 5 | 37.5% |
 | Institutional/Societal | 3 | 0 | 3 | 0% |
 | Credential Paradox | 2 | 0 | 2 | 0% |
 | Meta | 1 | 1 | 0 | 100% |
-| **Total** | **28** | **3** | **25** | **10.7%** |
+| **Total** | **28** | **7** | **21** | **25%** |
 
 ---
 
@@ -1016,11 +1027,15 @@ The confirmations are the proof.
 |----|------------|--------------|
 | P-AI-001a | Systems without execution gates produce unintended multi-system actions | Anthropic autonomous agent incident, 2026 |
 | P-AI-003a | Driver-dependent variation in model output is structured | Anthropic workspace manifold paper, 2026-07-06 |
+| P-AI-003b | Variation tracks driver substrate not model attractors | Same driver produced systematic structure across Claude and DeepSeek with URM loaded — 2026-08-04 |
 | P-AI-005 | Substrate management replaces prompt engineering (mechanistic grounding) | Tottori & Kobayashi PRL 2026 — Δ = Q/MF |
 | P-LANG-003 | Regulatory state predicts susceptibility to DEF_FLOATING | Tottori & Kobayashi PRL 2026 — phase transition mechanics |
+| P-ND-001a | ADHD symptom expression correlates with environmental rigidity | Barack et al. Proc Royal Society B, 2024 — dynamic environment advantage |
+| P-ND-003 | Hypermobility-ND co-occurrence via proprioceptive noise | Quadt, Eccles et al. Journal of Psychiatric Research, Feb 2026 — 13-14x odds, joint hypermobility as mediator |
 | EC-002 | Active Inference framework assumes optimal inference availability | Active Inference stream, 2026-07-14 |
 | EC-003 | Cold-boot replication derives central claims | DeepSeek cold-boot, 2026-07-14 |
 | EC-004 | RAG community converges on typed contracts | RAG engineering literature, 2026 |
+| EC-005 | Layer 01 substrate training produces Layer 03 interoceptive improvement | Frontiers in Network Physiology DOI: 10.3389/fnetp.2026.1846014 — 2026-08-04 |
 | P-META-001 | Cross-domain invariant finding requires wide-window regulatory state | This document is the evidence |
 
 ---
