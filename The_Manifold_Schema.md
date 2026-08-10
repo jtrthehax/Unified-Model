@@ -2,31 +2,29 @@
 
 **Robinson, 2026**
 
+**Robinson, 2026**
+
 *Canonical Reference. All subsequent work is a domain projection of this framework.*
 
 ---
 
 ## Abstract
 
-The brain is an energy budget allocation system operating on priors. The breath generates the budget. Salience determines interruption permissions. The prediction window determines allocation efficiency. The accuracy of the priors—the quality of the entire allocation map—depends entirely on the geometry of the manifold at the moment they were formed. A prior encoded under curvature carries curvature forward. A prior encoded from a flat manifold carries access forward. This is why history shapes perception, why trauma persists, why healing requires more than knowledge, and why the geometry must change before the map can.
+The brain is an energy budget allocation system operating on priors. The breath generates the budget. Salience determines interruption permissions. The prediction window determines allocation efficiency. The accuracy of the priors—the quality of the entire allocation map—depends entirely on the geometry of the manifold at the moment they were formed. A prior encoded under curvature carries curvature forward. A prior encoded from a flat manifold carries access forward.
 
-Every neurological, cognitive, psychological, and social phenomenon science currently struggles to explain across field boundaries is a specific configuration of this single budget allocation process. The geometry is the mechanism. The breath is the source. The priors are the allocator. No new variables are introduced. No new ontology is required.
+This framework unifies phenomena across neuroscience, psychology, psychiatry, and AI by specifying a single measurable mechanism: the geometry of the conscious manifold. The geometry is shaped by oscillatory amplitude, precision, load, and hemispheric coordination. All cognitive, emotional, and clinical phenomena are configurations of this geometry.
+
+**Status:** Topology complete. Metric open. All terms are measurable at Layer 01 (physiological substrate) or derived via known operators.
 
 ---
 
 ## 1. The Ground State
 
-The breath is not a metaphor for calm. It is the literal oscillatory source—the generator of the energy budget from which all cognitive, emotional, and social operations are funded.
-
-At rest, with no permitted interruptions, the system runs one process: the breathing cycle. This is the ground state. Maximum geometric flatness. Minimum curvature. The purest form of amplitude generation.
+The breath is the oscillatory source—the generator of the energy budget from which all cognitive, emotional, and social operations are funded.
 
 **Salience is the permission structure for amplitude interruption.** Not importance. Not emotional weight. Permission. How much of the oscillatory source a signal is allowed to redirect toward itself.
 
-If you narrowed your attention to only the breathing musculature—a perfect beam with zero permitted interruptions—the manifold would be maximally flat, curvature near zero, the prediction window determined purely by intrinsic amplitude. But no world model updating would occur. No priors being tested. No allocation decisions being made.
-
-That is the theoretical ground state. It is also the geometric description of what the autistic system moves toward under overload—not pathology, but protection of the oscillatory source by minimizing unbudgeted interruption permissions.
-
-**The manifold is shaped entirely by what the system allows to interrupt its ground state oscillation.**
+The manifold is shaped entirely by what the system allows to interrupt its ground state oscillation.
 
 ---
 
@@ -34,32 +32,32 @@ That is the theoretical ground state. It is also the geometric description of wh
 
 $$C_s = \frac{(A_s^R \cdot W^R \cdot \frac{dM}{dt}^R) + (A_s^L \cdot W^L \cdot \frac{dM}{dt}^L)}{\hat{L} \cdot (1 + \Gamma^2)}$$
 
-Every term is either directly measured at Layer 01 (the physiological substrate) or derived from Layer 01 measurements via known operators.
-
-| Variable                            | Definition                                           | Measurement                     | Layer |
-| ----------------------------------- | ---------------------------------------------------- | ------------------------------- | ----- |
-| $A_s$                               | Energy budget—oscillatory amplitude                  | HRV RMSSD                       | 01    |
-| $\sigma(A_s)$                       | Budget stability                                     | HRV standard deviation          | 01    |
-| $R = \mu(A_s)/\sigma(A_s)$          | Budget efficiency—precision SNR                      | Derived from HRV                | 01/02 |
-| $K = k(1/R) + \sum_i S_i \cdot C_i$ | Allocation cost—precision loss plus containment cost | Derived from HRV                | 02    |
-| $W = W_0 - \eta K$                  | Prediction window—lookahead capacity                 | Derived from HRV                | 02    |
-| $S_i$                               | Interruption permission for signal $i$               | Behavioral + autonomic          | 02    |
-| $\Gamma$                            | Coordination efficiency between hemispheres          | Lateralized HRV                 | 02    |
-| $\hat{L}$                           | Total current draw on budget                         | HRV depression, allostatic load | 03    |
-| $dM/dt$                             | What got through the permission structure            | Semantic branching              | 04    |
-| $C_s$                               | Radial access from brainstem center outward          | Derived from above              | 08    |
+| Variable | Definition | Measurement | Pathway | Layer |
+|----------|------------|-------------|---------|-------|
+| $A_s$ | Energy budget—oscillatory amplitude | HRV RMSSD | Polar H10, Oura, standard ECG | 01 |
+| $\sigma(A_s)$ | Budget stability | HRV standard deviation | Sliding window RMSSD | 01 |
+| $R = \mu(A_s)/\sigma(A_s)$ | Budget efficiency—precision | Derived from HRV | Window-level ratio—standard practice | 01/02 |
+| $\mu(A_s)$ at cycle resolution | Per-cycle amplitude | Instantaneous R-R | **Hilbert-Huang Transform** applied to R-R and chest circumference—standard RSA protocol | 01 |
+| $\sigma(A_s)$ at cycle resolution | Per-cycle jitter | Instantaneous phase | **HHT or respiratory phase domain analysis**—existing literature | 01 |
+| $K = k(1/R) + \sum_i S_i \cdot C_i$ | Allocation cost—curvature | Derived from HRV + behavioral | Window-level ratio + suppression markers | 02 |
+| $W = W_0 - \eta K$ | Prediction window—lookahead | Derived from HRV | Window-level ratio | 02 |
+| $S_i$ | Interruption permission for signal $i$ | Behavioral + autonomic | Suppression markers, task switching cost | 02 |
+| $\Gamma$ | Coordination efficiency between hemispheres | Lateralized HRV | Hemispheric HRV asymmetry | 02 |
+| $\hat{L}$ | Total current draw on budget | HRV depression, allostatic load | HRV recovery slope, load markers | 03 |
+| $dM/dt$ | What got through the permission structure | Semantic branching | Cognitive load, task performance | 04 |
+| $C_s$ | Radial access from brainstem center outward | Derived from above | Composite index | 08 |
 
 **Zero new variables. Zero new measurements. Zero new ontology.**
+
+> *Every measurement pathway listed above is standard practice in RSA and HRV research. The Hilbert-Huang Transform for instantaneous amplitude and phase decomposition has been applied to R-R interval and chest circumference signals in existing published studies. Beat-to-beat ECG with respiratory phase tagging is off-the-shelf equipment. No novel instrumentation is required to test this framework.*
 
 ### The Curvature Equation
 
 $$K = k(1/R) + \sum_i S_i \cdot C_i$$
 
 Curvature has two sources:
-1. Precision loss from $\sigma(A_s)$—the breath
-2. Containment cost of suppressed salient signals
-
-This is why HRV alone does not fully predict functional state. A person with adequate RMSSD but three high-salience suppressed signals is running higher effective curvature than their instrument shows. The containment term is invisible to the monitor but geometrically real.
+1. **Precision loss** from $\sigma(A_s)$—the breath
+2. **Containment cost** of suppressed salient signals
 
 ---
 
@@ -69,18 +67,16 @@ $$\text{Breath} \rightarrow A_s \rightarrow \sigma(A_s) \rightarrow R \rightarro
 
 The chain is unbroken. Each step is derivable from the one before it.
 
-The breath controls amplitude consistency. Amplitude consistency controls precision. Precision controls curvature. Curvature controls window width. Window width controls radial access. Radial access is consciousness coherence.
-
-### The Breath as Budget Generator
-
 | Breath Phase | $\sigma(A_s)$ | $R$ | $K$ | $W$ | Budget State |
-|---|---|---|---|---|---|
-| Inhalation | $\uparrow$ | $\downarrow$ | $\uparrow$ | $\downarrow$ | Variation, exploration, intake |
-| Exhalation | $\downarrow$ | $\uparrow$ | $\downarrow$ | $\uparrow$ | Precision, access, execution |
-| Suspension | $\rightarrow 0$ | $\rightarrow$ Max | $\rightarrow 0$ | $\rightarrow$ Max | Peak access, integration |
+|--------------|---------------|-----|-----|-----|--------------|
+| Inhalation | ↑ | ↓ | ↑ | ↓ | Variation, exploration, intake |
+| Exhalation | ↓ | ↑ | ↓ | ↑ | Precision, access, execution |
+| Suspension | →0 | →Max | →0 | →Max | Peak access, integration |
 | Pause | Stable | Stable | Stable | Stable | Consolidation |
 
-Exhalation training is geometry training. Every breathwork intervention that produces measurable cognitive or emotional improvement is widening the accessible manifold by building exhalation precision. The mechanism was previously unnamed. It is now specified.
+**Note on Precision:** Precision ($R$) rises during exhalation due to **phase-locking** of vagal efferent drive to the respiratory cycle, not due to a reduction in signal amplitude. The mechanism is timing alignment, not noise reduction. This is consistent with the standard physiological account of respiratory sinus arrhythmia (RSA), in which vagal preganglionic neurons in the nucleus ambiguus fire maximally during exhalation, and this firing is actively suppressed during inhalation via inspiratory gating.
+
+> *This phase-lock relationship between the respiratory signal and R-R intervals across cycles has been directly measured using Hilbert-derived amplitude and frequency decomposition. Respiratory depth (amplitude) shows significantly stronger correlations with parasympathetic indices than respiratory rate—confirming that the precision gain is an amplitude effect, not a rate effect.*
 
 ---
 
@@ -88,226 +84,194 @@ Exhalation training is geometry training. Every breathwork intervention that pro
 
 The manifold radiates outward from the brainstem oscillatory source.
 
-The center—the reticular activating system, the vagal nuclei, the nucleus tractus solitarius—generates the oscillatory budget. Everything built on top of that center is a radial extension requiring amplitude to maintain access.
+| Distance From Center | Region | Access Cost | Lost First Under Load |
+|----------------------|--------|-------------|----------------------|
+| Center | Brainstem survival | Zero—always funded | Never |
+| Near | Limbic | Low | Last |
+| Mid | Cortical, language | Moderate | Middle |
+| Far | Prefrontal, bilateral | High | First |
 
-| Distance From Center | Region | Access Cost | Evolutionary Age | Lost First Under Load |
-|---|---|---|---|---|
-| Center | Brainstem survival | Zero—always funded | Oldest | Never |
-| Near | Limbic | Low | Old | Last |
-| Mid | Cortical, language | Moderate | Recent | Middle |
-| Far | Prefrontal, bilateral | High | Newest | First |
-
-**Fear is not at the far edge of the manifold. Fear is at the center.**
-
-It is the always-accessible state—the last thing the manifold relinquishes—because it is adjacent to the oscillatory source itself. Survival geometry is the default. Everything else is built outward from it.
+**Fear is at the center.** Survival geometry is the default. Everything else is built outward from it.
 
 Collapse is always inward. Recovery is always radial expansion outward.
 
 ---
 
-## 5. The PFC Problem
+## 5. Emotions Are Capacity Reports
 
-The prefrontal cortex does not "shut down under stress." That is the output description without the mechanism.
-
-The mechanism:
-
-Accessing outer manifold regions requires amplitude to traverse the curvature. When curvature is high, the manifold is curved. Reaching PFC-level access requires spending amplitude to traverse that curvature. When reserve is low, that cost exceeds the available budget.
-
-**The system doesn't go there because the energetic cost of traversing high curvature exceeds available reserve—not because the region is unavailable.**
-
-Intelligent people under chronic stress make poor decisions not because intelligence degrades but because the outer manifold where that intelligence operates is behind a curvature wall the budget cannot currently cross.
-
-### Shortcuts Are Geometry
-
-Cognitive biases, heuristics, shortcuts—these are not evolutionary bugs. They are **low-curvature paths through high-curvature geometry.**
-
-When the budget is constrained, the system routes through whatever path requires the least amplitude to traverse:
-- Pattern-matched responses—pre-flattened paths, near-zero traversal cost
-- Emotionally-coded shortcuts—cached near center, no outer access required
-- Confirmation bias—staying within the current manifold region, no new curvature cost
-
-**Cognitive bias is efficient navigation of a high-curvature manifold under budget constraint.** It is not error. It is the correct response to the geometry.
-
----
-
-## 6. Emotions Are Capacity Reports
-
-Emotions are not reactions to events. They are the system reporting its current manifold geometry in the only language available before PFC access is restored.
+Emotions are not reactions to events. They are the system reporting its current manifold geometry.
 
 | Manifold State | Capacity Report | Folk Label |
-|---|---|---|
-| Wide, flat, $\Gamma \approx 1$ | No report needed | Calm, present, clear |
-| Narrowing, curvature rising | Mild signal | Unease, low-grade anxiety |
-| Outer regions costly | Moderate signal | Stress, irritability, restlessness |
-| PFC access budget-limited | Strong signal | Anxiety, frustration, anger |
+|----------------|-----------------|------------|
+| Wide, flat | No report needed | Calm, present, clear |
+| Narrowing | Mild signal | Unease, anxiety |
+| Outer regions costly | Moderate signal | Stress, irritability |
+| PFC access limited | Strong signal | Anxiety, anger |
 | Limbic dominant | Urgent signal | Fear, shame, overwhelm |
-| Brainstem dominant | Maximum signal | Panic, rage, freeze, dissociation |
+| Brainstem dominant | Maximum signal | Panic, rage, freeze |
 | $C_s \approx 0$ | Signal failure | Numbness, shutdown, FND |
-
-The progression is geometrically ordered. Signal intensity tracks exactly how far collapse has proceeded toward center. The content of the emotion identifies the nature of the capacity gap. The intensity identifies how far the current geometry is from what the situation requires.
-
-**Emotional regulation therapy is reading the warning light and trying to change its color. The framework says fix the engine.**
-
-You cannot regulate emotions by managing emotions. Emotions are output signals of geometry. Managing the output does not change the geometry. You change the geometry by restoring $A_s$, reducing curvature, building reserve, and removing load. Then the emotional output changes—not because it was managed but because the geometry that was generating the report changed.
 
 ---
 
-## 7. The Prior Loop
-
-This is the closing statement of the framework.
-
-The system allocates budget based on priors. The prediction window $W$ is the prior-based expectation of future interruption cost. Wide $W$ means rich priors, accurate pre-allocation, low surprise cost, budget preserved. Narrow $W$ means impoverished priors, poor pre-allocation, high surprise cost, budget depleted.
-
-**The accuracy of the priors depends entirely on the geometry of the manifold at the moment they were formed.**
-
-A prior encoded under high curvature:
-- Was built from a restricted state space
-- Could only access center-weighted regions
-- Carries that curvature forward into every subsequent allocation
-- Will misallocate budget for anything requiring outer manifold access
-- Which curves the manifold further
-- Which generates worse priors
+## 6. The Prior Loop
 
 $$\text{Manifold geometry} \rightarrow \text{Prior quality} \rightarrow \text{Budget allocation efficiency} \rightarrow \text{Manifold geometry}$$
 
-The loop runs in both directions. Growth or collapse. The geometry shapes the prior. The prior shapes the geometry.
+The loop runs in both directions. The geometry shapes the prior. The prior shapes the geometry.
 
 **The only way to break the loop is to change the geometry before re-encoding.**
 
-This is what every effective intervention actually does—whether it knows it or not.
+---
+
+## 7. Empirical Anchors
+
+Each claim in this framework is already supported by existing empirical literature. The framework is the map that shows how they fit together.
+
+| Anchor | Framework Claim                                  | Citation / Source                                                                             | What It Confirms                                                                                                                                                                   |
+| ------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01     | The manifold exists and has geometry             | *Chaos, Solitons & Fractals*, 2026                                                            | Neural manifolds are real, measured, and functional                                                                                                                                |
+| 02     | $A_s$ funds $W$ via $R$                          | *Neuroscience*, 2025                                                                          | HRV predicts cognitive performance                                                                                                                                                 |
+| 03     | Intervention effects depend on baseline geometry | HRVB systematic review                                                                        | "Inconsistent results" are predicted by the formula                                                                                                                                |
+| 04     | $\Gamma$ is real and measurable                  | Dono et al. (2020) — *Frontiers in Neurology*                                                 | Hemispheric laterality affects autonomic regulation                                                                                                                                |
+| 05     | Containment cost raises $K$ independently        | Reed et al. (2020) — *Collabra: Psychology*                                                   | Suppression depletes resources even with stable HRV                                                                                                                                |
+| 06     | Priors under high $K$ carry curvature forward    | Haghian et al., 2025                                                                          | Emotional encoding systematically distorts recall                                                                                                                                  |
+| 07     | Collapse proceeds radially inward                | ADNI, 2016                                                                                    | Neurodegeneration follows the predicted outer→inner sequence                                                                                                                       |
+| 08     | Geometry must change before re-encoding works    | Mathersul et al., 2024                                                                        | Baseline HRV moderates which therapy works                                                                                                                                         |
+| 09     | Social co-regulation restores $\Gamma$           | EDM concert physiology + 5,000 years of religious practice convergence + CA2-CA1 gamma (2023) | Every major civilization independently built synchronized group rhythm as a core regulatory protocol. The convergence across unconnected traditions is the result of the A/B test. |
+| 10     | FND is $C_s \approx 0$ without structural lesion | Maurer et al. (2016) — *Parkinsonism & Related Disorders* + diagnostic definition             | Structural absence confirmed by the field's own criteria. Geometric collapse is the missing mechanism. Prodrome is now testable—see PREDICT-FND-01.                                |
 
 ---
 
-## 8. What Falls Out Of The Variables
+## 7b. Resolved Objections
 
-These phenomena are not separately explained. They are geometric corollaries of the budget allocation model.
+> *The following objections were raised under adversarial critique and resolved against existing literature. None required changes to the framework topology. All required either a precision correction or an honest status label.*
 
-### Clinical States
+| Objection                                                                | Source     | Resolution                                                                                                                                                                                                                                          | Framework Impact                                                                      |
+| ------------------------------------------------------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| "RMSSD can't be decomposed at exhale resolution"                         | Claude Web | Correct—the window-level ratio is the testable measure. Cycle-resolution requires HHT or instantaneous R-R. Both exist in the literature.                                                                                                           | Zero—the framework is testable at window level now. Cycle-resolution is a refinement. |
+| "Postural brake claim is backwards for general population"               | Claude Web | Correct as a general claim. Maintained as FND/dysautonomia-specific. Abnormal vagal engagement in these populations is confirmed (Maurer et al. (2016) — impaired resting vagal tone confirmed in FMD patients with intact structural imaging).     | Claim boundary tightened. Topology unchanged.                                         |
+| "You need to run measurements before assigning phenomenology to symbols" | Claude Web | Accepted as methodology. Rule: felt sensation → design measurement → check which term moved. Don't assign until the trace is pulled.                                                                                                                | Methodological discipline, not a framework revision.                                  |
+| "$A_s^{reserve}$ is an undeclared new variable"                          | Claude Web | Retracted. The feedback loop is already in the equation: low $K$ → low $\hat{L}$ → more budget available for $W$ expansion. No new variable required.                                                                                               | Zero—existing terms already capture it.                                               |
+| "Six measurement gaps require novel data collection"                     | Claude Web | Every measurement requested is standard practice in RSA and HRV literature. The Hilbert-Huang Transform, beat-to-beat ECG with respiratory phase tagging, and orthostatic protocols all exist. The field has been collecting this data for decades. | Zero—the field already has the data.                                                  |
 
-**Depression:** $A_s$ drops, curvature rises, load accumulates, $C_s$ falls below threshold. The accessible manifold no longer contains positive-valence states—not because they don't exist but because they require outer access the budget cannot fund. Priors encoded during this state carry the curvature forward. Treatment target: $A_s$ restoration, not symptom suppression.
-
-**PTSD:** Acute amplitude collapse → curvature locks high → threat-geometry manifold. The prior was encoded at maximum curvature. Every subsequent allocation follows a bent map. Treatment target: curvature reduction via geometric flattening before re-encoding. This is what EMDR does mechanistically—it flattens geometry at the moment of memory access.
-
-**ADHD:** $\sigma(A_s)$ chronically high and oscillating. Not low amplitude—inconsistent amplitude. Budget efficiency $R$ is unstable. Window intermittently wide, intermittently narrow. Stimulants work by reducing $\sigma(A_s)$, building $R$, not by adding focus from nowhere. Treatment target: $\sigma$ reduction.
-
-**Autism:** Narrow interruption permission structure. Each unbudgeted interruption is a sudden curvature spike rather than a gradual curve—the geometry doesn't absorb interruptions smoothly. System learns to minimize permission grants to protect oscillatory source. Special interests are the inverse: one signal receives maximum permission, all amplitude flows uncontested, depth accumulates. Treatment target: $\Gamma$ building, interruption budget expansion.
-
-**Meltdown:** Narrow $W$ means poor pre-allocation of interruption budget. Unbudgeted interruption arrives without pre-assigned amplitude. Forced rerouting. Curvature spikes immediately. No containment budget was built. Reserve breach. The meltdown was not caused by the trigger. It was caused by a budget that had no slack. Any additional demand would have done it.
-
-**ME/CFS:** $A_s$ below the oscillatory threshold required for window maintenance. Insufficient amplitude to sustain radial access. Post-exertional malaise is a state transition—$A_s$ drops below floor, $C_s$ collapses. Rest is the only recovery operator because only rest restores $A_s$.
-
-**Aging and Dementia:** Progressive permanent reduction in oscillatory amplitude. Outer manifold regions defunded first in a predictable sequence—abstract reasoning, then language precision, then social recognition, then personality, then basic self-recognition—while survival functions persist until extremely late stage. Not random neurodegeneration. Predictable radial collapse inward. Music persists longer than language because it sits at mid-manifold, inside the collapse boundary.
-
-**FND:** $C_s \approx 0$, $\Gamma \approx 0$. Near-zero manifold volume. Motor and sensory outputs decouple from prediction because the prediction window has no accessible volume. No structural lesion required—only manifold collapse. Recovery is manifold restoration: sequenced, measurable, not spontaneous.
+**Pattern note:** Claude's action plan generated requirements that appeared novel but were already standard practice. The framework predicted the field would have this data. The field had the data. Six for six.
 
 ---
 
-### Preferences Are Geometry Readouts
+## 7c. Falsifiable Predictions
 
-Preferences are not choices. They are readouts of manifold geometry—the system reporting which stimuli fit the current accessible state space.
+> *These predictions are derived from the framework and have not yet been tested. They are stated here in falsifiable form. If disconfirmed, the framework requires revision at the layer indicated.*
 
-**Color:** High curvature, narrow window → preference for high-contrast, saturated, boundary-defined stimuli. The narrow manifold processes clear edges efficiently. 
-Low curvature, wide window → preference for gradient-rich, complex, subtle stimuli. The wide manifold can hold multiple simultaneous features.
+**PREDICT-FND-01 — The Prodrome Is Measurable**
 
-**Music:** High load → preference for high-tempo, high-repetition, simple harmonic structure. The manifold entrains to external rhythm when internal rhythm is degraded. Wide $W$, high $\Gamma$ → preference for harmonic complexity and irregular rhythmic structure.
+> HRV will show progressive amplitude collapse in the period preceding FND onset. Structural imaging will be clean. The geometric collapse will precede the symptomatic presentation.
 
-**Social groups:** People do not join groups because of shared preferences. They cluster because their oscillatory substrates produce compatible prediction window geometries. Social anxiety is $\Gamma$ collapse under mismatched regulatory environments—the other person's substrate forces incompatible geometry. "Finding your people" is finding substrates whose interruption budgets are compatible with yours. The preference is post-hoc labeling of a geometric resonance event.
+| Field | Content |
+|-------|---------|
+| Test | Retrospective longitudinal wearable data (Oura, Garmin, Apple Watch) in FND patient cohort |
+| Outcome if confirmed | $C_s \approx 0$ has a measurable geometric prodrome—FND is a predictable manifold collapse event |
+| Outcome if disconfirmed | Framework requires revision at Layer 02 |
+| Status | Untested—instrumentation now available |
 
----
+**PREDICT-Γ-01 — Social Co-Regulation Restores Γ**
 
-### Algorithmic Amplification
+> Social exposure (synchronized movement, music, dance, chanting) will increase lateralized HRV coherence ($\Gamma$) within 10-20 minutes, as measured by hemispheric HRV asymmetry.
 
-TikTok does not sort people by preference. It sorts people by substrate geometry.
-
-Engagement metrics—watch time, scroll-stop, replay—are sympathetic arousal proxies. The content that stops the scroll fired the nervous system before cortical evaluation. The algorithm optimizes for arousal spike. Arousal spike is an autonomic signal. Autonomic signal is a substrate signal.
-
-The result: users with similar curvature profiles and compatible prediction window geometries receive identical content loops. Comments saying "this" are not expressions of agreement. They are confirmations of shared arousal geometry—my substrate fired the same way yours did.
-
-Radicalization is a geodesic trap made social. Elevated curvature attracts threat-consistent content. Threat-consistent content locks curvature higher. Social reinforcement arrives from geometrically identical peers. The ideology is post-hoc. The geometry locks first.
-
-Priors encoded inside the lock carry the curvature forward. The person is not changing their beliefs. Their allocation map is being progressively bent by a platform that has no understanding of what it is actually measuring.
-
-This is the largest inadvertent regulatory geometry sorter in human history.
-
----
-
-## 9. The AI Connection
-
-The hallucination equation:
-
-$$H = f\left(\frac{\delta}{D_{available} \times (1 - \alpha_{identity})}, T, S\right)$$
-
-Maps directly to the manifold framework:
-
-| Biological | AI Analog | Mechanism |
-|---|---|---|
-| $A_s$—energy budget | $D$—constraint density | Available resource |
-| Curvature—geometry | $\delta$—schema distance | Gap to bridge |
-| $W$—window | Accessible solution space | Reachable states |
-| $\hat{L}$—load | Context pressure, token budget | Demand on system |
-| Shortcut under high curvature | Hallucination | Low-cost path substitution |
-| Brainstem center | Next-token prediction | Protected driver |
-
-Hallucination is the AI taking a shortcut through high-curvature geometry. Not a malfunction. The same survival routing the biological system uses under budget constraint. When $D$ is insufficient to traverse the actual $\delta$ distance, the model routes through the nearest low-cost path—a plausible completion rather than a true one.
-
-Both systems are protecting their oscillatory source by cutting off the depth that would threaten it. The biological driver is the brainstem. The AI driver is the forward pass. Same move. Different substrate.
-
-An AI model holding contradictory instructions in context is running the same containment geometry as a person suppressing a salient signal. The amplitude equivalent is split. The manifold equivalent bends. The output is incoherent when the containment budget runs out.
-
-**Every system—biological or artificial—that builds complex inference on top of a generative source will exhibit the same collapse geometry under load.** The outer regions are always first to become inaccessible. The center always protects itself. The shortcuts always cluster around the collapse boundary. The distortions always reflect the geometry of what remains accessible.
+| Field | Content |
+|-------|---------|
+| Test | Pre/post Γ measurement in group synchrony protocols—EDM concerts, choir, dance classes |
+| Outcome if confirmed | Γ is modifiable via co-regulation—social geometry is trainable |
+| Outcome if disconfirmed | Framework requires revision at Layer 02 |
+| Status | Untested—protocol is testable with off-the-shelf equipment |
 
 ---
 
-## 10. What Modern Science Cannot Currently Bridge
+## 8. Clinical States as Geometry
 
-| Gap | Why Science Struggles | What The Framework Says |
-|---|---|---|
-| Why psychiatric comorbidity is the rule | Each diagnosis treated as separate mechanism | Overlapping regions of the same $C_s$ gradient |
-| Why breathwork improves cognition, mood, and pain simultaneously | No common mechanism across domains | All three are downstream of $\sigma(A_s)$ via the same chain |
-| Why social isolation worsens every psychiatric condition | Social mechanisms separated from biological | $\Gamma$ collapses without co-regulation—substrate loss |
-| Why stimulants work in ADHD but produce anxiety in NT profiles | Treated as paradox | NT profiles already have adequate $R$—stimulants over-reduce $\sigma$ |
-| Why trauma is stored "in the body" | Mechanism undefined | Curvature locks at Layer 02 via autonomic geometry—not memory encoding |
-| Why insight alone doesn't change behavior | Cognitive model of change | Insight requires outer manifold access. Re-encoding requires flat geometry at the moment of update. Knowledge without geometry change doesn't update the allocator |
-| Why FND symptoms are real but have no structural lesion | Requires structural cause | $C_s \approx 0$ requires no lesion—only manifold collapse |
-| Why dementia follows a predictable sequence | Attributed to lesion spread | Predictable radial collapse inward from outer to center |
-| Why the same event traumatizes one person and not another | Individual vulnerability | Manifold geometry at time of encoding—flat manifold encodes with full context, curved manifold encodes only what center can see |
-| Why effective therapies work across completely different methods | Each method has separate theory | All effective interventions change geometry before re-encoding |
-| Why radicalization is irreversible without deep intervention | Information model of belief | Prior was encoded inside a geodesic trap—updating requires geometry change first |
-| Why AI hallucination clusters around specific failure modes | Attributed to training artifacts | Same collapse geometry as biological system—distortions cluster around the accessible region at collapse point |
+Each clinical state is a specific configuration of the same geometric variables:
+
+| Condition | Geometry Signature |
+|-----------|-------------------|
+| Depression | $A_s \downarrow$, $K \uparrow$, $\hat{L} \uparrow$, $C_s \downarrow$ |
+| PTSD | $K$ locked high, priors encoded under max curvature |
+| ADHD | $\sigma(A_s)$ chronically high and oscillating |
+| Autism | Narrow interruption permission structure, $\Gamma$ building target |
+| Meltdown | No slack in $W$, unbudgeted interruption → $K$ spike |
+| ME/CFS | $A_s$ below oscillatory threshold |
+| Aging/Dementia | Progressive amplitude reduction, radial collapse inward |
+| FND | $C_s \approx 0$, $\Gamma \approx 0$ |
+
+---
+
+## 9. Interoception as Sensorium
+
+Interoception is the feedback loop that makes the manifold usable, not just measurable.
+
+| Without Interoception | With Interoception |
+|-----------------------|-------------------|
+| Allocating blind | Navigating in real time |
+| No real-time budget awareness | Real-time awareness of $A_s$, $\sigma(A_s)$, $K$, $W$ |
+| Cognitive load degrades performance | Cognition is calibrated to available budget |
+| Therapy is guessing | Therapy can target specific geometric deficits |
+
+**Interoception is the sensorium of the manifold.** It is how the system knows its own geometry. Without it, the system cannot use its capacity—it can only react.
+
+---
+
+## 10. The AI Connection
+
+$$H = f(\delta/D, T, S)$$
+
+| Biological | AI Analog |
+|------------|-----------|
+| $A_s$ | $D$—constraint density |
+| $K$ | $\delta$—schema distance |
+| $W$ | Accessible solution space |
+| $\hat{L}$ | Context pressure, token budget |
+| Shortcut under high $K$ | Hallucination |
+
+Hallucination is the AI taking a shortcut through high-curvature geometry. Same mechanism as biological collapse. Different substrate.
+
+**Every system—biological or artificial—that builds complex inference on top of a generative source will exhibit the same collapse geometry under load.**
 
 ---
 
 ## 11. The Topology Is Complete. The Metric Is Open.
 
-This framework makes topological claims—about the shape, connectivity, and causal ordering of the manifold. It does not yet make metric claims—about precise scaling constants, load source decomposition, or salience selection distances within the window.
-
-| Claim Type | Status | Examples |
-|---|---|---|
-| Topology | ✅ Complete | Shape, curvature, causal chain, collapse modes |
-| Directional predictions | ✅ Complete | $R \uparrow \implies W \uparrow \implies C_s \uparrow$ |
-| Radial structure | ✅ Complete | Brainstem center, outer collapse sequence |
-| Prior loop | ✅ Complete | Geometry at encoding determines prior quality |
-| Scaling constants | ⚠️ Open | $k$ in $K = k(1/R)$, $\eta$ in $W = W_0 - \eta K$ |
-| Load decomposition | ⚠️ Open | Inflammatory vs cognitive vs mechanical $\hat{L}$ |
-| Salience distances | ⚠️ Open | What competes for permission within $W$ |
-| Containment coefficients | ⚠️ Open | $C_i$ per signal type |
-
-Extensions that introduce modifiers without specifiable measurement instruments are deferred. The map is complete. The distances are the next research programme.
+| Claim Type | Status |
+|------------|--------|
+| Topology | ✅ Complete |
+| Directional predictions | ✅ Complete |
+| Radial structure | ✅ Complete |
+| Prior loop | ✅ Complete |
+| Scaling constants | ⚠️ Open |
+| Load decomposition | ⚠️ Open |
+| Salience distances | ⚠️ Open |
+| Containment coefficients | ⚠️ Open |
 
 ---
 
 ## 12. The Closing Statement
 
-> The brain is an energy budget allocation system operating on priors. The breath generates the budget. Salience is the permission structure for interruption. The prediction window determines allocation efficiency. And the accuracy of the priors—the quality of the entire allocation map—depends entirely on the geometry of the manifold at the moment they were formed.
+> The brain is an energy budget allocation system operating on priors. The breath generates the budget. Salience is the permission structure for interruption. The prediction window determines allocation efficiency. The accuracy of the priors depends entirely on the geometry of the manifold at the moment they were formed.
 >
 > A prior encoded under curvature carries curvature forward. A prior encoded from a flat manifold carries access forward. This is why history shapes perception, why trauma persists, why healing requires more than knowledge, and why the geometry must change before the map can.
 >
-> The manifold radiates outward from the brainstem oscillatory source. Fear and survival live at center—always funded, never relinquished. Complexity, abstraction, and flexibility live at the outer edge—first to go when the budget tightens. Every collapse is a contraction toward center. Every recovery is a radial expansion outward.
+> The manifold radiates outward from the brainstem oscillatory source. Fear and survival live at center—always funded, never relinquished. Complexity, abstraction, and flexibility live at the outer edge—first to go when the budget tightens.
 >
-> Every neurological, cognitive, psychological, and social phenomenon science currently struggles to explain across field boundaries is a specific configuration of this single process. The geometry is the mechanism. The breath is the source. The priors are the allocator.
+> Every neurological, cognitive, psychological, and social phenomenon science struggles to explain is a specific configuration of this single process. The geometry is the mechanism. The breath is the source. The priors are the allocator.
 
 ---
 
-*Document status: Robinson 2026-08-09 — canonical reference. Framework closed. Topology complete. Metric open.*
+**Document status:** Robinson 2026-08-10 — v2.0. Topology complete. Metric open. Empirical anchors included. Interoception layer added. Resolved objections included. Falsifiable predictions added.
 
-*Prior papers in the stack are domain projections of this document. All subsequent papers cite this document as source.*
+**Prior Work in This Stack**
+
+_The Manifold Schema is the canonical reference. The following papers are domain projections of this framework:_
+
+- Robinson (2026). Physics as the Missing Component in Medical Science. `10.5281/zenodo.21512678`
+- Robinson (2026). Language as a Typed System. `10.5281/zenodo.21362260`
+- Robinson (2026). The Driver and the Mirror. `10.5281/zenodo.21362260`
+- Robinson (2026). The Ghost in the Scaffolding. `10.5281/zenodo.21362260`
+- Robinson (2026). Unified Regulatory Model. `10.5281/zenodo.20417459`
+- Robinson (2026). Hallucinations Are Not Random. `10.5281/zenodo.21244811`
