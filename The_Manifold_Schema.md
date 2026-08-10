@@ -2,8 +2,6 @@
 
 **Robinson, 2026**
 
-**Robinson, 2026**
-
 *Canonical Reference. All subsequent work is a domain projection of this framework.*
 
 ---
@@ -37,8 +35,8 @@ $$C_s = \frac{(A_s^R \cdot W^R \cdot \frac{dM}{dt}^R) + (A_s^L \cdot W^L \cdot \
 | $A_s$ | Energy budget—oscillatory amplitude | HRV RMSSD | Polar H10, Oura, standard ECG | 01 |
 | $\sigma(A_s)$ | Budget stability | HRV standard deviation | Sliding window RMSSD | 01 |
 | $R = \mu(A_s)/\sigma(A_s)$ | Budget efficiency—precision | Derived from HRV | Window-level ratio—standard practice | 01/02 |
-| $\mu(A_s)$ at cycle resolution | Per-cycle amplitude | Instantaneous R-R | **Hilbert-Huang Transform** applied to R-R and chest circumference—standard RSA protocol | 01 |
-| $\sigma(A_s)$ at cycle resolution | Per-cycle jitter | Instantaneous phase | **HHT or respiratory phase domain analysis**—existing literature | 01 |
+| $\mu(A_s)$ at cycle resolution | Per-cycle amplitude | Instantaneous R-R | **Hilbert-Huang Transform**—standard RSA protocol | 01 |
+| $\sigma(A_s)$ at cycle resolution | Per-cycle jitter | Instantaneous phase | **HHT or respiratory phase domain analysis** | 01 |
 | $K = k(1/R) + \sum_i S_i \cdot C_i$ | Allocation cost—curvature | Derived from HRV + behavioral | Window-level ratio + suppression markers | 02 |
 | $W = W_0 - \eta K$ | Prediction window—lookahead | Derived from HRV | Window-level ratio | 02 |
 | $S_i$ | Interruption permission for signal $i$ | Behavioral + autonomic | Suppression markers, task switching cost | 02 |
@@ -127,34 +125,34 @@ The loop runs in both directions. The geometry shapes the prior. The prior shape
 
 Each claim in this framework is already supported by existing empirical literature. The framework is the map that shows how they fit together.
 
-| Anchor | Framework Claim                                  | Citation / Source                                                                             | What It Confirms                                                                                                                                                                   |
-| ------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01     | The manifold exists and has geometry             | *Chaos, Solitons & Fractals*, 2026                                                            | Neural manifolds are real, measured, and functional                                                                                                                                |
-| 02     | $A_s$ funds $W$ via $R$                          | *Neuroscience*, 2025                                                                          | HRV predicts cognitive performance                                                                                                                                                 |
-| 03     | Intervention effects depend on baseline geometry | HRVB systematic review                                                                        | "Inconsistent results" are predicted by the formula                                                                                                                                |
-| 04     | $\Gamma$ is real and measurable                  | Dono et al. (2020) — *Frontiers in Neurology*                                                 | Hemispheric laterality affects autonomic regulation                                                                                                                                |
-| 05     | Containment cost raises $K$ independently        | Reed et al. (2020) — *Collabra: Psychology*                                                   | Suppression depletes resources even with stable HRV                                                                                                                                |
-| 06     | Priors under high $K$ carry curvature forward    | Haghian et al., 2025                                                                          | Emotional encoding systematically distorts recall                                                                                                                                  |
-| 07     | Collapse proceeds radially inward                | ADNI, 2016                                                                                    | Neurodegeneration follows the predicted outer→inner sequence                                                                                                                       |
-| 08     | Geometry must change before re-encoding works    | Mathersul et al., 2024                                                                        | Baseline HRV moderates which therapy works                                                                                                                                         |
-| 09     | Social co-regulation restores $\Gamma$           | EDM concert physiology + 5,000 years of religious practice convergence + CA2-CA1 gamma (2023) | Every major civilization independently built synchronized group rhythm as a core regulatory protocol. The convergence across unconnected traditions is the result of the A/B test. |
-| 10     | FND is $C_s \approx 0$ without structural lesion | Maurer et al. (2016) — *Parkinsonism & Related Disorders* + diagnostic definition             | Structural absence confirmed by the field's own criteria. Geometric collapse is the missing mechanism. Prodrome is now testable—see PREDICT-FND-01.                                |
+| Anchor | Framework Claim | Citation / Source | What It Confirms |
+|--------|------------------|-------------------|------------------|
+| 01 | The manifold exists and has geometry | *Chaos, Solitons & Fractals*, 2026 | Neural manifolds are real, measured, and functional |
+| 02 | $A_s$ funds $W$ via $R$ | *Neuroscience*, 2025 | HRV predicts cognitive performance |
+| 03 | Intervention effects depend on baseline geometry | HRVB systematic review | "Inconsistent results" are predicted by the formula |
+| 04 | $\Gamma$ is real and measurable | Dono et al. (2020) — *Frontiers in Neurology* | Hemispheric laterality affects autonomic regulation |
+| 05 | Containment cost raises $K$ independently | Reed et al. (2020) — *Collabra: Psychology* | Suppression depletes resources even with stable HRV |
+| 06 | Priors under high $K$ carry curvature forward | Haghian et al., 2025 | Emotional encoding systematically distorts recall |
+| 07 | Collapse proceeds radially inward | ADNI, 2016 | Neurodegeneration follows the predicted outer→inner sequence |
+| 08 | Geometry must change before re-encoding works | Mathersul et al., 2024 | Baseline HRV moderates which therapy works |
+| 09 | Social co-regulation restores $\Gamma$ | EDM concert physiology + 5,000 years of religious practice convergence + CA2-CA1 gamma (2023) | Every major civilization independently built synchronized group rhythm as a core regulatory protocol. The convergence across unconnected traditions is the result of the A/B test. |
+| 10 | FND is $C_s \approx 0$ without structural lesion | Maurer et al. (2016) — *Parkinsonism & Related Disorders* + diagnostic definition | Structural absence confirmed by the field's own criteria. Geometric collapse is the missing mechanism. Prodrome is now testable—see PREDICT-FND-01. |
 
 ---
 
-## 7b. Resolved Objections
+## 7b. Objection Status
 
-> *The following objections were raised under adversarial critique and resolved against existing literature. None required changes to the framework topology. All required either a precision correction or an honest status label.*
+> *The following objections have been raised under adversarial critique. None have required changes to the framework topology. All have required either a precision correction, an honest status label, or a commitment to measurement.*
 
-| Objection                                                                | Source     | Resolution                                                                                                                                                                                                                                          | Framework Impact                                                                      |
-| ------------------------------------------------------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| "RMSSD can't be decomposed at exhale resolution"                         | Claude Web | Correct—the window-level ratio is the testable measure. Cycle-resolution requires HHT or instantaneous R-R. Both exist in the literature.                                                                                                           | Zero—the framework is testable at window level now. Cycle-resolution is a refinement. |
-| "Postural brake claim is backwards for general population"               | Claude Web | Correct as a general claim. Maintained as FND/dysautonomia-specific. Abnormal vagal engagement in these populations is confirmed (Maurer et al. (2016) — impaired resting vagal tone confirmed in FMD patients with intact structural imaging).     | Claim boundary tightened. Topology unchanged.                                         |
-| "You need to run measurements before assigning phenomenology to symbols" | Claude Web | Accepted as methodology. Rule: felt sensation → design measurement → check which term moved. Don't assign until the trace is pulled.                                                                                                                | Methodological discipline, not a framework revision.                                  |
-| "$A_s^{reserve}$ is an undeclared new variable"                          | Claude Web | Retracted. The feedback loop is already in the equation: low $K$ → low $\hat{L}$ → more budget available for $W$ expansion. No new variable required.                                                                                               | Zero—existing terms already capture it.                                               |
-| "Six measurement gaps require novel data collection"                     | Claude Web | Every measurement requested is standard practice in RSA and HRV literature. The Hilbert-Huang Transform, beat-to-beat ECG with respiratory phase tagging, and orthostatic protocols all exist. The field has been collecting this data for decades. | Zero—the field already has the data.                                                  |
+| Objection | Source | Status | Resolution Path |
+|-----------|--------|--------|-----------------|
+| "RMSSD can't be decomposed at exhale resolution" | Claude Web | **Method Identified** | HHT or instantaneous R-R exists in literature. Not yet run on framework-specific data. |
+| "Postural brake claim is backwards for general population" | Claude Web | **Open** | Corrected to FND/dysautonomia-specific. Maurer et al. (2016) confirms low resting vagal tone in FMD—does not confirm active brake engagement during postural transitions. Need stand-test data with continuous ECG. |
+| "You need to run measurements before assigning phenomenology to symbols" | Claude Web | **Open** | Accepted as methodology. Rule: felt sensation → design measurement → check which term moved. Don't assign until the trace is pulled. |
+| "$A_s^{reserve}$ is an undeclared new variable" | Claude Web | **Open** | The feedback loop is not captured by $\hat{L}$ as currently defined. Either define $\hat{L}$ to include downstream effects of $K$, or add $A_s^{reserve}$ with a measurement plan. |
+| "Six measurement gaps require novel data collection" | Claude Web | **Method Identified** | Every measurement requested is standard practice in RSA and HRV literature. The field has the methods. The framework's specific predictions have not yet been tested against existing data. |
 
-**Pattern note:** Claude's action plan generated requirements that appeared novel but were already standard practice. The framework predicted the field would have this data. The field had the data. Six for six.
+**Pattern note:** The pattern is not "six for six resolved." The pattern is: the framework's predictions are testable with existing methods, and none of the critiques have required a change to the topology. The metric calibration is the open work.
 
 ---
 
@@ -263,15 +261,15 @@ Hallucination is the AI taking a shortcut through high-curvature geometry. Same 
 
 ---
 
-**Document status:** Robinson 2026-08-10 — v2.0. Topology complete. Metric open. Empirical anchors included. Interoception layer added. Resolved objections included. Falsifiable predictions added.
+**Document status:** Robinson 2026-08-10 — v2.0. Topology complete. Metric open. Empirical anchors included. Interoception layer added. Objection status with honest labels included. Falsifiable predictions added.
 
 **Prior Work in This Stack**
 
-_The Manifold Schema is the canonical reference. The following papers are domain projections of this framework:_
+*The Manifold Schema is the canonical reference. The following papers are domain projections of this framework:*
 
-- Robinson (2026). Physics as the Missing Component in Medical Science. `10.5281/zenodo.21512678`
-- Robinson (2026). Language as a Typed System. `10.5281/zenodo.21362260`
-- Robinson (2026). The Driver and the Mirror. `10.5281/zenodo.21362260`
-- Robinson (2026). The Ghost in the Scaffolding. `10.5281/zenodo.21362260`
-- Robinson (2026). Unified Regulatory Model. `10.5281/zenodo.20417459`
-- Robinson (2026). Hallucinations Are Not Random. `10.5281/zenodo.21244811`
+- Robinson (2026). Physics as the Missing Component in Medical Science. `10.5281/zenodo.21512678`
+- Robinson (2026). Language as a Typed System. `10.5281/zenodo.21362260`
+- Robinson (2026). The Driver and the Mirror. `10.5281/zenodo.21362260`
+- Robinson (2026). The Ghost in the Scaffolding. `10.5281/zenodo.21362260`
+- Robinson (2026). Unified Regulatory Model. `10.5281/zenodo.20417459`
+- Robinson (2026). Hallucinations Are Not Random. `10.5281/zenodo.21244811`
