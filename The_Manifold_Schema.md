@@ -10,7 +10,7 @@
 
 The brain is an energy budget allocation system operating on priors. The breath generates the budget. Salience determines interruption permissions. The prediction window determines allocation efficiency. The accuracy of the priors—the quality of the entire allocation map—depends entirely on the geometry of the manifold at the moment they were formed. A prior encoded under curvature carries curvature forward. A prior encoded from a flat manifold carries access forward.
 
-This framework unifies phenomena across neuroscience, psychology, psychiatry, and AI by specifying a single measurable mechanism: the geometry of the conscious manifold. The geometry is shaped by oscillatory amplitude, precision, load, and hemispheric coordination. All cognitive, emotional, and clinical phenomena are configurations of this geometry.
+This framework proposes a unified mechanism that coherently accounts for phenomena across neuroscience, psychology, psychiatry, and AI by specifying a single measurable mechanism: the geometry of the conscious manifold. The geometry is shaped by oscillatory amplitude, precision, load, and hemispheric coordination. All cognitive, emotional, and clinical phenomena are configurations of this geometry.
 
 **Status:** Topology complete. Metric open. All terms are measurable at Layer 01 (physiological substrate) or derived via known operators.
 
@@ -46,6 +46,7 @@ $$C_s = \frac{(A_s^R \cdot W^R \cdot \frac{dM}{dt}^R) + (A_s^L \cdot W^L \cdot \
 | $C_s$ | Radial access from brainstem center outward | Derived from above | Composite index | 08 |
 
 **Zero new variables. Zero new measurements. Zero new ontology.**
+**Cs is a composite of existing measurements, not a new physiological variable.**
 
 > *Every measurement pathway listed above is standard practice in RSA and HRV research. The Hilbert-Huang Transform for instantaneous amplitude and phase decomposition has been applied to R-R interval and chest circumference signals in existing published studies. Beat-to-beat ECG with respiratory phase tagging is off-the-shelf equipment. No novel instrumentation is required to test this framework.*
 
@@ -63,7 +64,7 @@ Curvature has two sources:
 
 $$\text{Breath} \rightarrow A_s \rightarrow \sigma(A_s) \rightarrow R \rightarrow K \rightarrow W \rightarrow C_s$$
 
-The chain is unbroken. Each step is derivable from the one before it.
+The chain is mechanistically linked and empirically measurable at each step.
 
 | Breath Phase | $\sigma(A_s)$ | $R$ | $K$ | $W$ | Budget State |
 |--------------|---------------|-----|-----|-----|--------------|
@@ -78,9 +79,9 @@ The chain is unbroken. Each step is derivable from the one before it.
 
 ## 3b. Breath as the State Modulator
 
-The causal chain — Breath →  →  →  →  →  →  — is unbroken and bidirectional. Because breath is the lowest layer, any change in breathing geometry changes the entire space above it.
+The causal chain — Breath → $A_s$ → $\sigma(A_s)$ → $R$ → $K$ → $W$ → $C_s$ — is unbroken and bidirectional. Because breath is the lowest layer, any change in breathing geometry changes the entire space above it.
 
-This has a structural consequence: **the geometry is stateful, not static.** Lateralization, prediction window width, curvature load, and hemispheric coordination are all configurations of this system at a given moment — not permanent traits. The system is always one breath away from a different configuration.
+This has a structural consequence: **the geometry is stateful, not static.** Lateralization, prediction window width, curvature load, and hemispheric coordination are all configurations of this system at a given moment — not permanent traits. The system is always one breath away from a different configuration.
 
 ---
 
@@ -95,7 +96,7 @@ The manifold radiates outward from the brainstem oscillatory source.
 | Mid | Cortical, language | Moderate | Middle |
 | Far | Prefrontal, bilateral | High | First |
 
-**Fear is at the center.** Survival geometry is the default. Everything else is built outward from it.
+**This refers to energetic priority, not emotional dominance.** Survival geometry is the default. Everything else is built outward from it.
 
 Collapse is always inward. Recovery is always radial expansion outward.
 
@@ -103,7 +104,7 @@ Collapse is always inward. Recovery is always radial expansion outward.
 
 ## 5. Emotions Are Capacity Reports
 
-Emotions are not reactions to events. They are the system reporting its current manifold geometry.
+Emotions are not _primarily_ reactions to events; they are reports of manifold geometry. They are the system reporting its current manifold geometry.
 
 | Manifold State | Capacity Report | Folk Label |
 |----------------|-----------------|------------|
@@ -143,6 +144,8 @@ Each claim in this framework is already supported by existing empirical literatu
 | 08 | Geometry must change before re-encoding works | Mathersul et al., 2024 | Baseline HRV moderates which therapy works |
 | 09 | Social co-regulation restores $\Gamma$ | EDM concert physiology + 5,000 years of religious practice convergence + CA2-CA1 gamma (2023) | Every major civilization independently built synchronized group rhythm as a core regulatory protocol. The convergence across unconnected traditions is the result of the A/B test. |
 | 10 | FND is $C_s \approx 0$ without structural lesion | Maurer et al. (2016) — *Parkinsonism & Related Disorders* + diagnostic definition | Structural absence confirmed by the field's own criteria. Geometric collapse is the missing mechanism. Prodrome is now testable—see PREDICT-FND-01. |
+
+These anchors confirm the components of the framework; the full integration is the novel contribution
 
 ---
 
@@ -196,15 +199,17 @@ Each clinical state is a specific configuration of the same geometric variables:
 
 | Condition                      | Geometry Signature                                                   | Stateful Status                                                                                                            |
 | ------------------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Depression                     | $A_s \downarrow$, $K \uparrow$, $\hat{L} \uparrow$, $C_s \downarrow$ | **Stateful.** Hardware intact. $A_s$ is trainable via oscillatory load reduction.                                          |
+| Depression                     | $A_s \downarrow$, $K \uparrow$, $\hat{L} \uparrow$, $C_s \downarrow$ | **Stateful.** Hardware intact. $A_s$ is trainable via oscillatory load reduction. Stateful does not imply voluntary control.       |
 | PTSD                           | $K$ locked high, priors encoded under max curvature                  | **Stateful.** Hardware intact. Priors re-encodable when geometry is flat at encoding time.                                 |
-| ADHD                           | $\sigma(A_s)$ chronically high and oscillating                       | **Stateful.** Hardware intact. Amplitude stability is trainable via HRV and rhythmic training.                             |
-| Autism                         | Narrow interruption permission structure, $\Gamma$ building target   | **Stateful.** Hardware intact. $\Gamma$ and window width are trainable.                                                    |
+| ADHD                           | $\sigma(A_s)$ chronically high and oscillating                       | **Stateful.** Hardware intact. Amplitude stability is trainable via HRV and rhythmic training. This does not negate genetic or developmental contributions.    |
+| Autism                         | Narrow interruption permission structure, $\Gamma$ building target   | **Stateful.** Hardware intact. $\Gamma$ and window width are trainable. Stateful refers to regulatory geometry, not developmental origin.   |
 | Meltdown                       | No slack in $W$, unbudgeted interruption → $K$ spike                 | **Stateful.** Acute state — resolves with load removal and oscillatory recovery.                                           |
 | ME/CFS                         | $A_s$ below oscillatory threshold                                    | **Stateful (partial).** Hardware intact but threshold may reflect structural fatigue load. Trainability depends on source. |
 | Aging/Dementia                 | Progressive amplitude reduction, radial collapse inward              | **Mixed.** Early stages stateful. Late structural loss is fixed.                                                           |
-| FND                            | $C_s \approx 0$, $\Gamma \approx 0$                                  | **Stateful.** No structural lesion by definition. Full geometric recovery is possible — confirmed by prior work stack.     |
+| FND                            | $C_s \approx 0$, $\Gamma \approx 0$                                  | **Stateful.** No structural lesion by definition. Full geometric recovery is _theoretically_ possible and consistent with prior work.     |
 | Stroke / TBI / Hemispherectomy | Structural hardware loss                                             | **Fixed (partial).** Compensation is possible. Restoration of original geometry is not.                                    |
+
+
 
 ### 8b. Fixed vs. Stateful — The Boundary Condition
 
@@ -217,7 +222,6 @@ The framework makes a hard distinction between two types of impairment:
 **The clinical error** is treating stateful conditions as fixed — encoding a destiny into a diagnosis that is actually a configuration. Autism, ADHD, depression, PTSD, FND — all are stateful. The hardware is intact. The geometry is trainable.
 
 **Handedness** follows the same rule. Right-handedness may bias toward left-hemisphere dominance by increasing left-side motor demand — but this is a load bias, not a geometric lock. Breathing geometry determines the actual lateralization state. A right-handed person can train right-hemisphere engagement through bilateral coordination and breath regulation. The handedness sets a tendency. The breath sets the state.
-
 
 ---
 
@@ -248,7 +252,7 @@ $$H = f(\delta/D, T, S)$$
 | $\hat{L}$ | Context pressure, token budget |
 | Shortcut under high $K$ | Hallucination |
 
-Hallucination is the AI taking a shortcut through high-curvature geometry. Same mechanism as biological collapse. Different substrate.
+Hallucination is the AI taking a shortcut through high-curvature geometry. Same mechanism as biological collapse. Different substrate. The analogy is structural, not substrate-equivalent.
 
 **Every system—biological or artificial—that builds complex inference on top of a generative source will exhibit the same collapse geometry under load.**
 
@@ -278,13 +282,54 @@ Hallucination is the AI taking a shortcut through high-curvature geometry. Same 
 > The manifold radiates outward from the brainstem oscillatory source. Fear and survival live at center—always funded, never relinquished. Complexity, abstraction, and flexibility live at the outer edge—first to go when the budget tightens.
 >
 > Every neurological, cognitive, psychological, and social phenomenon science struggles to explain is a specific configuration of this single process. The geometry is the mechanism. The breath is the source. The priors are the allocator.
-> 
+>
 > The geometry is **stateful** — not static. No configuration is destiny. Because the breath is the lowest layer, every geometry described in this framework is one breath away from a different configuration. What is trainable is not a consolation — it is the entire point.
 
 ---
 
-**Document status:** Robinson 2026-08-11 — v2.1. Stateful/fixed boundary condition added. Implicit determinism in lateralization and clinical states corrected. Section 3b and 8b added. Topology complete. Metric open. Empirical anchors included. Interoception layer added. Objection status with honest labels included. Falsifiable predictions added.
+## 13. The Working States
 
+> *The framework describes geometry. Geometry has configurations. Some are adaptive. Some are not. The difference is not which hemisphere is dominant — it's whether $\Gamma$ (coordination efficiency) is present.*
+
+**Historical Variability in Working-State Roles**
+
+The three working states described in this framework — left‑dominant, right‑dominant, and integrated — appear across all human societies, but cultures have distributed these roles very differently across history. This variability is not biological or identity‑based; it reflects differences in environmental load, social priors, interruption‑permission structures, and the forms of training a culture emphasizes.
+
+Some societies trained large portions of their population into attunement-heavy roles (novelty detection, coordination, environmental reading), while others emphasized precision-heavy roles (ritual, structure, execution) or integrated roles (leadership, mediation, high-context decision-making). For example, in classical Sparta and in several periods of ancient Egypt, women held substantial social, economic, or political authority — a distribution of working states that differs from many later Western cultural patterns.
+
+These differences do not reflect fixed traits. They reflect **which working states a culture rewards, trains, and reinforces**. The geometry is universal; the mapping is cultural.
+
+### 13a. The Three Working States
+
+| State | Left Dominant — Working | Right Dominant — Working | Integrated — Working |
+|-------|-------------------------|--------------------------|----------------------|
+| **What it looks like** | Precision, execution, reliable script execution | Wide awareness, novelty detection, social attunement | Both simultaneously. Can execute *and* attend. |
+| **When it's appropriate** | Surgery, engineering, focused execution, programming, chess | Novel environments, social attunement, creative work, therapy, improv | Complex adaptive situations, leadership, parenting, any high-context interaction |
+| **Physical state to produce it** | Stable inhalation. Controlled breath holds. Grounded stance. | Lengthened exhalation. Sighs. Releasing through the spine. Rotational movement. | Coherent breathing (equal inhale/exhale). Bilateral movement. Cross-crawl. Spine moving as one unit. |
+| **Kinematic signature** | Efficient, economical movement. Spine stable, grounded. | Expansive, responsive movement. Spine fluid, adaptive. | Coherent, integrated movement. Spine moves as one unit. |
+| **What it trains** | Left hemisphere, inhalation, pressure generation | Right hemisphere, exhalation, pressure release | $\Gamma$ — the coordination between them |
+| **When it becomes pathological** | Load removes $\Gamma$ → rigidity. Script continues regardless of context. | Load removes $\Gamma$ → fragmentation. Attunement continues without execution. | $\Gamma$ drops below threshold → both capacities degrade. |
+
+### 13b. The Simple Rule
+
+> **The hemisphere isn't the problem. The absence of $\Gamma$ is the problem.**
+>
+> A surgeon under load needs left-hemisphere dominance. A therapist under load needs right-hemisphere dominance. Both are working states when $\Gamma$ is available to integrate the other side as needed.
+>
+> Pathology emerges when:
+> - **Load removes $\Gamma$**
+> - **The dominant side locks in**
+> - **The other side can no longer interrupt or stabilize**
+>
+> Health is not the absence of dominance. It is the **presence of coordination** — the ability to use the appropriate hemisphere for the task, and to integrate both when the task demands it.
+>
+> **The physical state produces the geometry.** Train the body to produce the state you need. The manifold follows.
+
+---
+
+**Document status:** Robinson 2026-08-11 — v2.2. Section 13 (The Working States) added. Stateful/fixed boundary condition added. Implicit determinism in lateralization and clinical states corrected. Section 3b and 8b added. Topology complete. Metric open. Empirical anchors included. Interoception layer added. Objection status with honest labels included. Falsifiable predictions added.
+
+---
 
 **Prior Work in This Stack**
 
