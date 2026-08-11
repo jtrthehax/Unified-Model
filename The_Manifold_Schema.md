@@ -76,6 +76,12 @@ The chain is unbroken. Each step is derivable from the one before it.
 
 > *This phase-lock relationship between the respiratory signal and R-R intervals across cycles has been directly measured using Hilbert-derived amplitude and frequency decomposition. Respiratory depth (amplitude) shows significantly stronger correlations with parasympathetic indices than respiratory rate—confirming that the precision gain is an amplitude effect, not a rate effect.*
 
+## 3b. Breath as the State Modulator
+
+The causal chain — Breath →  →  →  →  →  →  — is unbroken and bidirectional. Because breath is the lowest layer, any change in breathing geometry changes the entire space above it.
+
+This has a structural consequence: **the geometry is stateful, not static.** Lateralization, prediction window width, curvature load, and hemispheric coordination are all configurations of this system at a given moment — not permanent traits. The system is always one breath away from a different configuration.
+
 ---
 
 ## 4. The Radial Structure
@@ -188,16 +194,30 @@ Each claim in this framework is already supported by existing empirical literatu
 
 Each clinical state is a specific configuration of the same geometric variables:
 
-| Condition | Geometry Signature |
-|-----------|-------------------|
-| Depression | $A_s \downarrow$, $K \uparrow$, $\hat{L} \uparrow$, $C_s \downarrow$ |
-| PTSD | $K$ locked high, priors encoded under max curvature |
-| ADHD | $\sigma(A_s)$ chronically high and oscillating |
-| Autism | Narrow interruption permission structure, $\Gamma$ building target |
-| Meltdown | No slack in $W$, unbudgeted interruption → $K$ spike |
-| ME/CFS | $A_s$ below oscillatory threshold |
-| Aging/Dementia | Progressive amplitude reduction, radial collapse inward |
-| FND | $C_s \approx 0$, $\Gamma \approx 0$ |
+| Condition                      | Geometry Signature                                                   | Stateful Status                                                                                                            |
+| ------------------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Depression                     | $A_s \downarrow$, $K \uparrow$, $\hat{L} \uparrow$, $C_s \downarrow$ | **Stateful.** Hardware intact. $A_s$ is trainable via oscillatory load reduction.                                          |
+| PTSD                           | $K$ locked high, priors encoded under max curvature                  | **Stateful.** Hardware intact. Priors re-encodable when geometry is flat at encoding time.                                 |
+| ADHD                           | $\sigma(A_s)$ chronically high and oscillating                       | **Stateful.** Hardware intact. Amplitude stability is trainable via HRV and rhythmic training.                             |
+| Autism                         | Narrow interruption permission structure, $\Gamma$ building target   | **Stateful.** Hardware intact. $\Gamma$ and window width are trainable.                                                    |
+| Meltdown                       | No slack in $W$, unbudgeted interruption → $K$ spike                 | **Stateful.** Acute state — resolves with load removal and oscillatory recovery.                                           |
+| ME/CFS                         | $A_s$ below oscillatory threshold                                    | **Stateful (partial).** Hardware intact but threshold may reflect structural fatigue load. Trainability depends on source. |
+| Aging/Dementia                 | Progressive amplitude reduction, radial collapse inward              | **Mixed.** Early stages stateful. Late structural loss is fixed.                                                           |
+| FND                            | $C_s \approx 0$, $\Gamma \approx 0$                                  | **Stateful.** No structural lesion by definition. Full geometric recovery is possible — confirmed by prior work stack.     |
+| Stroke / TBI / Hemispherectomy | Structural hardware loss                                             | **Fixed (partial).** Compensation is possible. Restoration of original geometry is not.                                    |
+
+### 8b. Fixed vs. Stateful — The Boundary Condition
+
+The framework makes a hard distinction between two types of impairment:
+
+**Fixed:** The hardware is damaged or absent — stroke, TBI, hemispherectomy, congenital malformation. Geometry is permanently constrained. Compensation is possible. Restoration is not.
+
+**Stateful:** The hardware is intact — the problem is regulatory. Unstable $A_s$, low $\Gamma$, curved priors, suppression load. The geometry can be trained because the substrate is intact.
+
+**The clinical error** is treating stateful conditions as fixed — encoding a destiny into a diagnosis that is actually a configuration. Autism, ADHD, depression, PTSD, FND — all are stateful. The hardware is intact. The geometry is trainable.
+
+**Handedness** follows the same rule. Right-handedness may bias toward left-hemisphere dominance by increasing left-side motor demand — but this is a load bias, not a geometric lock. Breathing geometry determines the actual lateralization state. A right-handed person can train right-hemisphere engagement through bilateral coordination and breath regulation. The handedness sets a tendency. The breath sets the state.
+
 
 ---
 
@@ -258,10 +278,13 @@ Hallucination is the AI taking a shortcut through high-curvature geometry. Same 
 > The manifold radiates outward from the brainstem oscillatory source. Fear and survival live at center—always funded, never relinquished. Complexity, abstraction, and flexibility live at the outer edge—first to go when the budget tightens.
 >
 > Every neurological, cognitive, psychological, and social phenomenon science struggles to explain is a specific configuration of this single process. The geometry is the mechanism. The breath is the source. The priors are the allocator.
+> 
+> The geometry is **stateful** — not static. No configuration is destiny. Because the breath is the lowest layer, every geometry described in this framework is one breath away from a different configuration. What is trainable is not a consolation — it is the entire point.
 
 ---
 
-**Document status:** Robinson 2026-08-10 — v2.0. Topology complete. Metric open. Empirical anchors included. Interoception layer added. Objection status with honest labels included. Falsifiable predictions added.
+**Document status:** Robinson 2026-08-11 — v2.1. Stateful/fixed boundary condition added. Implicit determinism in lateralization and clinical states corrected. Section 3b and 8b added. Topology complete. Metric open. Empirical anchors included. Interoception layer added. Objection status with honest labels included. Falsifiable predictions added.
+
 
 **Prior Work in This Stack**
 
